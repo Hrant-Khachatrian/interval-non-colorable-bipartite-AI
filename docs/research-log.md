@@ -247,3 +247,20 @@ A concise report is in `DISCOVERIES.md`.
 Final bundle audit passed for both candidates: all stored graph invariants and canonical hashes agree; every legal span has CP-SAT infeasibility, MiniSat UNSAT, and checked DRAT verification; minimality reports have zero negatives/timeouts; novelty comparisons are false to every reconstructed benchmark; and all non-manifest bundle files match their listed hashes.
 
 After those checks pass, begin Lane 1 mutations of `hat_K34_prime_Delta11`, preserving exact reclassification and independent span checks for every apparent negative.
+
+## 2026-08-23 — Small-order exhaustive extension
+
+While resuming the order-10 search, a graph6 round-trip test against NetworkX exposed an indexing error in the local encoder/decoder: it read the upper triangle row by row, whereas graph6 specifies destination-major order. Both directions were corrected and validated on 1,400 random graphs. Earlier conclusions based on the broken decoder were discarded.
+
+The repaired pipeline then classified four exhaustively generated connected bipartite families with the rank-potential CP-SAT oracle:
+
+| class | generated | nonregular solved | regular skipped | negatives | timeouts |
+|---:|---:|---:|---:|---:|---:|
+| 5+5, 14 edges | 558 | 558 | 0 | 0 | 0 |
+| 5+6, minimum degree at least 2 | 5,969 | 5,962 | 7 | 0 | 0 |
+| 6+6, minimum degree at least 2 | 71,945 | 71,932 | 13 | 0 | 0 |
+| 6+7, minimum degree at least 2 | 706,201 | 706,201 | 0 | 0 | 0 |
+
+Nauty confirmed that processed rows are pairwise distinct within each family. The 6+7 run used 128 deterministic residue slices on YSU `research_cpu`, with four CPU slots per slice. Its slowest primary solve was 1.38 seconds under the two-second limit.
+
+Thus no counterexample smaller than order 19 was found in these families. Audits are stored as `results/order11-5x6-audit.txt`, `results/order12-6x6-audit.txt`, and `results/order13-6x7-audit.txt`; the reusable runner is `src/search_small_bipartite.py`.

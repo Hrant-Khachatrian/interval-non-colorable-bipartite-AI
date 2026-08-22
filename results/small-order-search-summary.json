@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-23",
+  "oracle": "rank-potential-cpsat",
+  "time_limit_seconds": 2,
+  "classes": [
+    {
+      "order": 10,
+      "bipartition": [
+        5,
+        5
+      ],
+      "edge_range": [
+        14,
+        14
+      ],
+      "minimum_degree": null,
+      "generated": 558,
+      "nonregular_solved": 558,
+      "regular_skipped": 0,
+      "colorable": 558,
+      "non_colorable": 0,
+      "timeouts": 0
+    },
+    {
+      "order": 11,
+      "bipartition": [
+        5,
+        6
+      ],
+      "edge_range": [
+        12,
+        30
+      ],
+      "minimum_degree": 2,
+      "generated": 5969,
+      "nonregular_solved": 5962,
+      "regular_skipped": 7,
+      "colorable": 5962,
+      "non_colorable": 0,
+      "timeouts": 0
+    },
+    {
+      "order": 12,
+      "bipartition": [
+        6,
+        6
+      ],
+      "edge_range": [
+        12,
+        36
+      ],
+      "minimum_degree": 2,
+      "generated": 71945,
+      "nonregular_solved": 71932,
+      "regular_skipped": 13,
+      "colorable": 71932,
+      "non_colorable": 0,
+      "timeouts": 0
+    },
+    {
+      "order": 13,
+      "bipartition": [
+        6,
+        7
+      ],
+      "edge_range": [
+        14,
+        42
+      ],
+      "minimum_degree": 2,
+      "generated": 706201,
+      "nonregular_solved": 706201,
+      "regular_skipped": 0,
+      "colorable": 706201,
+      "non_colorable": 0,
+      "timeouts": 0
+    }
+  ]
+}

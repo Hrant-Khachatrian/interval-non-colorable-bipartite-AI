@@ -71,6 +71,21 @@ Thus both candidates are edge-minimal and vertex-minimal under deletion checks.
 
 The two graphs are non-isomorphic to each other and to the five reconstructed published benchmarks: `Delta(5,5,5)`, `Erd(2,2,2,2,2,2,1)`, hat `K(3,4)`, its degree-11 edge deletion, and hat `K(2,2,2)`. A same-day arXiv/OpenAlex literature recheck found no direct newer hit for interval-non-colorable bipartite graphs. The novelty claim is therefore narrowly to the documented 2026-08-22 baseline and these reconstructed benchmarks, not an exhaustive claim over every unpublished or hard-to-index source.
 
+## Exhaustive small-order searches
+
+On 2026-08-23, we extended the search for a graph with fewer than 19 vertices. Each connected candidate was classified by the exact rank-potential CP-SAT oracle over its full legal span range; regular bipartite graphs were skipped only when invoking their standard interval-coloring argument.
+
+| class | generated | nonregular solved | regular skipped | negatives | timeouts |
+|---|---:|---:|---:|---:|---:|
+| connected 5+5 graphs with 14 edges | 558 | 558 | 0 | 0 | 0 |
+| connected 5+6 graphs with minimum degree at least 2 | 5,969 | 5,962 | 7 | 0 | 0 |
+| connected 6+6 graphs with minimum degree at least 2 | 71,945 | 71,932 | 13 | 0 | 0 |
+| connected 6+7 graphs with minimum degree at least 2 | 706,201 | 706,201 | 0 | 0 | 0 |
+
+Every processed graph has a distinct bipartition-colored canonical hash within its class. Thus no interval-non-colorable bipartite graph exists in these four exhaustively specified families. This rules out order-10 and order-11 counterexamples in the listed classes, and all minimum-degree-2, connected 6+6 and 6+7 graphs of orders 12 and 13.
+
+The 6+7 class was processed on the YSU `research_cpu` partition as 128 deterministic nauty-residue slices, using four CPU slots per slice. Its slowest primary solve completed in 1.38 seconds under the two-second limit.
+
 ## Artifacts
 
 - `results/candidates/Q1-00012/` — graph, CNFs, DRAT proofs, checker logs, certificate, manifest.
@@ -78,6 +93,11 @@ The two graphs are non-isomorphic to each other and to the five reconstructed pu
 - `results/quotient-r1.json` — full 19-vertex quotient search.
 - `results/quotient-r2.json` — 412 unique 18-vertex quotients, all colorable.
 - `results/quotient-r3.json` — 5,066 unique 17-vertex quotients, all colorable.
+- `results/logs/search-5x5.log` — exact classifications for all 558 connected 5+5, 14-edge graphs.
+- `results/small-order-11-5x6.jsonl` — exact classifications for all connected 5+6, minimum-degree-2 graphs.
+- `results/small-order-12-6x6.jsonl` — exact classifications for all connected 6+6, minimum-degree-2 graphs.
+- `results/order11-5x6-audit.txt`, `results/order12-6x6-audit.txt`, and `results/order13-6x7-audit.txt` — completeness and uniqueness audits.
+- `data/order13-6x7-d2.g6` — canonical nauty input used by the 128-way Slurm run.
 - `results/literature-recheck-2026-08-22.json` — literature-query snapshot.
 - `results/literature-targeted-openalex-2026-08-22.json` — targeted exact-phrase OpenAlex query.
 

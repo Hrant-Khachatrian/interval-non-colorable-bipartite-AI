@@ -1,0 +1,9 @@
+files 1
+rows 71945
+unique_indices 71945
+unique_canonical 71945
+statuses {"colorable": 71932, "regular-skipped": 13}
+orders [12]
+size_range 12 36
+degree_range 2 6
+max_solver_seconds 0.11218298299354501

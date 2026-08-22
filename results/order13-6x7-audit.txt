@@ -1,0 +1,9 @@
+files 128
+rows 706201
+unique_indices 706201
+unique_canonical 706201
+statuses {"colorable": 706201}
+orders [13]
+size_range 14 42
+degree_range 2 7
+max_solver_seconds 1.3791217468678951

@@ -1,0 +1,24 @@
+{"completed": 250, "counts": {"colorable": 243, "non-colorable": 0, "timeout": 0}, "wall_seconds": 6.382}
+{"completed": 500, "counts": {"colorable": 493, "non-colorable": 0, "timeout": 0}, "wall_seconds": 13.796}
+{"completed": 750, "counts": {"colorable": 743, "non-colorable": 0, "timeout": 0}, "wall_seconds": 21.813}
+{"completed": 1000, "counts": {"colorable": 993, "non-colorable": 0, "timeout": 0}, "wall_seconds": 27.474}
+{"completed": 1250, "counts": {"colorable": 1243, "non-colorable": 0, "timeout": 0}, "wall_seconds": 34.482}
+{"completed": 1500, "counts": {"colorable": 1493, "non-colorable": 0, "timeout": 0}, "wall_seconds": 41.401}
+{"completed": 1750, "counts": {"colorable": 1743, "non-colorable": 0, "timeout": 0}, "wall_seconds": 47.121}
+{"completed": 2000, "counts": {"colorable": 1993, "non-colorable": 0, "timeout": 0}, "wall_seconds": 53.482}
+{"completed": 2250, "counts": {"colorable": 2243, "non-colorable": 0, "timeout": 0}, "wall_seconds": 60.08}
+{"completed": 2500, "counts": {"colorable": 2493, "non-colorable": 0, "timeout": 0}, "wall_seconds": 67.725}
+{"completed": 2750, "counts": {"colorable": 2743, "non-colorable": 0, "timeout": 0}, "wall_seconds": 75.221}
+{"completed": 3000, "counts": {"colorable": 2993, "non-colorable": 0, "timeout": 0}, "wall_seconds": 83.054}
+{"completed": 3250, "counts": {"colorable": 3243, "non-colorable": 0, "timeout": 0}, "wall_seconds": 91.951}
+{"completed": 3500, "counts": {"colorable": 3493, "non-colorable": 0, "timeout": 0}, "wall_seconds": 100.53}
+{"completed": 3750, "counts": {"colorable": 3743, "non-colorable": 0, "timeout": 0}, "wall_seconds": 104.276}
+{"completed": 4000, "counts": {"colorable": 3993, "non-colorable": 0, "timeout": 0}, "wall_seconds": 108.694}
+{"completed": 4250, "counts": {"colorable": 4243, "non-colorable": 0, "timeout": 0}, "wall_seconds": 113.059}
+{"completed": 4500, "counts": {"colorable": 4493, "non-colorable": 0, "timeout": 0}, "wall_seconds": 117.296}
+{"completed": 4750, "counts": {"colorable": 4743, "non-colorable": 0, "timeout": 0}, "wall_seconds": 121.544}
+{"completed": 5000, "counts": {"colorable": 4993, "non-colorable": 0, "timeout": 0}, "wall_seconds": 125.8}
+{"completed": 5250, "counts": {"colorable": 5243, "non-colorable": 0, "timeout": 0}, "wall_seconds": 131.086}
+{"completed": 5500, "counts": {"colorable": 5493, "non-colorable": 0, "timeout": 0}, "wall_seconds": 135.797}
+{"completed": 5750, "counts": {"colorable": 5743, "non-colorable": 0, "timeout": 0}, "wall_seconds": 140.754}
+{"n1": 5, "n2": 6, "edge_range": [13, 30], "generated": 5962, "counts": {"colorable": 5955, "non-colorable": 0, "timeout": 0}, "wall_seconds": 145.768}

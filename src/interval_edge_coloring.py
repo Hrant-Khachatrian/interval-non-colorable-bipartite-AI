@@ -200,7 +200,9 @@ def to_graph6(vertices: Sequence[str], edges: Iterable[Sequence[str]]) -> str:
         i, j = sorted((index[u], index[v]))
         if i == j:
             raise ValueError("graph6 cannot encode loops")
-        bit = i * n - i * (i + 1) // 2 + j - i - 1
+        # graph6 lists the upper triangle by destination vertex:
+        # (0,1), then (0,2), (1,2), then (0,3), (1,3), (2,3), ...
+        bit = i + j * (j - 1) // 2
         bits[bit] = 1
     payload = bytearray()
     for start in range(0, padded_count, 6):
@@ -244,7 +246,7 @@ def from_graph6(text: str) -> tuple[int, list[tuple[int, int]]]:
     edges = []
     for i in range(n):
         for j in range(i + 1, n):
-            bit = i * n - i * (i + 1) // 2 + j - i - 1
+            bit = i + j * (j - 1) // 2
             if bit_values[bit]:
                 edges.append((i, j))
     return n, edges

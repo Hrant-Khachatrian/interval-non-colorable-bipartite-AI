@@ -2,6 +2,8 @@
 
 This repository contains two newly certified simple connected bipartite graphs with no interval edge coloring. Both have 19 vertices, 34 edges, and maximum degree 11. They are new examples, not new records.
 
+Subsequent exhaustive searches covered all connected 5+5 graphs with 14 edges, all minimum-degree-2 connected 5+6 and 6+6 graphs, and all minimum-degree-2 connected 6+7 graphs. Every graph in these families is interval-colorable, so no smaller counterexample was found.
+
 The discovery pipeline starts from the known degree-11 benchmark, generates same-side vertex identifications, removes isomorphs with a bipartition-colored Nauty certificate, and classifies each candidate with an exact rank-potential CP-SAT model. Apparent counterexamples are then checked with an independent fixed-span model, MiniSat on DIMACS instances, and checked DRAT proofs.
 
 See [DISCOVERIES.md](DISCOVERIES.md) for the graphs, figures, verification matrix, minimality results, and hashes. Longer experiment notes are in [`docs/research-log.md`](docs/research-log.md).
@@ -18,6 +20,8 @@ On Ubuntu, install `python3-pynauty` from APT and create the environment with `p
 ## Repository map
 
 - `src/` — solvers, search generators, proof export, and figure generation.
+- `cluster/` — Slurm array recipe used for the order-13 search.
+- `data/` — canonical graph6 inputs for distributed searches.
 - `results/candidates/` — graph JSON, CNF, DRAT proofs, checker logs, and manifests.
 - `results/` — search reports and benchmark data.
 - `figures/` — explanatory images embedded in `DISCOVERIES.md`.
