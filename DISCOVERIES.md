@@ -75,16 +75,16 @@ The two graphs are non-isomorphic to each other and to the five reconstructed pu
 
 On 2026-08-23, we extended the search for a graph with fewer than 19 vertices. Each connected candidate was classified by the exact rank-potential CP-SAT oracle over its full legal span range; regular bipartite graphs were skipped only when invoking their standard interval-coloring argument.
 
-| class | generated | nonregular solved | regular skipped | negatives | timeouts |
-|---|---:|---:|---:|---:|---:|
-| connected 5+5 graphs with 14 edges | 558 | 558 | 0 | 0 | 0 |
-| connected 5+6 graphs with minimum degree at least 2 | 5,969 | 5,962 | 7 | 0 | 0 |
-| connected 6+6 graphs with minimum degree at least 2 | 71,945 | 71,932 | 13 | 0 | 0 |
-| connected 6+7 graphs with minimum degree at least 2 | 706,201 | 706,201 | 0 | 0 | 0 |
+| order | bipartitions covered | generated | nonregular solved | regular skipped | negatives | timeouts |
+|---:|---|---:|---:|---:|---:|---:|
+| 10 | all splits, minimum degree at least 2 | 1,455 | 1,450 | 5 | 0 | 0 |
+| 11 | all splits, minimum degree at least 2 | 6,956 | 6,949 | 7 | 0 | 0 |
+| 12 | all splits, minimum degree at least 2 | 102,657 | 102,644 | 13 | 0 | 0 |
+| 13 | all splits, minimum degree at least 2 | 830,392 | 830,392 | 0 | 0 | 0 |
 
-Every processed graph has a distinct bipartition-colored canonical hash within its class. Thus no interval-non-colorable bipartite graph exists in these four exhaustively specified families. This rules out order-10 and order-11 counterexamples in the listed classes, and all minimum-degree-2, connected 6+6 and 6+7 graphs of orders 12 and 13.
+Every processed graph has a distinct bipartition-colored canonical hash within its bipartition-size class. Across all side splits, a connected bipartite graph's two part sizes are an isomorphism invariant (up to interchange), so there are no cross-class duplicates. Thus no minimum-degree-2 connected counterexample exists on 10–13 vertices.
 
-The 6+7 class was processed on the YSU `research_cpu` partition as 128 deterministic nauty-residue slices, using four CPU slots per slice. Its slowest primary solve completed in 1.38 seconds under the two-second limit.
+The larger classes were processed on the YSU `research_cpu` partition as deterministic nauty-residue slices, using four CPU slots per slice. The order-13, 6+7 class had 128 slices; its slowest primary solve completed in 1.38 seconds under the two-second limit.
 
 ## Artifacts
 
@@ -94,6 +94,8 @@ The 6+7 class was processed on the YSU `research_cpu` partition as 128 determini
 - `results/quotient-r2.json` — 412 unique 18-vertex quotients, all colorable.
 - `results/quotient-r3.json` — 5,066 unique 17-vertex quotients, all colorable.
 - `results/logs/search-5x5.log` — exact classifications for all 558 connected 5+5, 14-edge graphs.
+- `results/all-gap-audits.txt` — grouped completeness/uniqueness audit for the remaining side-split families through order 13.
+- `data/order{10,11,12,13}-*.g6` — canonical nauty inputs for every remaining side split.
 - `results/small-order-11-5x6.jsonl` — exact classifications for all connected 5+6, minimum-degree-2 graphs.
 - `results/small-order-12-6x6.jsonl` — exact classifications for all connected 6+6, minimum-degree-2 graphs.
 - `results/order11-5x6-audit.txt`, `results/order12-6x6-audit.txt`, and `results/order13-6x7-audit.txt` — completeness and uniqueness audits.

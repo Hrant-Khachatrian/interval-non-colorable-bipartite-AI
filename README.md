@@ -2,7 +2,7 @@
 
 This repository contains two newly certified simple connected bipartite graphs with no interval edge coloring. Both have 19 vertices, 34 edges, and maximum degree 11. They are new examples, not new records.
 
-Subsequent exhaustive searches covered all connected 5+5 graphs with 14 edges, all minimum-degree-2 connected 5+6 and 6+6 graphs, and all minimum-degree-2 connected 6+7 graphs. Every graph in these families is interval-colorable, so no smaller counterexample was found.
+Subsequent exhaustive searches covered every connected bipartite graph on 10--13 vertices with minimum degree at least 2: 941,460 canonical candidates, all interval-colorable. No smaller counterexample was found.
 
 The discovery pipeline starts from the known degree-11 benchmark, generates same-side vertex identifications, removes isomorphs with a bipartition-colored Nauty certificate, and classifies each candidate with an exact rank-potential CP-SAT model. Apparent counterexamples are then checked with an independent fixed-span model, MiniSat on DIMACS instances, and checked DRAT proofs.
 

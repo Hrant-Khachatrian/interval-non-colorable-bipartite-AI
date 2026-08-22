@@ -1,0 +1,150 @@
+class results/order10-3x7
+files 32
+rows 28
+unique_indices 28
+unique_canonical 28
+statuses {"colorable": 28}
+orders [10]
+size_range 14 21
+degree_range 2 7
+max_solver_seconds 0.09915111679583788
+class results/order10-4x6
+files 32
+rows 389
+unique_indices 389
+unique_canonical 389
+statuses {"colorable": 389}
+orders [10]
+size_range 12 24
+degree_range 2 6
+max_solver_seconds 0.05873589403927326
+class results/order10-5x5-full
+files 32
+rows 1037
+unique_indices 1037
+unique_canonical 1037
+statuses {"colorable": 1032, "regular-skipped": 5}
+orders [10]
+size_range 10 25
+degree_range 2 5
+max_solver_seconds 0.06991682201623917
+class results/order10-gaps
+files 32
+rows 1
+unique_indices 1
+unique_canonical 1
+statuses {"colorable": 1}
+orders [10]
+size_range 16 16
+degree_range 2 8
+max_solver_seconds 0.014096567407250404
+class results/order11-3x8
+files 32
+rows 38
+unique_indices 38
+unique_canonical 38
+statuses {"colorable": 38}
+orders [11]
+size_range 16 24
+degree_range 2 8
+max_solver_seconds 0.10575930308550596
+class results/order11-4x7
+files 32
+rows 948
+unique_indices 948
+unique_canonical 948
+statuses {"colorable": 948}
+orders [11]
+size_range 14 28
+degree_range 2 7
+max_solver_seconds 0.08223476819694042
+class results/order11-gaps
+files 32
+rows 1
+unique_indices 1
+unique_canonical 1
+statuses {"colorable": 1}
+orders [11]
+size_range 18 18
+degree_range 2 9
+max_solver_seconds 0.014491375535726547
+class results/order12-3x9
+files 32
+rows 50
+unique_indices 50
+unique_canonical 50
+statuses {"colorable": 50}
+orders [12]
+size_range 18 27
+degree_range 2 9
+max_solver_seconds 0.06622436363250017
+class results/order12-4x8
+files 64
+rows 2115
+unique_indices 2115
+unique_canonical 2115
+statuses {"colorable": 2115}
+orders [12]
+size_range 16 32
+degree_range 2 8
+max_solver_seconds 0.1253907009959221
+class results/order12-5x7
+files 128
+rows 28546
+unique_indices 28546
+unique_canonical 28546
+statuses {"colorable": 28546}
+orders [12]
+size_range 14 35
+degree_range 2 7
+max_solver_seconds 0.41933021135628223
+class results/order12-gaps
+files 32
+rows 1
+unique_indices 1
+unique_canonical 1
+statuses {"colorable": 1}
+orders [12]
+size_range 20 20
+degree_range 2 10
+max_solver_seconds 0.016078973188996315
+class results/order13-3x10
+files 32
+rows 64
+unique_indices 64
+unique_canonical 64
+statuses {"colorable": 64}
+orders [13]
+size_range 20 30
+degree_range 2 10
+max_solver_seconds 0.09722225647419691
+class results/order13-4x9
+files 64
+rows 4401
+unique_indices 4401
+unique_canonical 4401
+statuses {"colorable": 4401}
+orders [13]
+size_range 18 36
+degree_range 2 9
+max_solver_seconds 0.13515345193445683
+class results/order13-5x8
+files 128
+rows 119725
+unique_indices 119725
+unique_canonical 119725
+statuses {"colorable": 119725}
+orders [13]
+size_range 16 40
+degree_range 2 8
+max_solver_seconds 0.6769241504371166
+class results/order13-small
+files 32
+rows 1
+unique_indices 1
+unique_canonical 1
+statuses {"colorable": 1}
+orders [13]
+size_range 22 22
+degree_range 2 11
+max_solver_seconds 0.016004938632249832
