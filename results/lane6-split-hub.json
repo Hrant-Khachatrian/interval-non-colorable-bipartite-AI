@@ -1,0 +1,1450 @@
+{
+  "completed_unique": 36,
+  "counts": {
+    "colorable": 36,
+    "non-colorable": 0,
+    "timeout": 0
+  },
+  "rows": [
+    {
+      "candidate_id": "L6-0000",
+      "canonical_sha256": "9:13:79c39e62e951263b381a6aeac07f8ee22b13efaf7422601f5aedb408ad715144",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000001111",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 11,
+          "margin": -3,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 12,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.19960679500945844,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 235,
+        "branches": 3561,
+        "wall_time": 0.18156587000000002
+      }
+    },
+    {
+      "candidate_id": "L6-0001",
+      "canonical_sha256": "9:13:0e2c1272bf1a0d6707fe244ca532d135faec7128c6dee45930758a92d936ac89",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000010111",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 16,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 12,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.044608094001887366,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 61,
+        "branches": 2668,
+        "wall_time": 0.042824196
+      }
+    },
+    {
+      "candidate_id": "L6-0002",
+      "canonical_sha256": "9:13:af96ac202d74a6b387f94d0f02933498ab1d93987baa1a115e66858d971491a5",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000011011",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 11,
+          "margin": -3,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 12,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04828330400050618,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 84,
+        "branches": 2680,
+        "wall_time": 0.046353789000000006
+      }
+    },
+    {
+      "candidate_id": "L6-0003",
+      "canonical_sha256": "9:13:0b3a7d5e74d9fba7850d150a79d762e190d1a2623caaaca32f479cb5cce0729c",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000011101",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 16,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 12,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04083733301376924,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 157,
+        "branches": 2946,
+        "wall_time": 0.038908169
+      }
+    },
+    {
+      "candidate_id": "L6-0004",
+      "canonical_sha256": "9:13:c80ffc452b3f686a74929cd761d06b71a0aef3a0894f19044baa3370f7ef6284",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000011111",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 12,
+          "margin": -5,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 11,
+          "margin": -8,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.033171254995977506,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 85,
+        "branches": 2652,
+        "wall_time": 0.031543914
+      }
+    },
+    {
+      "candidate_id": "L6-0005",
+      "canonical_sha256": "9:13:4d6a028dbffeca074662b58346114fe320405b365ec56b0a05d24176924bfe1a",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000110011",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 11,
+          "margin": -3,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 8,
+          "margin": -5,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.05193330399924889,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 221,
+        "branches": 3039,
+        "wall_time": 0.050587799
+      }
+    },
+    {
+      "candidate_id": "L6-0006",
+      "canonical_sha256": "9:13:8ff75003b82a0112b605d4114a5a0dd25babef48537f353b3d23202634256a75",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000110111",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 12,
+          "margin": -5,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 9,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03700070199556649,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 175,
+        "branches": 2792,
+        "wall_time": 0.035802838000000003
+      }
+    },
+    {
+      "candidate_id": "L6-0007",
+      "canonical_sha256": "9:13:afdf83b34c2b67827a4e7282dc6114b5e24d68d4d9a4a0a1a371e48bc4f770c0",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000111100",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 16,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 12,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03333570700488053,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 65,
+        "branches": 2864,
+        "wall_time": 0.030760157000000003
+      }
+    },
+    {
+      "candidate_id": "L6-0008",
+      "canonical_sha256": "9:13:8b83590580a08e39890ec3e1596e4d85736550a9277b2f5f13930bf2da7815ed",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000111101",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 11,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03509343499899842,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 165,
+        "branches": 2775,
+        "wall_time": 0.03347427
+      }
+    },
+    {
+      "candidate_id": "L6-0009",
+      "canonical_sha256": "9:13:0de598da6b198ec310767d9e3d417b4b313ff5a362fdfd36364d72c46eb75863",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00000111111",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04215021600248292,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 191,
+        "branches": 2848,
+        "wall_time": 0.040768021
+      }
+    },
+    {
+      "candidate_id": "L6-0010",
+      "canonical_sha256": "9:13:287128c9e27de76e2995f5ce41fc1303ec111f1c87893558479d5df0fae0fe12",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001000111",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 12,
+          "margin": -4,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_7",
+          "degree": 3,
+          "weighted_neighbor_diameter": 12,
+          "margin": -10,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.038062010979047045,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 98,
+        "branches": 2860,
+        "wall_time": 0.036455781
+      }
+    },
+    {
+      "candidate_id": "L6-0011",
+      "canonical_sha256": "9:13:9ce71b60828c62242632445f651e2bf86dab364e2b813f8205b9ebecae86cbfe",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001001101",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 12,
+          "margin": -4,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_5",
+          "degree": 3,
+          "weighted_neighbor_diameter": 12,
+          "margin": -10,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04497846800950356,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 92,
+        "branches": 2702,
+        "wall_time": 0.043605410000000004
+      }
+    },
+    {
+      "candidate_id": "L6-0012",
+      "canonical_sha256": "9:13:6d9f2b55ba477b74c1eac582b5a0a6e421f5373dc04d89e4a78978bc6f0383e8",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001001110",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 11,
+          "margin": -3,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 12,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.039103749993955716,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 121,
+        "branches": 2879,
+        "wall_time": 0.037670448
+      }
+    },
+    {
+      "candidate_id": "L6-0013",
+      "canonical_sha256": "9:13:7ab10075fbd88e9de2b680d3deabee3e54cdd5d271d06d0f209afe0b5b18319f",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001001111",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 12,
+          "margin": -5,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.0345687750086654,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 74,
+        "branches": 2634,
+        "wall_time": 0.032588364
+      }
+    },
+    {
+      "candidate_id": "L6-0014",
+      "canonical_sha256": "9:13:be32dcaf5c815b3bedba3024ceb59131daf9c2656375a4dc7a69f51dad7e8c2c",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001010101",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 12,
+          "margin": -4,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_5",
+          "degree": 3,
+          "weighted_neighbor_diameter": 12,
+          "margin": -10,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.02903237400460057,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 63,
+        "branches": 2703,
+        "wall_time": 0.027677171
+      }
+    },
+    {
+      "candidate_id": "L6-0015",
+      "canonical_sha256": "9:13:dfd62350be1de7b7dfaf2d140b95a442f30a73a883370dade3044b675f484f26",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001010111",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 13,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.0535731739946641,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 46,
+        "branches": 2629,
+        "wall_time": 0.052220406000000004
+      }
+    },
+    {
+      "candidate_id": "L6-0016",
+      "canonical_sha256": "9:13:6e0229a1f0ef441dd8ad869d05e9242c78fd887f5007ddb68f4fba6ac244dee3",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001011011",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 12,
+          "margin": -5,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04084657100611366,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 75,
+        "branches": 2692,
+        "wall_time": 0.039298912000000005
+      }
+    },
+    {
+      "candidate_id": "L6-0017",
+      "canonical_sha256": "9:13:d2417b0b77ff2915f15d5672e0292d1fa0f51e8781292f600b5a81e058bfab1a",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001011101",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 13,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03939386099227704,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 48,
+        "branches": 2656,
+        "wall_time": 0.036774106
+      }
+    },
+    {
+      "candidate_id": "L6-0018",
+      "canonical_sha256": "9:13:c9a9ad58966cd5e6286b947a8416443b235b04621259a6624e05854f46806b85",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001011110",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 12,
+          "margin": -5,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03076551601407118,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 19,
+        "branches": 2520,
+        "wall_time": 0.029446572
+      }
+    },
+    {
+      "candidate_id": "L6-0019",
+      "canonical_sha256": "9:13:3b1c564a9650ce732e7795a7617649ee4ea4d50c27e1e25848b1a8081717ba31",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001011111",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03931012298562564,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 111,
+        "branches": 2717,
+        "wall_time": 0.037060680000000006
+      }
+    },
+    {
+      "candidate_id": "L6-0020",
+      "canonical_sha256": "9:13:032596a6cb07a5a68d893efad871cccf3a8741b6595fdd1641053028d290be5e",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001110111",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03281931599485688,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 68,
+        "branches": 2549,
+        "wall_time": 0.031414217
+      }
+    },
+    {
+      "candidate_id": "L6-0021",
+      "canonical_sha256": "9:13:6b98df5f389aafc83bb57638eb2cca440d98c5dcef4ab0b69ea6258d20b48fda",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001111100",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 13,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03730916199856438,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 73,
+        "branches": 2616,
+        "wall_time": 0.035504144
+      }
+    },
+    {
+      "candidate_id": "L6-0022",
+      "canonical_sha256": "9:13:efb14d2f2b5ac9f2b27aef0b4aa2ec8dbe35a36133fd3c4d5be44281fd1dab96",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001111101",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.041464351990725845,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 92,
+        "branches": 2608,
+        "wall_time": 0.040067651
+      }
+    },
+    {
+      "candidate_id": "L6-0023",
+      "canonical_sha256": "9:13:115f5c17b0865b8e6475b776e5fda05e4e39a7d0be96bb978fb0e861c51f1bd2",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00001111110",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03382004902232438,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 9,
+        "branches": 2465,
+        "wall_time": 0.031811682
+      }
+    },
+    {
+      "candidate_id": "L6-0024",
+      "canonical_sha256": "9:13:4db467435f44d63e4981ffebe2d621d7d719225adfbffc481b88d972116fe031",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00011001111",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03250212001148611,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 85,
+        "branches": 2550,
+        "wall_time": 0.030828832
+      }
+    },
+    {
+      "candidate_id": "L6-0025",
+      "canonical_sha256": "9:13:c6c1fc59688774f19fd78a565c15cfb15a813b5db88279a3a80f7dc3f81bce20",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00011011101",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.041378068999620155,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 136,
+        "branches": 2673,
+        "wall_time": 0.039884473000000004
+      }
+    },
+    {
+      "candidate_id": "L6-0026",
+      "canonical_sha256": "9:13:89a166570785720db8ef6910a7dd8ce024edbdd2afd42a5b7f3f8aa6db597475",
+      "order": 22,
+      "size": 38,
+      "delta": 9,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00100010101",
+        "u0_degree": 5,
+        "u1_degree": 9
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 9,
+          "weighted_neighbor_diameter": 12,
+          "margin": -4,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_6",
+          "degree": 3,
+          "weighted_neighbor_diameter": 8,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.05072483600815758,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 406,
+        "branches": 3242,
+        "wall_time": 0.049717012000000005
+      }
+    },
+    {
+      "candidate_id": "L6-0027",
+      "canonical_sha256": "9:13:b5bdb447adee3409df14c398aea042086c692a8c434cae07563159f4d8b5c0c2",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00100010111",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 13,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_6",
+          "degree": 3,
+          "weighted_neighbor_diameter": 9,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.048791328008519486,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 459,
+        "branches": 3507,
+        "wall_time": 0.047464689000000004
+      }
+    },
+    {
+      "candidate_id": "L6-0028",
+      "canonical_sha256": "9:13:222d7b075f33fe7c2ceb813dd65900672dac0951c30420fcc1288d5350047415",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00100011101",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 13,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_6",
+          "degree": 3,
+          "weighted_neighbor_diameter": 9,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04024265299085528,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 210,
+        "branches": 2994,
+        "wall_time": 0.038587951
+      }
+    },
+    {
+      "candidate_id": "L6-0029",
+      "canonical_sha256": "9:13:500caf57c5b0e66ac6a653f62fc554b1344aaf192b2f12200c6de6c4775206c7",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00100100111",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 12,
+          "margin": -5,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 6,
+          "weighted_neighbor_diameter": 14,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03624436000245623,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 96,
+        "branches": 2711,
+        "wall_time": 0.034704396000000005
+      }
+    },
+    {
+      "candidate_id": "L6-0030",
+      "canonical_sha256": "9:13:5549da9505b85a7c418a0219457628531603f3509a3d8437dc59c426076bdf0b",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00100110111",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 10,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03497323297779076,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 18,
+        "branches": 2456,
+        "wall_time": 0.033372403
+      }
+    },
+    {
+      "candidate_id": "L6-0031",
+      "canonical_sha256": "9:13:fe2eed7a885011819ffbcbbd33a7717691bc5724519d4b0f8b979bae895fe7e2",
+      "order": 22,
+      "size": 38,
+      "delta": 8,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00100111100",
+        "u0_degree": 6,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 8,
+          "weighted_neighbor_diameter": 13,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_6",
+          "degree": 3,
+          "weighted_neighbor_diameter": 9,
+          "margin": -7,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.044907143979799,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 58,
+        "branches": 2548,
+        "wall_time": 0.043251511
+      }
+    },
+    {
+      "candidate_id": "L6-0032",
+      "canonical_sha256": "9:13:a46613946b11fdfc90133e9282c794265de5f297e41cf4b56c7b7242e55a596a",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00100111101",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04722573401522823,
+        "span": 7,
+        "solver_status": "OPTIMAL",
+        "conflicts": 203,
+        "branches": 2950,
+        "wall_time": 0.045326809
+      }
+    },
+    {
+      "candidate_id": "L6-0033",
+      "canonical_sha256": "9:13:cde9e179e29cc18102976268da9f8b6b0901d1f21b7457e3dd09f87b0b7a6e14",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00101011101",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.035555281006963924,
+        "span": 7,
+        "solver_status": "OPTIMAL",
+        "conflicts": 164,
+        "branches": 2727,
+        "wall_time": 0.034272145000000004
+      }
+    },
+    {
+      "candidate_id": "L6-0034",
+      "canonical_sha256": "9:13:1cceda91142a107d906655b8d9e542537020d0832fa766802a7bb19373f39026",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "00101011110",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 13,
+          "margin": -7,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03834021100192331,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 148,
+        "branches": 3164,
+        "wall_time": 0.036237133000000005
+      }
+    },
+    {
+      "candidate_id": "L6-0035",
+      "canonical_sha256": "9:13:e419ad1fccbd69358352d347d750d83b29e1186a5d5a847b665e127faff23c04",
+      "order": 22,
+      "size": 38,
+      "delta": 7,
+      "metadata": {
+        "lane": "lane6-two-hub-synchronization",
+        "parent": "hat_K34_prime_Delta11",
+        "mask": "01100111100",
+        "u0_degree": 7,
+        "u1_degree": 7
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "U0",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "U1",
+          "degree": 7,
+          "weighted_neighbor_diameter": 14,
+          "margin": -8,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03202981600770727,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 35,
+        "branches": 2475,
+        "wall_time": 0.030924607000000003
+      }
+    }
+  ]
+}

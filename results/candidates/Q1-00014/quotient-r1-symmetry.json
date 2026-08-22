@@ -1,0 +1,61 @@
+{
+  "pairwise_isomorphic": false,
+  "automorphism_data": [
+    {
+      "file": "results/graphs/quotient-r1/Q1-00012.graph.json",
+      "canonical_sha256": "8:11:eec834587010499acfe094698e6a75c05984de65c5a3d4e51289b2502aa75887",
+      "group_size_integer_part": 8.0,
+      "group_size_exponent": 0,
+      "num_orbits": 9,
+      "orbits": [
+        0,
+        1,
+        1,
+        3,
+        3,
+        5,
+        5,
+        7,
+        8,
+        9,
+        9,
+        11,
+        11,
+        13,
+        13,
+        9,
+        9,
+        13,
+        13
+      ]
+    },
+    {
+      "file": "results/graphs/quotient-r1/Q1-00014.graph.json",
+      "canonical_sha256": "8:11:2412ce4d084d92cdaa41c7e1a009e8011de4be9e281a3fe6349eb7fc057ef9a0",
+      "group_size_integer_part": 12.0,
+      "group_size_exponent": 0,
+      "num_orbits": 9,
+      "orbits": [
+        0,
+        0,
+        2,
+        3,
+        4,
+        4,
+        4,
+        7,
+        8,
+        9,
+        10,
+        10,
+        9,
+        9,
+        9,
+        9,
+        9,
+        17,
+        10
+      ]
+    }
+  ]
+}

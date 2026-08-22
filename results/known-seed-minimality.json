@@ -1,0 +1,559 @@
+{
+  "base": {
+    "name": "hat_K34_prime_Delta11",
+    "order": 20,
+    "size": 35,
+    "delta": 11,
+    "canonical_sha256": "8:12:2a0fa9f624188ea6a9e03a62e6ff02679de6c7610136792b2bb06e8d44a348bd"
+  },
+  "edge_deletion_negative_count": 0,
+  "vertex_deletion_negative_count": 0,
+  "timeout_count": 0,
+  "rows": [
+    {
+      "kind": "edge",
+      "deleted": [
+        "C0",
+        "V0_1"
+      ],
+      "canonical_sha256": "8:12:d39d34d46cf407e47ef30c81936634fdcbf37b795e9beeca948471186229fce9",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C0",
+        "V1_4"
+      ],
+      "canonical_sha256": "8:12:8981c19a77f8f4796f988702fd34addf7a8f3a17e04da9f38e90828efe0bca74",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C1",
+        "V0_1"
+      ],
+      "canonical_sha256": "8:12:00842769b8e8ed1cce137bf526624c23e6bc78027554cfd83ff17cae3b154661",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C1",
+        "V1_5"
+      ],
+      "canonical_sha256": "8:12:71736bfa051e0954b2f4b6cb1da2fa55ea9a7faffbc963503ea55e19b76c9166",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C1",
+        "u"
+      ],
+      "canonical_sha256": "8:12:64ec292e46139b056482bf6613fc39a6b1ebc6066c08c4d234481594d260b827",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C2",
+        "V0_1"
+      ],
+      "canonical_sha256": "8:12:00842769b8e8ed1cce137bf526624c23e6bc78027554cfd83ff17cae3b154661",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C2",
+        "V1_6"
+      ],
+      "canonical_sha256": "8:12:71736bfa051e0954b2f4b6cb1da2fa55ea9a7faffbc963503ea55e19b76c9166",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C2",
+        "u"
+      ],
+      "canonical_sha256": "8:12:64ec292e46139b056482bf6613fc39a6b1ebc6066c08c4d234481594d260b827",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C3",
+        "V0_1"
+      ],
+      "canonical_sha256": "8:12:00842769b8e8ed1cce137bf526624c23e6bc78027554cfd83ff17cae3b154661",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C3",
+        "V1_7"
+      ],
+      "canonical_sha256": "8:12:71736bfa051e0954b2f4b6cb1da2fa55ea9a7faffbc963503ea55e19b76c9166",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C3",
+        "u"
+      ],
+      "canonical_sha256": "8:12:64ec292e46139b056482bf6613fc39a6b1ebc6066c08c4d234481594d260b827",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C4",
+        "V0_2"
+      ],
+      "canonical_sha256": "8:12:4c128acefb9d67424bfe9af2ff184b48321176ed998f4db905000e7c661d34b6",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C4",
+        "V1_4"
+      ],
+      "canonical_sha256": "8:12:213596f5a144017827b64e3e3265dc1b51efd07382a578032115de2e4a37af53",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C4",
+        "u"
+      ],
+      "canonical_sha256": "8:12:6e9c170e1d58d483138b4116be6a4e8a5a3f3ebda3bcf7e63ad30c0d096f788f",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C5",
+        "V0_2"
+      ],
+      "canonical_sha256": "8:12:f713bec6cba2f36eb4297a65ad13f5c6d5801ea5c3917288d5149a1b4f719d3e",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C5",
+        "V1_5"
+      ],
+      "canonical_sha256": "8:12:7f252bc6dd6f789fa2a3311afae888b3f3ef7ce5b343fca0480e200d40d116cf",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C5",
+        "u"
+      ],
+      "canonical_sha256": "8:12:7e9482d95ef6c7d85967f7c03d1176fee365c49a89e72d9c4cea22d6a52b95a3",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C6",
+        "V0_2"
+      ],
+      "canonical_sha256": "8:12:f713bec6cba2f36eb4297a65ad13f5c6d5801ea5c3917288d5149a1b4f719d3e",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C6",
+        "V1_6"
+      ],
+      "canonical_sha256": "8:12:7f252bc6dd6f789fa2a3311afae888b3f3ef7ce5b343fca0480e200d40d116cf",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C6",
+        "u"
+      ],
+      "canonical_sha256": "8:12:7e9482d95ef6c7d85967f7c03d1176fee365c49a89e72d9c4cea22d6a52b95a3",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C7",
+        "V0_2"
+      ],
+      "canonical_sha256": "8:12:f713bec6cba2f36eb4297a65ad13f5c6d5801ea5c3917288d5149a1b4f719d3e",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C7",
+        "V1_7"
+      ],
+      "canonical_sha256": "8:12:7f252bc6dd6f789fa2a3311afae888b3f3ef7ce5b343fca0480e200d40d116cf",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C7",
+        "u"
+      ],
+      "canonical_sha256": "8:12:7e9482d95ef6c7d85967f7c03d1176fee365c49a89e72d9c4cea22d6a52b95a3",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C8",
+        "V0_3"
+      ],
+      "canonical_sha256": "8:12:4c128acefb9d67424bfe9af2ff184b48321176ed998f4db905000e7c661d34b6",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C8",
+        "V1_4"
+      ],
+      "canonical_sha256": "8:12:213596f5a144017827b64e3e3265dc1b51efd07382a578032115de2e4a37af53",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C8",
+        "u"
+      ],
+      "canonical_sha256": "8:12:6e9c170e1d58d483138b4116be6a4e8a5a3f3ebda3bcf7e63ad30c0d096f788f",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C9",
+        "V0_3"
+      ],
+      "canonical_sha256": "8:12:f713bec6cba2f36eb4297a65ad13f5c6d5801ea5c3917288d5149a1b4f719d3e",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C9",
+        "V1_5"
+      ],
+      "canonical_sha256": "8:12:7f252bc6dd6f789fa2a3311afae888b3f3ef7ce5b343fca0480e200d40d116cf",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C9",
+        "u"
+      ],
+      "canonical_sha256": "8:12:7e9482d95ef6c7d85967f7c03d1176fee365c49a89e72d9c4cea22d6a52b95a3",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C10",
+        "V0_3"
+      ],
+      "canonical_sha256": "8:12:f713bec6cba2f36eb4297a65ad13f5c6d5801ea5c3917288d5149a1b4f719d3e",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C10",
+        "V1_6"
+      ],
+      "canonical_sha256": "8:12:7f252bc6dd6f789fa2a3311afae888b3f3ef7ce5b343fca0480e200d40d116cf",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C10",
+        "u"
+      ],
+      "canonical_sha256": "8:12:7e9482d95ef6c7d85967f7c03d1176fee365c49a89e72d9c4cea22d6a52b95a3",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C11",
+        "V0_3"
+      ],
+      "canonical_sha256": "8:12:f713bec6cba2f36eb4297a65ad13f5c6d5801ea5c3917288d5149a1b4f719d3e",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C11",
+        "V1_7"
+      ],
+      "canonical_sha256": "8:12:7f252bc6dd6f789fa2a3311afae888b3f3ef7ce5b343fca0480e200d40d116cf",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "edge",
+      "deleted": [
+        "C11",
+        "u"
+      ],
+      "canonical_sha256": "8:12:7e9482d95ef6c7d85967f7c03d1176fee365c49a89e72d9c4cea22d6a52b95a3",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "u",
+      "canonical_sha256": "7:12:4429731b56d544dad451a96037b3bf483783eee878986c9857b56ad3a41c5b3c",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 5
+    },
+    {
+      "kind": "vertex",
+      "deleted": "V0_1",
+      "canonical_sha256": "7:12:a9db5cc45e86a91fc40131319b874f0813187454fb39bedfb8e28e7395d5f1e1",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "V0_2",
+      "canonical_sha256": "7:12:564e8dba8543e60f2f21346f4bd0cb5bc240daf3fea463e3dd404934ddd578e8",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "V0_3",
+      "canonical_sha256": "7:12:564e8dba8543e60f2f21346f4bd0cb5bc240daf3fea463e3dd404934ddd578e8",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "V1_4",
+      "canonical_sha256": "7:12:63a22dedf61490b838130cc6a66c6946600049c5d1946ad53998b5dc05231020",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "V1_5",
+      "canonical_sha256": "7:12:f0a6495af682b3354fca362664377c2471be3d167bee2a322dcc93f1688293e7",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "V1_6",
+      "canonical_sha256": "7:12:f0a6495af682b3354fca362664377c2471be3d167bee2a322dcc93f1688293e7",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "V1_7",
+      "canonical_sha256": "7:12:f0a6495af682b3354fca362664377c2471be3d167bee2a322dcc93f1688293e7",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C0",
+      "canonical_sha256": "8:11:be11924add027356f264e93eaa31261f520bebcb975c5b0c01342df3c8924a92",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 11
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C1",
+      "canonical_sha256": "8:11:83eba95a0bbc442864b12fd20d9ebbc2d4a204b8a54ce778a95f7c3b86559732",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C2",
+      "canonical_sha256": "8:11:83eba95a0bbc442864b12fd20d9ebbc2d4a204b8a54ce778a95f7c3b86559732",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C3",
+      "canonical_sha256": "8:11:83eba95a0bbc442864b12fd20d9ebbc2d4a204b8a54ce778a95f7c3b86559732",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C4",
+      "canonical_sha256": "8:11:c0f476ddc83e6c2d0311d9128155e5508ba216cac6ec0e770508ba0fde13b0f2",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C5",
+      "canonical_sha256": "8:11:61f7c51c8136025bb58026e22477a73a0930b722c51b472bb42f4ac8b9dc254d",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C6",
+      "canonical_sha256": "8:11:61f7c51c8136025bb58026e22477a73a0930b722c51b472bb42f4ac8b9dc254d",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C7",
+      "canonical_sha256": "8:11:61f7c51c8136025bb58026e22477a73a0930b722c51b472bb42f4ac8b9dc254d",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C8",
+      "canonical_sha256": "8:11:c0f476ddc83e6c2d0311d9128155e5508ba216cac6ec0e770508ba0fde13b0f2",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C9",
+      "canonical_sha256": "8:11:61f7c51c8136025bb58026e22477a73a0930b722c51b472bb42f4ac8b9dc254d",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C10",
+      "canonical_sha256": "8:11:61f7c51c8136025bb58026e22477a73a0930b722c51b472bb42f4ac8b9dc254d",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    },
+    {
+      "kind": "vertex",
+      "deleted": "C11",
+      "canonical_sha256": "8:11:61f7c51c8136025bb58026e22477a73a0930b722c51b472bb42f4ac8b9dc254d",
+      "status": "colorable",
+      "solver_status": "OPTIMAL",
+      "span": 10
+    }
+  ]
+}

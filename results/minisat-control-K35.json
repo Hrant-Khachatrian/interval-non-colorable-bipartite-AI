@@ -1,0 +1,28 @@
+[
+  {
+    "file": "results/graphs/control-K35.graph.json",
+    "solver": "MiniSat 2.2",
+    "decision": "not-proved",
+    "spans": {
+      "5": {
+        "status": "UNSATISFIABLE",
+        "variables": 93,
+        "clauses": 658,
+        "cnf_sha256": "1820a28e17ad3b323882e4b2a1e521def21f7847bbe25dd7406d0f10d0d5ca4a"
+      },
+      "6": {
+        "status": "UNSATISFIABLE",
+        "variables": 116,
+        "clauses": 947,
+        "cnf_sha256": "180658b2b58bc7a3c3b1a0acf1f52c4fe385b5452b10f12bf07cce6306d5c026"
+      },
+      "7": {
+        "status": "SATISFIABLE",
+        "variables": 139,
+        "clauses": 1319,
+        "cnf_sha256": "7517e0daf2d5b0f3fbd28493a6834c00073fd1ee2026b4e5d509e5eb82f92abc"
+      }
+    },
+    "elapsed_seconds": 0.25623655319213867
+  }
+]

@@ -1,0 +1,4 @@
+ortools>=9.15
+networkx>=3.4
+matplotlib>=3.10
+pynauty>=1.0

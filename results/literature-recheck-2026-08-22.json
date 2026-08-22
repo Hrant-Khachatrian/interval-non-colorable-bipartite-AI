@@ -1,0 +1,670 @@
+{
+  "checked_at": "2026-08-22",
+  "queries": {
+    "arxiv": "interval edge coloring AND bipartite",
+    "crossref": "interval edge coloring bipartite non-colorable",
+    "openalex": "interval edge coloring bipartite non-colorable"
+  },
+  "results": [
+    {
+      "source": "arxiv",
+      "date": "2021-06-26T09:42:49Z",
+      "title": "A note on one-sided interval edge colorings of bipartite graphs",
+      "url": "http://arxiv.org/abs/2106.13985v1"
+    },
+    {
+      "source": "arxiv",
+      "date": "2020-03-13T09:35:40Z",
+      "title": "Improper interval edge colorings of graphs",
+      "url": "http://arxiv.org/abs/2003.06166v1"
+    },
+    {
+      "source": "arxiv",
+      "date": "2016-06-30T08:34:53Z",
+      "title": "Some Results on Cyclic Interval Edge Colorings of Graphs",
+      "url": "http://arxiv.org/abs/1606.09389v2"
+    },
+    {
+      "source": "arxiv",
+      "date": "2015-08-12T08:48:24Z",
+      "title": "On interval edge-colorings of bipartite graphs of small order",
+      "url": "http://arxiv.org/abs/1508.02851v1"
+    },
+    {
+      "source": "arxiv",
+      "date": "2015-08-01T19:00:40Z",
+      "title": "Interval edge-colorings of composition of graphs",
+      "url": "http://arxiv.org/abs/1508.00158v1"
+    },
+    {
+      "source": "arxiv",
+      "date": "2012-05-01T10:47:49Z",
+      "title": "On one-sided interval edge colorings of biregular bipartite graphs",
+      "url": "http://arxiv.org/abs/1205.0130v1"
+    },
+    {
+      "source": "arxiv",
+      "date": "2011-10-06T07:08:00Z",
+      "title": "Interval edge-colorings of cubic graphs",
+      "url": "http://arxiv.org/abs/1110.1161v1"
+    },
+    {
+      "source": "arxiv",
+      "date": "2009-11-27T12:42:13Z",
+      "title": "A note on upper bounds for the maximum span in interval edge colorings of graphs",
+      "url": "http://arxiv.org/abs/0911.5258v1"
+    },
+    {
+      "source": "arxiv",
+      "date": "2007-12-26T21:03:54Z",
+      "title": "Lower bounds for the greatest possible number of colors in interval edge colorings of bipartite cylinders and bipartite tori",
+      "url": "http://arxiv.org/abs/0712.4148v2"
+    },
+    {
+      "source": "arxiv",
+      "date": "2007-04-20T03:15:44Z",
+      "title": "Proper path-factors and interval edge-coloring of (3,4)-biregular bigraphs",
+      "url": "http://arxiv.org/abs/0704.2650v1"
+    },
+    {
+      "source": "crossref",
+      "date": 2121,
+      "title": "Investigating the Non-carcinogenic Risk and Hazard Quotient of Heavy Metals in High-traffic Districts of Tehran Metropolis, Iran",
+      "url": "https://doi.org/10.32598/jaehr.9.4.1219"
+    },
+    {
+      "source": "crossref",
+      "date": 2116,
+      "title": "Changes in the legal system of the non-governmental organizations in the Czech Republic and the possibilities for innovation of communication policy in the non-profit sector",
+      "url": "https://doi.org/10.15556/ijsim.02.04.002"
+    },
+    {
+      "source": "crossref",
+      "date": 2106,
+      "title": "Comparative  Study of Serum Lipid Profile Parameters  for Oral Cancer  and Non Oral Cancer Patients",
+      "url": "https://doi.org/10.21276/ijchmr.2016.2.2.08"
+    },
+    {
+      "source": "crossref",
+      "date": 2103,
+      "title": "A Birkhoff type transitivity theorem for non-separable completely metrizable spaces with applications to linear dynamics",
+      "url": "https://doi.org/10.7900/jot.2011may12.1971"
+    },
+    {
+      "source": "crossref",
+      "date": 2103,
+      "title": "Factors Affecting Non-Compliance To Psychotropic Drugs Of Patients With Psychosis As Perceived By Their Family Members Attending The Psychiatric Outpatient Department At Selected Hospital ,Mangalore",
+      "url": "https://doi.org/10.33698/nrf0004"
+    },
+    {
+      "source": "crossref",
+      "date": 2029,
+      "title": "A Non-Regular Icosahedron Geometry Satellite Form, Mirror Invested Polyhedro Heliotrope, For Optical Tracking",
+      "url": "https://doi.org/10.33140/atcp.02.02.04"
+    },
+    {
+      "source": "crossref",
+      "date": 2029,
+      "title": "Network Model Averaging Prediction for Latent Space Models by K-fold Edge Cross-Validation",
+      "url": "https://doi.org/10.5705/ss.202025.0266"
+    },
+    {
+      "source": "crossref",
+      "date": 2029,
+      "title": "Non-parametric Testing for Survival Data with Time-dependent Covariates",
+      "url": "https://doi.org/10.5705/ss.202025.0478"
+    },
+    {
+      "source": "crossref",
+      "date": 2029,
+      "title": "Semiparametric Regression Analysis of Clustered Interval-censored Failure Time Data with Random Change Points and Application to Breast Cancer Study",
+      "url": "https://doi.org/10.5705/ss.202025.0305"
+    },
+    {
+      "source": "crossref",
+      "date": 2028,
+      "title": "Edge AI in Wearable Devices",
+      "url": "https://doi.org/10.26634/javr.4.1.1116"
+    },
+    {
+      "source": "crossref",
+      "date": 2028,
+      "title": "An investigation on a single server non-Markovian queueing system with multi-services and Bernoulli working vacation",
+      "url": "https://doi.org/10.1504/ijmmno.2028.10080510"
+    },
+    {
+      "source": "crossref",
+      "date": 2028,
+      "title": "Simultaneous Estimation and Dataset Selection for Transfer Learning in High Dimensions by a Non-convex Penalty",
+      "url": "https://doi.org/10.5705/ss.202024.0423"
+    },
+    {
+      "source": "crossref",
+      "date": 2028,
+      "title": "An investigation into the impact of fluctuations in oil prices on non-performing loans in Nigeria",
+      "url": "https://doi.org/10.1504/ijbpm.2028.10076747"
+    },
+    {
+      "source": "crossref",
+      "date": 2028,
+      "title": "Enhancing Real Time Decision Intelligence through Federated Learning Integration in Edge Computing Networks",
+      "url": "https://doi.org/10.1504/ijcis.2028.10073919"
+    },
+    {
+      "source": "crossref",
+      "date": 2028,
+      "title": "Precise State-of-Charge Estimation for LIBs: A Cutting-Edge Nonlinear Model Approach with Enhanced Robustness and Reliability",
+      "url": "https://doi.org/10.1504/ijcis.2028.10073299"
+    },
+    {
+      "source": "crossref",
+      "date": 2028,
+      "title": "Advancing adult vocational learning: a multidimensional needs analysis of sewing skills training in non-formal educational settings",
+      "url": "https://doi.org/10.1504/ijil.2028.10079750"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "The Possibility of Representing Non-Existence During the Korean War - Focusing on Lee Hyun-su\u2019s Four Days -",
+      "url": "https://doi.org/10.47293/ihumjj.2024.37.9"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "A Study of Korean Grammar Education for Non-Native Prospective Korean Language Teachers - Focusing on Grammar Comparison -",
+      "url": "https://doi.org/10.47293/ihumjj.2024.37.15"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Future VLSI Architectures for Neuromorphic Computing, Edge AI and\u00a0Sustainable Systems",
+      "url": "https://doi.org/10.61877/ijmrp.v3i7.293"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Grossesses non d\u00e9sir\u00e9es en milieu scolaire : facteurs et perspectives de suivi dans la Province de Bujumbura.",
+      "url": "https://doi.org/10.71617/443065lvoyxs"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Plasma Long Non-Coding Rna Myd88 as A Novel Diagnostic Biomarker for Hepatocellular Carcinoma in Egyptian Patients",
+      "url": "https://doi.org/10.21608/ejmm.2026.499783.2561"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "\u0645\u0641\u0627\u0647\u064a\u0645 \u0648\u062f\u0644\u0627\u0644\u0627\u062a \u0627\u0644\u062e\u062f\u0627\u0639 \u0627\u0644\u0644\u0641\u0638\u064a\u0629 \u0648\u063a\u064a\u0631 \u0627\u0644\u0644\u0641\u0638\u064a\u0629 \u0641\u064a \u0627\u0644\u0644\u063a\u0629 \u0627\u0644\u0643\u0631\u062f\u064a\u0629",
+      "url": "https://doi.org/10.66026/ss6k8n93"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Non-Competes and No-Poach Agreements in Labour Market Antitrust",
+      "url": "https://doi.org/10.4337/9781035311231.non.competes.and.no.poach.agreements.in.labour.market.antitrust"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Non-compete Obligations",
+      "url": "https://doi.org/10.4337/9781035311231.non.compete.obligations"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "The Role of the Mover Teacher and Non-Mover Teacher in Realizing Independent Learning in Merdeka Curriculum",
+      "url": "https://doi.org/10.63230/jitse.2.3.211"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Bifurcation analysis of the tangential switching mode in a non-monotonic tumor growth model",
+      "url": "https://doi.org/10.1016/j.nonrwa.2026.104703"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Boundary regularity for quasiminima of double-phase problems on metric spaces",
+      "url": "https://doi.org/10.1016/j.nonrwa.2026.104737"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Protein Tyrosine Phosphatase Non-Receptor 22 (PTPN22) Gene Polymorphism in Egyptian Patients with Chronic Spontaneous Urticaria",
+      "url": "https://doi.org/10.21608/ejmm.2026.491451.2445"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Phenotypic Assessment of antimicrobial resistance and Virulence traits of Coagulase-Negative Staphylococci from Diabetic and Non Diabetic patients",
+      "url": "https://doi.org/10.21608/ejmm.2026.489759.2431"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Diagnostic and Predictive Value of Serum IL-6 and IL-35 in Differentiating Hashimoto's Thyroiditis from Non-Autoimmune Hypothyroidism",
+      "url": "https://doi.org/10.21608/ejmm.2026.488984.2420"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "The Association of Interleukin-17 Level with Severity of Non-T2 Asthma",
+      "url": "https://doi.org/10.21608/ejmm.2026.484613.2367"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Pullback exponential attractor for a class of two-coupled non-autonomous nonlinear Schr\u00f6dinger equations",
+      "url": "https://doi.org/10.1016/j.nonrwa.2026.104715"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Strongly singular multi-phase problems with concave perturbation: Existence of non negative solutions",
+      "url": "https://doi.org/10.1016/j.nonrwa.2026.104738"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Comparison of Gene Expression in Klebsiella pneumoniae Urinary Tract Infections Between Type 2 Diabetes Mellitus and Non-Diabetes Mellitus Patients",
+      "url": "https://doi.org/10.21608/ejmm.2026.491254.2442"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Non-iterative coordinated robust scheduling method for virtual power plant-distribution network system based on feasible region projection",
+      "url": "https://doi.org/10.1016/j.epsr.2026.113930"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Zero Mach number limit for global smooth solutions to the non-isentropic slightly compressible Navier-Stokes system with Dirichlet boundary conditions",
+      "url": "https://doi.org/10.1016/j.nonrwa.2026.104733"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Contact-localized plasmonic heating-driven non-equilibrium alloying of Cu@Ag core-shell nanoparticles: Interfacial diffusion, supersaturated solid solutions and defect arrest",
+      "url": "https://doi.org/10.1016/j.jmst.2026.07.054"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Non-uniform continuity for the MHD equations with only magnetic diffusion",
+      "url": "https://doi.org/10.1016/j.nonrwa.2026.104731"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Rome II Regulation (non-contractual obligations)",
+      "url": "https://doi.org/10.4337/9781035359264.rome.ii.regulation"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "A single-phase-to-ground fault section location method for non-effectively grounded distribution networks based on POA-VMD and physics-constrained CNN",
+      "url": "https://doi.org/10.1016/j.epsr.2026.113865"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "A fast construction method for ellipsoid model-based interval fields with stationary characteristics and applications",
+      "url": "https://doi.org/10.1016/j.apm.2026.117239"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Pioneering oil-water interfacial tension using surfactant properties and cutting-edge algorithms",
+      "url": "https://doi.org/10.1016/j.uncres.2026.100465"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Black kite algorithm based interval type-2 variable universe fuzzy fractional order PID controller and dynamic data reconciliation for improving the performance of frequency control in isolated microgrids",
+      "url": "https://doi.org/10.1016/j.epsr.2026.113896"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Critical assessment of the glass-forming ability of inorganic, non-metallic materials",
+      "url": "https://doi.org/10.1016/j.pmatsci.2026.101791"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Compositional metrology of atom probe applied to non-metallic materials",
+      "url": "https://doi.org/10.1016/j.pmatsci.2026.101779"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "VIA-Mamba: a vibration-induced adaptive state space model for high-voltage cable condition assessment under non-uniform sampling",
+      "url": "https://doi.org/10.1016/j.epsr.2026.113883"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Hierarchical optimization dispatching strategy for distribution networks considering interval-constrained carbon trading and multi-type demand-side responses",
+      "url": "https://doi.org/10.1016/j.epsr.2026.113814"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Non-data-splitting estimator selection for regression in exponential families",
+      "url": "https://doi.org/10.1016/j.jspi.2026.106458"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Mechanism of heterogeneous nugget formation in HPDC AlSi7MnMg resistance spot welding: Flow and redistribution of second phases under non-uniform melting",
+      "url": "https://doi.org/10.1016/j.jmst.2026.07.030"
+    },
+    {
+      "source": "crossref",
+      "date": 2027,
+      "title": "Maya Archaeology in Belize",
+      "url": "https://doi.org/10.5744/9780813079738"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-20",
+      "title": "Slit-slide-sew bijections for oriented planar maps",
+      "url": "https://doi.org/10.5070/c6.68700"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-17",
+      "title": "Development of a universal imaging \u201cphenome\u201d using shape, appearance and motion (SAM) features and the SAM Phenotype Observation Tool (SPOT)",
+      "url": "https://doi.org/10.1038/s41467-026-75505-8"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-17",
+      "title": "Certified artifacts for R_cyc(K4, P6^alt) = 16",
+      "url": "https://doi.org/10.5281/zenodo.21934068"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-12",
+      "title": "Quasisymmetric universality, quasi-isometric classification and topological rigidity of Kleinian groups",
+      "url": "https://doi.org/10.48550/arxiv.2608.12287"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-12",
+      "title": "Distributed Quantum Algorithms Cannot Color Cycles with Probability 1",
+      "url": "https://doi.org/10.48550/arxiv.2608.11720"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-11",
+      "title": "Complexity and algorithms for proper conflict-free coloring in graphs",
+      "url": "https://doi.org/10.48550/arxiv.2608.10874"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-07",
+      "title": "GraphARC: A Comprehensive Benchmark for Graph-Based Abstract Reasoning",
+      "url": "https://doi.org/10.1145/3770855.3817591"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-06",
+      "title": "Simultaneous Graph Parameters and How to Bound Them",
+      "url": "https://openalex.org/W7202005940"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-05",
+      "title": "On the achromatic index of Johnson graphs $J(n,2)$",
+      "url": "https://openalex.org/W7201914174"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-05",
+      "title": "Information and Locality in Cayley Graphs",
+      "url": "https://openalex.org/W7201915056"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-04",
+      "title": "From b-Coloring to $b^*$-Coloring: Large Girth and Parameterized Complexity",
+      "url": "https://openalex.org/W7197053093"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-04",
+      "title": "Complexity of induced subgraph isomorphism and maximum common induced subgraph parameterized by cluster vertex deletion number",
+      "url": "https://openalex.org/W7197053276"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-04",
+      "title": "Fixed Budget vs. Covering Target: The Partial Set Cover Boundary for Bounded VC-Dimension",
+      "url": "https://openalex.org/W7197053238"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-03",
+      "title": "Thermalizing Stochastic Programs",
+      "url": "https://openalex.org/W7172557019"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-02",
+      "title": "Fault-tolerant quantum computing with a microwave Cat Bus",
+      "url": "https://openalex.org/W7172557354"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-08-01",
+      "title": "Faithfulness in maniplexes",
+      "url": "https://doi.org/10.1007/s10801-026-01559-y"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-31",
+      "title": "Discrepancy Theory: An Algorithmic and Geometric Perspective",
+      "url": "https://openalex.org/W7172558993"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-31",
+      "title": "Nonlinear Exchange Dynamics for Independent Sets",
+      "url": "https://openalex.org/W7172558103"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-31",
+      "title": "On the $2$-dimensional flow number of the Flower snarks",
+      "url": "https://openalex.org/W7172473452"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-30",
+      "title": "The semi-inducibility of the blue--blue--red path on four vertices",
+      "url": "https://openalex.org/W7172172305"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-30",
+      "title": "Anomalous Boundary Modes in a Floquet Hyperbolic System",
+      "url": "https://openalex.org/W7172473947"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-30",
+      "title": "High-rate qLDPC processors",
+      "url": "https://openalex.org/W7172473572"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-29",
+      "title": "General position sets in strong products with paths and cycles",
+      "url": "https://openalex.org/W7172068115"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-28",
+      "title": "Sharp bounds for the fractional chromatic number of high-girth $d$-degenerate graphs",
+      "url": "https://openalex.org/W7172068626"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-27",
+      "title": "Knapsack Secretary is not $1/e$-Competitive",
+      "url": "https://openalex.org/W7171749333"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-27",
+      "title": "Complex Analysis and Existence Problems for plane Graphs",
+      "url": "https://openalex.org/W7171748806"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-26",
+      "title": "Set-defined graph classes: $\u03c7$-boundedness meets tropical algebra",
+      "url": "https://openalex.org/W7171749701"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-25",
+      "title": "Theory of approximate quantum error correction and the error-set model",
+      "url": "https://openalex.org/W7171750294"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-23",
+      "title": "Fatness and Flatness",
+      "url": "https://openalex.org/W7171267861"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-23",
+      "title": "Chromatic symmetric functions of claw-free graphs are not Schur positive",
+      "url": "https://openalex.org/W7171268820"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-22",
+      "title": "Towards Generalized Dimers for GTPs: $\\mathcal{N}=2$ Fractional Branes at Infinite Coupling",
+      "url": "https://openalex.org/W7171268035"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-21",
+      "title": "On the Computational Complexity of Local and Global Covering Numbers",
+      "url": "https://openalex.org/W7170225518"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-21",
+      "title": "Color code thresholds under circuit-level noise beyond the Pauli framework",
+      "url": "https://doi.org/10.1088/2058-9565/ae8df5"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-20",
+      "title": "A new broadcast model for several network topologies",
+      "url": "https://doi.org/10.1007/s11227-026-08698-w"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-19",
+      "title": "Degeneracy-Guided List Compression for Greedy Graph Coloring",
+      "url": "https://openalex.org/W7170111661"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-19",
+      "title": "A Parallel Evolutionary Algorithm Framework for Graph $k$-CUT Problems",
+      "url": "https://openalex.org/W7170112520"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-19",
+      "title": "Filling more gaps on the edge-coloring problem of split graphs",
+      "url": "https://doi.org/10.5753/etc.2026.22134"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-19",
+      "title": "On totally synchronizing graphs",
+      "url": "https://openalex.org/W7170112792"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-17",
+      "title": "Counting with Two-Level Polynomials",
+      "url": "https://doi.org/10.37236/14617"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-17",
+      "title": "OOPS: Optimized One-Planarity Solver via SAT",
+      "url": "https://doi.org/10.7155/jgaa.v30i2.3114"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-16",
+      "title": "Cycle lengths and chords under chromatic and degree constraints",
+      "url": "https://openalex.org/W7169923339"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-16",
+      "title": "D-coloring of planar graphs",
+      "url": "https://openalex.org/W7169688663"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-16",
+      "title": "A short review on the maximum clique problem algorithms with classical, AI, and quantum methods",
+      "url": "https://doi.org/10.1038/s42005-026-02606-7"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-16",
+      "title": "A short review on the maximum clique problem algorithms with classical, AI, and quantum methods",
+      "url": "https://doi.org/10.1038/s42005-026-02606-7"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-15",
+      "title": "The Lean Number of a Hypergraph",
+      "url": "https://openalex.org/W7169633906"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-14",
+      "title": "Even smaller universal posets",
+      "url": "https://openalex.org/W7169473285"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-11",
+      "title": "Bichromatic Geometric Spanners",
+      "url": "https://openalex.org/W7168433498"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-10",
+      "title": "Complexity of the Graph Homomorphism Problem w.r.t. Degeneracy",
+      "url": "https://openalex.org/W7168328713"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-09",
+      "title": "High-Dimensional Procrustes Matching via Tree Counts",
+      "url": "https://openalex.org/W7168054117"
+    },
+    {
+      "source": "openalex",
+      "date": "2026-07-07",
+      "title": "Breadth-First Search in Succinct Planar Graphs",
+      "url": "https://openalex.org/W7167854944"
+    }
+  ]
+}

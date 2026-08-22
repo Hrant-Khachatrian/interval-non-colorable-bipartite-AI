@@ -1,0 +1,58 @@
+{
+  "11": {
+    "cnf_sha256": "19caf4c04fd863334ddd289aa205654bfd3dda3c757e226c6100978d9d05f647",
+    "drat_sha256": "0c86e2fcc5a73e337f0053170665fb814fa1ded0c076071a566efd6b0d308ded",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 3.001833438873291
+  },
+  "12": {
+    "cnf_sha256": "4fe463bc1578381af44447ab9539e78aa2d2533e5673d8c80e6a1a0494f6bb35",
+    "drat_sha256": "6d763f59a949e64bb5ef4781525862c4fee36be8979ffb8e08f4c18fba066cb5",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 0.7539458274841309
+  },
+  "13": {
+    "cnf_sha256": "cd39e7b715bdf62aa2d04763bdd1308590043f7a15e7e432fbd1919342d2a858",
+    "drat_sha256": "4e95aa6e0b882badbc434d0ae7bdd34a01db6fdf6ac60a8cbcd9b7855661739f",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 0.8061380386352539
+  },
+  "14": {
+    "cnf_sha256": "dffc20af776cc0e833ca8b4d12284afa38ed6430a289664b739eca90e299e44e",
+    "drat_sha256": "be93c9c23d9ae8afeedbd8ddda91080d3c03c44d2b0a1b307ec03c86bafb8f46",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 0.591871976852417
+  },
+  "15": {
+    "cnf_sha256": "2358419ece80de0b1509a2aaea80311f753dd79099b9d2a08d3d1d244866c27f",
+    "drat_sha256": "8a4f52bd10d81715f6a6029021604f6b60de112a0c3b463848a2620b3198ea92",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 0.7776057720184326
+  },
+  "16": {
+    "cnf_sha256": "34620475743a92a9cd89dd5d3f453442f5913663f4fcaeab16d155159c626f7b",
+    "drat_sha256": "a7451fc276a99065d86525fb74eff6d97456dc71b2d46103b5e023c02af8dde3",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 0.6295003890991211
+  },
+  "17": {
+    "cnf_sha256": "1ecfa30dd1da3ba0d9bba89be2f9b932c19a0ae82186edde52017093d9e6dfee",
+    "drat_sha256": "d61a35f40af84be780b76d7ee2659e9dd34426277b495e83018e68d9a7e160fd",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 0.5767440795898438
+  },
+  "18": {
+    "cnf_sha256": "3f69cb08f5d52108ba4a8bffa579b26e616c6c17a265050471512a07072e5676",
+    "drat_sha256": "43b268fbda3ae7a0866a795045378968c66179762c6f0a0901644fb3bfcb0fe6",
+    "checker": "drat-trim",
+    "status": "VERIFIED",
+    "elapsed_seconds": 0.5096051692962646
+  }
+}

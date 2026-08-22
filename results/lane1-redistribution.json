@@ -1,0 +1,1956 @@
+{
+  "stage": "discovery-primary-oracle",
+  "completed": 29,
+  "total": 29,
+  "elapsed_seconds": 3.104098320007324,
+  "counts": {
+    "colorable": 28,
+    "non-colorable": 1,
+    "timeout": 0
+  },
+  "rows": [
+    {
+      "candidate_id": "L1-0000",
+      "canonical_sha256": "8:12:135fea584dc78638715c86f17a40627fb80f153a237c640e61c6db8c6be4bd6a",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 2,
+        "V0_1": 4,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "u": 11,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R11_0": 3,
+        "V0_2": 4,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "V1_4": 3,
+        "R20_1": 3,
+        "R20_2": 3,
+        "R21_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            2,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.37334211298730224,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 66,
+        "branches": 2824,
+        "wall_time": 0.332201375
+      }
+    },
+    {
+      "candidate_id": "L1-0001",
+      "canonical_sha256": "8:12:f6a0b7be8c8e62b502431794421c9238138ce3350eca2fe152ecd9105dcc979c",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 2,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R11_0": 3,
+        "V0_2": 4,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "V1_4": 3,
+        "R20_1": 3,
+        "R20_2": 3,
+        "R21_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            2,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          3
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08645522300503217,
+        "span": 12,
+        "solver_status": "OPTIMAL",
+        "conflicts": 14,
+        "branches": 2721,
+        "wall_time": 0.083403106
+      }
+    },
+    {
+      "candidate_id": "L1-0002",
+      "canonical_sha256": "8:12:be591d4cf82d9ad39ef7876d886fa57d9046f79346cc313a0469226cc9d17536",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R11_0": 2,
+        "V0_2": 4,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "V1_4": 3,
+        "R20_1": 3,
+        "R20_2": 3,
+        "R21_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            2,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          1
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08901498100021854,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 6,
+        "branches": 2712,
+        "wall_time": 0.08571936200000001
+      }
+    },
+    {
+      "candidate_id": "L1-0003",
+      "canonical_sha256": "8:12:2291c1a1e65a25b2019dd09de2e4c4aa08e30f43f14bafb79bf8bcb3fb326a4a",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 2,
+        "V0_1": 4,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "u": 11,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R11_0": 3,
+        "V0_2": 4,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R11_2": 3,
+        "R12_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "V1_4": 3,
+        "R20_1": 3,
+        "R20_2": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.0918172859819606,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 90,
+        "branches": 2781,
+        "wall_time": 0.08997389500000001
+      }
+    },
+    {
+      "candidate_id": "L1-0004",
+      "canonical_sha256": "8:12:39e295d399fa8f8bda35798af8d428da81099f187c35e05f361bb78807f376c4",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 2,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R11_0": 3,
+        "V0_2": 4,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R11_2": 3,
+        "R12_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "V1_4": 3,
+        "R20_1": 3,
+        "R20_2": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            0,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          3
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.09037371401791461,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 72,
+        "branches": 2777,
+        "wall_time": 0.087100257
+      }
+    },
+    {
+      "candidate_id": "L1-0005",
+      "canonical_sha256": "8:12:a2e1f270d4e0600630d568f416e6b7e81908e37f2c704a82e2e8543a695b42dc",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 2,
+        "V0_1": 4,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "u": 11,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R21_1": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.10809962300118059,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 33,
+        "branches": 2728,
+        "wall_time": 0.106192121
+      }
+    },
+    {
+      "candidate_id": "L1-0006",
+      "canonical_sha256": "8:12:0ddd1f50a5ce9f94088a048d099ccbc670cbdbab89de8bb072da6885942bbb31",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 2,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R21_1": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          3
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08718467198195867,
+        "span": 12,
+        "solver_status": "OPTIMAL",
+        "conflicts": 18,
+        "branches": 2743,
+        "wall_time": 0.084510553
+      }
+    },
+    {
+      "candidate_id": "L1-0007",
+      "canonical_sha256": "8:12:7d1a28a90a8ac2746ce4b54ef900c54500a136e2c2f14a30f845745136e462bd",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 2,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R21_1": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          0
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08192880600108765,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 7,
+        "branches": 2708,
+        "wall_time": 0.079600524
+      }
+    },
+    {
+      "candidate_id": "L1-0008",
+      "canonical_sha256": "8:12:9c1eab96b3902e16bf1edd7cb34b8cdbe789a5e18028cf0d8f40acac78c43dfa",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R12_0": 2,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R21_1": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.09091505201649852,
+        "span": 12,
+        "solver_status": "OPTIMAL",
+        "conflicts": 8,
+        "branches": 2686,
+        "wall_time": 0.08850891400000001
+      }
+    },
+    {
+      "candidate_id": "L1-0009",
+      "canonical_sha256": "8:12:b2e8a3f454dce9e1159304b3f1fcdbc5dc6e1d96fdcd421e5f7a4bf867fc653a",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 2,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R21_1": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          2,
+          0
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.09764156598248519,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 35,
+        "branches": 2800,
+        "wall_time": 0.095385682
+      }
+    },
+    {
+      "candidate_id": "L1-0010",
+      "canonical_sha256": "8:12:0f04e4d2c8ca79ca3cd51fe0e31da020bd2ed15807039a60d053e360edf205f4",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 2,
+        "V0_1": 4,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "u": 11,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.13865230299415998,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 88,
+        "branches": 2811,
+        "wall_time": 0.13514895000000002
+      }
+    },
+    {
+      "candidate_id": "L1-0011",
+      "canonical_sha256": "8:12:33f43af1714498da02f6e6fc006dce6c086aada433ee17962e8f5798b3a5c4f1",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 2,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          3
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08675058701192029,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 29,
+        "branches": 2754,
+        "wall_time": 0.083672832
+      }
+    },
+    {
+      "candidate_id": "L1-0012",
+      "canonical_sha256": "8:12:f8d636b727a01f9b457ffd626e0c73f96c2cfba4a07ee6bb7ac347bbbf6ef44e",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 2,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          0
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08923841299838386,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 49,
+        "branches": 2793,
+        "wall_time": 0.08714653
+      }
+    },
+    {
+      "candidate_id": "L1-0013",
+      "canonical_sha256": "8:12:41516d5a4fc3ab4b446a807a7fca6a8f236255f0c150adcdb8d4a6c1bf0b359c",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 2,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          1
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.09924201600369997,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 43,
+        "branches": 2790,
+        "wall_time": 0.096610819
+      }
+    },
+    {
+      "candidate_id": "L1-0014",
+      "canonical_sha256": "8:12:aecceb08d9f5424a5a670000f81a300b000081ec548b493850f4ca3466b563ed",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R03_2": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R12_0": 2,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.0883481279888656,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 36,
+        "branches": 2791,
+        "wall_time": 0.086062105
+      }
+    },
+    {
+      "candidate_id": "L1-0015",
+      "canonical_sha256": "8:12:858c20f53bc2bb0c7ea50055c8331fc2410a8d703422a66cbfc63556f8d644f8",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 2,
+        "V0_1": 4,
+        "V1_6": 3,
+        "R02_1": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R12_0": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R21_1": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.09037454298231751,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 15,
+        "branches": 2735,
+        "wall_time": 0.08763536200000001
+      }
+    },
+    {
+      "candidate_id": "L1-0016",
+      "canonical_sha256": "8:12:bf766a1c990ee8ade98d1747e7838d29e1ab841f2efb8b421741463cd843fb3d",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R02_1": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 2,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R12_0": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R21_1": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            0,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          0
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.09341452299850062,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 31,
+        "branches": 2772,
+        "wall_time": 0.091187686
+      }
+    },
+    {
+      "candidate_id": "L1-0017",
+      "canonical_sha256": "8:12:4284fd85ab386ea5d678d442b2dbe222921d69a3ea5cddf0c1fefe46bfef4b66",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 2,
+        "V0_1": 4,
+        "V1_6": 3,
+        "R02_1": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.06340481599909253,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 13,
+        "branches": 2777,
+        "wall_time": 0.061100091
+      }
+    },
+    {
+      "candidate_id": "L1-0018",
+      "canonical_sha256": "8:12:9d8e3c180e3140607c3b537dacd0eed9cf388e12e66a82de6cf76fff10fb6988",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R02_1": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 2,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          0
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.06926132499938831,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 4,
+        "branches": 2731,
+        "wall_time": 0.066579925
+      }
+    },
+    {
+      "candidate_id": "L1-0019",
+      "canonical_sha256": "8:12:616c93b94dbfca7a3bbc77576a53177328db2334c26e0e811a1364fece3e456e",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R02_1": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 2,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          1
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.0744290979928337,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 64,
+        "branches": 2842,
+        "wall_time": 0.07231119700000001
+      }
+    },
+    {
+      "candidate_id": "L1-0020",
+      "canonical_sha256": "8:12:bcda20cd525625f56acc26908e7195ea5ace0778ca9f5a08e48b230deac69f05",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R02_0": 3,
+        "V0_1": 4,
+        "V1_6": 3,
+        "u": 11,
+        "R02_1": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "V1_5": 3,
+        "R11_1": 3,
+        "R13_0": 2,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            1,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          3
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08750583598157391,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 56,
+        "branches": 2853,
+        "wall_time": 0.085276323
+      }
+    },
+    {
+      "candidate_id": "L1-0021",
+      "canonical_sha256": "8:12:5dfd899cb0831be3ec5299d8ff92083934408920a0556edc813ec69ad578e5ac",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R01_0": 2,
+        "V0_1": 4,
+        "V1_5": 3,
+        "R02_0": 3,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "R12_0": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          1
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.07818502999725752,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 14,
+        "branches": 2797,
+        "wall_time": 0.076259062
+      }
+    },
+    {
+      "candidate_id": "L1-0022",
+      "canonical_sha256": "8:12:24bb8889df6a55b9bbe5c36c9e471bbd732e993eb431dd512bee307a5c54b5b6",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R01_0": 3,
+        "V0_1": 4,
+        "V1_5": 3,
+        "u": 11,
+        "R02_0": 3,
+        "V1_6": 3,
+        "R03_0": 2,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "R12_0": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          3
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.09920441900612786,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 135,
+        "branches": 3154,
+        "wall_time": 0.09500966400000001
+      }
+    },
+    {
+      "candidate_id": "L1-0023",
+      "canonical_sha256": "8:12:5c3fec0c70871a21c6a980c9d3279960804e51b9fa0d246610b784c0996c6295",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R01_0": 3,
+        "V0_1": 4,
+        "V1_5": 3,
+        "u": 11,
+        "R02_0": 3,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 2,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "R12_0": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          0
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.07240964900120161,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 0,
+        "branches": 2705,
+        "wall_time": 0.06953060200000001
+      }
+    },
+    {
+      "candidate_id": "L1-0024",
+      "canonical_sha256": "8:12:f9a137420ab45dcec2d37ee89f0831845d3d00a246392c966e1cb2878b3ee7c5",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R01_0": 3,
+        "V0_1": 4,
+        "V1_5": 3,
+        "u": 11,
+        "R02_0": 3,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 2,
+        "R12_0": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R22_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            0
+          ]
+        ],
+        "unhubbed_cell": [
+          1,
+          1
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.10588947500218637,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 123,
+        "branches": 2906,
+        "wall_time": 0.10161206900000001
+      }
+    },
+    {
+      "candidate_id": "L1-0025",
+      "canonical_sha256": "8:12:ebdf14984197af3d1fc1e077a1429e7dd545ff6fd4627078384151c9af9a64c8",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R01_0": 2,
+        "V0_1": 4,
+        "V1_5": 3,
+        "R02_0": 3,
+        "V1_6": 3,
+        "u": 11,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R23_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          1
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.10409895199700259,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 85,
+        "branches": 2888,
+        "wall_time": 0.10149114000000001
+      }
+    },
+    {
+      "candidate_id": "L1-0026",
+      "canonical_sha256": "8:12:8098d976dfcbf9df0f2bd27aa70a3a53c59adfc7a9ac0f8f3319dc92ae4bc3f7",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R01_0": 3,
+        "V0_1": 4,
+        "V1_5": 3,
+        "u": 11,
+        "R02_0": 2,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R23_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          2
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.089833264995832,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 89,
+        "branches": 2934,
+        "wall_time": 0.087780439
+      }
+    },
+    {
+      "candidate_id": "L1-0027",
+      "canonical_sha256": "8:12:66d7c8c75793d2d9d7266748dd854253e4d5bd80d07ef0e0f2d4d07b556b5ccc",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R01_0": 3,
+        "V0_1": 4,
+        "V1_5": 3,
+        "u": 11,
+        "R02_0": 3,
+        "V1_6": 3,
+        "R03_0": 2,
+        "V1_7": 3,
+        "R03_1": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "V1_4": 3,
+        "R11_0": 3,
+        "R12_0": 3,
+        "R12_1": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R20_1": 3,
+        "R21_0": 3,
+        "R23_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            1
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          3
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08944628099561669,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 73,
+        "branches": 2903,
+        "wall_time": 0.086816448
+      }
+    },
+    {
+      "candidate_id": "L1-0028",
+      "canonical_sha256": "8:12:2a0fa9f624188ea6a9e03a62e6ff02679de6c7610136792b2bb06e8d44a348bd",
+      "order": 20,
+      "size": 35,
+      "delta": 11,
+      "degrees": {
+        "R00_0": 2,
+        "V0_1": 4,
+        "V1_4": 3,
+        "R01_0": 3,
+        "V1_5": 3,
+        "u": 11,
+        "R02_0": 3,
+        "V1_6": 3,
+        "R03_0": 3,
+        "V1_7": 3,
+        "R10_0": 3,
+        "V0_2": 4,
+        "R11_0": 3,
+        "R12_0": 3,
+        "R13_0": 3,
+        "R20_0": 3,
+        "V0_3": 4,
+        "R21_0": 3,
+        "R22_0": 3,
+        "R23_0": 3
+      },
+      "metadata": {
+        "lane": "lane1-connector-redistribution",
+        "parent": "hat_K34_prime_Delta11",
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "unhubbed_cell": [
+          0,
+          0
+        ]
+      },
+      "primary_result": {
+        "status": "non-colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.23028982800315134,
+        "span": null,
+        "solver_status": "INFEASIBLE",
+        "conflicts": 393,
+        "branches": 3998,
+        "wall_time": 0.227652671
+      }
+    }
+  ]
+}

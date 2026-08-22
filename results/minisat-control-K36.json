@@ -1,0 +1,16 @@
+[
+  {
+    "file": "results/graphs/control-K36.graph.json",
+    "solver": "MiniSat 2.2",
+    "decision": "not-proved",
+    "spans": {
+      "6": {
+        "status": "SATISFIABLE",
+        "variables": 135,
+        "clauses": 1149,
+        "cnf_sha256": "d594d0d8ece71bb6c2ba94ec88fd5514a9aef87fd89bff87e7b609f2f4e592a2"
+      }
+    },
+    "elapsed_seconds": 0.07387638092041016
+  }
+]

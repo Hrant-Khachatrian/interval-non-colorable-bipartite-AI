@@ -1,0 +1,120 @@
+[
+  {
+    "file": "results/graphs/quotient-r1/Q1-00012.graph.json",
+    "candidate": "Q1-00012",
+    "canonical_sha256": "8:11:eec834587010499acfe094698e6a75c05984de65c5a3d4e51289b2502aa75887",
+    "order": 19,
+    "size": 34,
+    "delta": 11,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 11,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 11,
+        "margin": -1,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ],
+    "isomorphic_to_known": {
+      "M5_delta_555": false,
+      "Erd_Fano_2222221": false,
+      "hat_K34": false,
+      "hat_K34_prime_Delta11": false,
+      "hat_K222": false
+    }
+  },
+  {
+    "file": "results/graphs/quotient-r1/Q1-00014.graph.json",
+    "candidate": "Q1-00014",
+    "canonical_sha256": "8:11:2412ce4d084d92cdaa41c7e1a009e8011de4be9e281a3fe6349eb7fc057ef9a0",
+    "order": 19,
+    "size": 34,
+    "delta": 11,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 11,
+      "C1": 3,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 11,
+        "margin": -1,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ],
+    "isomorphic_to_known": {
+      "M5_delta_555": false,
+      "Erd_Fano_2222221": false,
+      "hat_K34": false,
+      "hat_K34_prime_Delta11": false,
+      "hat_K222": false
+    }
+  }
+]

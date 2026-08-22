@@ -1,0 +1,94 @@
+{
+  "completed": 2,
+  "selected_total": 2,
+  "counts": {
+    "colorable": 2,
+    "non-colorable": 0,
+    "timeout": 0
+  },
+  "elapsed_seconds": 60.68611431121826,
+  "rows": [
+    {
+      "candidate_id": "L2-00000",
+      "canonical_sha256": "7:10:d91de3798dbc2cb0866468eaa7c4a842ebafb8501b1c53fd51d32323578a1b4a",
+      "order": 17,
+      "size": 30,
+      "delta": 10,
+      "metadata": {
+        "lane": "lane2-partial-hub-subdivision",
+        "core_edge_count": 10,
+        "selected_core_edges": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "hub_degree": 10
+      },
+      "weighted_hub": {
+        "hub": "U",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.19437128098797984,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 0,
+        "branches": 666,
+        "wall_time": 0.16839362300000002
+      }
+    },
+    {
+      "candidate_id": "L2-00001",
+      "canonical_sha256": "7:11:cfaf5bdc19a7d8ecc609cd43c08730da6c9639172c6a221538d3cd4dca8195c8",
+      "order": 18,
+      "size": 32,
+      "delta": 10,
+      "metadata": {
+        "lane": "lane2-partial-hub-subdivision",
+        "core_edge_count": 11,
+        "selected_core_edges": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "hub_degree": 10
+      },
+      "weighted_hub": {
+        "hub": "U",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04503876398666762,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 9,
+        "branches": 2424,
+        "wall_time": 0.042956681000000004
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "schema": "interval-non-colorability-certificate-v1",
+  "claim": "Q1-00014 is a new connected simple bipartite graph with no interval edge coloring",
+  "construction": {
+    "lane": "same-side-quotient",
+    "parent": "hat_K34_prime_Delta11",
+    "candidate_id": "Q1-00014",
+    "order_reduction": 1,
+    "blocks": [
+      [
+        "C0",
+        "C4"
+      ]
+    ]
+  },
+  "graph": {
+    "order": 19,
+    "size": 34,
+    "maximum_degree": 11,
+    "minimum_degree": 2,
+    "bipartition_sizes": [
+      8,
+      11
+    ],
+    "labelled_sha256": "2988c1da33ce1a68691154e0ac6933a8dccf12a34d4ae93dd69851d800db6db3",
+    "bipartition_canonical_sha256": "8:11:2412ce4d084d92cdaa41c7e1a009e8011de4be9e281a3fe6349eb7fc057ef9a0",
+    "graph_file_sha256": "1ee7847a269d480d07a343a2eed0e01d3bf135d0c4ffacc000986aac465d2416"
+  },
+  "verification": {
+    "rank_potential_cp_sat": "UNSAT all legal spans",
+    "fixed_start_color_cp_sat": {
+      "11": "INFEASIBLE",
+      "12": "INFEASIBLE",
+      "13": "INFEASIBLE",
+      "14": "INFEASIBLE",
+      "15": "INFEASIBLE",
+      "16": "INFEASIBLE",
+      "17": "INFEASIBLE",
+      "18": "INFEASIBLE"
+    },
+    "minisat_dimacs": {
+      "11": "UNSATISFIABLE",
+      "12": "UNSATISFIABLE",
+      "13": "UNSATISFIABLE",
+      "14": "UNSATISFIABLE",
+      "15": "UNSATISFIABLE",
+      "16": "UNSATISFIABLE",
+      "17": "UNSATISFIABLE",
+      "18": "UNSATISFIABLE"
+    },
+    "cnf_sha256_by_span": {
+      "11": "19caf4c04fd863334ddd289aa205654bfd3dda3c757e226c6100978d9d05f647",
+      "12": "4fe463bc1578381af44447ab9539e78aa2d2533e5673d8c80e6a1a0494f6bb35",
+      "13": "cd39e7b715bdf62aa2d04763bdd1308590043f7a15e7e432fbd1919342d2a858",
+      "14": "dffc20af776cc0e833ca8b4d12284afa38ed6430a289664b739eca90e299e44e",
+      "15": "2358419ece80de0b1509a2aaea80311f753dd79099b9d2a08d3d1d244866c27f",
+      "16": "34620475743a92a9cd89dd5d3f453442f5913663f4fcaeab16d155159c626f7b",
+      "17": "1ecfa30dd1da3ba0d9bba89be2f9b932c19a0ae82186edde52017093d9e6dfee",
+      "18": "3f69cb08f5d52108ba4a8bffa579b26e616c6c17a265050471512a07072e5676"
+    },
+    "positive_negative_controls": "K(3,5) gives UNSAT at 5,6 and SAT at 7; M(5,5,5) is UNSAT at all legal spans",
+    "coloring_verifier_corruption_test": "passed 2026-08-22"
+  },
+  "minimality": {
+    "single_edge_deletions_checked": 34,
+    "negative_single_edge_deletions": 0,
+    "single_vertex_deletions_checked": 19,
+    "negative_single_vertex_deletions": 0,
+    "timeouts": 0,
+    "result": "edge-minimal and vertex-minimal among deletion checks"
+  },
+  "novelty_against_reconstructed_benchmarks": {
+    "M5_delta_555": false,
+    "Erd_Fano_2222221": false,
+    "hat_K34": false,
+    "hat_K34_prime_Delta11": false,
+    "hat_K222": false
+  },
+  "limitations": [
+    "Novelty statement is relative to the five reconstructed published benchmarks and the 2026-08-22 literature survey in the research plan.",
+    "CP-SAT does not emit a DRAT/LRAT proof here; the independent second-solver evidence is MiniSat on separately exported DIMACS CNFs."
+  ],
+  "symmetry": {
+    "automorphism_group_size": 12,
+    "orbit_count": 9,
+    "orbits_on_canonical_indices": [
+      0,
+      0,
+      2,
+      3,
+      4,
+      4,
+      4,
+      7,
+      8,
+      9,
+      10,
+      10,
+      9,
+      9,
+      9,
+      9,
+      9,
+      17,
+      10
+    ],
+    "pairwise_nonisomorphic_to_other_new_candidate": true
+  },
+  "formal_certificates": {
+    "format": "DRAT (PicoSAT RUP header stripped; checked by DRAT-Trim)",
+    "spans": {
+      "11": {
+        "cnf_sha256": "19caf4c04fd863334ddd289aa205654bfd3dda3c757e226c6100978d9d05f647",
+        "drat_sha256": "0c86e2fcc5a73e337f0053170665fb814fa1ded0c076071a566efd6b0d308ded",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 3.001833438873291
+      },
+      "12": {
+        "cnf_sha256": "4fe463bc1578381af44447ab9539e78aa2d2533e5673d8c80e6a1a0494f6bb35",
+        "drat_sha256": "6d763f59a949e64bb5ef4781525862c4fee36be8979ffb8e08f4c18fba066cb5",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 0.7539458274841309
+      },
+      "13": {
+        "cnf_sha256": "cd39e7b715bdf62aa2d04763bdd1308590043f7a15e7e432fbd1919342d2a858",
+        "drat_sha256": "4e95aa6e0b882badbc434d0ae7bdd34a01db6fdf6ac60a8cbcd9b7855661739f",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 0.8061380386352539
+      },
+      "14": {
+        "cnf_sha256": "dffc20af776cc0e833ca8b4d12284afa38ed6430a289664b739eca90e299e44e",
+        "drat_sha256": "be93c9c23d9ae8afeedbd8ddda91080d3c03c44d2b0a1b307ec03c86bafb8f46",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 0.591871976852417
+      },
+      "15": {
+        "cnf_sha256": "2358419ece80de0b1509a2aaea80311f753dd79099b9d2a08d3d1d244866c27f",
+        "drat_sha256": "8a4f52bd10d81715f6a6029021604f6b60de112a0c3b463848a2620b3198ea92",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 0.7776057720184326
+      },
+      "16": {
+        "cnf_sha256": "34620475743a92a9cd89dd5d3f453442f5913663f4fcaeab16d155159c626f7b",
+        "drat_sha256": "a7451fc276a99065d86525fb74eff6d97456dc71b2d46103b5e023c02af8dde3",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 0.6295003890991211
+      },
+      "17": {
+        "cnf_sha256": "1ecfa30dd1da3ba0d9bba89be2f9b932c19a0ae82186edde52017093d9e6dfee",
+        "drat_sha256": "d61a35f40af84be780b76d7ee2659e9dd34426277b495e83018e68d9a7e160fd",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 0.5767440795898438
+      },
+      "18": {
+        "cnf_sha256": "3f69cb08f5d52108ba4a8bffa579b26e616c6c17a265050471512a07072e5676",
+        "drat_sha256": "43b268fbda3ae7a0866a795045378968c66179762c6f0a0901644fb3bfcb0fe6",
+        "checker": "drat-trim",
+        "status": "VERIFIED",
+        "elapsed_seconds": 0.5096051692962646
+      }
+    },
+    "all_spans_verified": true
+  },
+  "structural_checks": {
+    "simple": true,
+    "connected": true,
+    "bipartite": true,
+    "minimum_degree": 2
+  }
+}

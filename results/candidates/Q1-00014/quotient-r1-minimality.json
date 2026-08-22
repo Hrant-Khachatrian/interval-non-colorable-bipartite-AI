@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 6.8817458152771,
+  "graphs": [
+    {
+      "candidate_id": "Q1-00012",
+      "canonical_sha256": "8:11:eec834587010499acfe094698e6a75c05984de65c5a3d4e51289b2502aa75887",
+      "order": 19,
+      "size": 34,
+      "delta": 11,
+      "edge_deletion_negative": [],
+      "vertex_deletion_negative": [],
+      "edge_checks": 34,
+      "vertex_checks": 19,
+      "timeouts": 0
+    },
+    {
+      "candidate_id": "Q1-00014",
+      "canonical_sha256": "8:11:2412ce4d084d92cdaa41c7e1a009e8011de4be9e281a3fe6349eb7fc057ef9a0",
+      "order": 19,
+      "size": 34,
+      "delta": 11,
+      "edge_deletion_negative": [],
+      "vertex_deletion_negative": [],
+      "edge_checks": 34,
+      "vertex_checks": 19,
+      "timeouts": 0
+    }
+  ]
+}

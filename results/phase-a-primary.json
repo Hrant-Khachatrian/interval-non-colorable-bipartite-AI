@@ -1,0 +1,341 @@
+[
+  {
+    "name": "M5_delta_555",
+    "order": 19,
+    "size": 45,
+    "delta": 15,
+    "degrees": {
+      "a0": 3,
+      "v": 15,
+      "x": 10,
+      "y": 10,
+      "a1": 3,
+      "a2": 3,
+      "a3": 3,
+      "a4": 3,
+      "b0": 3,
+      "z": 10,
+      "b1": 3,
+      "b2": 3,
+      "b3": 3,
+      "b4": 3,
+      "c0": 3,
+      "c1": 3,
+      "c2": 3,
+      "c3": 3,
+      "c4": 3
+    },
+    "sha256_labelled": "cc2407b775cc5092c2a98bd9b4b8311ef821233e310502cdb38430de94c98573",
+    "rank_potential": {
+      "status": "non-colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08161137899151072,
+      "coloring": null,
+      "span": null,
+      "solver_status": "INFEASIBLE",
+      "conflicts": 0,
+      "branches": 0,
+      "wall_time": 0.0692528
+    },
+    "weighted_hubs_best": [
+      {
+        "hub": "v",
+        "degree": 15,
+        "weighted_neighbor_diameter": 13,
+        "margin": 1,
+        "sufficient_obstruction": true
+      },
+      {
+        "hub": "x",
+        "degree": 10,
+        "weighted_neighbor_diameter": 18,
+        "margin": -9,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "y",
+        "degree": 10,
+        "weighted_neighbor_diameter": 18,
+        "margin": -9,
+        "sufficient_obstruction": false
+      }
+    ],
+    "modular": {
+      "2": "unsatisfiable",
+      "3": "unsatisfiable",
+      "5": "unsatisfiable"
+    }
+  },
+  {
+    "name": "Erd_Fano_2222221",
+    "order": 21,
+    "size": 52,
+    "delta": 13,
+    "degrees": {
+      "W0": 4,
+      "u": 13,
+      "P0": 6,
+      "P1": 6,
+      "P2": 5,
+      "W1": 4,
+      "W2": 4,
+      "P3": 6,
+      "P4": 5,
+      "W3": 4,
+      "W4": 4,
+      "P5": 5,
+      "P6": 6,
+      "W5": 4,
+      "W6": 4,
+      "W7": 4,
+      "W8": 4,
+      "W9": 4,
+      "W10": 4,
+      "W11": 4,
+      "W12": 4
+    },
+    "sha256_labelled": "35d345c1286cb6f888cd6d253dabc88156382a68931bff2e36173af6c44be506",
+    "rank_potential": {
+      "status": "non-colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.008589712000684813,
+      "coloring": null,
+      "span": null,
+      "solver_status": "INFEASIBLE",
+      "conflicts": 0,
+      "branches": 0,
+      "wall_time": 0.007282591000000001
+    },
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 13,
+        "weighted_neighbor_diameter": 11,
+        "margin": 1,
+        "sufficient_obstruction": true
+      },
+      {
+        "hub": "P0",
+        "degree": 6,
+        "weighted_neighbor_diameter": 17,
+        "margin": -12,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "P1",
+        "degree": 6,
+        "weighted_neighbor_diameter": 17,
+        "margin": -12,
+        "sufficient_obstruction": false
+      }
+    ],
+    "modular": {
+      "2": "unsatisfiable",
+      "3": "unsatisfiable",
+      "5": "unsatisfiable"
+    }
+  },
+  {
+    "name": "hat_K34",
+    "order": 20,
+    "size": 36,
+    "delta": 12,
+    "degrees": {
+      "C0": 3,
+      "V0_1": 4,
+      "V1_4": 3,
+      "u": 12,
+      "C1": 3,
+      "V1_5": 3,
+      "C2": 3,
+      "V1_6": 3,
+      "C3": 3,
+      "V1_7": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "V0_3": 4,
+      "C9": 3,
+      "C10": 3,
+      "C11": 3
+    },
+    "sha256_labelled": "749d8229e6f3de0144e400f3ae5eb3b2e4919c558fe3feeebad378be74947184",
+    "rank_potential": {
+      "status": "non-colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.05347173000336625,
+      "coloring": null,
+      "span": null,
+      "solver_status": "INFEASIBLE",
+      "conflicts": 6,
+      "branches": 719,
+      "wall_time": 0.052205015
+    },
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 12,
+        "weighted_neighbor_diameter": 11,
+        "margin": 0,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 15,
+        "margin": -12,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 15,
+        "margin": -12,
+        "sufficient_obstruction": false
+      }
+    ],
+    "modular": {
+      "2": "unsatisfiable",
+      "3": "unsatisfiable",
+      "5": "unsatisfiable"
+    }
+  },
+  {
+    "name": "hat_K34_prime_Delta11",
+    "order": 20,
+    "size": 35,
+    "delta": 11,
+    "degrees": {
+      "C0": 2,
+      "V0_1": 4,
+      "V1_4": 3,
+      "C1": 3,
+      "V1_5": 3,
+      "u": 11,
+      "C2": 3,
+      "V1_6": 3,
+      "C3": 3,
+      "V1_7": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "V0_3": 4,
+      "C9": 3,
+      "C10": 3,
+      "C11": 3
+    },
+    "sha256_labelled": "494ab07e878b2c06ea5915f6de150a34df9e37948558b4c24860830d88067af0",
+    "rank_potential": {
+      "status": "non-colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08662195599754341,
+      "coloring": null,
+      "span": null,
+      "solver_status": "INFEASIBLE",
+      "conflicts": 391,
+      "branches": 3046,
+      "wall_time": 0.085394175
+    },
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 11,
+        "margin": -1,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ],
+    "modular": {
+      "2": "unsatisfiable",
+      "3": "unsatisfiable",
+      "5": "unsatisfiable"
+    }
+  },
+  {
+    "name": "hat_K222",
+    "order": 19,
+    "size": 36,
+    "delta": 12,
+    "degrees": {
+      "C0": 3,
+      "V0_1": 4,
+      "V1_3": 4,
+      "u": 12,
+      "C1": 3,
+      "V1_4": 4,
+      "C2": 3,
+      "V0_2": 4,
+      "C3": 3,
+      "C4": 3,
+      "V2_5": 4,
+      "C5": 3,
+      "V2_6": 4,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3,
+      "C10": 3,
+      "C11": 3
+    },
+    "sha256_labelled": "f8dfda03aa4e8f6056f314c93229d6ed9aa7517fada2c10571d1853383c48ffd",
+    "rank_potential": {
+      "status": "non-colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.039323637989582494,
+      "coloring": null,
+      "span": null,
+      "solver_status": "INFEASIBLE",
+      "conflicts": 109,
+      "branches": 2420,
+      "wall_time": 0.038175998
+    },
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 12,
+        "weighted_neighbor_diameter": 12,
+        "margin": -1,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 15,
+        "margin": -12,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 15,
+        "margin": -12,
+        "sufficient_obstruction": false
+      }
+    ],
+    "modular": {
+      "2": "unsatisfiable",
+      "3": "unsatisfiable",
+      "5": "unsatisfiable"
+    }
+  }
+]

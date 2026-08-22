@@ -1,0 +1,34 @@
+[
+  {
+    "file": "results/graphs/M5_delta_555.graph.json",
+    "solver": "MiniSat 2.2",
+    "decision": "non-colorable",
+    "spans": {
+      "15": {
+        "status": "UNSATISFIABLE",
+        "variables": 889,
+        "clauses": 19564,
+        "cnf_sha256": "0a19f3a8628b3d757c3a49f6507952ada55bc0079efc578a749a0493890c8f7d"
+      },
+      "16": {
+        "status": "UNSATISFIABLE",
+        "variables": 953,
+        "clauses": 22389,
+        "cnf_sha256": "4487949179a7f100d73a07ec69adc86e46ab2cd28f409b66f5f71e2914f7cfe8"
+      },
+      "17": {
+        "status": "UNSATISFIABLE",
+        "variables": 1017,
+        "clauses": 25458,
+        "cnf_sha256": "aefd572ad97ead5c332ca8f8909e25f19dfefc82eb5a65d3b3970790f614c76e"
+      },
+      "18": {
+        "status": "UNSATISFIABLE",
+        "variables": 1081,
+        "clauses": 28771,
+        "cnf_sha256": "2c99b5d3a6101720525295c3d5bf81bc998a21fcc1d536a498a040c5e72afe4e"
+      }
+    },
+    "elapsed_seconds": 0.8329412937164307
+  }
+]

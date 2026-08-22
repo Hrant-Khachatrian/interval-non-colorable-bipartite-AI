@@ -1,0 +1,176 @@
+{
+  "M5_delta_555": {
+    "encoding": "fixed-span-sat",
+    "decision": "non-colorable",
+    "spans": {
+      "15": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "16": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "17": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "18": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      }
+    }
+  },
+  "Erd_Fano_2222221": {
+    "encoding": "fixed-span-sat",
+    "decision": "non-colorable",
+    "spans": {
+      "13": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "14": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "15": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "16": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "17": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "18": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "19": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "20": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      }
+    }
+  },
+  "hat_K34": {
+    "encoding": "fixed-span-sat",
+    "decision": "non-colorable",
+    "spans": {
+      "12": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "13": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "14": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "15": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "16": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "17": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "18": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "19": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      }
+    }
+  },
+  "hat_K34_prime_Delta11": {
+    "encoding": "fixed-span-sat",
+    "decision": "non-colorable",
+    "spans": {
+      "11": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "12": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "13": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "14": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "15": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "16": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "17": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "18": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "19": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      }
+    }
+  },
+  "hat_K222": {
+    "encoding": "fixed-span-sat",
+    "decision": "non-colorable",
+    "spans": {
+      "12": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "13": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "14": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "15": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "16": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "17": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      },
+      "18": {
+        "status": "INFEASIBLE",
+        "coloring": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "file": "results/graphs/quotient-r1/Q1-00012.graph.json",
+    "solver": "MiniSat 2.2",
+    "decision": "non-colorable",
+    "spans": {
+      "11": {
+        "status": "UNSATISFIABLE",
+        "variables": 534,
+        "clauses": 8516,
+        "cnf_sha256": "ee5d6753b684a945a62d39c04f5cc97f8125c09e579069a96a770721fe756174"
+      },
+      "12": {
+        "status": "UNSATISFIABLE",
+        "variables": 587,
+        "clauses": 10261,
+        "cnf_sha256": "0b168a5f6bee9bce5e440ff2a6fcaf6ee1af1fcb12650386958bb4691fa96307"
+      },
+      "13": {
+        "status": "UNSATISFIABLE",
+        "variables": 640,
+        "clauses": 12195,
+        "cnf_sha256": "7d4d5aa77e85abb4a23355def48d7d588708c465c4de1bd94bd524633205efb1"
+      },
+      "14": {
+        "status": "UNSATISFIABLE",
+        "variables": 693,
+        "clauses": 14318,
+        "cnf_sha256": "6907e36a185c36ff069a93684a6b8b4cd684b6c5d6c7fd02a04b6b0a4e0e4caa"
+      },
+      "15": {
+        "status": "UNSATISFIABLE",
+        "variables": 746,
+        "clauses": 16630,
+        "cnf_sha256": "3bafd7b96f6532f44582e08858c053619ff0eed0b3070b79c0ed0c641640e2e3"
+      },
+      "16": {
+        "status": "UNSATISFIABLE",
+        "variables": 799,
+        "clauses": 19131,
+        "cnf_sha256": "1295bde2266c277f3ab0770f5a10c715d99f16088e8f61c2d6ff508dace3e1da"
+      },
+      "17": {
+        "status": "UNSATISFIABLE",
+        "variables": 852,
+        "clauses": 21821,
+        "cnf_sha256": "7f8d8b53a8db79e0706f598f2a258c032264364bfdd59d937808b9f15ec41eca"
+      },
+      "18": {
+        "status": "UNSATISFIABLE",
+        "variables": 905,
+        "clauses": 24700,
+        "cnf_sha256": "fe880e4bc5bd5e0ecc92bcb387faa6a598f3b081a5e3ecedd52fb35c297a6db2"
+      }
+    },
+    "elapsed_seconds": 2.07065486907959
+  },
+  {
+    "file": "results/graphs/quotient-r1/Q1-00014.graph.json",
+    "solver": "MiniSat 2.2",
+    "decision": "non-colorable",
+    "spans": {
+      "11": {
+        "status": "UNSATISFIABLE",
+        "variables": 534,
+        "clauses": 8500,
+        "cnf_sha256": "19caf4c04fd863334ddd289aa205654bfd3dda3c757e226c6100978d9d05f647"
+      },
+      "12": {
+        "status": "UNSATISFIABLE",
+        "variables": 587,
+        "clauses": 10242,
+        "cnf_sha256": "4fe463bc1578381af44447ab9539e78aa2d2533e5673d8c80e6a1a0494f6bb35"
+      },
+      "13": {
+        "status": "UNSATISFIABLE",
+        "variables": 640,
+        "clauses": 12173,
+        "cnf_sha256": "cd39e7b715bdf62aa2d04763bdd1308590043f7a15e7e432fbd1919342d2a858"
+      },
+      "14": {
+        "status": "UNSATISFIABLE",
+        "variables": 693,
+        "clauses": 14293,
+        "cnf_sha256": "dffc20af776cc0e833ca8b4d12284afa38ed6430a289664b739eca90e299e44e"
+      },
+      "15": {
+        "status": "UNSATISFIABLE",
+        "variables": 746,
+        "clauses": 16602,
+        "cnf_sha256": "2358419ece80de0b1509a2aaea80311f753dd79099b9d2a08d3d1d244866c27f"
+      },
+      "16": {
+        "status": "UNSATISFIABLE",
+        "variables": 799,
+        "clauses": 19100,
+        "cnf_sha256": "34620475743a92a9cd89dd5d3f453442f5913663f4fcaeab16d155159c626f7b"
+      },
+      "17": {
+        "status": "UNSATISFIABLE",
+        "variables": 852,
+        "clauses": 21787,
+        "cnf_sha256": "1ecfa30dd1da3ba0d9bba89be2f9b932c19a0ae82186edde52017093d9e6dfee"
+      },
+      "18": {
+        "status": "UNSATISFIABLE",
+        "variables": 905,
+        "clauses": 24663,
+        "cnf_sha256": "3f69cb08f5d52108ba4a8bffa579b26e616c6c17a265050471512a07072e5676"
+      }
+    },
+    "elapsed_seconds": 2.1441569328308105
+  }
+]
