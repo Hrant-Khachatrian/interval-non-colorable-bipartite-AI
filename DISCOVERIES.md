@@ -11,9 +11,9 @@ Status: verified candidates, 2026-08-22. These are **new graphs**, not new recor
   `8:11:eec834587010499acfe094698e6a75c05984de65c5a3d4e51289b2502aa75887`.
 - Automorphism group order 8; 9 vertex orbits.
 
-![Q1-00012 full bipartite graph](figures/Q1-00012-full.png)
+![Q1-00012 three-layer construction view](figures/Q1-00012-full.png)
 
-**Figure 1.** The complete graph with its two bipartition classes. The red hub must receive a block of eleven consecutive colors; purple marks the vertex produced by identifying connectors `C0` and `C1`.
+**Figure 1.** Three-layer construction view: `u` is in the top layer, all eleven vertices adjacent to `u` are in the middle layer, and their core endpoints are in the bottom layer. Purple marks the merged connector.
 
 ![Q1-00012 hub-constraint view](figures/Q1-00012-hub-constraint.png)
 
@@ -32,9 +32,9 @@ Status: verified candidates, 2026-08-22. These are **new graphs**, not new recor
   `8:11:2412ce4d084d92cdaa41c7e1a009e8011de4be9e281a3fe6349eb7fc057ef9a0`.
 - Automorphism group order 12; 9 vertex orbits.
 
-![Q1-00014 full bipartite graph](figures/Q1-00014-full.png)
+![Q1-00014 three-layer construction view](figures/Q1-00014-full.png)
 
-**Figure 4.** The second discovered graph in bipartite-column form. Purple marks the merged connector `C0&C4`; red marks the degree-11 hub.
+**Figure 4.** The second discovered graph in three-layer form: hub `u`, its eleven neighbors, and the core endpoints reached through them. Purple marks the merged connector `C0&C4`.
 
 ![Q1-00014 hub-constraint view](figures/Q1-00014-hub-constraint.png)
 

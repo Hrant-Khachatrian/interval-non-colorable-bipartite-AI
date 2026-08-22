@@ -24,6 +24,15 @@ MERGED_COLOR = "#7A52A5"
 LEFT_COLOR = "#37678E"
 RIGHT_COLOR = "#468C5F"
 EDGE_COLOR = "#767676"
+MIDDLE_GROUP_COLORS = {
+    "V0_1": "#3D6FA8",
+    "V0_2": "#C86A1D",
+    "V0_3": "#3E8452",
+}
+BOTTOM_GROUP_COLORS = {
+    "V0": "#8FBBD9",
+    "V1": "#E8C564",
+}
 
 
 def load_candidate(path: Path) -> tuple[Graph, dict]:
@@ -45,40 +54,49 @@ def node_colors(graph: Graph, merged_name: str) -> dict[str, str]:
     }
 
 
-def barycenter_layout(graph: Graph) -> dict[str, tuple[float, float]]:
-    left_all = sorted(graph.bipartition[0])
-    right = sorted(graph.bipartition[1])
-    left = ["u"] + [v for v in left_all if v != "u"]
-    adjacency = {v: set(graph._nx.neighbors(v)) for v in graph.vertices}
-    for _ in range(6):
-        right.sort(
-            key=lambda v: (
-                sum(left.index(n) for n in adjacency[v]) / len(adjacency[v]),
-                v,
-            )
-        )
-        movable = left[1:]
-        movable.sort(
-            key=lambda v: (
-                sum(right.index(n) for n in adjacency[v]) / len(adjacency[v]),
-                v,
-            )
-        )
-        left = ["u"] + movable
+def layered_positions(graph: Graph):
+    """Place u, N(u), and the remaining core endpoints in three wide rows."""
 
-    def ys(count: int) -> list[float]:
-        return np.linspace(1.0, 0.0, count).tolist()
+    middle = sorted(graph._nx.neighbors("u"))
+    bottom = sorted(v for v in graph.bipartition[0] if v != "u")
+    pos = {"u": (0.5, 0.96)}
+    middle_x = np.linspace(0.035, 0.965, len(middle))
+    pos.update((vertex, (x, 0.58)) for vertex, x in zip(middle, middle_x))
+    bottom_x = np.linspace(0.05, 0.95, len(bottom))
+    pos.update((vertex, (x, 0.09)) for vertex, x in zip(bottom, bottom_x))
+    return pos
 
-    left_y = ys(len(left))
-    right_y = ys(len(right))
-    return {v: (0.0, left_y[i]) for i, v in enumerate(left)} | {
-        v: (1.0, right_y[i]) for i, v in enumerate(right)
-    }
+
+def middle_group(vertex: str, graph: Graph, merged_name: str) -> str:
+    if vertex == merged_name:
+        return "merged"
+    core_neighbors = [
+        neighbor for neighbor in graph._nx.neighbors(vertex)
+        if neighbor != "u" and neighbor.startswith("V0_")
+    ]
+    return sorted(core_neighbors)[0]
 
 
 def draw_full_graph(ax: plt.Axes, graph: Graph, merged_name: str) -> None:
-    pos = barycenter_layout(graph)
-    colors = node_colors(graph, merged_name)
+    pos = layered_positions(graph)
+    middle = sorted(graph._nx.neighbors("u"))
+    bottom = sorted(v for v in graph.bipartition[0] if v != "u")
+    colors = {"u": HUB_COLOR}
+    for vertex in middle:
+        group = middle_group(vertex, graph, merged_name)
+        colors[vertex] = MERGED_COLOR if group == "merged" else MIDDLE_GROUP_COLORS[group]
+    for vertex in bottom:
+        colors[vertex] = BOTTOM_GROUP_COLORS[vertex.rsplit("_", 1)[0]]
+
+    ax.axhspan(0.82, 1.03, facecolor="#F4DAD8", alpha=0.42, zorder=-3)
+    ax.axhspan(0.40, 0.74, facecolor="#E8EFF5", alpha=0.48, zorder=-3)
+    ax.axhspan(-0.02, 0.25, facecolor="#F1EBDA", alpha=0.48, zorder=-3)
+    ax.text(0.005, 0.995, "HUB", fontsize=8.5, weight="bold", color="#8E332F", va="top")
+    ax.text(0.005, 0.715, "ELEVEN VERTICES ADJACENT TO u", fontsize=8.5,
+            weight="bold", color="#37536A", va="top")
+    ax.text(0.005, 0.225, "CORE ENDPOINTS REACHED THROUGH THOSE ELEVEN",
+            fontsize=8.5, weight="bold", color="#6C5A29", va="top")
+
     edge_sets = {
         "merged": [],
         "hub": [],
@@ -94,51 +112,57 @@ def draw_full_graph(ax: plt.Axes, graph: Graph, merged_name: str) -> None:
     nx_graph = graph._nx
     nx.draw_networkx_edges(
         nx_graph, pos, edgelist=edge_sets["normal"], ax=ax,
-        edge_color=EDGE_COLOR, width=0.85, alpha=0.48
+        edge_color=EDGE_COLOR, width=1.05, alpha=0.46
     )
     nx.draw_networkx_edges(
         nx_graph, pos, edgelist=edge_sets["hub"], ax=ax,
-        edge_color=HUB_COLOR, width=1.65, alpha=0.82
+        edge_color=HUB_COLOR, width=2.1, alpha=0.84
     )
     nx.draw_networkx_edges(
         nx_graph, pos, edgelist=edge_sets["merged"], ax=ax,
-        edge_color=MERGED_COLOR, width=2.1, alpha=0.95
+        edge_color=MERGED_COLOR, width=2.5, alpha=1.0
     )
     nx.draw_networkx_nodes(
-        nx_graph, pos, ax=ax, node_size=520,
+        nx_graph, pos, ax=ax,
+        node_size=[1300 if v == "u" else 650 for v in graph.vertices],
         node_color=[colors[v] for v in graph.vertices], edgecolors="white", linewidths=1.1
     )
+    ux, uy = pos["u"]
+    ax.add_patch(plt.Circle((ux, uy), 0.024, facecolor=HUB_COLOR, edgecolor="white",
+                            linewidth=1.5, zorder=4))
     for vertex, (x, y) in pos.items():
-        if x < 0.5:
-            ax.text(
-                x - 0.035, y, vertex, ha="right", va="center", fontsize=8.2,
-                color="#25313D",
-                bbox={"boxstyle": "round,pad=0.18", "fc": "white", "ec": "#D5DCE2", "lw": 0.5},
-            )
-        else:
-            ax.text(
-                x + 0.035, y, vertex, ha="left", va="center", fontsize=8.2,
-                color="#25313D",
-                bbox={"boxstyle": "round,pad=0.18", "fc": "white", "ec": "#D5DCE2", "lw": 0.5},
-            )
-    ax.set_title("Full bipartite graph", fontsize=15, weight="bold", loc="left")
-    ax.text(
-        0.0, -0.07,
-        f"{graph.n} vertices, {graph.m} edges, maximum degree {graph.delta}. "
-        "The red hub requires eleven consecutive incident colors.",
-        transform=ax.transAxes, fontsize=10, color="#43535F",
-    )
+        above = y > 0.7
+        below = y < 0.25
+        if vertex == "u":
+            ax.text(x, y - 0.075, "u", ha="center", va="center", fontsize=9.0,
+                    weight="bold", color="#7C2723")
+            continue
+        ax.text(
+            x, y + (0.065 if above else -0.072 if below else 0),
+            vertex, ha="center", va="center", fontsize=8.0, color="#25313D",
+            bbox={"boxstyle": "round,pad=0.17", "fc": "white", "ec": "#D5DCE2", "lw": 0.5},
+        )
+    ax.set_title("Three-layer construction view", fontsize=16, weight="bold", loc="left")
     legend = [
         Line2D([0], [0], marker="o", color="none", markerfacecolor=HUB_COLOR, markersize=9, label="Hub u"),
         Line2D([0], [0], marker="o", color="none", markerfacecolor=MERGED_COLOR, markersize=9, label=f"Merged vertex {merged_name}"),
-        Line2D([0], [0], marker="o", color="none", markerfacecolor=LEFT_COLOR, markersize=9, label="Other left side"),
-        Line2D([0], [0], marker="o", color="none", markerfacecolor=RIGHT_COLOR, markersize=9, label="Other right side"),
+        *[Line2D([0], [0], marker="o", color="none", markerfacecolor=color, markersize=8,
+                 label=f"Connector via {group}") for group, color in MIDDLE_GROUP_COLORS.items()],
+        Patch(facecolor=BOTTOM_GROUP_COLORS["V0"], edgecolor="#9BA9B4", label="V0 core endpoint"),
+        Patch(facecolor=BOTTOM_GROUP_COLORS["V1"], edgecolor="#9BA9B4", label="V1 core endpoint"),
         Line2D([0], [0], color=HUB_COLOR, lw=2, label="Hub incidence"),
         Line2D([0], [0], color=MERGED_COLOR, lw=2, label="Merged incidence"),
     ]
-    ax.legend(handles=legend, loc="upper right", frameon=True, fontsize=8, ncols=2)
-    ax.set_xlim(-0.38, 1.38)
-    ax.set_ylim(-0.12, 1.08)
+    ax.text(
+        1.0, 0.995,
+        f"{graph.n} vertices, {graph.m} edges, maximum degree {graph.delta}. The graph is bipartite; "
+        "this drawing separates the hub, its neighbors, and their core endpoints.",
+        transform=ax.transAxes, fontsize=9.0, color="#43535F", ha="right", va="top",
+    )
+    ax.legend(handles=legend, loc="upper center", bbox_to_anchor=(0.5, -0.035),
+              frameon=True, fontsize=7.8, ncols=5)
+    ax.set_xlim(-0.02, 1.02)
+    ax.set_ylim(-0.13, 1.05)
     ax.axis("off")
 
 
