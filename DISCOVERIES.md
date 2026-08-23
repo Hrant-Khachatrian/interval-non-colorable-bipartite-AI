@@ -117,6 +117,12 @@ A set-system search enumerated 372,570 irregular pairwise-intersecting block mul
 
 Ordinary edge subdivision is closed as a degree-reduction operation by a direct invariant argument: replacing edge `xy` with a longer `x`--`y` path leaves the degrees of both original endpoints unchanged. Consequently no ordinary subdivision of a parent with maximum degree above 10 can produce maximum degree at most 10. An earlier saved artifact came from swapped cap/degree arguments and has been removed; the corrected exhaustive feasibility report is empty (`results/subdivision-delta10-audited.json`). Vertex splitting remains open and is searched separately.
 
+The corrected same-side vertex-splitting family generated 56 unique candidates from the available negative seeds and reconstructed benchmarks, enforcing at least degree 2 on every replacement copy and final Δ≤10. All 56 were exactly colorable with zero timeouts (`results/vertex-split-delta10.json`).
+
+A bounded order-18 rewiring and reverse-extension search generated 123,506 candidates and retained 12,983 unique connected minimum-degree-2 graphs after bipartition-colored Nauty deduplication. The 64 highest structural-margin candidates all solved colorable, with zero timeouts. This is a targeted search, not an order-18 census (`results/order18-targeted-v2.json`).
+
+The resumed degree-transfer extension passed the old Erdős–Fano cap: 89,207 additional replacements produced 1,256 new unique Δ≤10 graphs beyond the prior report. Together with 244 recovered checkpoint classifications, 1,500 unique graphs in this parent's extension are classified; every solve is colorable and no timeout occurred. Extension of the Δ15 parent is in progress.
+
 Machine-readable totals and artifact hashes are in `results/order15-completed-classes-summary.json`; the underlying audits are `results/order15-{small,5x10,6x9}-audit.txt`, and the targeted rounds are `results/lane6-signature-r2.json` and `results/lane6-signature-r3.json`.
 
 ## Artifacts

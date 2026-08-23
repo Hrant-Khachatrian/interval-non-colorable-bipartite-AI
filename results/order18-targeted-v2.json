@@ -1,0 +1,5586 @@
+{
+  "classified": 64,
+  "colorable": 64,
+  "completion": "complete",
+  "completion_details": {
+    "status": "complete",
+    "stopped_reason": "all_selected_classified"
+  },
+  "configuration": {
+    "bounded_candidate_cap": 64,
+    "deadline_seconds": 900.0,
+    "deduplication": "Nauty bipartition-colored canonical SHA-256",
+    "filters": [
+      "exactly 18 vertices",
+      "simple bipartite",
+      "connected",
+      "minimum degree >= 2"
+    ],
+    "independent_confirmation": "fixed-span CP-SAT over every legal span",
+    "lanes_requested": "all",
+    "max_processes": 4,
+    "maximum_additions_after_deletion": 1,
+    "minimality_checks_enabled": false,
+    "minimality_time_limit_seconds": 3.0,
+    "primary_solver": "rank-potential CP-SAT",
+    "primary_time_limit_seconds": 3.0,
+    "ranking": [
+      "hub_best_margin descending",
+      "delta descending",
+      "canonical hash"
+    ],
+    "reverse_extension_limit_per_seed": 12,
+    "solver_workers_per_process": 1,
+    "span_time_limit_seconds": 5.0,
+    "structural_ranking_source": "results/structural-obstruction-findings.json",
+    "timeout_policy": "UNKNOWN is unresolved and is never counted non-colorable"
+  },
+  "counts": {
+    "classified": 64,
+    "colorable": 64,
+    "completion_count": 64,
+    "confirmation_timeout": 0,
+    "generated": 123506,
+    "non_colorable_certified": 0,
+    "primary_noncolorable": 0,
+    "primary_timeout": 0,
+    "selected_for_classification": 64,
+    "unique": 12983
+  },
+  "elapsed_seconds": 60.37206898399995,
+  "generated": 123506,
+  "generation": {
+    "duplicates_removed": 110273,
+    "generated_raw": 123506,
+    "passed_filters_before_deduplication": 123256,
+    "rejected_by_filters": 250,
+    "selected_by_lane": {
+      "delete-vertex-add-cross-edges": 3,
+      "one-pair-same-side-identification": 8,
+      "reverse-extension-edge-additions": 51,
+      "two-edge-switch-then-identification": 2
+    },
+    "unique_after_nauty": 12983,
+    "unique_ranked_by_lane": {
+      "delete-vertex-add-cross-edges": 165,
+      "one-pair-same-side-identification": 45,
+      "reverse-extension-edge-additions": 11823,
+      "reverse-extension-new-vertex": 13,
+      "two-edge-switch-then-identification": 937
+    }
+  },
+  "goal": "find an interval-non-colorable simple connected bipartite graph on exactly 18 vertices",
+  "negative_events": [],
+  "non_colorable": 0,
+  "rows": [
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00000",
+      "canonical_sha256": "7:11:19aa68473fa46305ed57945fb1ddca88ee7f60f752c6b7b86c76dce1fc7bda0a",
+      "classification_elapsed_seconds": 0.0764050220000172,
+      "degree_variance_normalized": 0.25853304284676826,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "identified": [
+          "V0_2",
+          "V0_3"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00012.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C1"
+            ]
+          ],
+          "candidate_id": "Q1-00012",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07218595600011213,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_7",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00001",
+      "canonical_sha256": "7:11:f87f63e5393720240e57a807c652cec082d904a758a5b0ce48d9273baf56e95e",
+      "classification_elapsed_seconds": 0.09723541299990757,
+      "degree_variance_normalized": 0.2418300653594771,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 7,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "identified": [
+          "V0_1",
+          "V0_2"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00014.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C4"
+            ]
+          ],
+          "candidate_id": "Q1-00014",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.09295694299999013,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 33,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 7,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_5",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00003",
+      "canonical_sha256": "7:11:ccd19a2102027d7db5a1a9aa873ab17be39d2a53236484876b6f984e71fa06e2",
+      "classification_elapsed_seconds": 0.1330276399999093,
+      "degree_variance_normalized": 0.21713870733478577,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 2,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 2,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "added_edges": [
+          [
+            "C9",
+            "V1_6"
+          ]
+        ],
+        "deleted_vertex": "V1_5",
+        "deleted_vertex_degree": 3,
+        "lane": "delete-vertex-add-cross-edges",
+        "parent": "Q1-00014.graph"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12988428599987856,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 32,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 4,
+          "hub": "V0_1",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00004",
+      "canonical_sha256": "7:11:2a6959fee7190a6ded7acbe93381fe8b7bce9da1b38d626720baf71f33df0d97",
+      "classification_elapsed_seconds": 0.06525873400005366,
+      "degree_variance_normalized": 0.21278140885984015,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4&V1_6": 6,
+        "V1_5": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "identified": [
+          "V1_4",
+          "V1_6"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00012.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C1"
+            ]
+          ],
+          "candidate_id": "Q1-00012",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.06283499100004519,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 6,
+          "hub": "V1_4&V1_6",
+          "margin": -9,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00005",
+      "canonical_sha256": "7:11:238abadb382f0173b734001693c5e28d3087d284bfee3b9c0cae8778bf3f5f16",
+      "classification_elapsed_seconds": 0.10427080799991018,
+      "degree_variance_normalized": 0.21060275962236735,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 2,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 5,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V0_3"
+          ]
+        ],
+        "deleted_vertex": "V1_4",
+        "deleted_vertex_degree": 3,
+        "lane": "delete-vertex-add-cross-edges",
+        "parent": "Q1-00012.graph"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.10215031200004887,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 32,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V0_1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00006",
+      "canonical_sha256": "7:11:93959905eac22f7737737d9c9da9d5a2a10dcadefe1353458f82dcaf0faf0d23",
+      "classification_elapsed_seconds": 0.07237476000000242,
+      "degree_variance_normalized": 0.2091503267973856,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 2,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 4,
+        "V0_3&V1_4": 5,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "identified": [
+          "V0_3",
+          "V1_4"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00014.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C4"
+            ]
+          ],
+          "candidate_id": "Q1-00014",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.06973661100005302,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 33,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3&V1_4",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_1",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00002",
+      "canonical_sha256": "7:11:217e2aa01584b9e902531af90b61a642fa31627e0077ca4516481672a9a92b4b",
+      "classification_elapsed_seconds": 0.20887938900000336,
+      "degree_variance_normalized": 0.21931735657225845,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5&V1_6": 6,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "identified": [
+          "V1_5",
+          "V1_6"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00014.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C4"
+            ]
+          ],
+          "candidate_id": "Q1-00014",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.20366195900010098,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 6,
+          "hub": "V1_5&V1_6",
+          "margin": -9,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "C0&C4",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00007",
+      "canonical_sha256": "7:11:05a6c8cf686c475d9e92d8cdf48f3d099e2e14513a987f539115dfd97d334c93",
+      "classification_elapsed_seconds": 0.1640478130000247,
+      "degree_variance_normalized": 0.20406681190994908,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 2,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_5": 4,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V1_5"
+          ]
+        ],
+        "deleted_vertex": "V1_4",
+        "deleted_vertex_degree": 3,
+        "lane": "delete-vertex-add-cross-edges",
+        "parent": "Q1-00012.graph"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.1604311180001332,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 32,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00010",
+      "canonical_sha256": "7:11:48fb403784283c2cddc18a8032316f5b80d81787713c5dbf550b6b6f78b100d0",
+      "classification_elapsed_seconds": 0.10520795399997951,
+      "degree_variance_normalized": 0.2933914306463327,
+      "degrees": {
+        "C0&C1": 5,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 9,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C1",
+            "V0_2&V0_3"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.10165313300012713,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 9,
+          "hub": "V0_2&V0_3",
+          "margin": -6,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_4",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_5",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00008",
+      "canonical_sha256": "7:11:33593e7b1751e9dcffcef9126f8953ef716e6e2e8ecdb4a3ed920d3a4c966ed3",
+      "classification_elapsed_seconds": 0.16090177099999892,
+      "degree_variance_normalized": 0.2026143790849673,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4&V1_5": 5,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "identified": [
+          "V1_4",
+          "V1_5"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00012.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C1"
+            ]
+          ],
+          "candidate_id": "Q1-00012",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.15707048199988094,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 33,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 5,
+          "hub": "V1_4&V1_5",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00009",
+      "canonical_sha256": "7:11:acf3456881ec67b1a814730fe8aa398f371fb62077841c6abb1dbaafde1bb5ce",
+      "classification_elapsed_seconds": 0.1969918960000996,
+      "degree_variance_normalized": 0.2026143790849673,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V1_4": 5,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -1,
+      "metadata": {
+        "identified": [
+          "V0_1",
+          "V1_4"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00012.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C1"
+            ]
+          ],
+          "candidate_id": "Q1-00012",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.19471714199994494,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 33,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -1,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 5,
+          "hub": "V0_1&V1_4",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00012",
+      "canonical_sha256": "7:11:582dcc4f96c8b114d9be31be1d939760819c705f4897ed454846062d67874647",
+      "classification_elapsed_seconds": 0.09651424999992742,
+      "degree_variance_normalized": 0.26724763979665955,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1&V0_2": 8,
+        "V0_3": 5,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V0_3"
+          ],
+          [
+            "C8",
+            "V0_1&V0_2"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.09263166100004128,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_2",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 2,
+          "hub": "V1_4",
+          "margin": -9,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 10
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00011",
+      "canonical_sha256": "7:11:ea219d144fe62b3dcfa399ffe68d1214db3073bcc635fb636d9244b0f86b4015",
+      "classification_elapsed_seconds": 0.12714457399988532,
+      "degree_variance_normalized": 0.2868554829339144,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 4,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 9,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C2",
+            "V0_2&V0_3"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12327484399997957,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 9,
+          "hub": "V0_2&V0_3",
+          "margin": -6,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 3,
+          "hub": "V1_7",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00014",
+      "canonical_sha256": "7:11:6ad76b80648157f65cf6f12a2ae547b4a28b82c3056d78b5c0944858630c3b5e",
+      "classification_elapsed_seconds": 0.07045664399993257,
+      "degree_variance_normalized": 0.26506899055918653,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_3": 8,
+        "V0_2": 4,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "identified": [
+          "V0_1",
+          "V0_3"
+        ],
+        "lane": "two-edge-switch-then-identification",
+        "parent": "Q1-00014.graph",
+        "source_metadata": {
+          "added_edges": [
+            [
+              "C0&C4",
+              "V1_5"
+            ],
+            [
+              "C5",
+              "V0_1"
+            ]
+          ],
+          "lane": "two-edge-switch-parent",
+          "removed_edges": [
+            [
+              "C0&C4",
+              "V0_1"
+            ],
+            [
+              "C5",
+              "V1_5"
+            ]
+          ],
+          "replacement_index": 1
+        },
+        "switch": {
+          "added_edges": [
+            [
+              "C0&C4",
+              "V1_5"
+            ],
+            [
+              "C5",
+              "V0_1"
+            ]
+          ],
+          "lane": "two-edge-switch-parent",
+          "removed_edges": [
+            [
+              "C0&C4",
+              "V0_1"
+            ],
+            [
+              "C5",
+              "V1_5"
+            ]
+          ],
+          "replacement_index": 1
+        }
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.06833056599998599,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00013",
+      "canonical_sha256": "7:11:207d6780f50ff3d82d2db3cbaf2f3cc851dfec7d06793d2336a9b1f2e3a0c7ee",
+      "classification_elapsed_seconds": 0.13176048600007562,
+      "degree_variance_normalized": 0.2672476397966595,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1&V0_2": 8,
+        "V0_3": 5,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C1",
+            "V0_3"
+          ],
+          [
+            "C8",
+            "V0_1&V0_2"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.1294840180000847,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_2",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 2,
+          "hub": "V1_4",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00015",
+      "canonical_sha256": "7:11:7b06210f237de210741df1232d8d9d045975943f79feca9c1d2e13391a1c0d27",
+      "classification_elapsed_seconds": 0.08940130099995258,
+      "degree_variance_normalized": 0.26506899055918653,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_3": 8,
+        "V0_2": 4,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "identified": [
+          "V0_1",
+          "V0_3"
+        ],
+        "lane": "one-pair-same-side-identification",
+        "parent": "Q1-00014.graph",
+        "source_metadata": {
+          "blocks": [
+            [
+              "C0",
+              "C4"
+            ]
+          ],
+          "candidate_id": "Q1-00014",
+          "lane": "same-side-quotient",
+          "order_reduction": 1,
+          "parent": "hat_K34_prime_Delta11"
+        }
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.08710493900002803,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 2,
+          "hub": "V1_4",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00016",
+      "canonical_sha256": "7:11:e79aeea03c93c41d45130552807b516158675d88414c942025e27b1102864ed6",
+      "classification_elapsed_seconds": 0.08463315399990279,
+      "degree_variance_normalized": 0.26506899055918653,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2&V0_3": 8,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "identified": [
+          "V0_2",
+          "V0_3"
+        ],
+        "lane": "two-edge-switch-then-identification",
+        "parent": "Q1-00014.graph",
+        "source_metadata": {
+          "added_edges": [
+            [
+              "C0&C4",
+              "V1_5"
+            ],
+            [
+              "C1",
+              "V1_4"
+            ]
+          ],
+          "lane": "two-edge-switch-parent",
+          "removed_edges": [
+            [
+              "C0&C4",
+              "V1_4"
+            ],
+            [
+              "C1",
+              "V1_5"
+            ]
+          ],
+          "replacement_index": 1
+        },
+        "switch": {
+          "added_edges": [
+            [
+              "C0&C4",
+              "V1_5"
+            ],
+            [
+              "C1",
+              "V1_4"
+            ]
+          ],
+          "lane": "two-edge-switch-parent",
+          "removed_edges": [
+            [
+              "C0&C4",
+              "V1_4"
+            ],
+            [
+              "C1",
+              "V1_5"
+            ]
+          ],
+          "replacement_index": 1
+        }
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07980438000004142,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_5",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 4,
+          "hub": "V0_1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00018",
+      "canonical_sha256": "7:11:ad94e588d57178eb04dde9f4911bf0b7546c5af1b11e765e1d3a189314247f4b",
+      "classification_elapsed_seconds": 0.08216812999989997,
+      "degree_variance_normalized": 0.26143790849673204,
+      "degrees": {
+        "C0&C4": 5,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5&V1_6": 8,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V1_5&V1_6"
+          ],
+          [
+            "C3",
+            "V1_5&V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00287"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07779701699996622,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V1_5&V1_6",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_1",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00020",
+      "canonical_sha256": "7:11:5e2ccc81c6906e77c02ef6224d349bbdeccc6f89df723cf1026289a49f3a65fc",
+      "classification_elapsed_seconds": 0.07015384700002869,
+      "degree_variance_normalized": 0.26071169208424116,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 8,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5": 4,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V1_5"
+          ],
+          [
+            "C10",
+            "V0_1&V0_2"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.06594748999987132,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00017",
+      "canonical_sha256": "7:11:65b3b6be05ae45e5daddd51ddb9612f01b4e3df13b4c29246ece65372819ab9d",
+      "classification_elapsed_seconds": 0.13235005800015642,
+      "degree_variance_normalized": 0.26143790849673204,
+      "degrees": {
+        "C0&C1": 5,
+        "C10": 3,
+        "C11": 4,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 5,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C1",
+            "V1_6"
+          ],
+          [
+            "C11",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12805408899998838,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 12,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "C3",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V1_6",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 16
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00022",
+      "canonical_sha256": "7:11:d6c90068b52e5d1dd735af209aac312e6ee48267888db26ceaba19091833e0af",
+      "classification_elapsed_seconds": 0.06267832700018516,
+      "degree_variance_normalized": 0.26071169208424116,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 4,
+        "C3": 4,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 6,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C2",
+            "V1_4"
+          ],
+          [
+            "C3",
+            "V1_4"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.06015942300018651,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V0_1",
+          "margin": -9,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 11
+        },
+        {
+          "degree": 6,
+          "hub": "V1_4",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00019",
+      "canonical_sha256": "7:11:1d55c0f33a00e425ea8067f118a73af3883d88a30240113489c9e73600b9bbb6",
+      "classification_elapsed_seconds": 0.1572084269998868,
+      "degree_variance_normalized": 0.26071169208424116,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1&V0_2": 8,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5": 4,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V1_5"
+          ],
+          [
+            "C8",
+            "V0_1&V0_2"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.15275932099984857,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00021",
+      "canonical_sha256": "7:11:cd32aba7c96466685e2027ef54c4c8efea2106d031d387ce7082146889ffde7d",
+      "classification_elapsed_seconds": 0.10486392200004957,
+      "degree_variance_normalized": 0.26071169208424116,
+      "degrees": {
+        "C0&C1": 5,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C1",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.10082745500017154,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_7",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "C2",
+          "margin": -13,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00023",
+      "canonical_sha256": "7:11:f1a3857923f2f7854c514379ff87593b865e08c0bd08a25e04eb3e21bba6daa3",
+      "classification_elapsed_seconds": 0.11641607299998213,
+      "degree_variance_normalized": 0.26071169208424116,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 6,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 4,
+        "V1_6": 3,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C10",
+            "V1_5"
+          ],
+          [
+            "C10",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.11206809800000883,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_7",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "C0&C1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00024",
+      "canonical_sha256": "7:11:94355e4586dc7550cca4172f85c9f85113cc852d47fff2adcf6fdc2054613859",
+      "classification_elapsed_seconds": 0.07159011599992482,
+      "degree_variance_normalized": 0.2607116920842411,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 6,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 4,
+        "V1_6": 4,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V1_5"
+          ],
+          [
+            "C4",
+            "V1_6"
+          ],
+          [
+            "C4",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.06739872999992258,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_7",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00025",
+      "canonical_sha256": "7:11:f85f2b4f53877c89536e36e7056b8e6ac90b1d8f1f84b8e9d0e3a5d205d4e46f",
+      "classification_elapsed_seconds": 0.07047124399991844,
+      "degree_variance_normalized": 0.2607116920842411,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 3,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1&V0_2": 8,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5": 4,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_5"
+          ],
+          [
+            "C8",
+            "V0_1&V0_2"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.06675546699989354,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_2",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 2,
+          "hub": "V1_4",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00026",
+      "canonical_sha256": "7:11:948b1c4e7b2643f915f155875aedaee9ffb576cee1cc1b041f65472e08d16781",
+      "classification_elapsed_seconds": 0.07111197300014283,
+      "degree_variance_normalized": 0.2549019607843137,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 4,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5&V1_6": 8,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C3",
+            "V1_5&V1_6"
+          ],
+          [
+            "C7",
+            "V1_5&V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00287"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.0663809919999494,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V1_5&V1_6",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00027",
+      "canonical_sha256": "7:11:a295b089e85ae6ec40a42a18ae4fbe43150879ac8ffa23a91603171ad50e0f79",
+      "classification_elapsed_seconds": 0.09085991500001,
+      "degree_variance_normalized": 0.2549019607843137,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 4,
+        "C3": 4,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 5,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C2",
+            "V1_4"
+          ],
+          [
+            "C3",
+            "V1_4"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.08656761499992172,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V0_1",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 10
+        },
+        {
+          "degree": 5,
+          "hub": "V1_4",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00029",
+      "canonical_sha256": "7:11:692039fd0778b0a8b81173eec5e35e61a938a679f775a019a39a973ce681454b",
+      "classification_elapsed_seconds": 0.08410569200009377,
+      "degree_variance_normalized": 0.25417574437182294,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07917935999989822,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "C2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_4",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00028",
+      "canonical_sha256": "7:11:eb362bbd39d7be3fe86df6832400e7873b3ac050b9b1ef56c9cf86cbb2d7543c",
+      "classification_elapsed_seconds": 0.13377676700019947,
+      "degree_variance_normalized": 0.2549019607843137,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 4,
+        "C2": 3,
+        "C3": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5&V1_6": 8,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C11",
+            "V1_5&V1_6"
+          ],
+          [
+            "C3",
+            "V1_5&V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00287"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12887514899989583,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V1_5&V1_6",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00030",
+      "canonical_sha256": "7:11:91f0f98558f7e7a8244d41b345e3640d8691026730d1cb0e1be92e9bafb58703",
+      "classification_elapsed_seconds": 0.125484945999915,
+      "degree_variance_normalized": 0.25417574437182294,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V0_1"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12077561699993566,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_7",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00032",
+      "canonical_sha256": "7:11:803cd3055b0c3b066a8caf5fd642ec16f8d5ab85b2d25377ad4fcab0da2443d8",
+      "classification_elapsed_seconds": 0.10029093100001774,
+      "degree_variance_normalized": 0.2541757443718229,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 3,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1&V0_2": 8,
+        "V0_3": 4,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C8",
+            "V0_1&V0_2"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.0957964690001063,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_2",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_5",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00031",
+      "canonical_sha256": "7:11:475aec557a981069ca3d2184796087a24366fdd824662b035bb6cccd2d66748b",
+      "classification_elapsed_seconds": 0.11454755299996577,
+      "degree_variance_normalized": 0.2541757443718229,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 4,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C2",
+            "V1_4"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.11022836600000119,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_4",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_7",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00033",
+      "canonical_sha256": "7:11:8f850d34d5a3653629d16e027ad69d9bc902e0d33ec80ad653dad1b89e8ec8c4",
+      "classification_elapsed_seconds": 0.126606036000112,
+      "degree_variance_normalized": 0.2541757443718229,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12266662600018208,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_7",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "C2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00035",
+      "canonical_sha256": "7:11:9f7f9093aa39102a53b2a08c68bd6c060b1325f177a3079482b253f191ec50f0",
+      "classification_elapsed_seconds": 0.07946699299986903,
+      "degree_variance_normalized": 0.2541757443718229,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 4,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V1_5"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07493357800012745,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00036",
+      "canonical_sha256": "7:11:4b4a61c2eda62070d464bde44ca4594356991a462289b974f304a8e9d717e193",
+      "classification_elapsed_seconds": 0.08403961199996957,
+      "degree_variance_normalized": 0.25417574437182283,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07800669000016569,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_7",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00034",
+      "canonical_sha256": "7:11:9bd51eb27438dea45fd5a80ff238ed6e16e2e87990aab27f601b55382db767cd",
+      "classification_elapsed_seconds": 0.22078237400000944,
+      "degree_variance_normalized": 0.2541757443718229,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1&V0_2": 8,
+        "V0_3": 4,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C1",
+            "V1_4"
+          ],
+          [
+            "C8",
+            "V0_1&V0_2"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.21543493499984834,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_4",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00039",
+      "canonical_sha256": "7:11:1cd7d7b64295e89e8d3d1faa7a33d8e392f7fa96ddacd21a8f2a21ed26b57915",
+      "classification_elapsed_seconds": 0.09538358999998309,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 4,
+        "C3": 3,
+        "C4": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C2",
+            "V1_4"
+          ],
+          [
+            "C4",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.090123007000102,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_7",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V0_1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00038",
+      "canonical_sha256": "7:11:11e394d393ad1960770a5a9633c2d60f63e7b0877593948f9d2164fe86a521fa",
+      "classification_elapsed_seconds": 0.13381809399993472,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 4,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C6",
+            "V1_5"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12808364099987557,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "C0&C1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00037",
+      "canonical_sha256": "7:11:f862594ec38e98fdad8836dbdedee4baeebbda122e8cf44fb5454b54872d2091",
+      "classification_elapsed_seconds": 0.21462985600010143,
+      "degree_variance_normalized": 0.25417574437182283,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 4,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C2",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.21044243799997275,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_7",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "C3",
+          "margin": -13,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00040",
+      "canonical_sha256": "7:11:2ffd3f6d68753b24aee5103ba06fe818ecbd5b18c9799a58baa377924bace48a",
+      "classification_elapsed_seconds": 0.0995124130001841,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C6",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.09492472300007648,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V1_7",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00041",
+      "canonical_sha256": "7:11:74dafbda463a715e74657fbe53dd4475fc4ec3a839415260ac800aaf953d3f7b",
+      "classification_elapsed_seconds": 0.12334401199996137,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 4,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C11",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.11516698399987035,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "C3",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00042",
+      "canonical_sha256": "7:11:83b4fa9453073b6862f9d70ad0602c4e5384942a2c9dcaa6b6dee230d125428d",
+      "classification_elapsed_seconds": 0.17771957800005111,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 4,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C5",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.17287680399999772,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "C0&C1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00043",
+      "canonical_sha256": "7:11:860c68267a66db8cb18d3fe896e5d49c9ce996ce6bb2b585bd59d0b8a3bb926a",
+      "classification_elapsed_seconds": 0.13426271599996653,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 4,
+        "C11": 4,
+        "C2": 4,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4&V1_5": 8,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4&V1_5"
+          ],
+          [
+            "C11",
+            "V1_4&V1_5"
+          ],
+          [
+            "C2",
+            "V1_4&V1_5"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00261"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.1284093720000783,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V1_4&V1_5",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00044",
+      "canonical_sha256": "7:11:8d9aa6306b6e10db277e328c3132473868d89909e6c2fc46371ab0298539f891",
+      "classification_elapsed_seconds": 0.15846972499980438,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 4,
+        "C11": 3,
+        "C2": 4,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4&V1_5": 8,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4&V1_5"
+          ],
+          [
+            "C2",
+            "V1_4&V1_5"
+          ],
+          [
+            "C6",
+            "V1_4&V1_5"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00261"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.15393282299987732,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V1_4&V1_5",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00045",
+      "canonical_sha256": "7:11:afe2bf18b1e19ffaced03e517eb0f5df947e5bc17f64d84efe529e933a42f1ff",
+      "classification_elapsed_seconds": 0.1269351609998921,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C4",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.1218306590001248,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_7",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "C2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00047",
+      "canonical_sha256": "7:11:c1c84fd7a185b0be9804ab9ec37a9960ec877a5d239067add40f16d81e1751b9",
+      "classification_elapsed_seconds": 0.08913685400011673,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 3,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C4",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.08388502000002518,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_4",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00046",
+      "canonical_sha256": "7:11:ba72f608b555d66f6ccff11269a52aaec78acf1ccc130486ab37c4438ff17f26",
+      "classification_elapsed_seconds": 0.12179491000006237,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 4,
+        "C11": 3,
+        "C2": 3,
+        "C3": 4,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4&V1_5": 8,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4&V1_5"
+          ],
+          [
+            "C3",
+            "V1_4&V1_5"
+          ],
+          [
+            "C6",
+            "V1_4&V1_5"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00261"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.1181436429999394,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V1_4&V1_5",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00048",
+      "canonical_sha256": "7:11:ca3b3d456ec6659b7e89ca10033e1652f3c35e302609381dc917122e2790520d",
+      "classification_elapsed_seconds": 0.08776273199987372,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 4,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V1_5"
+          ],
+          [
+            "C8",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.0838106029998471,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_4",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00049",
+      "canonical_sha256": "7:11:d3a1ab914e49fcf27ba4af0f138ab21c43b71753f46193f4d8f5bbfeeb7a49f3",
+      "classification_elapsed_seconds": 0.08797384000013153,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 4,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V1_6"
+          ],
+          [
+            "C8",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.08382038400009151,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 3,
+          "hub": "V1_4",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00050",
+      "canonical_sha256": "7:11:d9d55e4e2984e57d1cd4f50ec1ef4c044f5f79f4f2585709e2dcdc2724db41ff",
+      "classification_elapsed_seconds": 0.08209887599991816,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 3,
+        "C10": 4,
+        "C11": 4,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 4,
+        "V0_1&V1_4": 8,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V0_1&V1_4"
+          ],
+          [
+            "C11",
+            "V0_1&V1_4"
+          ],
+          [
+            "C9",
+            "V0_1&V1_4"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00144"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07774838899990755,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_1&V1_4",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00052",
+      "canonical_sha256": "7:11:ed9f4f0273c1ad789f7578a11c7b5e0f511fa495fe9e6218f78ab89150181282",
+      "classification_elapsed_seconds": 0.08670029699987936,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C4": 4,
+        "C5": 4,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 3,
+        "V1_5": 4,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C4",
+            "V1_5"
+          ],
+          [
+            "C5",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.08274607399994238,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00053",
+      "canonical_sha256": "7:11:306da701cc1ac56d0e069e88be56c8ce4f3ac206e2b7c746cdafa2ce5e75320e",
+      "classification_elapsed_seconds": 0.09569685399992522,
+      "degree_variance_normalized": 0.24546114742193167,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 4,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 7,
+        "V0_3": 5,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C1",
+            "V0_3"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.09207936799998606,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 3,
+          "hub": "V1_5",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00051",
+      "canonical_sha256": "7:11:e4b7629f5ed080ae5932e139af993421ff672745b9a025c2d4776f429424198a",
+      "classification_elapsed_seconds": 0.11727367799994681,
+      "degree_variance_normalized": 0.24836601307189543,
+      "degrees": {
+        "C0&C4": 6,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 7,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5": 4,
+        "V1_6": 4,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V1_5"
+          ],
+          [
+            "C0&C4",
+            "V1_6"
+          ],
+          [
+            "C0&C4",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.11264194199998201,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00054",
+      "canonical_sha256": "7:11:5a900f93a6a531795ec637dffcd5b593cd022b9e826098f6e2941d096c9f6f27",
+      "classification_elapsed_seconds": 0.1201192550001906,
+      "degree_variance_normalized": 0.24546114742193167,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 7,
+        "V0_3": 5,
+        "V1_4": 2,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V0_3"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.11518734699984634,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 12,
+      "primary_status": "colorable",
+      "size": 34,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 2,
+          "hub": "V1_4",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 9
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00057",
+      "canonical_sha256": "7:11:cb1688b5d99ced8c8e5af0b6918c4011fe77e052e4746c1984cfc6e4bf77232e",
+      "classification_elapsed_seconds": 0.12308417200006261,
+      "degree_variance_normalized": 0.24110384894698633,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 5,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 7,
+        "V0_3": 5,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 3,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C1",
+            "V0_3"
+          ],
+          [
+            "C1",
+            "V1_4"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.1189845599999444,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 16
+        },
+        {
+          "degree": 3,
+          "hub": "V1_4",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00056",
+      "canonical_sha256": "7:11:731fee4bcf2675798baed6e3dcf873027f98cc72ad28b3b7d08339bd07d3e61b",
+      "classification_elapsed_seconds": 0.13558440199994948,
+      "degree_variance_normalized": 0.24110384894698633,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 5,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 4,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 5,
+        "V0_3": 5,
+        "V1_4": 2,
+        "V1_5&V1_6": 7,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C1",
+            "V0_2"
+          ],
+          [
+            "C1",
+            "V0_3"
+          ],
+          [
+            "C3",
+            "V1_5&V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00287"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.12932936800007155,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V1_5&V1_6",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V0_3",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00058",
+      "canonical_sha256": "7:11:f0edeffdb09f5368fba46fd6c3dbcfcc17c74f685418ab4c958f26d02d408ce8",
+      "classification_elapsed_seconds": 0.14107374500008518,
+      "degree_variance_normalized": 0.24110384894698633,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 5,
+        "C11": 4,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 5,
+        "V0_2": 5,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5&V1_6": 7,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V0_1"
+          ],
+          [
+            "C10",
+            "V0_2"
+          ],
+          [
+            "C11",
+            "V1_5&V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00287"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.13436614500005817,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V1_5&V1_6",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V0_1",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 5,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00059",
+      "canonical_sha256": "7:11:062bf9d92eee1d44947b334805afdf850911aa67477cc051b1ec4f71cb0d984b",
+      "classification_elapsed_seconds": 0.12214437400007228,
+      "degree_variance_normalized": 0.24110384894698633,
+      "degrees": {
+        "C0&C4": 5,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 7,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5": 4,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V1_5"
+          ],
+          [
+            "C0&C4",
+            "V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.11521151699980692,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V0_1&V0_2",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 16
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_5",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00055",
+      "canonical_sha256": "7:11:ef7948fd8c7b6633be635707287870211fe450dc6dd17a90072dc646917de593",
+      "classification_elapsed_seconds": 0.265418838999949,
+      "degree_variance_normalized": 0.2418300653594771,
+      "degrees": {
+        "C0&C4": 3,
+        "C1": 6,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1&V0_2": 7,
+        "V0_3": 4,
+        "V1_4": 3,
+        "V1_5": 3,
+        "V1_6": 4,
+        "V1_7": 4,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C1",
+            "V1_4"
+          ],
+          [
+            "C1",
+            "V1_6"
+          ],
+          [
+            "C1",
+            "V1_7"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00132"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.26204182299989043,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 36,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V0_1&V0_2",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_3",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00060",
+      "canonical_sha256": "7:11:732c9afae8aa8f06319fee5dbda8167e60e5d19791a22a40b8cb94ac0838a2ec",
+      "classification_elapsed_seconds": 0.14884503099983704,
+      "degree_variance_normalized": 0.24110384894698628,
+      "degrees": {
+        "C0&C1": 4,
+        "C10": 4,
+        "C11": 4,
+        "C2": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2&V0_3": 8,
+        "V1_4": 4,
+        "V1_5": 4,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V1_4"
+          ],
+          [
+            "C11",
+            "V1_6"
+          ],
+          [
+            "C6",
+            "V1_5"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00185"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.14508018499986974,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V0_2&V0_3",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "C0&C1",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00063",
+      "canonical_sha256": "7:11:fcea27a30d08628aff6b383cfb3035169c0ee9fc2b1ebb9b76772b4dccf363fa",
+      "classification_elapsed_seconds": 0.0749622979999458,
+      "degree_variance_normalized": 0.24110384894698633,
+      "degrees": {
+        "C0&C4": 5,
+        "C1": 3,
+        "C10": 3,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 4,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5&V1_6": 7,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C0&C4",
+            "V1_5&V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00287"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.07188476300007096,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 35,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V1_5&V1_6",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_1",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00061",
+      "canonical_sha256": "7:11:e34cf6a84cdf7c4b5da90297ae3b3fabd3758eb3801b402ce06afb68c5e0a3fa",
+      "classification_elapsed_seconds": 0.18382449099999576,
+      "degree_variance_normalized": 0.24110384894698628,
+      "degrees": {
+        "C0&C2": 4,
+        "C1": 4,
+        "C10": 4,
+        "C11": 3,
+        "C3": 3,
+        "C4": 3,
+        "C5": 3,
+        "C6": 4,
+        "C7": 3,
+        "C8": 3,
+        "C9": 3,
+        "V0_1": 3,
+        "V0_2": 4,
+        "V0_3": 4,
+        "V1_4&V1_5": 8,
+        "V1_6": 4,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C1",
+            "V1_6"
+          ],
+          [
+            "C10",
+            "V1_4&V1_5"
+          ],
+          [
+            "C6",
+            "V1_4&V1_5"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00263"
+      },
+      "minimum_degree": 3,
+      "order": 18,
+      "primary_elapsed_seconds": 0.17988080699979037,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 8,
+          "hub": "V1_4&V1_5",
+          "margin": -7,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 4,
+          "hub": "V1_6",
+          "margin": -10,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 13
+        },
+        {
+          "degree": 4,
+          "hub": "V0_2",
+          "margin": -12,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    },
+    {
+      "bipartition_sizes": [
+        7,
+        11
+      ],
+      "candidate_id": "O18-00062",
+      "canonical_sha256": "7:11:e4c613687388aa02eca4c7d7e11b577b0151ca7649feae86bd03543ff24edeb1",
+      "classification_elapsed_seconds": 0.1714201590000357,
+      "degree_variance_normalized": 0.24110384894698628,
+      "degrees": {
+        "C0&C4": 4,
+        "C1": 3,
+        "C10": 5,
+        "C11": 3,
+        "C2": 3,
+        "C3": 3,
+        "C5": 3,
+        "C6": 3,
+        "C7": 3,
+        "C8": 4,
+        "C9": 3,
+        "V0_1": 5,
+        "V0_2": 5,
+        "V0_3": 4,
+        "V1_4": 2,
+        "V1_5&V1_6": 7,
+        "V1_7": 3,
+        "u": 11
+      },
+      "delta": 11,
+      "hub_best_margin": -2,
+      "metadata": {
+        "added_edges": [
+          [
+            "C10",
+            "V0_1"
+          ],
+          [
+            "C10",
+            "V0_2"
+          ],
+          [
+            "C8",
+            "V1_5&V1_6"
+          ]
+        ],
+        "lane": "reverse-extension-edge-additions",
+        "parent": "Q2-00287"
+      },
+      "minimum_degree": 2,
+      "order": 18,
+      "primary_elapsed_seconds": 0.16855926499988527,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 11,
+      "primary_status": "colorable",
+      "size": 37,
+      "status": "colorable",
+      "weighted_hubs_best": [
+        {
+          "degree": 11,
+          "hub": "u",
+          "margin": -2,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 12
+        },
+        {
+          "degree": 7,
+          "hub": "V1_5&V1_6",
+          "margin": -8,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 14
+        },
+        {
+          "degree": 5,
+          "hub": "V0_1",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        },
+        {
+          "degree": 5,
+          "hub": "V0_2",
+          "margin": -11,
+          "sufficient_obstruction": false,
+          "weighted_neighbor_diameter": 15
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "timeout": 0,
+  "unique": 12983
+}
