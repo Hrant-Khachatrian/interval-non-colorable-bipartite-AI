@@ -1,0 +1,3888 @@
+{
+  "checkpoint": true,
+  "generated": 103,
+  "unique": 25,
+  "counts": {
+    "colorable": 25,
+    "non-colorable": 0,
+    "timeout": 0
+  },
+  "candidate_stage_completed": true,
+  "rows": [
+    {
+      "candidate_id": "L6R6B-0000",
+      "canonical_sha256": "23:28:ceeb810bf157f5dce8e68749031a4e78effb741947c2a63a7ca037df143e16e1",
+      "order": 51,
+      "size": 69,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 0,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G3_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G3_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.14678672500303946,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 323,
+        "branches": 4120,
+        "wall_time": 0.143627521
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0001",
+      "canonical_sha256": "23:28:d0ca55834324c2ddeaf90f0c8e35b7e6d6b93b7658029d52d6334c2caaea8cd7",
+      "order": 51,
+      "size": 69,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 1,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G3_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G3_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.1288396200106945,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 450,
+        "branches": 4388,
+        "wall_time": 0.125227223
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0002",
+      "canonical_sha256": "23:28:f6656e712a106b6d354ff7ed9f961819a3ff2f1de5a5fc6b323d190bd15d03ce",
+      "order": 51,
+      "size": 69,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 16,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G2_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G2_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.08269026200287044,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 10,
+        "branches": 3081,
+        "wall_time": 0.07941534700000001
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0003",
+      "canonical_sha256": "23:28:f456db91a3e18e4f8623d704cf5ce0f0f45eac9a81a918042ab541615e9dce89",
+      "order": 51,
+      "size": 69,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 18,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "orientation": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "reverse",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G2_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G2_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.11019214300904423,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 228,
+        "branches": 3771,
+        "wall_time": 0.10716420700000001
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0004",
+      "canonical_sha256": "23:28:887390789f5a8696aaf52ad88c145bfe0ae6c02d63ec919a96e2313ee54b3182",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 32,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G2_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G2_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.12595463599427603,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 117,
+        "branches": 3887,
+        "wall_time": 0.122365864
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0005",
+      "canonical_sha256": "23:28:dc8d5a9da878b149ec7c277d4de3fc0c4ce7e5263924dc4f3c0b41383dbfe548",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 33,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G2_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G2_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.13048202299978584,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 162,
+        "branches": 3686,
+        "wall_time": 0.126195505
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0006",
+      "canonical_sha256": "23:28:ed38acf981772ed3df3d7c3998f7dcc739f97a51ee858393eeb84f71b1b819db",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 34,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "reverse",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G2_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G2_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.11252066999441013,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 117,
+        "branches": 3893,
+        "wall_time": 0.10873403200000001
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0007",
+      "canonical_sha256": "23:28:da56640da9f8275996576c69f96ef0b408f3dee785f80efeae7b63a005f5b8ea",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 35,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "reverse",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G2_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G2_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.14319510801578872,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 133,
+        "branches": 3923,
+        "wall_time": 0.13987675000000002
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0008",
+      "canonical_sha256": "23:28:3e61f61878dd9402f8c246c11e21322ff8bbee5aa74aeb77062771796b4910a0",
+      "order": 51,
+      "size": 69,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 48,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.11821149499155581,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 306,
+        "branches": 3938,
+        "wall_time": 0.11341717200000001
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0009",
+      "canonical_sha256": "23:28:915e43a6389cdb4772e2bd3f6f7b1b27de8cfc1af88e333d2464c067e616bc1c",
+      "order": 51,
+      "size": 69,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 52,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.10440678600571118,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 280,
+        "branches": 3929,
+        "wall_time": 0.100476324
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0010",
+      "canonical_sha256": "23:28:90eaeebbcb635b7a493403b8d9e38f5c7ea94c8deabe6794546314814d0bdd15",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 64,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.11884214499150403,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 122,
+        "branches": 3896,
+        "wall_time": 0.11555957600000001
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0011",
+      "canonical_sha256": "23:28:f5c2ebf97d767e4d814acbd57f5ae964ca689661733cac2b8f968d6e9a27df21",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 65,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.10935769800562412,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 126,
+        "branches": 3904,
+        "wall_time": 0.10335258200000001
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0012",
+      "canonical_sha256": "23:28:4feb4afcd8798d1437313f6a9fcac726a0b37056698531a7ff2c54a8dff5affb",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 68,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.14952893200097606,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 116,
+        "branches": 3888,
+        "wall_time": 0.14362280100000002
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0013",
+      "canonical_sha256": "23:28:612fea9a4f3f8527ee9111526a15ac829026cbf41eee8da5f1b3097503d50cbf",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 69,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "forward",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.1599002750008367,
+        "span": 13,
+        "solver_status": "OPTIMAL",
+        "conflicts": 45,
+        "branches": 3285,
+        "wall_time": 0.155694416
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0014",
+      "canonical_sha256": "23:28:2c67a6c1cfe04ba4709ab88cd13c62d3ef169e8e27cdd1b69a73408961fe69c9",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 80,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.1826962960185483,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 135,
+        "branches": 3916,
+        "wall_time": 0.176513729
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0015",
+      "canonical_sha256": "23:28:6efbae5567a6563eb3ea4801c5e095aafb48ccdfc4138ea492e7f530c213a4ec",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 82,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "reverse",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.1651051520020701,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 133,
+        "branches": 3910,
+        "wall_time": 0.160158605
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0016",
+      "canonical_sha256": "23:28:4c413f600b409217de842f2995ef6339658802ba71bfdd2b8527ed39ce9972d1",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 84,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.14563002399518155,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 134,
+        "branches": 3915,
+        "wall_time": 0.140167216
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0017",
+      "canonical_sha256": "23:28:af0cfaf8927713e4ebf7018c96787f07037e4b93a10f8f9824df50ab09ed8828",
+      "order": 51,
+      "size": 70,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 86,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "orientation": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "reverse",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.1188985189946834,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 133,
+        "branches": 3910,
+        "wall_time": 0.114928817
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0018",
+      "canonical_sha256": "23:28:2ee9c8f475e104f2dd84de6bdfca3b2d7a67a10acfe436df107b8bb94caf068c",
+      "order": 51,
+      "size": 71,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 96,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.13253065600292757,
+        "span": 12,
+        "solver_status": "OPTIMAL",
+        "conflicts": 63,
+        "branches": 3822,
+        "wall_time": 0.12774137400000002
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0019",
+      "canonical_sha256": "23:28:27624efe52a06b77d90785d0233ab1e3c7c9ad5dea8724c4a7a96cd06eaeb78e",
+      "order": 51,
+      "size": 71,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 97,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "forward",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.16406357800588012,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 259,
+        "branches": 4537,
+        "wall_time": 0.158993355
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0020",
+      "canonical_sha256": "23:28:66f9cc3fec85e22fd269cdc191e8ebc64eddf95a34c7b625857a211157e06d72",
+      "order": 51,
+      "size": 71,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 98,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "reverse",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.12978411500807852,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 95,
+        "branches": 4049,
+        "wall_time": 0.125413872
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0021",
+      "canonical_sha256": "23:28:752aaf7223f869f61f50763a72bcf8bfaf29d7b9cb2e40f969984cf95d86a03f",
+      "order": 51,
+      "size": 71,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 99,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "forward",
+          "reverse",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.1476675919839181,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 222,
+        "branches": 4422,
+        "wall_time": 0.142387701
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0022",
+      "canonical_sha256": "23:28:1f81ca6bdea084735af7d1af10e8c00de88800f71ad54b61a0a3c722eb630202",
+      "order": 51,
+      "size": 71,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 100,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "forward",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.1446350800106302,
+        "span": 13,
+        "solver_status": "OPTIMAL",
+        "conflicts": 63,
+        "branches": 3822,
+        "wall_time": 0.139725802
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0023",
+      "canonical_sha256": "23:28:93f296df51fdf69849d4b60d69523b95722e57e9701a732d360c216cf793f5d9",
+      "order": 51,
+      "size": 71,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 101,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "forward",
+          "reverse"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.15012306600692682,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 295,
+        "branches": 4607,
+        "wall_time": 0.146222385
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    },
+    {
+      "candidate_id": "L6R6B-0024",
+      "canonical_sha256": "23:28:1592702046c0f3865d3ebccfe6d4ba90f708e3b79afbae5b67388376aaab777d",
+      "order": 51,
+      "size": 71,
+      "delta": 10,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          10
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "plan_index": 102,
+      "plan": {
+        "ring_size": 4,
+        "loads": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "pattern": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "orientation": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "metadata": {
+        "lane": "lane6-directed-mixed-relay-ring-r6",
+        "construction": "four_hub_unequal_load_mixed_relay_ring_with_local_orientation",
+        "ring_size": 4,
+        "connector_load_vector": [
+          1,
+          1,
+          2,
+          8
+        ],
+        "relay_pattern_by_position": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "relay_orientation_by_position": [
+          "forward",
+          "reverse",
+          "reverse",
+          "forward"
+        ],
+        "relay_edge_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+        ],
+        "forced_degree10_hubs": [
+          3
+        ],
+        "hub_degrees_before_relay_attachment": [
+          3,
+          3,
+          4,
+          10
+        ]
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "G1_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "G1_L2",
+          "degree": 2,
+          "weighted_neighbor_diameter": 7,
+          "margin": -6,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.12525860700407065,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 76,
+        "branches": 3884,
+        "wall_time": 0.12184629300000001
+      },
+      "certified_non_colorable": false,
+      "blocker_stage_triggered": false,
+      "blocker_augmented_candidates": [],
+      "blocker_augmented_candidate_ids": []
+    }
+  ]
+}
