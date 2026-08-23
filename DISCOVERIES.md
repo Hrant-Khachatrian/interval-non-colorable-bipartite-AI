@@ -131,6 +131,8 @@ A third expansion scanned the final 100,000 `5+11` records. All were eligible an
 
 The deeper same-side vertex-split search corrected a seed-selection defect in its first implementation, then exhaustively classified its bounded multi-split family: 440 constructions produced 224 unique Δ≤10 graphs. All 224 were colorable, with zero timeouts (`results/vertex-split-delta10-v2.json`).
 
+The third degree-transfer pass added another 177,021 constructions and classified 5,152 additional unique Δ≤10 graphs: 740 for Erdős–Fano and 4,412 for the Δ15 benchmark. Every classification returned colorable, with zero timeouts. The combined transfer evidence now represents 11,647 unique colorable graphs (`results/degree-transfer-delta10-extension-r3.json`).
+
 A one-pass live audit of 345 available order-15 `7+8` chunks checked 129,324,159 rows on YSU job 227326: all indices and bipartition-colored canonical hashes were distinct, there were zero malformed rows, zero timeout rows, and all rows were colorable. This is a clean snapshot at 53.153% of the expected 243,304,742 records, not yet completion of the class.
 
 Machine-readable totals and artifact hashes are in `results/order15-completed-classes-summary.json`; the underlying audits are `results/order15-{small,5x10,6x9}-audit.txt`, and the targeted rounds are `results/lane6-signature-r2.json` and `results/lane6-signature-r3.json`.

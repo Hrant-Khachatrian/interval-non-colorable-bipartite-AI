@@ -555,6 +555,7 @@ def classify_parent(
     deadline: float,
     checkpoint: dict[str, Any],
     write_report: Any,
+    candidate_number_offset: int = 0,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     started = time.monotonic()
     completed_by_digest = {row["canonical_sha256"]: row for row in completed_rows}
@@ -610,7 +611,7 @@ def classify_parent(
                 row["independent_unresolved"] = unresolved
                 if confirmed:
                     decision = "non-colorable"
-                    candidate_id = f"DTRX-{len(records) + 1:04d}"
+                    candidate_id = f"DTRX-{candidate_number_offset + len(records) + 1:04d}"
                     graph.metadata["candidate_id"] = candidate_id
                     graph.metadata["extension_source"] = str(state_path)
                     graph.metadata["certification"] = {
