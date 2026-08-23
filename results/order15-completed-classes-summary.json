@@ -1,0 +1,166 @@
+{
+  "schema": "order15-completed-classes-summary-v1",
+  "as_of": "2026-08-23",
+  "completed_classes": [
+    {
+      "name": "order15-small",
+      "remote_source": "/mnt/weka/hrant/interval-search/results/order15-small-audit.txt",
+      "audit_artifact": "results/order15-small-audit.txt",
+      "sha256": "adbe9e68be819b7f02e8b38f47a6aba5860097cc627a136c014d76c374a05f27",
+      "source_sha256_matches_artifact": true,
+      "files": 64,
+      "rows": 16408,
+      "unique_indices": 16408,
+      "duplicate_indices": 0,
+      "unique_canonical": 16408,
+      "statuses": {
+        "colorable": 16408
+      },
+      "degree_range": {
+        "minimum": 2,
+        "maximum": 13
+      },
+      "size_range": {
+        "minimum": 22,
+        "maximum": 44
+      },
+      "max_sweep_solver_seconds": 1.0911822598427534
+    },
+    {
+      "name": "order15-5x10",
+      "remote_source": "/mnt/weka/hrant/interval-search/results/order15-5x10-audit.txt",
+      "audit_artifact": "results/order15-5x10-audit.txt",
+      "sha256": "94dd60a83b6da2f805a2accb5bf17b8b9db212b47f0ee66d3102cb07b8efd44f",
+      "source_sha256_matches_artifact": true,
+      "files": 128,
+      "rows": 1583646,
+      "unique_indices": 1583646,
+      "duplicate_indices": 0,
+      "unique_canonical": 1583646,
+      "statuses": {
+        "colorable": 1583646
+      },
+      "degree_range": {
+        "minimum": 2,
+        "maximum": 10
+      },
+      "size_range": {
+        "minimum": 20,
+        "maximum": 50
+      },
+      "max_sweep_solver_seconds": 2.26371943205595
+    },
+    {
+      "name": "order15-6x9",
+      "remote_source": "/mnt/weka/hrant/interval-search/results/order15-6x9-audit.txt",
+      "audit_artifact": "results/order15-6x9-audit.txt",
+      "sha256": "908a121980c7e848a7e00306b01ddc66f71e95e1a1e1abcb03d1a9c996184a69",
+      "source_sha256_matches_artifact": true,
+      "files": 512,
+      "rows": 43739172,
+      "unique_indices": 43739172,
+      "duplicate_indices": 0,
+      "unique_canonical": 43739172,
+      "statuses": {
+        "colorable": 43739172
+      },
+      "degree_range": {
+        "minimum": 2,
+        "maximum": 9
+      },
+      "size_range": {
+        "minimum": 18,
+        "maximum": 54
+      },
+      "max_sweep_solver_seconds": 3.7144509814679623
+    }
+  ],
+  "delta_at_most_10_rounds": [
+    {
+      "name": "round-2",
+      "artifact": "results/lane6-signature-r2.json",
+      "sha256": "e3b4b5eba63abfad8e00851015c1caf5093c00a42b1ba86c9edcc24ac790e969",
+      "git_commit": "38055484dadd6cba7f7d7f055e7a2d620216d5fb",
+      "git_blob": "d6a61bde79d155585a824a6174874c4b7e3d8819",
+      "schema": "lane6-signature-search-round-2",
+      "runtime_deadline_hit": false,
+      "row_count": 1260,
+      "row_unique_candidate_ids": 1260,
+      "row_unique_canonical_hashes": 1260,
+      "composition": {
+        "generated_before_filters": 4034560,
+        "generated": 4034560,
+        "skipped_filtered_or_duplicate": 4033300,
+        "unique": 1260,
+        "completed_unique": 1260,
+        "counts": {
+          "colorable": 1260,
+          "non-colorable": 0,
+          "timeout": 0
+        },
+        "candidate_stage_completed": true,
+        "family_exhausted": true,
+        "negative_independently_confirmed": 0,
+        "unconfirmed_primary_negatives": 0,
+        "conflicting_classifications": 0,
+        "unresolved_timeout_count": 0
+      },
+      "negative_artifacts_count": 0
+    },
+    {
+      "name": "round-3",
+      "artifact": "results/lane6-signature-r3.json",
+      "sha256": "ca36c978b9c4b3680427956868eee828611ae3f6e9f21a68fcd7a711e6003cf1",
+      "git_commit": "e4e074a7ed593961aa4da15409851cde47fdf8d5",
+      "git_blob": "fd943ef1408d2f76dd31f389cde797b6adfeb668",
+      "schema": "lane6-signature-search-round-3",
+      "runtime_deadline_hit": false,
+      "row_count": 12,
+      "row_unique_candidate_ids": 12,
+      "row_unique_canonical_hashes": 12,
+      "composition": {
+        "configured_generated_before_filters": 25872,
+        "generated": 25872,
+        "skipped_filtered_or_duplicate": 25860,
+        "unique": 12,
+        "completed_unique": 12,
+        "counts": {
+          "colorable": 12,
+          "non-colorable": 0,
+          "timeout": 0
+        },
+        "all_configured_pairs_processed": true,
+        "candidate_stage_completed": true,
+        "certification_stage_complete": true,
+        "family_exhausted": true,
+        "negative_independently_confirmed": 0,
+        "unconfirmed_primary_negatives": 0,
+        "conflicting_classifications": 0,
+        "unresolved_timeout_count": 0
+      },
+      "negative_events_path": "results/lane6-signature-r3-negative-events.json",
+      "negative_events_count": 0,
+      "negative_events_sha256": "1a46c0402c164e450fc729a327a7f36d64cf4e4425fc9fd7063a788623706f19"
+    }
+  ],
+  "totals": {
+    "completed_classes": {
+      "classes": 3,
+      "files": 704,
+      "rows": 45339226,
+      "unique_indices": 45339226,
+      "duplicate_indices": 0,
+      "unique_canonical": 45339226,
+      "colorable": 45339226,
+      "non_colorable": 0,
+      "timeout": 0
+    },
+    "delta_at_most_10_rounds": {
+      "rounds": 2,
+      "unique_completed": 1272,
+      "colorable": 1272,
+      "non_colorable": 0,
+      "timeout": 0
+    }
+  }
+}

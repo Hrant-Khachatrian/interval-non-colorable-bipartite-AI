@@ -89,6 +89,22 @@ The larger classes were processed on the YSU `research_cpu` partition as determi
 
 In the Δ≤10 targeted lane, a bounded two-terminal signature search produced 476 unique graphs (280 strict-concatenator and 196 broader forced-offset), all colorable. A corrected 12-connector chained-synchronization search also produced 73 unique graphs, all colorable. No new counterexample was found.
 
+## Order-15 completion and Δ≤10 rounds
+
+On 2026-08-23, streaming audits completed the three remaining order-15 connected, minimum-degree-2 classes:
+
+| class | files | records | degree range | size range | outcome |
+|---|---:|---:|---:|---:|---|
+| `order15-small` | 64 | 16,408 | 2–13 | 22–44 | all colorable |
+| `order15-5x10` | 128 | 1,583,646 | 2–10 | 20–50 | all colorable |
+| `order15-6x9` | 512 | 43,739,172 | 2–9 | 18–54 | all colorable |
+
+The 704 chunks contain 45,339,226 records. Every index and every bipartition-colored canonical hash is distinct within its class; there are no duplicate indices, non-colorable classifications, or timeouts.
+
+The committed Δ≤10 rounds are also closed. Round 2 generated 4,034,560 candidates and completed 1,260 unique compositions; round 3 generated 25,872 configured candidates and completed 12 unique compositions. All 1,272 completed compositions are colorable. Both searches exhausted their configured families, with zero timeouts, conflicting classifications, or independently confirmed negatives.
+
+Machine-readable totals and artifact hashes are in `results/order15-completed-classes-summary.json`; the underlying audits are `results/order15-{small,5x10,6x9}-audit.txt`, and the targeted rounds are `results/lane6-signature-r2.json` and `results/lane6-signature-r3.json`.
+
 ## Artifacts
 
 - `results/candidates/Q1-00012/` — graph, CNFs, DRAT proofs, checker logs, certificate, manifest.
