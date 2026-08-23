@@ -1,0 +1,2813 @@
+{
+  "schema": "lane6-signature-search-round-4",
+  "elapsed_seconds": 7.722,
+  "total_time_limit_seconds": 7200,
+  "runtime_deadline_hit": false,
+  "environment": {
+    "python": "3.10.12",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "ortools": "9.15.6755",
+    "networkx": "3.4.2"
+  },
+  "family_definition": {
+    "seed": "hat_K34_prime_Delta11",
+    "construction": "one compact paired-endpoint synchronizer paired with one larger synchronizer under asymmetric internal budgets, complementary terminal-degree imbalance, and reversed hub attachments",
+    "forward_internal_count": 3,
+    "reverse_internal_count": 5,
+    "maximum_internal_degree": 5,
+    "minimum_internal_degree": 2,
+    "forward_terminal_degrees_before_attachment": [
+      1,
+      2
+    ],
+    "reverse_terminal_degrees_before_attachment": [
+      2,
+      1
+    ],
+    "role_boundary_rule": "each role contains a maximal-rank0/rank1-zero state and a maximal-rank1/rank0-zero state; roles differ in budget, terminal degrees, and attachment direction",
+    "maximum_types_per_role": 2,
+    "connector_split_mode": "balanced_exact",
+    "exact_u0_connectors": 6,
+    "minimum_hub_degree": 4,
+    "maximum_delta": 10,
+    "minimum_graph_degree": 2
+  },
+  "gadget_enumeration": {
+    "raw_shapes": 91,
+    "solved_gadgets": 91,
+    "excluded_signature_timeout_or_cap": 0,
+    "signature_stage_completed": true,
+    "available_paired_endpoint_forward_types": 2,
+    "available_paired_endpoint_reverse_types": 89,
+    "selected_forward_types": 2,
+    "selected_reverse_types": 2,
+    "configured_pairs": 4,
+    "configured_connector_splits": 924,
+    "forward_stats": {
+      "raw_shapes": 2,
+      "solved_gadgets": 2,
+      "excluded_signature_timeout_or_cap": 0,
+      "signature_stage_completed": true,
+      "elapsed_seconds": 0.108,
+      "signature_size_counts": {
+        "26": 2
+      }
+    },
+    "reverse_stats": {
+      "raw_shapes": 89,
+      "solved_gadgets": 89,
+      "excluded_signature_timeout_or_cap": 0,
+      "signature_stage_completed": true,
+      "elapsed_seconds": 5.406,
+      "signature_size_counts": {
+        "22": 9,
+        "30": 12,
+        "38": 18,
+        "42": 12,
+        "46": 14,
+        "50": 6,
+        "54": 18
+      }
+    },
+    "selected_forward_edges": [
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ]
+      ]
+    ],
+    "selected_reverse_edges": [
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "R1"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "R1"
+        ],
+        [
+          "L2",
+          "T0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "R1"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "R1"
+        ]
+      ]
+    ]
+  },
+  "composition": {
+    "raw_shapes": 91,
+    "solved_gadgets": 91,
+    "selected_gadgets": 4,
+    "generated_before_filters": 3696,
+    "generated": 3696,
+    "skipped_filtered_or_duplicate": 3679,
+    "unique": 17,
+    "completed_unique": 17,
+    "colorable": 17,
+    "non_colorable": 0,
+    "timeout": 0,
+    "counts": {
+      "colorable": 17,
+      "non-colorable": 0,
+      "timeout": 0
+    },
+    "candidate_stage_completed": true,
+    "all_configured_pairs_processed": true,
+    "certification_complete": true,
+    "family_exhausted": true,
+    "configured_family_exhausted": true,
+    "negative_independently_confirmed": 0,
+    "unconfirmed_primary_negatives": 0,
+    "conflicting_classifications": 0,
+    "unresolved_timeout_count": 0
+  },
+  "negative_artifacts": [],
+  "negative_events_path": "/mnt/c/Users/hrant/Documents/ChatGPT/Science/results/lane6-signature-r4-negative-events.json",
+  "rows": [
+    {
+      "candidate_id": "L6R4-0000",
+      "canonical_sha256": "14:19:1c26976a9025dabf94f5603612df3085b2cc65e65af449f9fc0430992a0f203f",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000000111111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.05541661600000225,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 107,
+        "branches": 3305,
+        "wall_time": 0.054155473
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0001",
+      "canonical_sha256": "14:19:bdd7fd01233a4de9123db9b94c42d541f42aef9cd53dfe1c523b6a2f6eb95e89",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000001011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.058261973987100646,
+        "span": 13,
+        "solver_status": "OPTIMAL",
+        "conflicts": 415,
+        "branches": 4003,
+        "wall_time": 0.056958562000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0002",
+      "canonical_sha256": "14:19:bfbb8d2f2d4d18cc5596e3bde325e9a1988c94ed0ef3fddf8f9d52cb2f4303a0",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000100011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.05327985101030208,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 291,
+        "branches": 3730,
+        "wall_time": 0.052105974000000006
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0003",
+      "canonical_sha256": "14:19:459e3cba0ccab5fdbb857993a743ff1c3778210906299f32f4607ba13eafb4ac",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "001000011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.035390183998970315,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 66,
+        "branches": 3196,
+        "wall_time": 0.034205256
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0004",
+      "canonical_sha256": "14:19:face45e2fb4590eef68ddc45c5eaeeccdf248e2b3ee01a5ddb3485684a7c9a3b",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "010000011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.041571556008420885,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 141,
+        "branches": 3304,
+        "wall_time": 0.040440501000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0005",
+      "canonical_sha256": "14:19:64e0b8bad190699e6a28ddfdf3527a291fe16f87fd1b80ace76b41a11b4390b1",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000011001111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.039364007010590285,
+        "span": 12,
+        "solver_status": "OPTIMAL",
+        "conflicts": 93,
+        "branches": 3286,
+        "wall_time": 0.037934235000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0006",
+      "canonical_sha256": "14:19:c74d55d2bf5c587a416060cc2eba8c82e89f87d88972722f6f07bbf5f0692d5b",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000101001111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04014303500298411,
+        "span": 13,
+        "solver_status": "OPTIMAL",
+        "conflicts": 80,
+        "branches": 3207,
+        "wall_time": 0.038883706000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0007",
+      "canonical_sha256": "14:19:fdb9ee6e150e431266c439af4588112ac6fdd8d6e4df6a696455ae72bc5f0e8c",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000001110111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.041316222021123394,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 100,
+        "branches": 3251,
+        "wall_time": 0.040160418
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0008",
+      "canonical_sha256": "14:19:d794e4ffd87576807dcbfd76e75af183304c4123ad5f546cbdda9c566f3e575f",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000100110111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.046850652986904606,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 248,
+        "branches": 3593,
+        "wall_time": 0.045457099
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0009",
+      "canonical_sha256": "14:19:362473d211be775922b534deafbf33daeded46acf519a33b4d9f39480454288c",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000011010111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.042288276978069916,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 105,
+        "branches": 3277,
+        "wall_time": 0.041078371
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0010",
+      "canonical_sha256": "14:19:7cf3397f4e8e359e0eaf4350c818685d6e5899447ed1e468835cfb92aa21eefa",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "000101010111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03746401300304569,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 127,
+        "branches": 3957,
+        "wall_time": 0.036129601000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0011",
+      "canonical_sha256": "14:19:79312ce6f671bd115e63960a4015dfe8524a748890aea24cd760cc82ddd400e7",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "011000010111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04324677199474536,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 151,
+        "branches": 3427,
+        "wall_time": 0.042023631000000006
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0012",
+      "canonical_sha256": "14:19:c70cda702f19dee63d63bcb943ece4a7f9876657f52926787a29fd41344d61ee",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "110000010111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.047887669992633164,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 188,
+        "branches": 3407,
+        "wall_time": 0.046438872000000006
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0013",
+      "canonical_sha256": "14:19:3cecbf08ab5d56ebae7baaaebaef3054f32e168db3fc0ea31c7069411f07ecf1",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "010011000111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04451860499102622,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 84,
+        "branches": 3243,
+        "wall_time": 0.042467753000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0014",
+      "canonical_sha256": "14:19:0a716120588a17a28aca4291ccfdd082a6ad735ad186b572b297d9ff6db201df",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "100101000111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04017135500907898,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 208,
+        "branches": 3623,
+        "wall_time": 0.038783601
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0015",
+      "canonical_sha256": "14:19:bac8577cbdadd8298113f60f2777b936fc51d6b09edcdcf5898e98efe4d15c21",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "011001000111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.038072272000135854,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 26,
+        "branches": 3078,
+        "wall_time": 0.036668268000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R4-0016",
+      "canonical_sha256": "14:19:4cb5688658b90c6e1fad2f1db82b1fd78ae16fc6d354a4cf4da5bdeac2c0883e",
+      "order": 33,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+      "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+      "forward_index": 0,
+      "reverse_index": 0,
+      "gadget_edge_counts": [
+        5,
+        7
+      ],
+      "metadata": {
+        "lane": "lane6-asymmetric-terminal-signature-r4",
+        "construction": "forward_only_plus_mirrored_reverse_only",
+        "forward_key": "[[\"L0\",\"R0\"],[\"L0\",\"T0\"],[\"L0\",\"T1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"]]",
+        "reverse_key": "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"R1\"],[\"L2\",\"T0\"],[\"L2\",\"T1\"]]",
+        "forward_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L0",
+            "T1"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "T1"
+          ]
+        ],
+        "reverse_edges": [
+          [
+            "L0",
+            "R0"
+          ],
+          [
+            "L0",
+            "R1"
+          ],
+          [
+            "L0",
+            "T0"
+          ],
+          [
+            "L1",
+            "R0"
+          ],
+          [
+            "L1",
+            "R1"
+          ],
+          [
+            "L2",
+            "T0"
+          ],
+          [
+            "L2",
+            "T1"
+          ]
+        ],
+        "forward_terminal_degrees_before_hub_attachment": [
+          1,
+          2
+        ],
+        "reverse_terminal_degrees_before_hub_attachment": [
+          2,
+          1
+        ],
+        "mask": "110011000011",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "R_L0",
+          "degree": 3,
+          "weighted_neighbor_diameter": 3,
+          "margin": -1,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "R_L1",
+          "degree": 2,
+          "weighted_neighbor_diameter": 4,
+          "margin": -3,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04111371299950406,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 81,
+        "branches": 3183,
+        "wall_time": 0.039993377000000004
+      },
+      "certified_non_colorable": false
+    }
+  ]
+}
