@@ -517,6 +517,8 @@ def make_report(args, diagnostics, generated_lanes, selected_lanes, rows, counts
             "solver_workers_per_process": args.solver_workers,
             "primary_solver": "rank-potential CP-SAT",
             "primary_time_limit_seconds": args.primary_time_limit,
+            "retained_candidate_cap": args.candidate_cap,
+            "classification_cap": min(args.classify_cap, args.candidate_cap),
             "independent_confirmation": "fixed-span CP-SAT over every legal span",
             "span_time_limit_seconds": args.span_time_limit,
             "timeout_policy": "UNKNOWN is unresolved and is never counted non-colorable",
@@ -525,6 +527,7 @@ def make_report(args, diagnostics, generated_lanes, selected_lanes, rows, counts
             "ranking": ["hub_best_margin descending", "delta descending", "canonical hash"],
             "structural_ranking_source": "results/structural-obstruction-findings.json",
             "maximum_additions_after_deletion": args.max_additions,
+            "maximum_rewires_per_negative": args.max_rewires,
             "reverse_extension_limit_per_seed": args.extension_limit,
             "minimality_checks_enabled": not args.skip_minimality,
             "minimality_time_limit_seconds": args.minimality_time_limit,
@@ -580,7 +583,8 @@ def main() -> None:
         ),
         default="all",
     )
-    parser.add_argument("--candidate-cap", type=int, default=600)
+    parser.add_argument("--candidate-cap", type=int, default=2000)
+    parser.add_argument("--classify-cap", type=int, default=500)
     parser.add_argument("--max-processes", type=int, default=3)
     parser.add_argument("--solver-workers", type=int, default=2)
     parser.add_argument("--primary-time-limit", type=float, default=7.5)
@@ -651,7 +655,9 @@ def main() -> None:
         print(json.dumps({"phase": "classification_started", **diagnostics}), flush=True)
 
         futures = {}
-        for number, (_, _, _, _, digest, graph, _metrics) in enumerate(selected):
+        for number, (_, _, _, _, digest, graph, _metrics) in enumerate(
+            selected[: min(args.classify_cap, len(selected))]
+        ):
             task = {
                 "candidate_id": f"O18-{number:05d}",
                 "canonical_sha256": digest,
