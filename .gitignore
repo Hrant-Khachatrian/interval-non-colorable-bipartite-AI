@@ -3,3 +3,4 @@ __pycache__/
 *.py[cod]
 tools/
 literature/raw/
+data/order14-*-d2.g6

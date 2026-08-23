@@ -81,10 +81,13 @@ On 2026-08-23, we extended the search for a graph with fewer than 19 vertices. E
 | 11 | all splits, minimum degree at least 2 | 6,956 | 6,949 | 7 | 0 | 0 |
 | 12 | all splits, minimum degree at least 2 | 102,657 | 102,644 | 13 | 0 | 0 |
 | 13 | all splits, minimum degree at least 2 | 830,392 | 830,392 | 0 | 0 | 0 |
+| 14 | all splits, minimum degree at least 2 | 20,657,796 | 20,657,758 | 38 | 0 | 0 |
 
-Every processed graph has a distinct bipartition-colored canonical hash within its bipartition-size class. Across all side splits, a connected bipartite graph's two part sizes are an isomorphism invariant (up to interchange), so there are no cross-class duplicates. Thus no minimum-degree-2 connected counterexample exists on 10–13 vertices.
+Every processed graph has a distinct bipartition-colored canonical hash within its bipartition-size class. Across all side splits, a connected bipartite graph's two part sizes are an isomorphism invariant (up to interchange), so there are no cross-class duplicates. Thus no minimum-degree-2 connected counterexample exists on 10–14 vertices.
 
-The larger classes were processed on the YSU `research_cpu` partition as deterministic nauty-residue slices, using four CPU slots per slice. The order-13, 6+7 class had 128 slices; its slowest primary solve completed in 1.38 seconds under the two-second limit.
+The larger classes were processed on the YSU `research_cpu` partition as deterministic nauty-residue slices, using four CPU slots per slice. The order-14 sweep used up to 512 slices and completed all 20,657,796 candidates. Two records hit the two-second sweep cap; both were reclassified exactly with a one-hour limit and were colorable, so the table reports no unresolved timeouts. The order-14, 7+7 class had 38 regular graphs covered by the regular-bipartite coloring theorem.
+
+In the Δ≤10 targeted lane, a bounded two-terminal signature search produced 476 unique graphs (280 strict-concatenator and 196 broader forced-offset), all colorable. A corrected 12-connector chained-synchronization search also produced 73 unique graphs, all colorable. No new counterexample was found.
 
 ## Artifacts
 
@@ -100,6 +103,12 @@ The larger classes were processed on the YSU `research_cpu` partition as determi
 - `results/small-order-12-6x6.jsonl` — exact classifications for all connected 6+6, minimum-degree-2 graphs.
 - `results/order11-5x6-audit.txt`, `results/order12-6x6-audit.txt`, and `results/order13-6x7-audit.txt` — completeness and uniqueness audits.
 - `data/order13-6x7-d2.g6` — canonical nauty input used by the 128-way Slurm run.
+- `results/order14-search-summary.json` — complete order-14 census, audits, and timeout resolutions.
+- `results/order14-*-audit.txt` — streaming completeness/uniqueness audits for every order-14 side split.
+- `results/order14-{6x8,7x7}-timeout-rerun.json` — exact longer-limit reruns of the two sweep-timeout records.
+- `data/order14-*-d2.g6` — canonical nauty inputs for all order-14 side splits.
+- `results/lane6-signature-strict.json`, `results/lane6-signature-forced.json` — bounded Δ≤10 terminal-signature searches.
+- `results/lane6-chained-sync-corrected.json` — corrected 12-connector synchronization search.
 - `results/literature-recheck-2026-08-22.json` — literature-query snapshot.
 - `results/literature-targeted-openalex-2026-08-22.json` — targeted exact-phrase OpenAlex query.
 

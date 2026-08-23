@@ -1,0 +1,9 @@
+files 128
+rows 453650
+unique_indices 453650
+duplicate_indices 0
+unique_canonical 453650
+statuses {"colorable": 453650}
+degree_range 2 9
+size_range 18 45
+max_sweep_solver_seconds 2.0004190262407064

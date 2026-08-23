@@ -264,3 +264,26 @@ The repaired pipeline then classified every side-size split for orders 10 throug
 Nauty confirmed that processed rows are pairwise distinct within each bipartition-size class; different part-size pairs cannot be isomorphic for a connected bipartite graph except by interchange of the two parts, which the enumeration already identifies. The larger classes used deterministic residue slices on YSU `research_cpu`, with four CPU slots per slice. The order-13, 6+7 class had 128 slices; its slowest primary solve was 1.38 seconds under the two-second limit.
 
 Thus no minimum-degree-2 connected counterexample exists on 10--13 vertices. The grouped cross-class audit is `results/all-gap-audits.txt`, earlier class audits remain in place, and the reusable runner is `src/search_small_bipartite.py`.
+
+## 2026-08-23 — Complete order-14 exhaustive search
+
+The same canonical pipeline was extended to every side-size split of order 14. Nauty generated 20,657,796 connected minimum-degree-2 bipartite graphs:
+
+| split | generated | outcome |
+|---|---:|---|
+| 2+12 | 1 | colorable |
+| 3+11 | 80 | all colorable |
+| 4+10 | 8,670 | all colorable |
+| 5+9 | 453,650 | all colorable |
+| 6+8 | 5,916,568 | 5,916,567 colorable; one sweep timeout reran colorable |
+| 7+7 | 14,278,827 | 14,278,788 solved colorable; 38 regular skipped; one sweep timeout reran colorable |
+
+The 6+8 and 7+7 runs used 256 and 512 deterministic nauty-residue slices, respectively, on YSU `research_cpu` with four CPU slots per slice. Streaming audits confirmed exact index coverage and distinct bipartition-colored canonical hashes for every class. The only two two-second sweep timeouts were rerun with one-hour limits: the 6+8 record became colorable at span 11 in 1.63 seconds, and the 7+7 record became colorable at span 8 in 1.18 seconds. Thus there are no unresolved timeouts and no counterexample of order 14 in this scope.
+
+Five parallel background agents also contributed: two monitored/audited the large classes, one built a reusable one-command independent verification workflow (`src/verify_candidate_workflow.py`), one exhausted a bounded Δ≤10 terminal-signature family (476 unique graphs, all colorable), and one counted the order-15 census at 288,643,968 graphs. The signature search also found that `src/lane6_chained_sync_search.py` used 11 connector bits although the reconstructed seed has 12 connectors; its saved result is complete only for the unintended 11-connector subfamily.
+
+Combined with the previous run, all connected minimum-degree-2 bipartite graphs on 10--14 vertices are now classified: 21,599,256 canonical candidates, 21,599,218 nonregular solves, 38 regular skips, zero negatives, and zero unresolved timeouts.
+
+The corrected 12-connector chained-synchronization search produced exactly the same 73 unique graphs as the earlier 11-bit run; the omitted high-index bit was never viable under the degree and connectivity filters. The corrected artifact is `results/lane6-chained-sync-corrected.json`.
+
+Two bounded terminal-signature searches were also rerun to save reproducible artifacts. The strict endpoint-maximal filter yielded 280 unique Δ≤10 graphs; the broader forced-adjacent-offset filter yielded 196. All 476 were colorable with no timeouts. Reports are `results/lane6-signature-strict.json` and `results/lane6-signature-forced.json`.

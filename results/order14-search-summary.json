@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-23",
+  "scope": "connected simple bipartite graphs, minimum degree at least 2, order 14, all bipartition-size splits",
+  "oracle": "rank-potential-cpsat; two sweep timeouts rerun exactly with a one-hour limit",
+  "total_generated": 20657796,
+  "colorable_after_timeout_resolution": 20657758,
+  "regular_skipped": 38,
+  "non_colorable": 0,
+  "unresolved_timeouts": 0,
+  "timeout_reruns": {
+    "order14-6x8-timeout-rerun.json": "colorable",
+    "order14-7x7-timeout-rerun.json": "colorable"
+  },
+  "classes": [
+    {
+      "bipartition": "2+12",
+      "generated": 1,
+      "audits": {
+        "files": 32,
+        "rows": 1,
+        "unique_indices": 1,
+        "duplicate_indices": 0,
+        "unique_canonical": 1,
+        "statuses": {
+          "colorable": 1
+        },
+        "degree_range": "2 12",
+        "size_range": "24 24",
+        "max_sweep_solver_seconds": "0.016964079812169075"
+      },
+      "timeout_rerun_artifact": null
+    },
+    {
+      "bipartition": "3+11",
+      "generated": 80,
+      "audits": {
+        "files": 32,
+        "rows": 80,
+        "unique_indices": 80,
+        "duplicate_indices": 0,
+        "unique_canonical": 80,
+        "statuses": {
+          "colorable": 80
+        },
+        "degree_range": "2 11",
+        "size_range": "22 33",
+        "max_sweep_solver_seconds": "0.1192438742145896"
+      },
+      "timeout_rerun_artifact": null
+    },
+    {
+      "bipartition": "4+10",
+      "generated": 8670,
+      "audits": {
+        "files": 64,
+        "rows": 8670,
+        "unique_indices": 8670,
+        "duplicate_indices": 0,
+        "unique_canonical": 8670,
+        "statuses": {
+          "colorable": 8670
+        },
+        "degree_range": "2 10",
+        "size_range": "20 40",
+        "max_sweep_solver_seconds": "0.32798915542662144"
+      },
+      "timeout_rerun_artifact": null
+    },
+    {
+      "bipartition": "5+9",
+      "generated": 453650,
+      "audits": {
+        "files": 128,
+        "rows": 453650,
+        "unique_indices": 453650,
+        "duplicate_indices": 0,
+        "unique_canonical": 453650,
+        "statuses": {
+          "colorable": 453650
+        },
+        "degree_range": "2 9",
+        "size_range": "18 45",
+        "max_sweep_solver_seconds": "2.0004190262407064"
+      },
+      "timeout_rerun_artifact": null
+    },
+    {
+      "bipartition": "6+8",
+      "generated": 5916568,
+      "audits": {
+        "files": 256,
+        "rows": 5916568,
+        "unique_indices": 5916568,
+        "duplicate_indices": 0,
+        "unique_canonical": 5916568,
+        "statuses": {
+          "colorable": 5916567,
+          "timeout": 1
+        },
+        "degree_range": "2 8",
+        "size_range": "16 48",
+        "max_sweep_solver_seconds": "2.0103754717856646"
+      },
+      "timeout_rerun_artifact": "results/order14-6x8-timeout-rerun.json"
+    },
+    {
+      "bipartition": "7+7",
+      "generated": 14278827,
+      "audits": {
+        "files": 512,
+        "rows": 14278827,
+        "unique_indices": 14278827,
+        "duplicate_indices": 0,
+        "unique_canonical": 14278827,
+        "statuses": {
+          "colorable": 14278788,
+          "regular-skipped": 38,
+          "timeout": 1
+        },
+        "degree_range": "2 7",
+        "size_range": "14 49",
+        "max_sweep_solver_seconds": "2.0047336891293526"
+      },
+      "timeout_rerun_artifact": "results/order14-7x7-timeout-rerun.json"
+    }
+  ]
+}

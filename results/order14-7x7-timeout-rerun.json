@@ -1,0 +1,16 @@
+{
+  "canonical_sha256": "7:7:54b2a79103b72a16a6fe95cbe0615b80a8d8404f62ded13983aba5a7123c5341",
+  "delta": 7,
+  "index": 14278807,
+  "minimum_degree": 4,
+  "order": 14,
+  "size": 43,
+  "solver_seconds": 1.1795997079461813,
+  "solver_status": "OPTIMAL",
+  "source": "data/order14-7x7-d2.g6",
+  "source_line": "M???D}}^b{Nov_~_?",
+  "span": 8,
+  "status": "colorable",
+  "time_limit_seconds": 3600.0,
+  "workers": 4
+}

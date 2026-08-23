@@ -1,0 +1,385 @@
+{"completed": 50, "status_counts": {"colorable": 50}}
+{"completed": 100, "status_counts": {"colorable": 100}}
+{"completed": 150, "status_counts": {"colorable": 150}}
+{"completed": 200, "status_counts": {"colorable": 200}}
+{"completed": 250, "status_counts": {"colorable": 250}}
+{
+  "elapsed_seconds": 62.455,
+  "gadget_enumeration": {
+    "max_internal": 4,
+    "max_internal_degree": 6,
+    "connected_bipartite_gadgets": 382,
+    "candidate_edge_sets": 382,
+    "excluded_signature_timeout": 0,
+    "excluded_solution_cap": 0,
+    "signature_size_counts": {
+      "8": 1,
+      "14": 1,
+      "16": 14,
+      "20": 1,
+      "22": 31,
+      "24": 11,
+      "26": 5,
+      "28": 3,
+      "29": 1,
+      "30": 9,
+      "32": 1,
+      "36": 28,
+      "38": 64,
+      "40": 18,
+      "41": 2,
+      "42": 18,
+      "44": 21,
+      "46": 4,
+      "48": 18,
+      "50": 19,
+      "52": 6,
+      "54": 14,
+      "56": 24,
+      "60": 6,
+      "62": 8,
+      "65": 12,
+      "69": 6,
+      "78": 12,
+      "80": 24
+    },
+    "concatenator_gadgets": 11,
+    "strict_extreme_concatenator_gadgets": 60,
+    "concatenator_edges": [
+      [
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "T0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T0"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L1",
+          "T1"
+        ]
+      ]
+    ]
+  },
+  "composition": {
+    "hub_neighbor_splits": 4096,
+    "generated_before_filters": 45056,
+    "signature_filter": "strict_extreme",
+    "selected_concatenator_gadgets": 60,
+    "skipped_filtered_or_duplicate": 245480,
+    "completed_unique": 280,
+    "counts": {
+      "colorable": 280,
+      "non-colorable": 0,
+      "timeout": 0
+    },
+    "family_exhausted": true,
+    "negative_independently_confirmed": 0,
+    "conflicting_classifications": 0
+  }
+}

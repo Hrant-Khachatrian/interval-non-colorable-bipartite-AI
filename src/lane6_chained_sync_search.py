@@ -37,10 +37,10 @@ def candidate(base: Graph, mask: int, paths: int) -> Graph:
         [left, right],
         {
             "lane": "lane6-chained-synchronization",
-            "mask": format(mask, "011b"),
+            "mask": format(mask, "012b"),
             "sync_paths": paths,
-            "u0_degree": sum(bool(mask & (1 << i)) for i in range(11)) + paths,
-            "u1_degree": sum(not bool(mask & (1 << i)) for i in range(11)) + paths,
+            "u0_degree": sum(bool(mask & (1 << i)) for i in range(12)) + paths,
+            "u1_degree": sum(not bool(mask & (1 << i)) for i in range(12)) + paths,
         },
     )
 
@@ -60,7 +60,7 @@ def main() -> None:
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     for paths in (1, 2, 3):
-        for mask in range(1 << 11):
+        for mask in range(1 << 12):
             graph = candidate(base, mask, paths)
             hub_degrees = (graph.degrees["U0"], graph.degrees["U1"])
             if (
