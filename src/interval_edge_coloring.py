@@ -686,7 +686,15 @@ def main() -> None:
         print(json.dumps(weighted_hub_statistics(graph), indent=2))
     elif args.command == "solve":
         result = rank_potential_solve(graph, args.time_limit, args.workers)
-        print(json.dumps(result.__dict__, indent=2))
+        result_dict = {}
+        for k, v in result.__dict__.items():
+            key = str(k)
+            if isinstance(v, dict):
+                val = {str(k2): (str(k2) if isinstance(k2, (str, int, float, bool)) else [str(x) for x in k2] if isinstance(k2, tuple) else k2) for k2, val2 in v.items()}
+            else:
+                val = v
+            result_dict[key] = val
+        print(json.dumps(result_dict, indent=2))
     elif args.command == "spans":
         print(json.dumps(all_spans_solve(graph, args.time_limit, args.workers), indent=2))
 

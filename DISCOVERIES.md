@@ -89,7 +89,7 @@ The larger classes were processed on the YSU `research_cpu` partition as determi
 
 In the Δ≤10 targeted lane, a bounded two-terminal signature search produced 476 unique graphs (280 strict-concatenator and 196 broader forced-offset), all colorable. A corrected 12-connector chained-synchronization search also produced 73 unique graphs, all colorable. No new counterexample was found.
 
-## Order-15 completion and Δ≤10 rounds
+## Order-15 progress and completed Δ≤10 rounds
 
 On 2026-08-23, streaming audits completed the three remaining order-15 connected, minimum-degree-2 classes:
 
@@ -102,6 +102,20 @@ On 2026-08-23, streaming audits completed the three remaining order-15 connected
 The 704 chunks contain 45,339,226 records. Every index and every bipartition-colored canonical hash is distinct within its class; there are no duplicate indices, non-colorable classifications, or timeouts.
 
 The committed Δ≤10 rounds are also closed. Round 2 generated 4,034,560 candidates and completed 1,260 unique compositions; round 3 generated 25,872 configured candidates and completed 12 unique compositions. All 1,272 completed compositions are colorable. Both searches exhausted their configured families, with zero timeouts, conflicting classifications, or independently confirmed negatives.
+
+The remaining order-15 class is `7+8`, with exactly 243,304,742 canonical records. It is being processed as deterministic Slurm slices; any timeout will be rerun exactly rather than counted as colorable or non-colorable.
+
+## Targeted order 16 and degree-bound transformations
+
+A complete connected `5+11` order-16 census with degrees from 2 through 11 contains 5,158,975 graphs. Exact classification of the last 5,000 records selected the 100 highest weighted-hub-margin unique candidates: all 100 were colorable, with no timeouts. This was a prioritized bounded probe, not an exhaustive order-16 proof. The summary is `results/targeted-order16/5x11-summary.json`; compact classification records are under `results/targeted-order16/classification/`.
+
+Structural analysis of 6,964 unique colorable near misses and all available negative controls found that `hub_best_margin >= -1.5` is the strongest broad separator: it retains every verified negative while admitting only 31 false positives. It is used for ranking, not as a proof.
+
+A bounded rooted-gadget transfer search starting from the two new graphs and five reconstructed high-degree benchmarks generated 88,686 replacements and retained 3,495 unique Δ≤10 graphs. Every graph was colorable and no solve timed out. Five parents exhausted their replacement families; two stopped at explicit 1,500-candidate caps, so the lane is bounded but not globally exhausted. Report: `results/degree-transfer-delta10.json`.
+
+A set-system search enumerated 372,570 irregular pairwise-intersecting block multisets with weighted connector points. It classified 743 unique highest-priority candidates at final maximum degree at most 10: all were colorable, with zero timeouts. Generation and classification of the configured prioritized family are complete. Report: `results/set-system-delta10.json`.
+
+Ordinary edge subdivision is closed as a degree-reduction operation by a direct invariant argument: replacing edge `xy` with a longer `x`--`y` path leaves the degrees of both original endpoints unchanged. Consequently no ordinary subdivision of a parent with maximum degree above 10 can produce maximum degree at most 10. An earlier saved artifact came from swapped cap/degree arguments and has been removed; the corrected exhaustive feasibility report is empty (`results/subdivision-delta10-audited.json`). Vertex splitting remains open and is searched separately.
 
 Machine-readable totals and artifact hashes are in `results/order15-completed-classes-summary.json`; the underlying audits are `results/order15-{small,5x10,6x9}-audit.txt`, and the targeted rounds are `results/lane6-signature-r2.json` and `results/lane6-signature-r3.json`.
 

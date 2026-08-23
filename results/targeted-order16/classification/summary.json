@@ -1,0 +1,30 @@
+{
+  "classification_scope": {
+    "eligible_in_tail": 5000,
+    "generated_total": 5158975,
+    "selected_unique": 100,
+    "tail_scanned": 5000
+  },
+  "completion_status": "completed",
+  "counts": {
+    "classified": 100,
+    "colorable": 100,
+    "non_colorable": 0,
+    "solver_contradiction": 0,
+    "timeout": 0
+  },
+  "elapsed_seconds": 172.77474010900005,
+  "generated_total": 5158975,
+  "parameters": {
+    "deadline_seconds": 1800.0,
+    "max_processes": 3,
+    "primary_time_limit_seconds": 15.0,
+    "prioritization": "descending maximum weighted-hub margin",
+    "solver_workers": 3,
+    "span_time_limit_seconds": 30.0,
+    "subset_limit": 100,
+    "tail_lines": 5000
+  },
+  "source": "results/targeted-order16/order16-5x11-d2to11.g6",
+  "stopped_reason": "all_selected_classified"
+}

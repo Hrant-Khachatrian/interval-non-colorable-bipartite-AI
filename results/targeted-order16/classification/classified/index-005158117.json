@@ -1,0 +1,64 @@
+{
+  "canonical_sha256": "5:11:c39e529e738f19f8f218720b9526f9e540530b8ab5ca054de693ba6916808a82",
+  "degrees": {
+    "x0": 7,
+    "x1": 8,
+    "x2": 8,
+    "x3": 10,
+    "x4": 9,
+    "y0": 3,
+    "y1": 3,
+    "y10": 4,
+    "y2": 4,
+    "y3": 4,
+    "y4": 4,
+    "y5": 4,
+    "y6": 4,
+    "y7": 4,
+    "y8": 4,
+    "y9": 4
+  },
+  "delta": 10,
+  "index": 5158117,
+  "minimum_degree": 3,
+  "negative_graph_path": "results/targeted-order16/classification/candidate-graphs/index-005158117.graph.json",
+  "primary_solver_seconds": 0.30709892100003344,
+  "primary_solver_status": "OPTIMAL",
+  "primary_span": 12,
+  "primary_status": "colorable",
+  "primary_time_limit": 15.0,
+  "priority": {
+    "best_margin": -4,
+    "delta": 10,
+    "positive_margin_sum": 0,
+    "size": 42
+  },
+  "size": 42,
+  "solver_workers": 3,
+  "source_line": "O?AZUrWmDoN?]?]?]?F_?",
+  "span_time_limit": 30.0,
+  "status": "colorable",
+  "weighted_hubs_best": [
+    {
+      "degree": 10,
+      "hub": "x3",
+      "margin": -4,
+      "sufficient_obstruction": false,
+      "weighted_neighbor_diameter": 13
+    },
+    {
+      "degree": 8,
+      "hub": "x1",
+      "margin": -7,
+      "sufficient_obstruction": false,
+      "weighted_neighbor_diameter": 14
+    },
+    {
+      "degree": 8,
+      "hub": "x2",
+      "margin": -7,
+      "sufficient_obstruction": false,
+      "weighted_neighbor_diameter": 14
+    }
+  ]
+}

@@ -4,9 +4,9 @@ This repository contains two newly certified simple connected bipartite graphs w
 
 Subsequent exhaustive searches covered every connected bipartite graph on 10--14 vertices with minimum degree at least 2: 21,599,256 canonical candidates, all interval-colorable after exact reruns of two sweep timeouts. No smaller counterexample was found.
 
-A bounded maximum-degree-10 synchronization-gadget search also found only colorable graphs.
+Bounded maximum-degree-10 synchronization, transfer, and set-system searches found only colorable graphs. Ordinary edge subdivision cannot reduce maximum degree, because endpoint degrees are invariant under subdivision.
 
-The discovery pipeline starts from the known degree-11 benchmark, generates same-side vertex identifications, removes isomorphs with a bipartition-colored Nauty certificate, and classifies each candidate with an exact rank-potential CP-SAT model. Apparent counterexamples are then checked with an independent fixed-span model, MiniSat on DIMACS instances, and checked DRAT proofs.
+The discovery pipeline starts from known high-degree benchmarks, applies structure-guided constructions and transformations, removes isomorphs with a bipartition-colored Nauty certificate, and classifies promising candidates with an exact rank-potential CP-SAT model. Apparent counterexamples are then checked with an independent fixed-span model, MiniSat on DIMACS instances, and checked DRAT proofs.
 
 See [DISCOVERIES.md](DISCOVERIES.md) for the graphs, figures, verification matrix, minimality results, and hashes. Longer experiment notes are in [`docs/research-log.md`](docs/research-log.md).
 

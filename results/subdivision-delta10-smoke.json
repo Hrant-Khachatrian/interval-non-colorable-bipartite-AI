@@ -1,0 +1,230 @@
+{
+  "configuration": {
+    "subdivision": "ordinary edge subdivision (one new degree-2 vertex)",
+    "subdivision_depth": 1,
+    "maximum_final_delta": 10,
+    "candidate_cap_per_benchmark": 4,
+    "primary": "rank-potential CP-SAT",
+    "independent_negative_confirmation": "fixed-span CP-SAT over all legal spans",
+    "deduplication": "pynauty uncolored canonical certificate"
+  },
+  "audit": {
+    "stale_artifact": "results/graphs/subdivision_delta10/SD10-M5_delta_555-0001.graph.json",
+    "stale_artifact_removed": false,
+    "root_cause": "main passed maximum_final_delta as classify_benchmark's candidate_cap and candidate_cap as maximum_final_delta"
+  },
+  "completion_flags": {
+    "all_benchmarks_generation_complete": true,
+    "all_benchmarks_classification_complete": true
+  },
+  "counts": {
+    "generated": 39,
+    "unique": 8,
+    "colorable": 8,
+    "non_colorable": 0,
+    "timeout": 0,
+    "confirmed_non_colorable": 0
+  },
+  "complete": true,
+  "elapsed_seconds": 2.055247808999866,
+  "summaries": [
+    {
+      "benchmark": "M5_delta_555",
+      "parent_order": 19,
+      "parent_size": 45,
+      "parent_delta": 15,
+      "degree_reduction_required_per_vertex": {
+        "v": 5
+      },
+      "generated": 26,
+      "generated_targeted": 26,
+      "generated_general": 0,
+      "unique": 4,
+      "rejected_disconnected": 0,
+      "colorable": 4,
+      "non_colorable": 0,
+      "primary_non_colorable": 0,
+      "confirmed_non_colorable": 0,
+      "primary_timeout": 0,
+      "independent_unresolved": 0,
+      "oracle_conflicts": 0,
+      "targeted_configurations_complete": false,
+      "general_partial_family_complete": true,
+      "generation_complete": true,
+      "classification_complete": true,
+      "run_complete": true,
+      "candidate_cap_reached": true,
+      "subdivision_depth_exhausted": true,
+      "elapsed_seconds": 0.9268315330000405,
+      "negative_events": []
+    },
+    {
+      "benchmark": "Erd_Fano_2222221",
+      "parent_order": 21,
+      "parent_size": 52,
+      "parent_delta": 13,
+      "degree_reduction_required_per_vertex": {
+        "u": 3
+      },
+      "generated": 13,
+      "generated_targeted": 13,
+      "generated_general": 0,
+      "unique": 4,
+      "rejected_disconnected": 0,
+      "colorable": 4,
+      "non_colorable": 0,
+      "primary_non_colorable": 0,
+      "confirmed_non_colorable": 0,
+      "primary_timeout": 0,
+      "independent_unresolved": 0,
+      "oracle_conflicts": 0,
+      "targeted_configurations_complete": false,
+      "general_partial_family_complete": true,
+      "generation_complete": true,
+      "classification_complete": true,
+      "run_complete": true,
+      "candidate_cap_reached": true,
+      "subdivision_depth_exhausted": true,
+      "elapsed_seconds": 1.098155825000049,
+      "negative_events": []
+    }
+  ],
+  "records": [
+    {
+      "benchmark": "M5_delta_555",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        3,
+        6,
+        9,
+        12
+      ],
+      "canonical_sha256": "24:9784aa0105b22aca08cf79f64a10395ca31a9f2caac377486116da2094492218",
+      "order": 24,
+      "size": 50,
+      "delta": 15,
+      "primary_status": "colorable",
+      "primary_span": 15,
+      "primary_elapsed_seconds": 0.2594509509999625
+    },
+    {
+      "benchmark": "M5_delta_555",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        3,
+        6,
+        9,
+        15
+      ],
+      "canonical_sha256": "24:b3f70c63f769fa5fd4451ea5bb326940564810aca40ac9c631138731f950848b",
+      "order": 24,
+      "size": 50,
+      "delta": 15,
+      "primary_status": "colorable",
+      "primary_span": 15,
+      "primary_elapsed_seconds": 0.18169929800023965
+    },
+    {
+      "benchmark": "M5_delta_555",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        3,
+        6,
+        15,
+        18
+      ],
+      "canonical_sha256": "24:690c25e74dafd55ef3eb9c9f00f6f70e59750f39ba3c92c7f934b7f9683f1a71",
+      "order": 24,
+      "size": 50,
+      "delta": 15,
+      "primary_status": "colorable",
+      "primary_span": 15,
+      "primary_elapsed_seconds": 0.25688687399997434
+    },
+    {
+      "benchmark": "M5_delta_555",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        3,
+        6,
+        15,
+        30
+      ],
+      "canonical_sha256": "24:4f1a24bb65a6ce9f543716b08470af5cd99091876d25c5322dbb3ad99ecff329",
+      "order": 24,
+      "size": 50,
+      "delta": 15,
+      "primary_status": "colorable",
+      "primary_span": 15,
+      "primary_elapsed_seconds": 0.21455636899963793
+    },
+    {
+      "benchmark": "Erd_Fano_2222221",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        4,
+        8
+      ],
+      "canonical_sha256": "24:1c4437ab645a34e4bfc7479c007b5881de202166ba0cf10be1b60698d64880d2",
+      "order": 24,
+      "size": 55,
+      "delta": 13,
+      "primary_status": "colorable",
+      "primary_span": 13,
+      "primary_elapsed_seconds": 0.5343267509997531
+    },
+    {
+      "benchmark": "Erd_Fano_2222221",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        4,
+        40
+      ],
+      "canonical_sha256": "24:37ef0218600c8eaed93bfa400fe54154f21113c75cb6316fd01169777fdb7f4a",
+      "order": 24,
+      "size": 55,
+      "delta": 13,
+      "primary_status": "colorable",
+      "primary_span": 13,
+      "primary_elapsed_seconds": 0.1827519570001641
+    },
+    {
+      "benchmark": "Erd_Fano_2222221",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        4,
+        48
+      ],
+      "canonical_sha256": "24:512105eb4d11e6cd752f9fc2fec3c2ab548acbee4dadf1bd96aa691d25b95ee0",
+      "order": 24,
+      "size": 55,
+      "delta": 13,
+      "primary_status": "colorable",
+      "primary_span": 13,
+      "primary_elapsed_seconds": 0.18570763700017778
+    },
+    {
+      "benchmark": "Erd_Fano_2222221",
+      "phase": "targeted",
+      "selected_parent_edges": [
+        0,
+        8,
+        16
+      ],
+      "canonical_sha256": "24:16443fe48440f7e78cb318823852a0815fdb6e93ba798313d2c1f2248871c5d0",
+      "order": 24,
+      "size": 55,
+      "delta": 13,
+      "primary_status": "colorable",
+      "primary_span": 13,
+      "primary_elapsed_seconds": 0.18662356100003308
+    }
+  ]
+}
