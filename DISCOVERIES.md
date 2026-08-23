@@ -123,6 +123,12 @@ A bounded order-18 rewiring and reverse-extension search generated 123,506 candi
 
 The resumed degree-transfer extension passed the old Erdős–Fano cap: 89,207 additional replacements produced 1,256 new unique Δ≤10 graphs beyond the prior report. Together with 244 recovered checkpoint classifications, 1,500 unique graphs in this parent's extension are classified; every solve is colorable and no timeout occurred. Extension of the Δ15 parent is in progress.
 
+The extension then completed both capped parents. Across 198,954 additional constructions, 2,756 newly solved unique candidates plus 244 recovered rows gave 3,000 combined extension classifications: Erdős–Fano 1,256 and Δ15 benchmark 1,500. All 3,000 were colorable, with zero timeouts; combined with the baseline, the represented transfer total is 6,495 unique colorable graphs (`results/degree-transfer-delta10-extension-resumed.json`).
+
+A second order-16 tail expansion scanned exactly the final 20,000 records (indices 5,138,975 through 5,158,974), selected 50 high-margin candidates disjoint from the original 100, and classified all 50 as colorable with zero timeouts (`results/targeted-order16/tail-expansion-v2.json`).
+
+A one-pass live audit of 345 available order-15 `7+8` chunks checked 129,324,159 rows on YSU job 227326: all indices and bipartition-colored canonical hashes were distinct, there were zero malformed rows, zero timeout rows, and all rows were colorable. This is a clean snapshot at 53.153% of the expected 243,304,742 records, not yet completion of the class.
+
 Machine-readable totals and artifact hashes are in `results/order15-completed-classes-summary.json`; the underlying audits are `results/order15-{small,5x10,6x9}-audit.txt`, and the targeted rounds are `results/lane6-signature-r2.json` and `results/lane6-signature-r3.json`.
 
 ## Artifacts

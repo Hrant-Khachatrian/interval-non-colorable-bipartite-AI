@@ -1,0 +1,2505 @@
+{
+  "audit_elapsed_seconds": 1145.72,
+  "audit_kind": "one_pass_live_snapshot",
+  "chunk_file_inventory": [
+    {
+      "changed_during_scan": false,
+      "end_bytes": 114736241,
+      "file": "chunk-0.jsonl",
+      "mtime_utc_before": "2026-08-23T06:53:36Z",
+      "snapshot_bytes": 114736241
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 114861426,
+      "file": "chunk-1.jsonl",
+      "mtime_utc_before": "2026-08-23T06:22:32Z",
+      "snapshot_bytes": 114861426
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115288745,
+      "file": "chunk-2.jsonl",
+      "mtime_utc_before": "2026-08-23T06:23:29Z",
+      "snapshot_bytes": 115288745
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115327116,
+      "file": "chunk-3.jsonl",
+      "mtime_utc_before": "2026-08-23T06:36:12Z",
+      "snapshot_bytes": 115327116
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115324549,
+      "file": "chunk-4.jsonl",
+      "mtime_utc_before": "2026-08-23T06:35:15Z",
+      "snapshot_bytes": 115324549
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115309001,
+      "file": "chunk-5.jsonl",
+      "mtime_utc_before": "2026-08-23T06:46:39Z",
+      "snapshot_bytes": 115309001
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115341916,
+      "file": "chunk-6.jsonl",
+      "mtime_utc_before": "2026-08-23T06:20:51Z",
+      "snapshot_bytes": 115341916
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115235110,
+      "file": "chunk-7.jsonl",
+      "mtime_utc_before": "2026-08-23T08:09:06Z",
+      "snapshot_bytes": 115235110
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115315366,
+      "file": "chunk-8.jsonl",
+      "mtime_utc_before": "2026-08-23T06:46:00Z",
+      "snapshot_bytes": 115315366
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115261995,
+      "file": "chunk-9.jsonl",
+      "mtime_utc_before": "2026-08-23T07:37:45Z",
+      "snapshot_bytes": 115261995
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115177421,
+      "file": "chunk-10.jsonl",
+      "mtime_utc_before": "2026-08-23T09:04:21Z",
+      "snapshot_bytes": 115177421
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115285254,
+      "file": "chunk-11.jsonl",
+      "mtime_utc_before": "2026-08-23T07:27:49Z",
+      "snapshot_bytes": 115285254
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115298176,
+      "file": "chunk-12.jsonl",
+      "mtime_utc_before": "2026-08-23T07:04:13Z",
+      "snapshot_bytes": 115298176
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115297959,
+      "file": "chunk-13.jsonl",
+      "mtime_utc_before": "2026-08-23T07:00:04Z",
+      "snapshot_bytes": 115297959
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115299396,
+      "file": "chunk-14.jsonl",
+      "mtime_utc_before": "2026-08-23T06:57:40Z",
+      "snapshot_bytes": 115299396
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115294461,
+      "file": "chunk-15.jsonl",
+      "mtime_utc_before": "2026-08-23T07:05:20Z",
+      "snapshot_bytes": 115294461
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115275462,
+      "file": "chunk-16.jsonl",
+      "mtime_utc_before": "2026-08-23T07:37:57Z",
+      "snapshot_bytes": 115275462
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115272601,
+      "file": "chunk-17.jsonl",
+      "mtime_utc_before": "2026-08-23T07:41:22Z",
+      "snapshot_bytes": 115272601
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115299949,
+      "file": "chunk-18.jsonl",
+      "mtime_utc_before": "2026-08-23T07:01:59Z",
+      "snapshot_bytes": 115299949
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115286416,
+      "file": "chunk-19.jsonl",
+      "mtime_utc_before": "2026-08-23T07:25:11Z",
+      "snapshot_bytes": 115286416
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 106629218,
+      "file": "chunk-20.jsonl",
+      "mtime_utc_before": "2026-08-23T10:15:26Z",
+      "snapshot_bytes": 106589248
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115617928,
+      "file": "chunk-21.jsonl",
+      "mtime_utc_before": "2026-08-23T09:54:49Z",
+      "snapshot_bytes": 115617928
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115806636,
+      "file": "chunk-22.jsonl",
+      "mtime_utc_before": "2026-08-23T06:28:03Z",
+      "snapshot_bytes": 115806636
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115813800,
+      "file": "chunk-23.jsonl",
+      "mtime_utc_before": "2026-08-23T06:21:16Z",
+      "snapshot_bytes": 115813800
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115799674,
+      "file": "chunk-24.jsonl",
+      "mtime_utc_before": "2026-08-23T06:35:28Z",
+      "snapshot_bytes": 115799674
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115781872,
+      "file": "chunk-25.jsonl",
+      "mtime_utc_before": "2026-08-23T06:55:33Z",
+      "snapshot_bytes": 115781872
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115784076,
+      "file": "chunk-26.jsonl",
+      "mtime_utc_before": "2026-08-23T06:49:25Z",
+      "snapshot_bytes": 115784076
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115778718,
+      "file": "chunk-27.jsonl",
+      "mtime_utc_before": "2026-08-23T06:51:34Z",
+      "snapshot_bytes": 115778718
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115788014,
+      "file": "chunk-28.jsonl",
+      "mtime_utc_before": "2026-08-23T06:43:06Z",
+      "snapshot_bytes": 115788014
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115771840,
+      "file": "chunk-29.jsonl",
+      "mtime_utc_before": "2026-08-23T07:07:30Z",
+      "snapshot_bytes": 115771840
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115778382,
+      "file": "chunk-30.jsonl",
+      "mtime_utc_before": "2026-08-23T07:00:39Z",
+      "snapshot_bytes": 115778382
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115782895,
+      "file": "chunk-31.jsonl",
+      "mtime_utc_before": "2026-08-23T06:47:41Z",
+      "snapshot_bytes": 115782895
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115798787,
+      "file": "chunk-32.jsonl",
+      "mtime_utc_before": "2026-08-23T06:36:44Z",
+      "snapshot_bytes": 115798787
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115791548,
+      "file": "chunk-33.jsonl",
+      "mtime_utc_before": "2026-08-23T06:38:42Z",
+      "snapshot_bytes": 115791548
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115786112,
+      "file": "chunk-34.jsonl",
+      "mtime_utc_before": "2026-08-23T06:42:51Z",
+      "snapshot_bytes": 115786112
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115782575,
+      "file": "chunk-35.jsonl",
+      "mtime_utc_before": "2026-08-23T06:46:03Z",
+      "snapshot_bytes": 115782575
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115781804,
+      "file": "chunk-36.jsonl",
+      "mtime_utc_before": "2026-08-23T06:47:14Z",
+      "snapshot_bytes": 115781804
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115787790,
+      "file": "chunk-37.jsonl",
+      "mtime_utc_before": "2026-08-23T06:53:20Z",
+      "snapshot_bytes": 115787790
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115817226,
+      "file": "chunk-38.jsonl",
+      "mtime_utc_before": "2026-08-23T06:14:44Z",
+      "snapshot_bytes": 115817226
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115801699,
+      "file": "chunk-39.jsonl",
+      "mtime_utc_before": "2026-08-23T06:26:34Z",
+      "snapshot_bytes": 115801699
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115808202,
+      "file": "chunk-40.jsonl",
+      "mtime_utc_before": "2026-08-23T06:21:05Z",
+      "snapshot_bytes": 115808202
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115820051,
+      "file": "chunk-41.jsonl",
+      "mtime_utc_before": "2026-08-23T06:13:56Z",
+      "snapshot_bytes": 115820051
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115775117,
+      "file": "chunk-42.jsonl",
+      "mtime_utc_before": "2026-08-23T06:57:11Z",
+      "snapshot_bytes": 115775117
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115675784,
+      "file": "chunk-43.jsonl",
+      "mtime_utc_before": "2026-08-23T08:36:17Z",
+      "snapshot_bytes": 115675784
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115784024,
+      "file": "chunk-44.jsonl",
+      "mtime_utc_before": "2026-08-23T06:43:20Z",
+      "snapshot_bytes": 115784024
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115780702,
+      "file": "chunk-45.jsonl",
+      "mtime_utc_before": "2026-08-23T06:48:16Z",
+      "snapshot_bytes": 115780702
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115788758,
+      "file": "chunk-46.jsonl",
+      "mtime_utc_before": "2026-08-23T06:36:41Z",
+      "snapshot_bytes": 115788758
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115784270,
+      "file": "chunk-47.jsonl",
+      "mtime_utc_before": "2026-08-23T06:41:49Z",
+      "snapshot_bytes": 115784270
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115789483,
+      "file": "chunk-48.jsonl",
+      "mtime_utc_before": "2026-08-23T06:35:06Z",
+      "snapshot_bytes": 115789483
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115779578,
+      "file": "chunk-49.jsonl",
+      "mtime_utc_before": "2026-08-23T06:47:23Z",
+      "snapshot_bytes": 115779578
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115800435,
+      "file": "chunk-50.jsonl",
+      "mtime_utc_before": "2026-08-23T06:24:34Z",
+      "snapshot_bytes": 115800435
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115781622,
+      "file": "chunk-51.jsonl",
+      "mtime_utc_before": "2026-08-23T06:42:25Z",
+      "snapshot_bytes": 115781622
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115769185,
+      "file": "chunk-52.jsonl",
+      "mtime_utc_before": "2026-08-23T07:06:09Z",
+      "snapshot_bytes": 115769185
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115764696,
+      "file": "chunk-53.jsonl",
+      "mtime_utc_before": "2026-08-23T07:12:27Z",
+      "snapshot_bytes": 115764696
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115802748,
+      "file": "chunk-54.jsonl",
+      "mtime_utc_before": "2026-08-23T06:29:45Z",
+      "snapshot_bytes": 115802748
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115805354,
+      "file": "chunk-55.jsonl",
+      "mtime_utc_before": "2026-08-23T06:32:29Z",
+      "snapshot_bytes": 115805354
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115718389,
+      "file": "chunk-56.jsonl",
+      "mtime_utc_before": "2026-08-23T07:58:49Z",
+      "snapshot_bytes": 115718389
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115794564,
+      "file": "chunk-57.jsonl",
+      "mtime_utc_before": "2026-08-23T06:35:28Z",
+      "snapshot_bytes": 115794564
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115768058,
+      "file": "chunk-58.jsonl",
+      "mtime_utc_before": "2026-08-23T07:15:18Z",
+      "snapshot_bytes": 115768058
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115761045,
+      "file": "chunk-59.jsonl",
+      "mtime_utc_before": "2026-08-23T07:11:53Z",
+      "snapshot_bytes": 115761045
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115817229,
+      "file": "chunk-60.jsonl",
+      "mtime_utc_before": "2026-08-23T06:17:09Z",
+      "snapshot_bytes": 115817229
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115738755,
+      "file": "chunk-61.jsonl",
+      "mtime_utc_before": "2026-08-23T07:42:49Z",
+      "snapshot_bytes": 115738755
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115842803,
+      "file": "chunk-62.jsonl",
+      "mtime_utc_before": "2026-08-23T05:56:54Z",
+      "snapshot_bytes": 115842803
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115724145,
+      "file": "chunk-63.jsonl",
+      "mtime_utc_before": "2026-08-23T07:52:29Z",
+      "snapshot_bytes": 115724145
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115761743,
+      "file": "chunk-64.jsonl",
+      "mtime_utc_before": "2026-08-23T07:19:27Z",
+      "snapshot_bytes": 115761743
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115839870,
+      "file": "chunk-65.jsonl",
+      "mtime_utc_before": "2026-08-23T05:59:22Z",
+      "snapshot_bytes": 115839870
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115738192,
+      "file": "chunk-66.jsonl",
+      "mtime_utc_before": "2026-08-23T07:39:11Z",
+      "snapshot_bytes": 115738192
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115719029,
+      "file": "chunk-67.jsonl",
+      "mtime_utc_before": "2026-08-23T07:59:36Z",
+      "snapshot_bytes": 115719029
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115784356,
+      "file": "chunk-68.jsonl",
+      "mtime_utc_before": "2026-08-23T06:54:37Z",
+      "snapshot_bytes": 115784356
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115829772,
+      "file": "chunk-69.jsonl",
+      "mtime_utc_before": "2026-08-23T06:07:18Z",
+      "snapshot_bytes": 115829772
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115737887,
+      "file": "chunk-70.jsonl",
+      "mtime_utc_before": "2026-08-23T07:42:36Z",
+      "snapshot_bytes": 115737887
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115709768,
+      "file": "chunk-71.jsonl",
+      "mtime_utc_before": "2026-08-23T08:02:39Z",
+      "snapshot_bytes": 115709768
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115663553,
+      "file": "chunk-72.jsonl",
+      "mtime_utc_before": "2026-08-23T08:32:32Z",
+      "snapshot_bytes": 115663553
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115657042,
+      "file": "chunk-73.jsonl",
+      "mtime_utc_before": "2026-08-23T08:37:46Z",
+      "snapshot_bytes": 115657042
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115708094,
+      "file": "chunk-74.jsonl",
+      "mtime_utc_before": "2026-08-23T07:57:27Z",
+      "snapshot_bytes": 115708094
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115674598,
+      "file": "chunk-75.jsonl",
+      "mtime_utc_before": "2026-08-23T08:33:00Z",
+      "snapshot_bytes": 115674598
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115746780,
+      "file": "chunk-76.jsonl",
+      "mtime_utc_before": "2026-08-23T07:25:54Z",
+      "snapshot_bytes": 115746780
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115740970,
+      "file": "chunk-77.jsonl",
+      "mtime_utc_before": "2026-08-23T07:40:35Z",
+      "snapshot_bytes": 115740970
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115781424,
+      "file": "chunk-78.jsonl",
+      "mtime_utc_before": "2026-08-23T06:49:18Z",
+      "snapshot_bytes": 115781424
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115693769,
+      "file": "chunk-79.jsonl",
+      "mtime_utc_before": "2026-08-23T08:15:18Z",
+      "snapshot_bytes": 115693769
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115706333,
+      "file": "chunk-80.jsonl",
+      "mtime_utc_before": "2026-08-23T08:08:07Z",
+      "snapshot_bytes": 115706333
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115716618,
+      "file": "chunk-81.jsonl",
+      "mtime_utc_before": "2026-08-23T07:59:01Z",
+      "snapshot_bytes": 115716618
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115691735,
+      "file": "chunk-82.jsonl",
+      "mtime_utc_before": "2026-08-23T08:16:22Z",
+      "snapshot_bytes": 115691735
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115691295,
+      "file": "chunk-83.jsonl",
+      "mtime_utc_before": "2026-08-23T08:16:30Z",
+      "snapshot_bytes": 115691295
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115733753,
+      "file": "chunk-84.jsonl",
+      "mtime_utc_before": "2026-08-23T07:45:48Z",
+      "snapshot_bytes": 115733753
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115621895,
+      "file": "chunk-85.jsonl",
+      "mtime_utc_before": "2026-08-23T09:12:48Z",
+      "snapshot_bytes": 115621895
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115746976,
+      "file": "chunk-86.jsonl",
+      "mtime_utc_before": "2026-08-23T07:48:45Z",
+      "snapshot_bytes": 115746976
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115748664,
+      "file": "chunk-87.jsonl",
+      "mtime_utc_before": "2026-08-23T07:43:19Z",
+      "snapshot_bytes": 115748664
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115770943,
+      "file": "chunk-88.jsonl",
+      "mtime_utc_before": "2026-08-23T07:03:59Z",
+      "snapshot_bytes": 115770943
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115771427,
+      "file": "chunk-89.jsonl",
+      "mtime_utc_before": "2026-08-23T06:59:06Z",
+      "snapshot_bytes": 115771427
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115769730,
+      "file": "chunk-90.jsonl",
+      "mtime_utc_before": "2026-08-23T06:59:51Z",
+      "snapshot_bytes": 115769730
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115772845,
+      "file": "chunk-91.jsonl",
+      "mtime_utc_before": "2026-08-23T06:53:46Z",
+      "snapshot_bytes": 115772845
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115769463,
+      "file": "chunk-92.jsonl",
+      "mtime_utc_before": "2026-08-23T07:03:14Z",
+      "snapshot_bytes": 115769463
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115756992,
+      "file": "chunk-93.jsonl",
+      "mtime_utc_before": "2026-08-23T07:27:30Z",
+      "snapshot_bytes": 115756992
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115749904,
+      "file": "chunk-94.jsonl",
+      "mtime_utc_before": "2026-08-23T07:35:49Z",
+      "snapshot_bytes": 115749904
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115766920,
+      "file": "chunk-95.jsonl",
+      "mtime_utc_before": "2026-08-23T07:02:00Z",
+      "snapshot_bytes": 115766920
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115769657,
+      "file": "chunk-96.jsonl",
+      "mtime_utc_before": "2026-08-23T07:04:22Z",
+      "snapshot_bytes": 115769657
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115646131,
+      "file": "chunk-97.jsonl",
+      "mtime_utc_before": "2026-08-23T09:05:19Z",
+      "snapshot_bytes": 115646131
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115662413,
+      "file": "chunk-98.jsonl",
+      "mtime_utc_before": "2026-08-23T08:47:16Z",
+      "snapshot_bytes": 115662413
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115752205,
+      "file": "chunk-99.jsonl",
+      "mtime_utc_before": "2026-08-23T07:33:54Z",
+      "snapshot_bytes": 115752205
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115738372,
+      "file": "chunk-100.jsonl",
+      "mtime_utc_before": "2026-08-23T07:45:13Z",
+      "snapshot_bytes": 115738372
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115736776,
+      "file": "chunk-101.jsonl",
+      "mtime_utc_before": "2026-08-23T07:41:46Z",
+      "snapshot_bytes": 115736776
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115776271,
+      "file": "chunk-102.jsonl",
+      "mtime_utc_before": "2026-08-23T06:52:38Z",
+      "snapshot_bytes": 115776271
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115774976,
+      "file": "chunk-103.jsonl",
+      "mtime_utc_before": "2026-08-23T06:51:05Z",
+      "snapshot_bytes": 115774976
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115770684,
+      "file": "chunk-104.jsonl",
+      "mtime_utc_before": "2026-08-23T07:01:39Z",
+      "snapshot_bytes": 115770684
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115777884,
+      "file": "chunk-105.jsonl",
+      "mtime_utc_before": "2026-08-23T06:49:14Z",
+      "snapshot_bytes": 115777884
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115768217,
+      "file": "chunk-106.jsonl",
+      "mtime_utc_before": "2026-08-23T07:04:12Z",
+      "snapshot_bytes": 115768217
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115772599,
+      "file": "chunk-107.jsonl",
+      "mtime_utc_before": "2026-08-23T06:59:48Z",
+      "snapshot_bytes": 115772599
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115780406,
+      "file": "chunk-108.jsonl",
+      "mtime_utc_before": "2026-08-23T06:39:17Z",
+      "snapshot_bytes": 115780406
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115769590,
+      "file": "chunk-109.jsonl",
+      "mtime_utc_before": "2026-08-23T07:01:49Z",
+      "snapshot_bytes": 115769590
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115763622,
+      "file": "chunk-110.jsonl",
+      "mtime_utc_before": "2026-08-23T07:15:58Z",
+      "snapshot_bytes": 115763622
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115678671,
+      "file": "chunk-111.jsonl",
+      "mtime_utc_before": "2026-08-23T08:24:21Z",
+      "snapshot_bytes": 115678671
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115713668,
+      "file": "chunk-112.jsonl",
+      "mtime_utc_before": "2026-08-23T08:01:21Z",
+      "snapshot_bytes": 115713668
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115703141,
+      "file": "chunk-113.jsonl",
+      "mtime_utc_before": "2026-08-23T08:10:25Z",
+      "snapshot_bytes": 115703141
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115690807,
+      "file": "chunk-114.jsonl",
+      "mtime_utc_before": "2026-08-23T08:17:36Z",
+      "snapshot_bytes": 115690807
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115707550,
+      "file": "chunk-115.jsonl",
+      "mtime_utc_before": "2026-08-23T08:07:16Z",
+      "snapshot_bytes": 115707550
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115644040,
+      "file": "chunk-116.jsonl",
+      "mtime_utc_before": "2026-08-23T08:52:38Z",
+      "snapshot_bytes": 115644040
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115613885,
+      "file": "chunk-117.jsonl",
+      "mtime_utc_before": "2026-08-23T09:13:38Z",
+      "snapshot_bytes": 115613885
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115617798,
+      "file": "chunk-118.jsonl",
+      "mtime_utc_before": "2026-08-23T09:03:27Z",
+      "snapshot_bytes": 115617798
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115603286,
+      "file": "chunk-119.jsonl",
+      "mtime_utc_before": "2026-08-23T09:30:59Z",
+      "snapshot_bytes": 115603286
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115609720,
+      "file": "chunk-120.jsonl",
+      "mtime_utc_before": "2026-08-23T09:14:36Z",
+      "snapshot_bytes": 115609720
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115625337,
+      "file": "chunk-121.jsonl",
+      "mtime_utc_before": "2026-08-23T09:16:43Z",
+      "snapshot_bytes": 115625337
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115689717,
+      "file": "chunk-122.jsonl",
+      "mtime_utc_before": "2026-08-23T08:19:25Z",
+      "snapshot_bytes": 115689717
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115677042,
+      "file": "chunk-123.jsonl",
+      "mtime_utc_before": "2026-08-23T08:27:44Z",
+      "snapshot_bytes": 115677042
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115696727,
+      "file": "chunk-124.jsonl",
+      "mtime_utc_before": "2026-08-23T08:16:18Z",
+      "snapshot_bytes": 115696727
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115625296,
+      "file": "chunk-125.jsonl",
+      "mtime_utc_before": "2026-08-23T09:04:58Z",
+      "snapshot_bytes": 115625296
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115626716,
+      "file": "chunk-126.jsonl",
+      "mtime_utc_before": "2026-08-23T08:58:43Z",
+      "snapshot_bytes": 115626716
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115664496,
+      "file": "chunk-127.jsonl",
+      "mtime_utc_before": "2026-08-23T09:30:44Z",
+      "snapshot_bytes": 115664496
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115605628,
+      "file": "chunk-128.jsonl",
+      "mtime_utc_before": "2026-08-23T09:35:31Z",
+      "snapshot_bytes": 115605628
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115601353,
+      "file": "chunk-129.jsonl",
+      "mtime_utc_before": "2026-08-23T09:53:19Z",
+      "snapshot_bytes": 115601353
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115621292,
+      "file": "chunk-130.jsonl",
+      "mtime_utc_before": "2026-08-23T09:29:41Z",
+      "snapshot_bytes": 115621292
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115611074,
+      "file": "chunk-131.jsonl",
+      "mtime_utc_before": "2026-08-23T09:46:11Z",
+      "snapshot_bytes": 115611074
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115633282,
+      "file": "chunk-132.jsonl",
+      "mtime_utc_before": "2026-08-23T09:37:13Z",
+      "snapshot_bytes": 115633282
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115735747,
+      "file": "chunk-133.jsonl",
+      "mtime_utc_before": "2026-08-23T07:44:58Z",
+      "snapshot_bytes": 115735747
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115749034,
+      "file": "chunk-134.jsonl",
+      "mtime_utc_before": "2026-08-23T07:31:27Z",
+      "snapshot_bytes": 115749034
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115758829,
+      "file": "chunk-135.jsonl",
+      "mtime_utc_before": "2026-08-23T07:19:06Z",
+      "snapshot_bytes": 115758829
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115772415,
+      "file": "chunk-136.jsonl",
+      "mtime_utc_before": "2026-08-23T07:15:00Z",
+      "snapshot_bytes": 115772415
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115711516,
+      "file": "chunk-137.jsonl",
+      "mtime_utc_before": "2026-08-23T08:10:44Z",
+      "snapshot_bytes": 115711516
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115766654,
+      "file": "chunk-138.jsonl",
+      "mtime_utc_before": "2026-08-23T07:32:22Z",
+      "snapshot_bytes": 115766654
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115622875,
+      "file": "chunk-139.jsonl",
+      "mtime_utc_before": "2026-08-23T09:07:52Z",
+      "snapshot_bytes": 115622875
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115720418,
+      "file": "chunk-140.jsonl",
+      "mtime_utc_before": "2026-08-23T08:14:28Z",
+      "snapshot_bytes": 115720418
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115739046,
+      "file": "chunk-141.jsonl",
+      "mtime_utc_before": "2026-08-23T07:41:22Z",
+      "snapshot_bytes": 115739046
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115693274,
+      "file": "chunk-142.jsonl",
+      "mtime_utc_before": "2026-08-23T08:34:13Z",
+      "snapshot_bytes": 115693274
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115670556,
+      "file": "chunk-143.jsonl",
+      "mtime_utc_before": "2026-08-23T08:49:57Z",
+      "snapshot_bytes": 115670556
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115771947,
+      "file": "chunk-144.jsonl",
+      "mtime_utc_before": "2026-08-23T07:38:32Z",
+      "snapshot_bytes": 115771947
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115625887,
+      "file": "chunk-145.jsonl",
+      "mtime_utc_before": "2026-08-23T09:24:34Z",
+      "snapshot_bytes": 115625887
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115656141,
+      "file": "chunk-146.jsonl",
+      "mtime_utc_before": "2026-08-23T09:32:09Z",
+      "snapshot_bytes": 115656141
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115744939,
+      "file": "chunk-147.jsonl",
+      "mtime_utc_before": "2026-08-23T08:01:18Z",
+      "snapshot_bytes": 115744939
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115706596,
+      "file": "chunk-148.jsonl",
+      "mtime_utc_before": "2026-08-23T08:31:10Z",
+      "snapshot_bytes": 115706596
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115776027,
+      "file": "chunk-149.jsonl",
+      "mtime_utc_before": "2026-08-23T07:55:15Z",
+      "snapshot_bytes": 115776027
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115751902,
+      "file": "chunk-150.jsonl",
+      "mtime_utc_before": "2026-08-23T09:15:31Z",
+      "snapshot_bytes": 115751902
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115764600,
+      "file": "chunk-151.jsonl",
+      "mtime_utc_before": "2026-08-23T08:59:34Z",
+      "snapshot_bytes": 115764600
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115712242,
+      "file": "chunk-152.jsonl",
+      "mtime_utc_before": "2026-08-23T10:07:00Z",
+      "snapshot_bytes": 115712242
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115777435,
+      "file": "chunk-153.jsonl",
+      "mtime_utc_before": "2026-08-23T09:07:21Z",
+      "snapshot_bytes": 115777435
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115776386,
+      "file": "chunk-154.jsonl",
+      "mtime_utc_before": "2026-08-23T09:09:11Z",
+      "snapshot_bytes": 115776386
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115761726,
+      "file": "chunk-155.jsonl",
+      "mtime_utc_before": "2026-08-23T09:24:07Z",
+      "snapshot_bytes": 115761726
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115789301,
+      "file": "chunk-156.jsonl",
+      "mtime_utc_before": "2026-08-23T08:50:21Z",
+      "snapshot_bytes": 115789301
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115782875,
+      "file": "chunk-157.jsonl",
+      "mtime_utc_before": "2026-08-23T09:02:00Z",
+      "snapshot_bytes": 115782875
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115779158,
+      "file": "chunk-158.jsonl",
+      "mtime_utc_before": "2026-08-23T09:08:57Z",
+      "snapshot_bytes": 115779158
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115748213,
+      "file": "chunk-159.jsonl",
+      "mtime_utc_before": "2026-08-23T10:06:02Z",
+      "snapshot_bytes": 115748213
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115765085,
+      "file": "chunk-160.jsonl",
+      "mtime_utc_before": "2026-08-23T09:36:54Z",
+      "snapshot_bytes": 115765085
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115759181,
+      "file": "chunk-161.jsonl",
+      "mtime_utc_before": "2026-08-23T09:53:55Z",
+      "snapshot_bytes": 115759181
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115763310,
+      "file": "chunk-162.jsonl",
+      "mtime_utc_before": "2026-08-23T09:49:24Z",
+      "snapshot_bytes": 115763310
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115760852,
+      "file": "chunk-163.jsonl",
+      "mtime_utc_before": "2026-08-23T09:50:26Z",
+      "snapshot_bytes": 115760852
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115776854,
+      "file": "chunk-164.jsonl",
+      "mtime_utc_before": "2026-08-23T09:26:44Z",
+      "snapshot_bytes": 115776854
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115779353,
+      "file": "chunk-165.jsonl",
+      "mtime_utc_before": "2026-08-23T09:26:29Z",
+      "snapshot_bytes": 115779353
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115789400,
+      "file": "chunk-166.jsonl",
+      "mtime_utc_before": "2026-08-23T09:01:27Z",
+      "snapshot_bytes": 115789400
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115775992,
+      "file": "chunk-167.jsonl",
+      "mtime_utc_before": "2026-08-23T09:25:49Z",
+      "snapshot_bytes": 115775992
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115774126,
+      "file": "chunk-168.jsonl",
+      "mtime_utc_before": "2026-08-23T09:28:50Z",
+      "snapshot_bytes": 115774126
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115767514,
+      "file": "chunk-169.jsonl",
+      "mtime_utc_before": "2026-08-23T09:35:59Z",
+      "snapshot_bytes": 115767514
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115771621,
+      "file": "chunk-170.jsonl",
+      "mtime_utc_before": "2026-08-23T09:24:00Z",
+      "snapshot_bytes": 115771621
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115780977,
+      "file": "chunk-171.jsonl",
+      "mtime_utc_before": "2026-08-23T09:20:51Z",
+      "snapshot_bytes": 115780977
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115779558,
+      "file": "chunk-172.jsonl",
+      "mtime_utc_before": "2026-08-23T09:25:34Z",
+      "snapshot_bytes": 115779558
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115787129,
+      "file": "chunk-173.jsonl",
+      "mtime_utc_before": "2026-08-23T09:22:40Z",
+      "snapshot_bytes": 115787129
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115790483,
+      "file": "chunk-174.jsonl",
+      "mtime_utc_before": "2026-08-23T09:13:49Z",
+      "snapshot_bytes": 115790483
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115783927,
+      "file": "chunk-175.jsonl",
+      "mtime_utc_before": "2026-08-23T09:22:02Z",
+      "snapshot_bytes": 115783927
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115788271,
+      "file": "chunk-176.jsonl",
+      "mtime_utc_before": "2026-08-23T09:16:50Z",
+      "snapshot_bytes": 115788271
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115782159,
+      "file": "chunk-177.jsonl",
+      "mtime_utc_before": "2026-08-23T09:27:11Z",
+      "snapshot_bytes": 115782159
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115780379,
+      "file": "chunk-178.jsonl",
+      "mtime_utc_before": "2026-08-23T09:33:19Z",
+      "snapshot_bytes": 115780379
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115777664,
+      "file": "chunk-179.jsonl",
+      "mtime_utc_before": "2026-08-23T09:33:26Z",
+      "snapshot_bytes": 115777664
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115732387,
+      "file": "chunk-180.jsonl",
+      "mtime_utc_before": "2026-08-23T10:20:32Z",
+      "snapshot_bytes": 115732387
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115789989,
+      "file": "chunk-181.jsonl",
+      "mtime_utc_before": "2026-08-23T09:20:38Z",
+      "snapshot_bytes": 115789989
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115754599,
+      "file": "chunk-182.jsonl",
+      "mtime_utc_before": "2026-08-23T10:23:45Z",
+      "snapshot_bytes": 115754599
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115762194,
+      "file": "chunk-183.jsonl",
+      "mtime_utc_before": "2026-08-23T10:20:37Z",
+      "snapshot_bytes": 115762194
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115765004,
+      "file": "chunk-184.jsonl",
+      "mtime_utc_before": "2026-08-23T10:05:29Z",
+      "snapshot_bytes": 115765004
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115765077,
+      "file": "chunk-185.jsonl",
+      "mtime_utc_before": "2026-08-23T10:04:08Z",
+      "snapshot_bytes": 115765077
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115754011,
+      "file": "chunk-186.jsonl",
+      "mtime_utc_before": "2026-08-23T10:17:49Z",
+      "snapshot_bytes": 115754011
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115762853,
+      "file": "chunk-187.jsonl",
+      "mtime_utc_before": "2026-08-23T10:13:39Z",
+      "snapshot_bytes": 115762853
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115790786,
+      "file": "chunk-188.jsonl",
+      "mtime_utc_before": "2026-08-23T09:18:05Z",
+      "snapshot_bytes": 115790786
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115764270,
+      "file": "chunk-189.jsonl",
+      "mtime_utc_before": "2026-08-23T10:19:57Z",
+      "snapshot_bytes": 115764270
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 111602446,
+      "file": "chunk-190.jsonl",
+      "mtime_utc_before": "2026-08-23T10:24:24Z",
+      "snapshot_bytes": 111546186
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 102413440,
+      "file": "chunk-191.jsonl",
+      "mtime_utc_before": "2026-08-23T10:23:58Z",
+      "snapshot_bytes": 102381299
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 108423136,
+      "file": "chunk-192.jsonl",
+      "mtime_utc_before": "2026-08-23T10:23:58Z",
+      "snapshot_bytes": 108342740
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 107868795,
+      "file": "chunk-193.jsonl",
+      "mtime_utc_before": "2026-08-23T10:24:22Z",
+      "snapshot_bytes": 107804472
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 109131535,
+      "file": "chunk-194.jsonl",
+      "mtime_utc_before": "2026-08-23T10:24:24Z",
+      "snapshot_bytes": 108938673
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115768437,
+      "file": "chunk-195.jsonl",
+      "mtime_utc_before": "2026-08-23T10:22:05Z",
+      "snapshot_bytes": 115768437
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 74252647,
+      "file": "chunk-196.jsonl",
+      "mtime_utc_before": "2026-08-23T10:24:48Z",
+      "snapshot_bytes": 74220524
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115778377,
+      "file": "chunk-197.jsonl",
+      "mtime_utc_before": "2026-08-23T10:19:24Z",
+      "snapshot_bytes": 115778377
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115777983,
+      "file": "chunk-198.jsonl",
+      "mtime_utc_before": "2026-08-23T10:06:27Z",
+      "snapshot_bytes": 115777983
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 109792531,
+      "file": "chunk-199.jsonl",
+      "mtime_utc_before": "2026-08-23T10:25:00Z",
+      "snapshot_bytes": 109720175
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115775360,
+      "file": "chunk-200.jsonl",
+      "mtime_utc_before": "2026-08-23T10:04:50Z",
+      "snapshot_bytes": 115775360
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115781153,
+      "file": "chunk-201.jsonl",
+      "mtime_utc_before": "2026-08-23T09:52:29Z",
+      "snapshot_bytes": 115781153
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115773370,
+      "file": "chunk-202.jsonl",
+      "mtime_utc_before": "2026-08-23T10:10:45Z",
+      "snapshot_bytes": 115773370
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115775816,
+      "file": "chunk-203.jsonl",
+      "mtime_utc_before": "2026-08-23T10:03:14Z",
+      "snapshot_bytes": 115775816
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115772551,
+      "file": "chunk-204.jsonl",
+      "mtime_utc_before": "2026-08-23T10:11:07Z",
+      "snapshot_bytes": 115772551
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115774881,
+      "file": "chunk-205.jsonl",
+      "mtime_utc_before": "2026-08-23T09:58:50Z",
+      "snapshot_bytes": 115774881
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115771609,
+      "file": "chunk-206.jsonl",
+      "mtime_utc_before": "2026-08-23T10:12:32Z",
+      "snapshot_bytes": 115771609
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115774234,
+      "file": "chunk-207.jsonl",
+      "mtime_utc_before": "2026-08-23T10:04:39Z",
+      "snapshot_bytes": 115774234
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115773694,
+      "file": "chunk-208.jsonl",
+      "mtime_utc_before": "2026-08-23T10:09:39Z",
+      "snapshot_bytes": 115773694
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 115768179,
+      "file": "chunk-209.jsonl",
+      "mtime_utc_before": "2026-08-23T10:17:30Z",
+      "snapshot_bytes": 115768179
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 116041619,
+      "file": "chunk-210.jsonl",
+      "mtime_utc_before": "2026-08-23T10:09:52Z",
+      "snapshot_bytes": 116041619
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 102300674,
+      "file": "chunk-211.jsonl",
+      "mtime_utc_before": "2026-08-23T10:25:21Z",
+      "snapshot_bytes": 102252227
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 106658325,
+      "file": "chunk-212.jsonl",
+      "mtime_utc_before": "2026-08-23T10:25:26Z",
+      "snapshot_bytes": 106626021
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 104601660,
+      "file": "chunk-213.jsonl",
+      "mtime_utc_before": "2026-08-23T10:25:26Z",
+      "snapshot_bytes": 104512870
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 104196666,
+      "file": "chunk-214.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:06Z",
+      "snapshot_bytes": 104148229
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 96557642,
+      "file": "chunk-215.jsonl",
+      "mtime_utc_before": "2026-08-23T10:25:54Z",
+      "snapshot_bytes": 96509208
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 104425653,
+      "file": "chunk-216.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:11Z",
+      "snapshot_bytes": 104361094
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 114886969,
+      "file": "chunk-217.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:17Z",
+      "snapshot_bytes": 114822373
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 100625721,
+      "file": "chunk-218.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:04Z",
+      "snapshot_bytes": 100544997
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 101425591,
+      "file": "chunk-219.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:27Z",
+      "snapshot_bytes": 101385239
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 116246710,
+      "file": "chunk-220.jsonl",
+      "mtime_utc_before": "2026-08-23T10:22:25Z",
+      "snapshot_bytes": 116246710
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 113995584,
+      "file": "chunk-221.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:03Z",
+      "snapshot_bytes": 113947153
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 84403885,
+      "file": "chunk-222.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:18Z",
+      "snapshot_bytes": 84371614
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 98650845,
+      "file": "chunk-223.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:42Z",
+      "snapshot_bytes": 98618561
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 83616251,
+      "file": "chunk-224.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:42Z",
+      "snapshot_bytes": 83551689
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 87059509,
+      "file": "chunk-225.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:24Z",
+      "snapshot_bytes": 86970704
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 83031868,
+      "file": "chunk-226.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:53Z",
+      "snapshot_bytes": 83007666
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 80936121,
+      "file": "chunk-227.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:22Z",
+      "snapshot_bytes": 80903836
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 54512165,
+      "file": "chunk-228.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:08Z",
+      "snapshot_bytes": 54504107
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 66913318,
+      "file": "chunk-229.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:46Z",
+      "snapshot_bytes": 66897177
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 111355553,
+      "file": "chunk-230.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:28Z",
+      "snapshot_bytes": 111266742
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 106067920,
+      "file": "chunk-231.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:33Z",
+      "snapshot_bytes": 106003344
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 90581620,
+      "file": "chunk-232.jsonl",
+      "mtime_utc_before": "2026-08-23T10:26:57Z",
+      "snapshot_bytes": 90436412
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 107677460,
+      "file": "chunk-233.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:13Z",
+      "snapshot_bytes": 107596731
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 106261706,
+      "file": "chunk-234.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:19Z",
+      "snapshot_bytes": 106197127
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 97490820,
+      "file": "chunk-235.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:23Z",
+      "snapshot_bytes": 97458553
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 101368830,
+      "file": "chunk-236.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:05Z",
+      "snapshot_bytes": 101328473
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 85385575,
+      "file": "chunk-237.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:29Z",
+      "snapshot_bytes": 85320992
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 99867651,
+      "file": "chunk-238.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:33Z",
+      "snapshot_bytes": 99811144
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 97508510,
+      "file": "chunk-239.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:03Z",
+      "snapshot_bytes": 97443918
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 89711908,
+      "file": "chunk-240.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:39Z",
+      "snapshot_bytes": 89639244
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 51902164,
+      "file": "chunk-241.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:43Z",
+      "snapshot_bytes": 51886041
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 85693877,
+      "file": "chunk-242.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:14Z",
+      "snapshot_bytes": 85653518
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 54378198,
+      "file": "chunk-243.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:20Z",
+      "snapshot_bytes": 54370134
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 91953398,
+      "file": "chunk-244.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:19Z",
+      "snapshot_bytes": 91904983
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 108020841,
+      "file": "chunk-245.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:31Z",
+      "snapshot_bytes": 107964344
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 100681425,
+      "file": "chunk-246.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:37Z",
+      "snapshot_bytes": 100608768
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 96829314,
+      "file": "chunk-247.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:59Z",
+      "snapshot_bytes": 96756683
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 95286543,
+      "file": "chunk-248.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:04Z",
+      "snapshot_bytes": 95197776
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 97977896,
+      "file": "chunk-249.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:48Z",
+      "snapshot_bytes": 97897137
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 45076600,
+      "file": "chunk-250.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:09Z",
+      "snapshot_bytes": 45044357
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 52397544,
+      "file": "chunk-251.jsonl",
+      "mtime_utc_before": "2026-08-23T10:27:52Z",
+      "snapshot_bytes": 52373361
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 85852187,
+      "file": "chunk-252.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:16Z",
+      "snapshot_bytes": 85787620
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 53722213,
+      "file": "chunk-253.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:10Z",
+      "snapshot_bytes": 53617332
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 82302206,
+      "file": "chunk-254.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:04Z",
+      "snapshot_bytes": 82253794
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 61449826,
+      "file": "chunk-255.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:02Z",
+      "snapshot_bytes": 61417579
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 63069768,
+      "file": "chunk-256.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:09Z",
+      "snapshot_bytes": 63029442
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 60169478,
+      "file": "chunk-257.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:08Z",
+      "snapshot_bytes": 60137212
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 74817484,
+      "file": "chunk-258.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:10Z",
+      "snapshot_bytes": 74502654
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 65705272,
+      "file": "chunk-259.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:19Z",
+      "snapshot_bytes": 65681066
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 63535431,
+      "file": "chunk-260.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:19Z",
+      "snapshot_bytes": 63487008
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 70877687,
+      "file": "chunk-261.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:40Z",
+      "snapshot_bytes": 70837359
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 58506450,
+      "file": "chunk-262.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:23Z",
+      "snapshot_bytes": 58490318
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 63965054,
+      "file": "chunk-263.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:30Z",
+      "snapshot_bytes": 63940846
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 60047258,
+      "file": "chunk-264.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:23Z",
+      "snapshot_bytes": 59998848
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 63480459,
+      "file": "chunk-265.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:29Z",
+      "snapshot_bytes": 63448183
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 53321052,
+      "file": "chunk-266.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:34Z",
+      "snapshot_bytes": 53288800
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 49409857,
+      "file": "chunk-267.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:34Z",
+      "snapshot_bytes": 49369560
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 58481779,
+      "file": "chunk-268.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:39Z",
+      "snapshot_bytes": 58457581
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 45872060,
+      "file": "chunk-269.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:40Z",
+      "snapshot_bytes": 45839819
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 78417612,
+      "file": "chunk-270.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:22Z",
+      "snapshot_bytes": 78393402
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 53744004,
+      "file": "chunk-271.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:39Z",
+      "snapshot_bytes": 53687523
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 48338450,
+      "file": "chunk-272.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:44Z",
+      "snapshot_bytes": 48314275
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 48360887,
+      "file": "chunk-273.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:08Z",
+      "snapshot_bytes": 48344757
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 68015976,
+      "file": "chunk-274.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:53Z",
+      "snapshot_bytes": 67967543
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 38185526,
+      "file": "chunk-275.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:48Z",
+      "snapshot_bytes": 38153273
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 37660961,
+      "file": "chunk-276.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:42Z",
+      "snapshot_bytes": 37644815
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 36460127,
+      "file": "chunk-277.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:54Z",
+      "snapshot_bytes": 36452057
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 56963433,
+      "file": "chunk-278.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:16Z",
+      "snapshot_bytes": 56931151
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 35274369,
+      "file": "chunk-279.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:59Z",
+      "snapshot_bytes": 35250190
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 37724199,
+      "file": "chunk-280.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:00Z",
+      "snapshot_bytes": 37683884
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 53979399,
+      "file": "chunk-281.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:20Z",
+      "snapshot_bytes": 53922878
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 51335529,
+      "file": "chunk-282.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:16Z",
+      "snapshot_bytes": 51246758
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 43138602,
+      "file": "chunk-283.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:26Z",
+      "snapshot_bytes": 43122463
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 30840250,
+      "file": "chunk-284.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:10Z",
+      "snapshot_bytes": 30832189
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 39966484,
+      "file": "chunk-285.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:16Z",
+      "snapshot_bytes": 39837336
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 29905652,
+      "file": "chunk-286.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:10Z",
+      "snapshot_bytes": 29881469
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 25840837,
+      "file": "chunk-287.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:57Z",
+      "snapshot_bytes": 25832771
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 43675056,
+      "file": "chunk-288.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:14Z",
+      "snapshot_bytes": 43610470
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 37948652,
+      "file": "chunk-289.jsonl",
+      "mtime_utc_before": "2026-08-23T10:28:53Z",
+      "snapshot_bytes": 37940592
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 48400155,
+      "file": "chunk-290.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:20Z",
+      "snapshot_bytes": 48359810
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 46593124,
+      "file": "chunk-291.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:19Z",
+      "snapshot_bytes": 46528543
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 35358706,
+      "file": "chunk-292.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:15Z",
+      "snapshot_bytes": 35326469
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 31292046,
+      "file": "chunk-293.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:21Z",
+      "snapshot_bytes": 31267862
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 38493576,
+      "file": "chunk-294.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:08Z",
+      "snapshot_bytes": 38469374
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 25907013,
+      "file": "chunk-295.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:26Z",
+      "snapshot_bytes": 25898955
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 33482313,
+      "file": "chunk-296.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:40Z",
+      "snapshot_bytes": 33433903
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 23569492,
+      "file": "chunk-297.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:25Z",
+      "snapshot_bytes": 23545303
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 36447903,
+      "file": "chunk-298.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:30Z",
+      "snapshot_bytes": 36423701
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 51272292,
+      "file": "chunk-299.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:26Z",
+      "snapshot_bytes": 51240003
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 41093810,
+      "file": "chunk-300.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:46Z",
+      "snapshot_bytes": 41037289
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 45085344,
+      "file": "chunk-301.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:35Z",
+      "snapshot_bytes": 45044989
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 45949132,
+      "file": "chunk-302.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:35Z",
+      "snapshot_bytes": 45884549
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 39204266,
+      "file": "chunk-303.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:40Z",
+      "snapshot_bytes": 39180053
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 46854986,
+      "file": "chunk-304.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:52Z",
+      "snapshot_bytes": 46782335
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 28107171,
+      "file": "chunk-305.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:55Z",
+      "snapshot_bytes": 28082966
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 23965960,
+      "file": "chunk-306.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:41Z",
+      "snapshot_bytes": 23957898
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 35314869,
+      "file": "chunk-307.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:45Z",
+      "snapshot_bytes": 35298727
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 37801919,
+      "file": "chunk-308.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:45Z",
+      "snapshot_bytes": 37761550
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 37963146,
+      "file": "chunk-309.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:46Z",
+      "snapshot_bytes": 37922782
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 30619004,
+      "file": "chunk-310.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:45Z",
+      "snapshot_bytes": 30570588
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 32048534,
+      "file": "chunk-311.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:51Z",
+      "snapshot_bytes": 32040472
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 31427280,
+      "file": "chunk-312.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:02Z",
+      "snapshot_bytes": 31370766
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 23098627,
+      "file": "chunk-313.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:28Z",
+      "snapshot_bytes": 23090572
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 26428505,
+      "file": "chunk-314.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:52Z",
+      "snapshot_bytes": 26428505
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 22193183,
+      "file": "chunk-315.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:51Z",
+      "snapshot_bytes": 22185123
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 20389008,
+      "file": "chunk-316.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:52Z",
+      "snapshot_bytes": 20268066
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 38976233,
+      "file": "chunk-317.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:07Z",
+      "snapshot_bytes": 38919712
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 33912269,
+      "file": "chunk-318.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:55Z",
+      "snapshot_bytes": 33863838
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 27323401,
+      "file": "chunk-319.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:11Z",
+      "snapshot_bytes": 27283052
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 19588236,
+      "file": "chunk-320.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:28Z",
+      "snapshot_bytes": 19588236
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 28612852,
+      "file": "chunk-321.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:52Z",
+      "snapshot_bytes": 28403013
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 27238474,
+      "file": "chunk-322.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:23Z",
+      "snapshot_bytes": 27230404
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 14145801,
+      "file": "chunk-323.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:23Z",
+      "snapshot_bytes": 14137737
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 21147215,
+      "file": "chunk-324.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:01Z",
+      "snapshot_bytes": 21122993
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 21283222,
+      "file": "chunk-325.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:17Z",
+      "snapshot_bytes": 21258997
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 20825367,
+      "file": "chunk-326.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:18Z",
+      "snapshot_bytes": 20801154
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 12574530,
+      "file": "chunk-327.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:29Z",
+      "snapshot_bytes": 12574530
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 20186967,
+      "file": "chunk-328.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:06Z",
+      "snapshot_bytes": 20178895
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 16081913,
+      "file": "chunk-329.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:17Z",
+      "snapshot_bytes": 16041568
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 15665033,
+      "file": "chunk-330.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:23Z",
+      "snapshot_bytes": 15665033
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 14642684,
+      "file": "chunk-331.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:49Z",
+      "snapshot_bytes": 14626544
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 13640181,
+      "file": "chunk-332.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:22Z",
+      "snapshot_bytes": 13624035
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 12058223,
+      "file": "chunk-333.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:49Z",
+      "snapshot_bytes": 12034018
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 11653674,
+      "file": "chunk-334.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:49Z",
+      "snapshot_bytes": 11637544
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 12025274,
+      "file": "chunk-335.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:06Z",
+      "snapshot_bytes": 11984914
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 9544378,
+      "file": "chunk-336.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:18Z",
+      "snapshot_bytes": 9495981
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 10821405,
+      "file": "chunk-337.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:11Z",
+      "snapshot_bytes": 10821405
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 6520341,
+      "file": "chunk-338.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:26Z",
+      "snapshot_bytes": 6520341
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 7527630,
+      "file": "chunk-339.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:22Z",
+      "snapshot_bytes": 7495351
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 9781744,
+      "file": "chunk-340.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:55Z",
+      "snapshot_bytes": 9781744
+    },
+    {
+      "changed_during_scan": false,
+      "end_bytes": 9636254,
+      "file": "chunk-341.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:28Z",
+      "snapshot_bytes": 9636254
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 9393520,
+      "file": "chunk-342.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:55Z",
+      "snapshot_bytes": 9385448
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 7236689,
+      "file": "chunk-343.jsonl",
+      "mtime_utc_before": "2026-08-23T10:29:55Z",
+      "snapshot_bytes": 7228617
+    },
+    {
+      "changed_during_scan": true,
+      "end_bytes": 7787606,
+      "file": "chunk-344.jsonl",
+      "mtime_utc_before": "2026-08-23T10:30:27Z",
+      "snapshot_bytes": 7779535
+    }
+  ],
+  "confirmed_negative_certificates": [],
+  "dataset": "order15-7x8",
+  "duplicate_canonical_hash_values": 0,
+  "duplicate_hash_examples": [],
+  "duplicate_hash_rows": 0,
+  "duplicate_index_examples": [],
+  "duplicate_index_rows": 0,
+  "duplicate_index_values": 0,
+  "expected_records": 243304742,
+  "field_type_mismatch_counts": {},
+  "first_valid_record": {
+    "canonical_sha256": "8:7:bc383aeb8ab27467ff3a951437a8698488fe7815b31cfc938f8c375e15abae8c",
+    "delta": 7,
+    "index": 0,
+    "minimum_degree": 2,
+    "order": 15,
+    "size": 23,
+    "solver_seconds": 0.0299459770321846,
+    "span": 13,
+    "status": "colorable"
+  },
+  "incomplete_snapshot_final_rows": 0,
+  "invalid_row_examples": [],
+  "malformed_json_rows": 0,
+  "maximum_zero_based_index": 163502331,
+  "method": {
+    "byte_scope": "pre-open size of each live chunk",
+    "chunk_passes": 1,
+    "hash_and_index_duplicate_detection": "external disk sort -u",
+    "negative_encoding": "fixed-span CP-SAT over delta through n-1"
+  },
+  "minimum_zero_based_index": 0,
+  "missing_field_counts": {},
+  "negative_candidate_examples": [],
+  "negative_classified_rows": 0,
+  "observed_range_missing_indices_count": 34178173,
+  "observed_schema_fields": [
+    "canonical_sha256",
+    "delta",
+    "index",
+    "minimum_degree",
+    "order",
+    "size",
+    "solver_seconds",
+    "span",
+    "status"
+  ],
+  "parameters": {
+    "external_sort_memory": "8G",
+    "input": "data/order15-7x8-d2.g6",
+    "negative_solver_time_limit_per_span": 300.0,
+    "negative_solver_workers": 4,
+    "rerun_time_limit": 3600.0,
+    "rerun_workers": 4
+  },
+  "progress_fraction": 0.5315316008103121,
+  "remaining_records": 113980583,
+  "rerun_plan": {
+    "already_have_output_indices_count": 0,
+    "already_have_timeout_output_ranges": [],
+    "exact_rerun_command_preview": [],
+    "locked_exact_rerun_script_lines": [
+      "# Do not run automatically; each lock prevents a repeated start."
+    ],
+    "note": "Timeouts are unresolved rather than non-colorable; locks prevent duplicate starts.",
+    "pending_rerun_indices_count": 0,
+    "pending_timeout_index_ranges": [],
+    "timeout_indices_count": 0
+  },
+  "rows": 129324159,
+  "scanned_files": 345,
+  "schema_version": 2,
+  "slurm_array_task_id": null,
+  "slurm_job_id": "227326",
+  "status_histogram": {
+    "colorable": 129324159
+  },
+  "timeout_rows": 0,
+  "timestamp_utc": "2026-08-23T10:32:40Z",
+  "total_nonblank_lines_seen": 129324159,
+  "unique_canonical_hashes": 129324159,
+  "unique_timeout_indices": 0,
+  "unique_zero_based_indices": 129324159,
+  "verified_negative_details": []
+}
