@@ -1,0 +1,2154 @@
+{
+  "schema": "lane6-signature-search-round-3",
+  "elapsed_seconds": 17.413,
+  "total_time_limit_seconds": 7200.0,
+  "runtime_deadline_hit": false,
+  "environment": {
+    "python": "3.10.12",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "ortools": "9.15.6755",
+    "networkx": "3.4.2"
+  },
+  "family_definition": {
+    "seed": "hat_K34_prime_Delta11",
+    "construction": "two_vertex_disjoint_five_internal_synchronizers",
+    "internal_count_per_synchronizer": 5,
+    "maximum_internal_degree": 6,
+    "simple_terminal_boundary": true,
+    "terminal_boundary_condition": "paired_forward_and_reverse_extreme_states",
+    "maximum_synchronizer_types": 8,
+    "synchronizer_pair_rule": "distinct unordered types",
+    "connector_split_mode": "balanced_exact",
+    "exact_u0_connectors": 6,
+    "minimum_hub_degree": 4,
+    "maximum_delta": 10,
+    "minimum_graph_degree": 2,
+    "boundary": "connected labelled two-terminal bipartite gadgets with five internal vertices, one gadget edge at each terminal, internal degree at most 6, and paired_forward_and_reverse_extreme_states; classify the top 8 types by deterministic compactness order and all distinct pairs"
+  },
+  "gadget_enumeration": {
+    "raw_shapes": 264,
+    "solved_gadgets": 264,
+    "excluded_signature_timeout_or_cap": 0,
+    "signature_stage_completed": true,
+    "elapsed_seconds": 9.896,
+    "signature_size_counts": {
+      "16": 40,
+      "24": 59,
+      "32": 20,
+      "36": 48,
+      "40": 1,
+      "44": 96
+    },
+    "selected_gadgets": 264,
+    "selected_synchronizer_types": 8,
+    "top_k_selection_applied": true,
+    "maximum_edges_among_selected": 6,
+    "configured_pairs": 28,
+    "selected_edges": [
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "R1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L2",
+          "R1"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "R1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R1"
+        ],
+        [
+          "L2",
+          "T0"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "R1"
+        ],
+        [
+          "L1",
+          "R1"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "R1"
+        ],
+        [
+          "L1",
+          "R1"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "T0"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "R1"
+        ],
+        [
+          "L2",
+          "R1"
+        ],
+        [
+          "L2",
+          "T1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T0"
+        ],
+        [
+          "L1",
+          "R1"
+        ],
+        [
+          "L1",
+          "T1"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "R1"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R0"
+        ],
+        [
+          "L1",
+          "R1"
+        ],
+        [
+          "L2",
+          "R1"
+        ],
+        [
+          "L2",
+          "T0"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0"
+        ],
+        [
+          "L0",
+          "T1"
+        ],
+        [
+          "L1",
+          "R1"
+        ],
+        [
+          "L1",
+          "T0"
+        ],
+        [
+          "L2",
+          "R0"
+        ],
+        [
+          "L2",
+          "R1"
+        ]
+      ]
+    ]
+  },
+  "composition": {
+    "configured_generated_before_filters": 25872,
+    "generated": 25872,
+    "skipped_filtered_or_duplicate": 25860,
+    "unique": 12,
+    "completed_unique": 12,
+    "counts": {
+      "colorable": 12,
+      "non-colorable": 0,
+      "timeout": 0
+    },
+    "candidate_stage_completed": true,
+    "all_configured_pairs_processed": true,
+    "certification_stage_complete": true,
+    "family_exhausted": true,
+    "negative_independently_confirmed": 0,
+    "unconfirmed_primary_negatives": 0,
+    "conflicting_classifications": 0,
+    "unresolved_timeout_count": 0
+  },
+  "negative_artifacts": [],
+  "negative_events_path": "results/lane6-signature-r3-negative-events.json",
+  "rows": [
+    {
+      "candidate_id": "L6R3-0000",
+      "canonical_sha256": "15:20:4d9b6d0a6b235682fcbd6201c1cb9020f56f3b9c248fb2d2bdba0a61b8fe2e98",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "000000111111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 11,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 11,
+          "margin": -8,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03633247100515291,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 72,
+        "branches": 2999,
+        "wall_time": 0.035189602
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0001",
+      "canonical_sha256": "15:20:804c3a5fcd5d85e2d843fa461a8b46a77a3f10cf749f85fc77dc7fd3d62ebbfb",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "000001011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04855104800662957,
+        "span": 12,
+        "solver_status": "OPTIMAL",
+        "conflicts": 262,
+        "branches": 3521,
+        "wall_time": 0.047185174
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0002",
+      "canonical_sha256": "15:20:19b83e64ea621c704ed53886dbdaf052e5a9a685791916333611eec5cafb17a1",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "000100011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V1_6",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.030706888006534427,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 96,
+        "branches": 3387,
+        "wall_time": 0.029448959
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0003",
+      "canonical_sha256": "15:20:f56916fd0e441a781ae3be3fc4fdb098b0b74000b22d872bcb9ad84fbb22c019",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "001000011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03740605100756511,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 155,
+        "branches": 3262,
+        "wall_time": 0.035844194
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0004",
+      "canonical_sha256": "15:20:4c9c3677ed08f8c56132957619620781181a52f932ed0351c086aeaeceddbee6",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "010000011111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 11,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.042941824009176344,
+        "span": 8,
+        "solver_status": "OPTIMAL",
+        "conflicts": 144,
+        "branches": 3142,
+        "wall_time": 0.041637367
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0005",
+      "canonical_sha256": "15:20:606d61b0dde6f29e86b125a4bb4ef918f8c9c635ff7653e09a585802ff90dbfc",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "000011001111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03175837601884268,
+        "span": 9,
+        "solver_status": "OPTIMAL",
+        "conflicts": 71,
+        "branches": 2997,
+        "wall_time": 0.030588373000000002
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0006",
+      "canonical_sha256": "15:20:f39570415f65070aff06bbcb1f4e0c4e888d8ff64601a836abb52ff8e8cfe9d3",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "000101001111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_2",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04431409199605696,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 176,
+        "branches": 3244,
+        "wall_time": 0.042852916000000005
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0007",
+      "canonical_sha256": "15:20:e0c54bceb3bb18b1127840520989bb78358fbac64db416b42b61310b48097e8a",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "000100110111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 11,
+          "margin": -8,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_6",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.037900791998254135,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 201,
+        "branches": 3307,
+        "wall_time": 0.036548794
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0008",
+      "canonical_sha256": "15:20:a8cfb13caf9142a58e301286a4d1f32d952d9904cf9551d088e58e9bdc80bed5",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "000101010111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V1_6",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_7",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03717412200057879,
+        "span": 12,
+        "solver_status": "OPTIMAL",
+        "conflicts": 182,
+        "branches": 3326,
+        "wall_time": 0.035934578
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0009",
+      "canonical_sha256": "15:20:6e76b144593575957f8e3bf8ba39abdef2f39d44bbe5fffc4cfc5850f415c59b",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "010011000111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V1_4",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_7",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03437974400003441,
+        "span": 11,
+        "solver_status": "OPTIMAL",
+        "conflicts": 72,
+        "branches": 3043,
+        "wall_time": 0.033195815000000004
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0010",
+      "canonical_sha256": "15:20:1274f35f6c2ea2322fc8c690d3ce80f4bc03e3df1ea308b6e7deb0148d8992e3",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "100101000111",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V1_7",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V0_1",
+          "degree": 4,
+          "weighted_neighbor_diameter": 15,
+          "margin": -12,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.042301178007619455,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 207,
+        "branches": 3253,
+        "wall_time": 0.040883165
+      },
+      "certified_non_colorable": false
+    },
+    {
+      "candidate_id": "L6R3-0011",
+      "canonical_sha256": "15:20:e3823eecc6ea04234cbe2190e9afa960ace68e5b51549f8fb5612505eab1aa91",
+      "order": 35,
+      "size": 52,
+      "delta": 8,
+      "minimum_degree": 2,
+      "degree_sequence_by_side": {
+        "left": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          8,
+          8
+        ],
+        "right": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "synchronizer_keys": [
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+        "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+      ],
+      "synchronizer_edge_counts": [
+        6,
+        6
+      ],
+      "boundary_mode": "paired_forward_and_reverse_extreme_states",
+      "signature_sizes": [
+        24,
+        24
+      ],
+      "metadata": {
+        "lane": "lane6-terminal-signature-r3",
+        "boundary_mode": "paired_forward_and_reverse_extreme_states",
+        "synchronizer_keys": [
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+          "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T0\"]]"
+        ],
+        "synchronizer_edges": [
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T0"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T1"
+            ]
+          ],
+          [
+            [
+              "L0",
+              "R0"
+            ],
+            [
+              "L0",
+              "R1"
+            ],
+            [
+              "L1",
+              "R0"
+            ],
+            [
+              "L1",
+              "T1"
+            ],
+            [
+              "L2",
+              "R1"
+            ],
+            [
+              "L2",
+              "T0"
+            ]
+          ]
+        ],
+        "mask": "110011000011",
+        "u0_connector_count": 6,
+        "u1_connector_count": 6,
+        "u0_degree": 8,
+        "u1_degree": 8
+      },
+      "weighted_hubs_best": [
+        {
+          "hub": "V1_4",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        },
+        {
+          "hub": "V1_5",
+          "degree": 3,
+          "weighted_neighbor_diameter": 11,
+          "margin": -9,
+          "sufficient_obstruction": false
+        }
+      ],
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.0402135239855852,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 49,
+        "branches": 2865,
+        "wall_time": 0.038706913
+      },
+      "certified_non_colorable": false
+    }
+  ]
+}
