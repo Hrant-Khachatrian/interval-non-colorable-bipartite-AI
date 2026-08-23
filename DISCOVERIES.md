@@ -127,6 +127,10 @@ The extension then completed both capped parents. Across 198,954 additional cons
 
 A second order-16 tail expansion scanned exactly the final 20,000 records (indices 5,138,975 through 5,158,974), selected 50 high-margin candidates disjoint from the original 100, and classified all 50 as colorable with zero timeouts (`results/targeted-order16/tail-expansion-v2.json`).
 
+A third expansion scanned the final 100,000 `5+11` records. All were eligible and distinct; after excluding the 150 previously classified indices, the strongest 500 new candidates were solved exactly: 500 colorable, no negatives, no timeouts (`results/targeted-order16/expansion-v3-summary.json`).
+
+The deeper same-side vertex-split search corrected a seed-selection defect in its first implementation, then exhaustively classified its bounded multi-split family: 440 constructions produced 224 unique Δ≤10 graphs. All 224 were colorable, with zero timeouts (`results/vertex-split-delta10-v2.json`).
+
 A one-pass live audit of 345 available order-15 `7+8` chunks checked 129,324,159 rows on YSU job 227326: all indices and bipartition-colored canonical hashes were distinct, there were zero malformed rows, zero timeout rows, and all rows were colorable. This is a clean snapshot at 53.153% of the expected 243,304,742 records, not yet completion of the class.
 
 Machine-readable totals and artifact hashes are in `results/order15-completed-classes-summary.json`; the underlying audits are `results/order15-{small,5x10,6x9}-audit.txt`, and the targeted rounds are `results/lane6-signature-r2.json` and `results/lane6-signature-r3.json`.
