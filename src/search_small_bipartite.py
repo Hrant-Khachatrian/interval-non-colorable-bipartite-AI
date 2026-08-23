@@ -5,6 +5,7 @@ import argparse
 import json
 import subprocess
 import time
+from itertools import islice
 from pathlib import Path
 
 from interval_edge_coloring import (
@@ -43,10 +44,21 @@ def main() -> None:
                         help="genbg modulus selector for array parallelism")
     parser.add_argument("--input",
                         help="graph6 file to classify; overrides generation and is required on clusters without genbg")
+    parser.add_argument("--start-index", type=int,
+                        help="first graph6 line to classify when using --input")
+    parser.add_argument("--stop-index", type=int,
+                        help="exclusive last graph6 line to classify when using --input")
     args = parser.parse_args()
 
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    if not args.input and (args.start_index is not None or args.stop_index is not None):
+        parser.error("--start-index/--stop-index require --input")
+    if (args.start_index is None) != (args.stop_index is None):
+        parser.error("--start-index and --stop-index must be given together")
+    if args.start_index is not None and (args.start_index < 0 or args.stop_index <= args.start_index):
+        parser.error("require 0 <= start-index < stop-index")
+
     done = set()
     if output_path.exists():
         for line in output_path.read_text().splitlines():
@@ -66,13 +78,24 @@ def main() -> None:
             command.append(f"{args.res}/{args.mod}")
         process = subprocess.Popen(command, stdout=subprocess.PIPE, text=True)
         input_stream = process.stdout
+    if args.start_index is not None:
+        # Skip without decoding records outside this contiguous chunk.
+        for _ in islice(input_stream, args.start_index):
+            pass
     started = time.time()
     counts = {"colorable": 0, "non-colorable": 0, "timeout": 0}
     with output_path.open("a") as out:
         with input_stream:
-            for index, line in enumerate(input_stream):
-                if args.mod != 1 and index % args.mod != args.res:
+            for offset, line in enumerate(input_stream):
+                index = offset if args.start_index is None else args.start_index + offset
+                if (
+                    args.start_index is None
+                    and args.mod != 1
+                    and index % args.mod != args.res
+                ):
                     continue
+                if args.stop_index is not None and index >= args.stop_index:
+                    break
                 if index in done:
                     continue
                 graph = graph_from_graph6_line(line.rstrip())
@@ -119,6 +142,11 @@ def main() -> None:
         "edge_range": [args.min_edges, args.max_edges],
         "residue": [args.res, args.mod],
         "input": str(args.input) if args.input else None,
+        "index_range": (
+            [args.start_index, args.stop_index]
+            if args.start_index is not None
+            else None
+        ),
         "processed": sum(counts.values()),
         "counts": counts,
         "wall_seconds": round(time.time() - started, 3),
