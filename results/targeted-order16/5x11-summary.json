@@ -1,0 +1,69 @@
+{
+  "classification": {
+    "classification_scope": {
+      "eligible_in_tail": 5000,
+      "generated_total": 5158975,
+      "selected_unique": 100,
+      "tail_scanned": 5000
+    },
+    "classified": 100,
+    "colorable": 100,
+    "filters": {
+      "connected": true,
+      "maximum_degree_at_least_6": true,
+      "maximum_degree_at_most_11": true,
+      "minimum_degree_at_least_2": true,
+      "nonregular": true
+    },
+    "non_colorable": 0,
+    "parameters": {
+      "deadline_seconds": 1800.0,
+      "max_processes": 3,
+      "primary_time_limit_seconds": 15.0,
+      "prioritization": "descending maximum weighted-hub margin",
+      "solver_workers": 3,
+      "span_time_limit_seconds": 30.0,
+      "subset_limit": 100,
+      "tail_lines": 5000
+    },
+    "prioritization": "descending maximum weighted-hub margin",
+    "scope": "bounded prioritized subset: last 5000 generated records",
+    "solver_contradiction": 0,
+    "stopped_reason": "all_selected_classified",
+    "timeout": 0,
+    "tool": "src/interval_edge_coloring.py"
+  },
+  "completion_status": "completed",
+  "generation": {
+    "canonical_labeling_enabled": true,
+    "command": [
+      "nauty-genbg",
+      "-q",
+      "-c",
+      "-g",
+      "-l",
+      "-d2:2",
+      "-D11:11",
+      "5",
+      "11"
+    ],
+    "connected_by_generator": true,
+    "exit_status": "success",
+    "generated_count": 5158975,
+    "nonregular_filter": "not supported by genbg; enforced during classification and validated in the quarantined prefix",
+    "output": "results/targeted-order16/order16-5x11-d2to11.g6",
+    "sha256": "6d63aac1c1c1289124c82a1601d9b446ce8e05bacabd5f84b22ea121be530471"
+  },
+  "partial_inspection": {
+    "all_lines_valid_graph6_order16": true,
+    "ended_with_newline": true,
+    "interpretation": "clean complete-length record boundary; regenerated canonical artifact supersedes quarantined file",
+    "line_count": 5158975,
+    "path": "results/incomplete/order16-5x11-d2to11-partial.g6",
+    "record_count_matches_successful_regeneration": true,
+    "regular_graphs_in_partial": 0,
+    "sha256": "09e800462ecb6a8b8a0c45fc6b3ffdebc8d1a9a600454e88edb29d3ce3cc642d",
+    "stopped_cleanly_at_record_boundary": true
+  },
+  "targeted_negative_candidates": []
+}
