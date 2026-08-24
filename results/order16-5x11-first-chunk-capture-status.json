@@ -1,0 +1,44 @@
+{
+  "candidate_limit": 0,
+  "candidate_outcomes": [],
+  "certificate_ready_count": 0,
+  "dataset": "order16-5x11",
+  "deduplication": {
+    "duplicate_hash_count": 0,
+    "duplicate_index_count": 0,
+    "duplicate_key_rows": 0,
+    "inconsistent_duplicate_keys": 0,
+    "negative_rows": 0,
+    "unique_candidate_keys": 0
+  },
+  "error": null,
+  "files_scanned": 1,
+  "generated_at_utc": "2026-08-24T22:30:42.509275Z",
+  "input": null,
+  "malformed_examples": [],
+  "malformed_rows": 0,
+  "negative_unique_candidates": 0,
+  "remote": "hrant@cluster.ysu.am",
+  "remote_root": "/mnt/weka/hrant/interval-search",
+  "rows_scanned": 20153,
+  "scan_count": 1,
+  "scan_duration_seconds": 0.627,
+  "schema": "order16-candidate-capture-status/v1",
+  "selected_for_verification": 0,
+  "stable_scans_observed": 1,
+  "status_histogram": {
+    "colorable": 20153
+  },
+  "timeout_rows": 0,
+  "timeouts_are_candidates": false,
+  "total_duration_seconds": 0.628,
+  "unique_negative_keys_after_deduplication": 0,
+  "validation": {
+    "expected_records": null,
+    "passed": true,
+    "rows_match_expected": null,
+    "rows_minus_expected": null,
+    "scope": "partial-chunk-scan"
+  },
+  "verification_outcome_counts": {}
+}
