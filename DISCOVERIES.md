@@ -135,6 +135,22 @@ The deeper same-side vertex-split search corrected a seed-selection defect in it
 
 The third degree-transfer pass added another 177,021 constructions and classified 5,152 additional unique Δ≤10 graphs: 740 for Erdős–Fano and 4,412 for the Δ15 benchmark. Every classification returned colorable, with zero timeouts. The combined transfer evidence now represents 11,647 unique colorable graphs (`results/degree-transfer-delta10-extension-r3.json`).
 
+The synchronized multi-hub splitting lane replaced each over-cap hub by two same-side copies and joined them through bounded bipartite synchronization gadgets. Its configured exhaustive family generated 2,388 candidates and retained 1,491 unique Δ≤10 graphs. All were exactly colorable, with no primary negative and no timeout (`results/multihub-sync-delta10.json`).
+
+Order-16 progress is now as follows:
+
+| class | canonical records | outcome |
+|---|---:|---|
+| `4+12` | 26,330 | all colorable |
+| `5+11` | 5,158,975 | all colorable |
+| `6+10` | 291,917,907 | classification running |
+| `7+9` | 121,471,162 | generation running |
+| `8+8` | 159,757,218 | generation running |
+
+A reusable memory-safe audit tool (`src/audit_order16_class.py`) streams result chunks directly from YSU, checks malformed rows, duplicate indices, duplicate bipartition-colored hashes, status counts, timeout indices, and expected-count agreement. It reproduced both completed order-16 audits exactly on `4+12` and `5+11`.
+
+The third degree-transfer pass added another 177,021 constructions and classified 5,152 additional unique Δ≤10 graphs: 740 for Erdős–Fano and 4,412 for the Δ15 benchmark. Every classification returned colorable, with zero timeouts. The combined transfer evidence now represents 11,647 unique colorable graphs (`results/degree-transfer-delta10-extension-r3.json`).
+
 A one-pass live audit of 345 available order-15 `7+8` chunks checked 129,324,159 rows on YSU job 227326: all indices and bipartition-colored canonical hashes were distinct, there were zero malformed rows, zero timeout rows, and all rows were colorable. This is a clean snapshot at 53.153% of the expected 243,304,742 records, not yet completion of the class.
 
 Machine-readable totals and artifact hashes are in `results/order15-completed-classes-summary.json`; the underlying audits are `results/order15-{small,5x10,6x9}-audit.txt`, and the targeted rounds are `results/lane6-signature-r2.json` and `results/lane6-signature-r3.json`.

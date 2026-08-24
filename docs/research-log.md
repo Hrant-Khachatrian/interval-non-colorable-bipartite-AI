@@ -320,6 +320,28 @@ The degree-transfer r3 pass also survived a router outage. Its durable state con
 
 That continuation completed after the failed agent turn. The r3 report records 177,021 further constructions, 5,152 newly solved unique canonical graphs, and zero non-colorable decisions or timeouts. Erdős–Fano contributed 740 classifications; `M5_delta_555` contributed 4,412. Combined with the baseline (3,495) and completed resumed extension (3,000), the represented total is now 11,647 unique colorable Δ≤10 graphs. Report and durable row log are `results/degree-transfer-delta10-extension-r3.json` and `results/degree-transfer-delta10-extension-r3-state.jsonl`.
 
+## 2026-08-25 — Full order-16 attack and synchronized multi-hub splits
+
+The full order-16 census was measured for every connected minimum-degree-2 side split with degrees at most 11:
+
+| split | generated |
+|---|---:|
+| `4+12` | 26,330 |
+| `5+11` | 5,158,975 |
+| `6+10` | 291,917,907 |
+| `7+9` | 121,471,162 |
+| `8+8` | 159,757,218 |
+
+The total is 573,170,427 canonical graphs before regular skips. `genbg` emitted canonical labeled bipartite graph6 output with connectivity and degree bounds enabled.
+
+`4+12` was classified in 32 Slurm slices and audited: 26,330 rows, all distinct by index and bipartition-colored hash, all colorable, no timeouts. `5+11` used 256 slices; its 5,158,975 rows had the same clean integrity properties and all were colorable. These audits establish the first two order-16 classes exhaustively.
+
+`6+10` was generated on YSU into a 6.0 GB graph6 file with exactly 291,917,907 records. Classification array 228788 uses 512 contiguous chunks, four CPU slots per task, a ten-second primary limit per record, and up to 150 concurrent tasks. Results are checkpointed as append-only JSONL so interrupted tasks resume without duplicating indices. Any timeout will be rerun exactly with a one-hour limit; any primary negative must pass independent fixed-span confirmation before being reported.
+
+Generation jobs for `7+9` (expected 121,471,162) and `8+8` (expected 159,757,218) are also running. Their workers verify exact line counts before launching analogous resumable arrays. A reusable remote auditor (`src/audit_order16_class.py`) streams chunks once, uses bounded snapshots and remote sorting, and reports malformed rows, duplicate indices/hashes, status histograms, missing ranges, timeouts, and negatives. It reproduced the committed `4+12` and `5+11` audits exactly.
+
+The synchronized multi-hub Δ≤10 lane replaced each over-cap hub by two same-side copies and inserted deterministic bipartite synchronization gadgets between them. It enumerated 2,388 constructions, retained 1,491 unique canonical graphs after enforcing connectivity, minimum degree 2, simplicity, and final Δ≤10, and classified all of them exactly. All 1,491 were colorable; there were no primary negatives, confirmed negatives, or timeouts. Reports are `results/multihub-sync-delta10-smoke.json` and `results/multihub-sync-delta10.json`.
+
 A separate one-pass live snapshot audit ran on YSU `research_cpu` as job 227326, using about 8.4 GB peak memory in 19 minutes. It scanned 345 chunks and 129,324,159 result rows. There were no malformed JSON rows, missing fields, duplicate indices, or duplicate canonical hashes. The status histogram contained only colorable decisions, with zero timeout rows and zero negative rows. This validates the first 129,324,159 records of the expected 243,304,742-record `7+8` class; the remaining 113,980,583 records are still being generated.
 
 ## 2026-08-24 — Complete order-15 exhaustive search

@@ -1,0 +1,300 @@
+{
+  "audit_duration_seconds": 2.063,
+  "dataset": "order16-4x12",
+  "duplicate_hash_rows": 0,
+  "duplicate_hashes": 0,
+  "duplicate_index_rows": 0,
+  "duplicate_indices": 0,
+  "expected_comparison": {
+    "expected_records": 26330,
+    "extra_rows_vs_expected": 0,
+    "missing_rows_vs_expected": 0,
+    "rows_match_expected": true,
+    "rows_minus_expected": 0
+  },
+  "file_inventory": [
+    {
+      "changed_during_scan": false,
+      "chunk_id": 0,
+      "end_bytes": 198188,
+      "file": "chunk-0.jsonl",
+      "mtime_utc": "2026-08-24T09:58:54.626115Z",
+      "snapshot_bytes": 198188
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 1,
+      "end_bytes": 198560,
+      "file": "chunk-1.jsonl",
+      "mtime_utc": "2026-08-24T09:58:47.686265Z",
+      "snapshot_bytes": 198560
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 10,
+      "end_bytes": 198757,
+      "file": "chunk-10.jsonl",
+      "mtime_utc": "2026-08-24T09:58:54.663878Z",
+      "snapshot_bytes": 198757
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 11,
+      "end_bytes": 199149,
+      "file": "chunk-11.jsonl",
+      "mtime_utc": "2026-08-24T09:58:27.271786Z",
+      "snapshot_bytes": 199149
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 12,
+      "end_bytes": 199556,
+      "file": "chunk-12.jsonl",
+      "mtime_utc": "2026-08-24T09:58:25.755826Z",
+      "snapshot_bytes": 199556
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 13,
+      "end_bytes": 199175,
+      "file": "chunk-13.jsonl",
+      "mtime_utc": "2026-08-24T09:58:22.317917Z",
+      "snapshot_bytes": 199175
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 14,
+      "end_bytes": 199659,
+      "file": "chunk-14.jsonl",
+      "mtime_utc": "2026-08-24T09:58:30.489702Z",
+      "snapshot_bytes": 199659
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 15,
+      "end_bytes": 199558,
+      "file": "chunk-15.jsonl",
+      "mtime_utc": "2026-08-24T09:58:26.592804Z",
+      "snapshot_bytes": 199558
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 16,
+      "end_bytes": 199227,
+      "file": "chunk-16.jsonl",
+      "mtime_utc": "2026-08-24T09:58:25.586831Z",
+      "snapshot_bytes": 199227
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 17,
+      "end_bytes": 199817,
+      "file": "chunk-17.jsonl",
+      "mtime_utc": "2026-08-24T09:58:27.382783Z",
+      "snapshot_bytes": 199817
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 18,
+      "end_bytes": 199643,
+      "file": "chunk-18.jsonl",
+      "mtime_utc": "2026-08-24T09:58:31.733669Z",
+      "snapshot_bytes": 199643
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 19,
+      "end_bytes": 199967,
+      "file": "chunk-19.jsonl",
+      "mtime_utc": "2026-08-24T09:58:36.404546Z",
+      "snapshot_bytes": 199967
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 2,
+      "end_bytes": 198890,
+      "file": "chunk-2.jsonl",
+      "mtime_utc": "2026-08-24T09:58:52.555160Z",
+      "snapshot_bytes": 198890
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 20,
+      "end_bytes": 200064,
+      "file": "chunk-20.jsonl",
+      "mtime_utc": "2026-08-24T09:58:29.534282Z",
+      "snapshot_bytes": 200064
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 21,
+      "end_bytes": 199922,
+      "file": "chunk-21.jsonl",
+      "mtime_utc": "2026-08-24T09:58:40.823012Z",
+      "snapshot_bytes": 199922
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 22,
+      "end_bytes": 199690,
+      "file": "chunk-22.jsonl",
+      "mtime_utc": "2026-08-24T09:58:29.294288Z",
+      "snapshot_bytes": 199690
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 23,
+      "end_bytes": 199502,
+      "file": "chunk-23.jsonl",
+      "mtime_utc": "2026-08-24T09:58:27.797324Z",
+      "snapshot_bytes": 199502
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 24,
+      "end_bytes": 199790,
+      "file": "chunk-24.jsonl",
+      "mtime_utc": "2026-08-24T09:58:36.276121Z",
+      "snapshot_bytes": 199790
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 25,
+      "end_bytes": 199922,
+      "file": "chunk-25.jsonl",
+      "mtime_utc": "2026-08-24T09:58:46.119886Z",
+      "snapshot_bytes": 199922
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 26,
+      "end_bytes": 199598,
+      "file": "chunk-26.jsonl",
+      "mtime_utc": "2026-08-24T09:59:03.970633Z",
+      "snapshot_bytes": 199598
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 27,
+      "end_bytes": 199314,
+      "file": "chunk-27.jsonl",
+      "mtime_utc": "2026-08-24T09:59:22.188152Z",
+      "snapshot_bytes": 199314
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 28,
+      "end_bytes": 199537,
+      "file": "chunk-28.jsonl",
+      "mtime_utc": "2026-08-24T09:59:34.097838Z",
+      "snapshot_bytes": 199537
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 29,
+      "end_bytes": 199874,
+      "file": "chunk-29.jsonl",
+      "mtime_utc": "2026-08-24T09:59:30.742926Z",
+      "snapshot_bytes": 199874
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 3,
+      "end_bytes": 199208,
+      "file": "chunk-3.jsonl",
+      "mtime_utc": "2026-08-24T09:58:40.857242Z",
+      "snapshot_bytes": 199208
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 30,
+      "end_bytes": 199596,
+      "file": "chunk-30.jsonl",
+      "mtime_utc": "2026-08-24T09:59:19.895213Z",
+      "snapshot_bytes": 199596
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 31,
+      "end_bytes": 198538,
+      "file": "chunk-31.jsonl",
+      "mtime_utc": "2026-08-24T09:59:40.886659Z",
+      "snapshot_bytes": 198538
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 4,
+      "end_bytes": 199209,
+      "file": "chunk-4.jsonl",
+      "mtime_utc": "2026-08-24T09:58:36.715352Z",
+      "snapshot_bytes": 199209
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 5,
+      "end_bytes": 198915,
+      "file": "chunk-5.jsonl",
+      "mtime_utc": "2026-08-24T09:58:38.477305Z",
+      "snapshot_bytes": 198915
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 6,
+      "end_bytes": 198876,
+      "file": "chunk-6.jsonl",
+      "mtime_utc": "2026-08-24T09:58:36.754351Z",
+      "snapshot_bytes": 198876
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 7,
+      "end_bytes": 198934,
+      "file": "chunk-7.jsonl",
+      "mtime_utc": "2026-08-24T09:58:39.465279Z",
+      "snapshot_bytes": 198934
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 8,
+      "end_bytes": 199020,
+      "file": "chunk-8.jsonl",
+      "mtime_utc": "2026-08-24T09:58:48.116051Z",
+      "snapshot_bytes": 199020
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 9,
+      "end_bytes": 198639,
+      "file": "chunk-9.jsonl",
+      "mtime_utc": "2026-08-24T09:58:42.276205Z",
+      "snapshot_bytes": 198639
+    }
+  ],
+  "files_scanned": 32,
+  "generated_at_utc": "2026-08-24T22:00:48.591292Z",
+  "index_coverage_in_observed_range": 1.0,
+  "invalid_examples": [],
+  "malformed_rows": 0,
+  "maximum_index": 26329,
+  "minimum_index": 0,
+  "missing_index_count": 0,
+  "missing_index_ranges": [],
+  "mode": "snapshot",
+  "negative_candidate_count": 0,
+  "negative_candidate_indices": [],
+  "observed_index_span": 26330,
+  "remote": "hrant@cluster.ysu.am",
+  "remote_root": "/mnt/weka/hrant/interval-search",
+  "rows": 26330,
+  "scan_count": 1,
+  "schema": "order16-class-audit/v1",
+  "stable_scans_observed": 1,
+  "status_histogram": {
+    "colorable": 26330
+  },
+  "timeout_index_count": 0,
+  "timeout_indices": [],
+  "total_duration_seconds": 2.063,
+  "unique_hashes": 26330,
+  "unique_indices": 26330
+}

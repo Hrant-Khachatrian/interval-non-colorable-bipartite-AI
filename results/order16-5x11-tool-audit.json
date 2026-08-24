@@ -1,0 +1,2092 @@
+{
+  "audit_duration_seconds": 283.501,
+  "dataset": "order16-5x11",
+  "duplicate_hash_rows": 0,
+  "duplicate_hashes": 0,
+  "duplicate_index_rows": 0,
+  "duplicate_indices": 0,
+  "expected_comparison": {
+    "expected_records": 5158975,
+    "extra_rows_vs_expected": 0,
+    "missing_rows_vs_expected": 0,
+    "rows_match_expected": true,
+    "rows_minus_expected": 0
+  },
+  "file_inventory": [
+    {
+      "changed_during_scan": false,
+      "chunk_id": 0,
+      "end_bytes": 4870433,
+      "file": "chunk-0.jsonl",
+      "mtime_utc": "2026-08-24T10:12:11.691106Z",
+      "snapshot_bytes": 4870433
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 1,
+      "end_bytes": 4880314,
+      "file": "chunk-1.jsonl",
+      "mtime_utc": "2026-08-24T10:13:30.907722Z",
+      "snapshot_bytes": 4880314
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 10,
+      "end_bytes": 4894888,
+      "file": "chunk-10.jsonl",
+      "mtime_utc": "2026-08-24T10:11:59.556425Z",
+      "snapshot_bytes": 4894888
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 100,
+      "end_bytes": 4913558,
+      "file": "chunk-100.jsonl",
+      "mtime_utc": "2026-08-24T10:54:22.569080Z",
+      "snapshot_bytes": 4913558
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 101,
+      "end_bytes": 4920219,
+      "file": "chunk-101.jsonl",
+      "mtime_utc": "2026-08-24T10:54:59.499578Z",
+      "snapshot_bytes": 4920219
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 102,
+      "end_bytes": 4916498,
+      "file": "chunk-102.jsonl",
+      "mtime_utc": "2026-08-24T10:56:24.284169Z",
+      "snapshot_bytes": 4916498
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 103,
+      "end_bytes": 4914230,
+      "file": "chunk-103.jsonl",
+      "mtime_utc": "2026-08-24T10:56:08.134773Z",
+      "snapshot_bytes": 4914230
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 104,
+      "end_bytes": 4911612,
+      "file": "chunk-104.jsonl",
+      "mtime_utc": "2026-08-24T10:56:34.530079Z",
+      "snapshot_bytes": 4911612
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 105,
+      "end_bytes": 4908767,
+      "file": "chunk-105.jsonl",
+      "mtime_utc": "2026-08-24T10:53:28.343975Z",
+      "snapshot_bytes": 4908767
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 106,
+      "end_bytes": 4915969,
+      "file": "chunk-106.jsonl",
+      "mtime_utc": "2026-08-24T10:51:45.752455Z",
+      "snapshot_bytes": 4915969
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 107,
+      "end_bytes": 4908953,
+      "file": "chunk-107.jsonl",
+      "mtime_utc": "2026-08-24T10:52:11.002228Z",
+      "snapshot_bytes": 4908953
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 108,
+      "end_bytes": 4908713,
+      "file": "chunk-108.jsonl",
+      "mtime_utc": "2026-08-24T10:53:12.298398Z",
+      "snapshot_bytes": 4908713
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 109,
+      "end_bytes": 4909122,
+      "file": "chunk-109.jsonl",
+      "mtime_utc": "2026-08-24T10:53:39.309437Z",
+      "snapshot_bytes": 4909122
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 11,
+      "end_bytes": 4891591,
+      "file": "chunk-11.jsonl",
+      "mtime_utc": "2026-08-24T10:10:26.836864Z",
+      "snapshot_bytes": 4891591
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 110,
+      "end_bytes": 4905275,
+      "file": "chunk-110.jsonl",
+      "mtime_utc": "2026-08-24T10:55:36.594310Z",
+      "snapshot_bytes": 4905275
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 111,
+      "end_bytes": 4909156,
+      "file": "chunk-111.jsonl",
+      "mtime_utc": "2026-08-24T10:56:08.865754Z",
+      "snapshot_bytes": 4909156
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 112,
+      "end_bytes": 4911341,
+      "file": "chunk-112.jsonl",
+      "mtime_utc": "2026-08-24T10:53:45.309640Z",
+      "snapshot_bytes": 4911341
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 113,
+      "end_bytes": 4906597,
+      "file": "chunk-113.jsonl",
+      "mtime_utc": "2026-08-24T10:57:15.069954Z",
+      "snapshot_bytes": 4906597
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 114,
+      "end_bytes": 4907618,
+      "file": "chunk-114.jsonl",
+      "mtime_utc": "2026-08-24T10:58:02.319771Z",
+      "snapshot_bytes": 4907618
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 115,
+      "end_bytes": 4908708,
+      "file": "chunk-115.jsonl",
+      "mtime_utc": "2026-08-24T10:59:03.723786Z",
+      "snapshot_bytes": 4908708
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 116,
+      "end_bytes": 4918532,
+      "file": "chunk-116.jsonl",
+      "mtime_utc": "2026-08-24T10:59:19.879355Z",
+      "snapshot_bytes": 4918532
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 117,
+      "end_bytes": 4919143,
+      "file": "chunk-117.jsonl",
+      "mtime_utc": "2026-08-24T10:59:24.999228Z",
+      "snapshot_bytes": 4919143
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 118,
+      "end_bytes": 4913386,
+      "file": "chunk-118.jsonl",
+      "mtime_utc": "2026-08-24T10:59:36.334981Z",
+      "snapshot_bytes": 4913386
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 119,
+      "end_bytes": 4910455,
+      "file": "chunk-119.jsonl",
+      "mtime_utc": "2026-08-24T11:04:32.463492Z",
+      "snapshot_bytes": 4910455
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 12,
+      "end_bytes": 4895815,
+      "file": "chunk-12.jsonl",
+      "mtime_utc": "2026-08-24T10:08:05.634141Z",
+      "snapshot_bytes": 4895815
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 120,
+      "end_bytes": 4921055,
+      "file": "chunk-120.jsonl",
+      "mtime_utc": "2026-08-24T11:02:53.028672Z",
+      "snapshot_bytes": 4921055
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 121,
+      "end_bytes": 4934242,
+      "file": "chunk-121.jsonl",
+      "mtime_utc": "2026-08-24T11:07:00.967064Z",
+      "snapshot_bytes": 4934242
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 122,
+      "end_bytes": 4932903,
+      "file": "chunk-122.jsonl",
+      "mtime_utc": "2026-08-24T11:05:23.670164Z",
+      "snapshot_bytes": 4932903
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 123,
+      "end_bytes": 4929902,
+      "file": "chunk-123.jsonl",
+      "mtime_utc": "2026-08-24T11:07:35.390147Z",
+      "snapshot_bytes": 4929902
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 124,
+      "end_bytes": 4920880,
+      "file": "chunk-124.jsonl",
+      "mtime_utc": "2026-08-24T11:09:10.921832Z",
+      "snapshot_bytes": 4920880
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 125,
+      "end_bytes": 4920310,
+      "file": "chunk-125.jsonl",
+      "mtime_utc": "2026-08-24T11:08:35.307124Z",
+      "snapshot_bytes": 4920310
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 126,
+      "end_bytes": 4924564,
+      "file": "chunk-126.jsonl",
+      "mtime_utc": "2026-08-24T11:08:44.150892Z",
+      "snapshot_bytes": 4924564
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 127,
+      "end_bytes": 4917130,
+      "file": "chunk-127.jsonl",
+      "mtime_utc": "2026-08-24T11:08:04.881361Z",
+      "snapshot_bytes": 4917130
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 128,
+      "end_bytes": 4917417,
+      "file": "chunk-128.jsonl",
+      "mtime_utc": "2026-08-24T11:04:51.980133Z",
+      "snapshot_bytes": 4917417
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 129,
+      "end_bytes": 4915904,
+      "file": "chunk-129.jsonl",
+      "mtime_utc": "2026-08-24T11:09:26.338783Z",
+      "snapshot_bytes": 4915904
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 13,
+      "end_bytes": 4892622,
+      "file": "chunk-13.jsonl",
+      "mtime_utc": "2026-08-24T10:11:15.445585Z",
+      "snapshot_bytes": 4892622
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 130,
+      "end_bytes": 4914951,
+      "file": "chunk-130.jsonl",
+      "mtime_utc": "2026-08-24T11:11:19.036767Z",
+      "snapshot_bytes": 4914951
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 131,
+      "end_bytes": 4916595,
+      "file": "chunk-131.jsonl",
+      "mtime_utc": "2026-08-24T11:10:34.577445Z",
+      "snapshot_bytes": 4916595
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 132,
+      "end_bytes": 4916231,
+      "file": "chunk-132.jsonl",
+      "mtime_utc": "2026-08-24T11:17:05.271966Z",
+      "snapshot_bytes": 4916231
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 133,
+      "end_bytes": 4919784,
+      "file": "chunk-133.jsonl",
+      "mtime_utc": "2026-08-24T11:09:01.280441Z",
+      "snapshot_bytes": 4919784
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 134,
+      "end_bytes": 4919401,
+      "file": "chunk-134.jsonl",
+      "mtime_utc": "2026-08-24T11:10:16.581261Z",
+      "snapshot_bytes": 4919401
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 135,
+      "end_bytes": 4913070,
+      "file": "chunk-135.jsonl",
+      "mtime_utc": "2026-08-24T11:10:06.122736Z",
+      "snapshot_bytes": 4913070
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 136,
+      "end_bytes": 4923466,
+      "file": "chunk-136.jsonl",
+      "mtime_utc": "2026-08-24T11:11:39.471281Z",
+      "snapshot_bytes": 4923466
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 137,
+      "end_bytes": 4914705,
+      "file": "chunk-137.jsonl",
+      "mtime_utc": "2026-08-24T11:12:09.359564Z",
+      "snapshot_bytes": 4914705
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 138,
+      "end_bytes": 4916702,
+      "file": "chunk-138.jsonl",
+      "mtime_utc": "2026-08-24T11:07:49.192008Z",
+      "snapshot_bytes": 4916702
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 139,
+      "end_bytes": 4913767,
+      "file": "chunk-139.jsonl",
+      "mtime_utc": "2026-08-24T11:08:31.815216Z",
+      "snapshot_bytes": 4913767
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 14,
+      "end_bytes": 4893856,
+      "file": "chunk-14.jsonl",
+      "mtime_utc": "2026-08-24T10:12:17.862469Z",
+      "snapshot_bytes": 4893856
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 140,
+      "end_bytes": 4912258,
+      "file": "chunk-140.jsonl",
+      "mtime_utc": "2026-08-24T11:07:29.358308Z",
+      "snapshot_bytes": 4912258
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 141,
+      "end_bytes": 4909633,
+      "file": "chunk-141.jsonl",
+      "mtime_utc": "2026-08-24T11:09:05.381964Z",
+      "snapshot_bytes": 4909633
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 142,
+      "end_bytes": 4914268,
+      "file": "chunk-142.jsonl",
+      "mtime_utc": "2026-08-24T11:13:15.551084Z",
+      "snapshot_bytes": 4914268
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 143,
+      "end_bytes": 4912863,
+      "file": "chunk-143.jsonl",
+      "mtime_utc": "2026-08-24T11:10:38.803877Z",
+      "snapshot_bytes": 4912863
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 144,
+      "end_bytes": 4910780,
+      "file": "chunk-144.jsonl",
+      "mtime_utc": "2026-08-24T11:09:48.806592Z",
+      "snapshot_bytes": 4910780
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 145,
+      "end_bytes": 4911595,
+      "file": "chunk-145.jsonl",
+      "mtime_utc": "2026-08-24T11:09:40.135823Z",
+      "snapshot_bytes": 4911595
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 146,
+      "end_bytes": 4912725,
+      "file": "chunk-146.jsonl",
+      "mtime_utc": "2026-08-24T11:08:21.026619Z",
+      "snapshot_bytes": 4912725
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 147,
+      "end_bytes": 4912743,
+      "file": "chunk-147.jsonl",
+      "mtime_utc": "2026-08-24T11:08:38.943232Z",
+      "snapshot_bytes": 4912743
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 148,
+      "end_bytes": 4910238,
+      "file": "chunk-148.jsonl",
+      "mtime_utc": "2026-08-24T11:18:12.793822Z",
+      "snapshot_bytes": 4910238
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 149,
+      "end_bytes": 4922708,
+      "file": "chunk-149.jsonl",
+      "mtime_utc": "2026-08-24T11:13:00.023498Z",
+      "snapshot_bytes": 4922708
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 15,
+      "end_bytes": 4892818,
+      "file": "chunk-15.jsonl",
+      "mtime_utc": "2026-08-24T10:09:04.654857Z",
+      "snapshot_bytes": 4892818
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 150,
+      "end_bytes": 4907742,
+      "file": "chunk-150.jsonl",
+      "mtime_utc": "2026-08-24T11:17:40.706638Z",
+      "snapshot_bytes": 4907742
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 151,
+      "end_bytes": 4915955,
+      "file": "chunk-151.jsonl",
+      "mtime_utc": "2026-08-24T11:14:59.298009Z",
+      "snapshot_bytes": 4915955
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 152,
+      "end_bytes": 4914651,
+      "file": "chunk-152.jsonl",
+      "mtime_utc": "2026-08-24T11:16:52.864040Z",
+      "snapshot_bytes": 4914651
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 153,
+      "end_bytes": 4913311,
+      "file": "chunk-153.jsonl",
+      "mtime_utc": "2026-08-24T11:17:24.447455Z",
+      "snapshot_bytes": 4913311
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 154,
+      "end_bytes": 4919739,
+      "file": "chunk-154.jsonl",
+      "mtime_utc": "2026-08-24T11:17:35.907150Z",
+      "snapshot_bytes": 4919739
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 155,
+      "end_bytes": 4924585,
+      "file": "chunk-155.jsonl",
+      "mtime_utc": "2026-08-24T11:22:32.545252Z",
+      "snapshot_bytes": 4924585
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 156,
+      "end_bytes": 4918603,
+      "file": "chunk-156.jsonl",
+      "mtime_utc": "2026-08-24T11:20:14.261268Z",
+      "snapshot_bytes": 4918603
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 157,
+      "end_bytes": 4922817,
+      "file": "chunk-157.jsonl",
+      "mtime_utc": "2026-08-24T11:23:57.720985Z",
+      "snapshot_bytes": 4922817
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 158,
+      "end_bytes": 4922711,
+      "file": "chunk-158.jsonl",
+      "mtime_utc": "2026-08-24T11:20:06.784354Z",
+      "snapshot_bytes": 4922711
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 159,
+      "end_bytes": 4914897,
+      "file": "chunk-159.jsonl",
+      "mtime_utc": "2026-08-24T11:19:42.932870Z",
+      "snapshot_bytes": 4914897
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 16,
+      "end_bytes": 4896070,
+      "file": "chunk-16.jsonl",
+      "mtime_utc": "2026-08-24T10:09:58.044225Z",
+      "snapshot_bytes": 4896070
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 160,
+      "end_bytes": 4909746,
+      "file": "chunk-160.jsonl",
+      "mtime_utc": "2026-08-24T11:20:06.464948Z",
+      "snapshot_bytes": 4909746
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 161,
+      "end_bytes": 4909375,
+      "file": "chunk-161.jsonl",
+      "mtime_utc": "2026-08-24T11:18:56.360792Z",
+      "snapshot_bytes": 4909375
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 162,
+      "end_bytes": 4908618,
+      "file": "chunk-162.jsonl",
+      "mtime_utc": "2026-08-24T11:20:22.497527Z",
+      "snapshot_bytes": 4908618
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 163,
+      "end_bytes": 4911405,
+      "file": "chunk-163.jsonl",
+      "mtime_utc": "2026-08-24T11:17:34.063315Z",
+      "snapshot_bytes": 4911405
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 164,
+      "end_bytes": 4909279,
+      "file": "chunk-164.jsonl",
+      "mtime_utc": "2026-08-24T11:20:26.023434Z",
+      "snapshot_bytes": 4909279
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 165,
+      "end_bytes": 4912369,
+      "file": "chunk-165.jsonl",
+      "mtime_utc": "2026-08-24T11:22:37.651535Z",
+      "snapshot_bytes": 4912369
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 166,
+      "end_bytes": 4912193,
+      "file": "chunk-166.jsonl",
+      "mtime_utc": "2026-08-24T11:23:07.564820Z",
+      "snapshot_bytes": 4912193
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 167,
+      "end_bytes": 4915704,
+      "file": "chunk-167.jsonl",
+      "mtime_utc": "2026-08-24T11:22:39.332072Z",
+      "snapshot_bytes": 4915704
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 168,
+      "end_bytes": 4912929,
+      "file": "chunk-168.jsonl",
+      "mtime_utc": "2026-08-24T11:23:03.501293Z",
+      "snapshot_bytes": 4912929
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 169,
+      "end_bytes": 4917271,
+      "file": "chunk-169.jsonl",
+      "mtime_utc": "2026-08-24T11:24:20.573377Z",
+      "snapshot_bytes": 4917271
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 17,
+      "end_bytes": 4895513,
+      "file": "chunk-17.jsonl",
+      "mtime_utc": "2026-08-24T10:09:38.639131Z",
+      "snapshot_bytes": 4895513
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 170,
+      "end_bytes": 4922655,
+      "file": "chunk-170.jsonl",
+      "mtime_utc": "2026-08-24T11:24:31.464980Z",
+      "snapshot_bytes": 4922655
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 171,
+      "end_bytes": 4918030,
+      "file": "chunk-171.jsonl",
+      "mtime_utc": "2026-08-24T11:29:21.122885Z",
+      "snapshot_bytes": 4918030
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 172,
+      "end_bytes": 4917149,
+      "file": "chunk-172.jsonl",
+      "mtime_utc": "2026-08-24T11:23:51.533623Z",
+      "snapshot_bytes": 4917149
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 173,
+      "end_bytes": 4919839,
+      "file": "chunk-173.jsonl",
+      "mtime_utc": "2026-08-24T11:26:02.456587Z",
+      "snapshot_bytes": 4919839
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 174,
+      "end_bytes": 4919007,
+      "file": "chunk-174.jsonl",
+      "mtime_utc": "2026-08-24T11:27:35.222418Z",
+      "snapshot_bytes": 4919007
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 175,
+      "end_bytes": 4914678,
+      "file": "chunk-175.jsonl",
+      "mtime_utc": "2026-08-24T11:26:38.897628Z",
+      "snapshot_bytes": 4914678
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 176,
+      "end_bytes": 4912206,
+      "file": "chunk-176.jsonl",
+      "mtime_utc": "2026-08-24T11:27:56.817901Z",
+      "snapshot_bytes": 4912206
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 177,
+      "end_bytes": 4921367,
+      "file": "chunk-177.jsonl",
+      "mtime_utc": "2026-08-24T11:25:48.335041Z",
+      "snapshot_bytes": 4921367
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 178,
+      "end_bytes": 4911192,
+      "file": "chunk-178.jsonl",
+      "mtime_utc": "2026-08-24T11:31:45.474539Z",
+      "snapshot_bytes": 4911192
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 179,
+      "end_bytes": 4916127,
+      "file": "chunk-179.jsonl",
+      "mtime_utc": "2026-08-24T11:26:44.405739Z",
+      "snapshot_bytes": 4916127
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 18,
+      "end_bytes": 4890664,
+      "file": "chunk-18.jsonl",
+      "mtime_utc": "2026-08-24T10:11:28.152658Z",
+      "snapshot_bytes": 4890664
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 180,
+      "end_bytes": 4909061,
+      "file": "chunk-180.jsonl",
+      "mtime_utc": "2026-08-24T11:35:49.624048Z",
+      "snapshot_bytes": 4909061
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 181,
+      "end_bytes": 4914546,
+      "file": "chunk-181.jsonl",
+      "mtime_utc": "2026-08-24T11:30:35.796399Z",
+      "snapshot_bytes": 4914546
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 182,
+      "end_bytes": 4911073,
+      "file": "chunk-182.jsonl",
+      "mtime_utc": "2026-08-24T11:29:53.868507Z",
+      "snapshot_bytes": 4911073
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 183,
+      "end_bytes": 4914279,
+      "file": "chunk-183.jsonl",
+      "mtime_utc": "2026-08-24T11:27:26.311433Z",
+      "snapshot_bytes": 4914279
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 184,
+      "end_bytes": 4906256,
+      "file": "chunk-184.jsonl",
+      "mtime_utc": "2026-08-24T11:30:58.687551Z",
+      "snapshot_bytes": 4906256
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 185,
+      "end_bytes": 4912246,
+      "file": "chunk-185.jsonl",
+      "mtime_utc": "2026-08-24T11:27:38.545276Z",
+      "snapshot_bytes": 4912246
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 186,
+      "end_bytes": 4905668,
+      "file": "chunk-186.jsonl",
+      "mtime_utc": "2026-08-24T11:34:55.582083Z",
+      "snapshot_bytes": 4905668
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 187,
+      "end_bytes": 4909299,
+      "file": "chunk-187.jsonl",
+      "mtime_utc": "2026-08-24T11:30:23.425724Z",
+      "snapshot_bytes": 4909299
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 188,
+      "end_bytes": 4911362,
+      "file": "chunk-188.jsonl",
+      "mtime_utc": "2026-08-24T11:27:36.060619Z",
+      "snapshot_bytes": 4911362
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 189,
+      "end_bytes": 4912133,
+      "file": "chunk-189.jsonl",
+      "mtime_utc": "2026-08-24T11:28:45.104122Z",
+      "snapshot_bytes": 4912133
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 19,
+      "end_bytes": 4891411,
+      "file": "chunk-19.jsonl",
+      "mtime_utc": "2026-08-24T10:10:14.721415Z",
+      "snapshot_bytes": 4891411
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 190,
+      "end_bytes": 4910928,
+      "file": "chunk-190.jsonl",
+      "mtime_utc": "2026-08-24T11:28:42.799963Z",
+      "snapshot_bytes": 4910928
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 191,
+      "end_bytes": 4909734,
+      "file": "chunk-191.jsonl",
+      "mtime_utc": "2026-08-24T11:32:32.836320Z",
+      "snapshot_bytes": 4909734
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 192,
+      "end_bytes": 4911373,
+      "file": "chunk-192.jsonl",
+      "mtime_utc": "2026-08-24T11:33:32.591749Z",
+      "snapshot_bytes": 4911373
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 193,
+      "end_bytes": 4910749,
+      "file": "chunk-193.jsonl",
+      "mtime_utc": "2026-08-24T11:33:54.907162Z",
+      "snapshot_bytes": 4910749
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 194,
+      "end_bytes": 4910967,
+      "file": "chunk-194.jsonl",
+      "mtime_utc": "2026-08-24T11:35:22.779761Z",
+      "snapshot_bytes": 4910967
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 195,
+      "end_bytes": 4910676,
+      "file": "chunk-195.jsonl",
+      "mtime_utc": "2026-08-24T11:34:45.994740Z",
+      "snapshot_bytes": 4910676
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 196,
+      "end_bytes": 4906871,
+      "file": "chunk-196.jsonl",
+      "mtime_utc": "2026-08-24T11:33:56.819290Z",
+      "snapshot_bytes": 4906871
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 197,
+      "end_bytes": 4907641,
+      "file": "chunk-197.jsonl",
+      "mtime_utc": "2026-08-24T11:34:26.944320Z",
+      "snapshot_bytes": 4907641
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 198,
+      "end_bytes": 4905320,
+      "file": "chunk-198.jsonl",
+      "mtime_utc": "2026-08-24T11:35:16.451385Z",
+      "snapshot_bytes": 4905320
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 199,
+      "end_bytes": 4910614,
+      "file": "chunk-199.jsonl",
+      "mtime_utc": "2026-08-24T11:34:09.758703Z",
+      "snapshot_bytes": 4910614
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 2,
+      "end_bytes": 4878006,
+      "file": "chunk-2.jsonl",
+      "mtime_utc": "2026-08-24T10:12:47.274766Z",
+      "snapshot_bytes": 4878006
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 20,
+      "end_bytes": 4892113,
+      "file": "chunk-20.jsonl",
+      "mtime_utc": "2026-08-24T10:10:12.034853Z",
+      "snapshot_bytes": 4892113
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 200,
+      "end_bytes": 4911500,
+      "file": "chunk-200.jsonl",
+      "mtime_utc": "2026-08-24T11:34:07.578755Z",
+      "snapshot_bytes": 4911500
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 201,
+      "end_bytes": 4909734,
+      "file": "chunk-201.jsonl",
+      "mtime_utc": "2026-08-24T11:36:19.282259Z",
+      "snapshot_bytes": 4909734
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 202,
+      "end_bytes": 4908964,
+      "file": "chunk-202.jsonl",
+      "mtime_utc": "2026-08-24T11:37:23.024689Z",
+      "snapshot_bytes": 4908964
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 203,
+      "end_bytes": 4913609,
+      "file": "chunk-203.jsonl",
+      "mtime_utc": "2026-08-24T11:36:45.306567Z",
+      "snapshot_bytes": 4913609
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 204,
+      "end_bytes": 4909105,
+      "file": "chunk-204.jsonl",
+      "mtime_utc": "2026-08-24T11:40:11.827250Z",
+      "snapshot_bytes": 4909105
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 205,
+      "end_bytes": 4915473,
+      "file": "chunk-205.jsonl",
+      "mtime_utc": "2026-08-24T11:37:47.107365Z",
+      "snapshot_bytes": 4915473
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 206,
+      "end_bytes": 4915016,
+      "file": "chunk-206.jsonl",
+      "mtime_utc": "2026-08-24T11:41:44.776806Z",
+      "snapshot_bytes": 4915016
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 207,
+      "end_bytes": 4919998,
+      "file": "chunk-207.jsonl",
+      "mtime_utc": "2026-08-24T11:39:00.304978Z",
+      "snapshot_bytes": 4919998
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 208,
+      "end_bytes": 4915591,
+      "file": "chunk-208.jsonl",
+      "mtime_utc": "2026-08-24T11:38:35.633324Z",
+      "snapshot_bytes": 4915591
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 209,
+      "end_bytes": 4912615,
+      "file": "chunk-209.jsonl",
+      "mtime_utc": "2026-08-24T11:43:34.009484Z",
+      "snapshot_bytes": 4912615
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 21,
+      "end_bytes": 4896838,
+      "file": "chunk-21.jsonl",
+      "mtime_utc": "2026-08-24T10:07:47.627704Z",
+      "snapshot_bytes": 4896838
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 210,
+      "end_bytes": 4914792,
+      "file": "chunk-210.jsonl",
+      "mtime_utc": "2026-08-24T11:41:46.657981Z",
+      "snapshot_bytes": 4914792
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 211,
+      "end_bytes": 4911511,
+      "file": "chunk-211.jsonl",
+      "mtime_utc": "2026-08-24T11:44:24.445278Z",
+      "snapshot_bytes": 4911511
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 212,
+      "end_bytes": 4933929,
+      "file": "chunk-212.jsonl",
+      "mtime_utc": "2026-08-24T11:46:29.518263Z",
+      "snapshot_bytes": 4933929
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 213,
+      "end_bytes": 4933652,
+      "file": "chunk-213.jsonl",
+      "mtime_utc": "2026-08-24T11:42:39.017097Z",
+      "snapshot_bytes": 4933652
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 214,
+      "end_bytes": 4928382,
+      "file": "chunk-214.jsonl",
+      "mtime_utc": "2026-08-24T11:47:49.134382Z",
+      "snapshot_bytes": 4928382
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 215,
+      "end_bytes": 4922163,
+      "file": "chunk-215.jsonl",
+      "mtime_utc": "2026-08-24T11:50:03.627353Z",
+      "snapshot_bytes": 4922163
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 216,
+      "end_bytes": 4917376,
+      "file": "chunk-216.jsonl",
+      "mtime_utc": "2026-08-24T11:46:18.239614Z",
+      "snapshot_bytes": 4917376
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 217,
+      "end_bytes": 4922058,
+      "file": "chunk-217.jsonl",
+      "mtime_utc": "2026-08-24T11:45:45.821467Z",
+      "snapshot_bytes": 4922058
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 218,
+      "end_bytes": 4924639,
+      "file": "chunk-218.jsonl",
+      "mtime_utc": "2026-08-24T11:49:12.435390Z",
+      "snapshot_bytes": 4924639
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 219,
+      "end_bytes": 4918244,
+      "file": "chunk-219.jsonl",
+      "mtime_utc": "2026-08-24T11:54:46.650844Z",
+      "snapshot_bytes": 4918244
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 22,
+      "end_bytes": 4890063,
+      "file": "chunk-22.jsonl",
+      "mtime_utc": "2026-08-24T10:09:25.151103Z",
+      "snapshot_bytes": 4890063
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 220,
+      "end_bytes": 4911879,
+      "file": "chunk-220.jsonl",
+      "mtime_utc": "2026-08-24T11:49:10.837075Z",
+      "snapshot_bytes": 4911879
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 221,
+      "end_bytes": 4912920,
+      "file": "chunk-221.jsonl",
+      "mtime_utc": "2026-08-24T11:50:18.088307Z",
+      "snapshot_bytes": 4912920
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 222,
+      "end_bytes": 4922323,
+      "file": "chunk-222.jsonl",
+      "mtime_utc": "2026-08-24T11:52:45.435061Z",
+      "snapshot_bytes": 4922323
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 223,
+      "end_bytes": 4924372,
+      "file": "chunk-223.jsonl",
+      "mtime_utc": "2026-08-24T11:51:55.856481Z",
+      "snapshot_bytes": 4924372
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 224,
+      "end_bytes": 4924022,
+      "file": "chunk-224.jsonl",
+      "mtime_utc": "2026-08-24T11:51:39.382169Z",
+      "snapshot_bytes": 4924022
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 225,
+      "end_bytes": 4922181,
+      "file": "chunk-225.jsonl",
+      "mtime_utc": "2026-08-24T11:49:46.493046Z",
+      "snapshot_bytes": 4922181
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 226,
+      "end_bytes": 4922209,
+      "file": "chunk-226.jsonl",
+      "mtime_utc": "2026-08-24T11:52:12.035947Z",
+      "snapshot_bytes": 4922209
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 227,
+      "end_bytes": 4920971,
+      "file": "chunk-227.jsonl",
+      "mtime_utc": "2026-08-24T11:55:03.987788Z",
+      "snapshot_bytes": 4920971
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 228,
+      "end_bytes": 4918837,
+      "file": "chunk-228.jsonl",
+      "mtime_utc": "2026-08-24T11:50:11.441371Z",
+      "snapshot_bytes": 4918837
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 229,
+      "end_bytes": 4928572,
+      "file": "chunk-229.jsonl",
+      "mtime_utc": "2026-08-24T11:53:25.741991Z",
+      "snapshot_bytes": 4928572
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 23,
+      "end_bytes": 4893606,
+      "file": "chunk-23.jsonl",
+      "mtime_utc": "2026-08-24T10:09:34.498854Z",
+      "snapshot_bytes": 4893606
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 230,
+      "end_bytes": 4919457,
+      "file": "chunk-230.jsonl",
+      "mtime_utc": "2026-08-24T11:52:32.825596Z",
+      "snapshot_bytes": 4919457
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 231,
+      "end_bytes": 4919829,
+      "file": "chunk-231.jsonl",
+      "mtime_utc": "2026-08-24T11:57:10.512028Z",
+      "snapshot_bytes": 4919829
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 232,
+      "end_bytes": 4920846,
+      "file": "chunk-232.jsonl",
+      "mtime_utc": "2026-08-24T11:53:58.252129Z",
+      "snapshot_bytes": 4920846
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 233,
+      "end_bytes": 4919980,
+      "file": "chunk-233.jsonl",
+      "mtime_utc": "2026-08-24T11:50:00.507436Z",
+      "snapshot_bytes": 4919980
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 234,
+      "end_bytes": 4919821,
+      "file": "chunk-234.jsonl",
+      "mtime_utc": "2026-08-24T11:55:23.870265Z",
+      "snapshot_bytes": 4919821
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 235,
+      "end_bytes": 4918795,
+      "file": "chunk-235.jsonl",
+      "mtime_utc": "2026-08-24T11:50:35.527852Z",
+      "snapshot_bytes": 4918795
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 236,
+      "end_bytes": 4917957,
+      "file": "chunk-236.jsonl",
+      "mtime_utc": "2026-08-24T11:51:47.877296Z",
+      "snapshot_bytes": 4917957
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 237,
+      "end_bytes": 4925030,
+      "file": "chunk-237.jsonl",
+      "mtime_utc": "2026-08-24T11:54:18.444593Z",
+      "snapshot_bytes": 4925030
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 238,
+      "end_bytes": 4925034,
+      "file": "chunk-238.jsonl",
+      "mtime_utc": "2026-08-24T12:00:06.357837Z",
+      "snapshot_bytes": 4925034
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 239,
+      "end_bytes": 4928690,
+      "file": "chunk-239.jsonl",
+      "mtime_utc": "2026-08-24T12:03:34.299368Z",
+      "snapshot_bytes": 4928690
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 24,
+      "end_bytes": 4894605,
+      "file": "chunk-24.jsonl",
+      "mtime_utc": "2026-08-24T10:14:55.960284Z",
+      "snapshot_bytes": 4894605
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 240,
+      "end_bytes": 4926724,
+      "file": "chunk-240.jsonl",
+      "mtime_utc": "2026-08-24T11:58:22.947490Z",
+      "snapshot_bytes": 4926724
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 241,
+      "end_bytes": 4925783,
+      "file": "chunk-241.jsonl",
+      "mtime_utc": "2026-08-24T11:58:15.767944Z",
+      "snapshot_bytes": 4925783
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 242,
+      "end_bytes": 4922514,
+      "file": "chunk-242.jsonl",
+      "mtime_utc": "2026-08-24T12:02:32.648249Z",
+      "snapshot_bytes": 4922514
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 243,
+      "end_bytes": 4925699,
+      "file": "chunk-243.jsonl",
+      "mtime_utc": "2026-08-24T12:05:27.040078Z",
+      "snapshot_bytes": 4925699
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 244,
+      "end_bytes": 4925305,
+      "file": "chunk-244.jsonl",
+      "mtime_utc": "2026-08-24T12:03:18.736147Z",
+      "snapshot_bytes": 4925305
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 245,
+      "end_bytes": 4927905,
+      "file": "chunk-245.jsonl",
+      "mtime_utc": "2026-08-24T12:05:50.372790Z",
+      "snapshot_bytes": 4927905
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 246,
+      "end_bytes": 4930416,
+      "file": "chunk-246.jsonl",
+      "mtime_utc": "2026-08-24T12:04:43.683872Z",
+      "snapshot_bytes": 4930416
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 247,
+      "end_bytes": 4928151,
+      "file": "chunk-247.jsonl",
+      "mtime_utc": "2026-08-24T12:09:14.626418Z",
+      "snapshot_bytes": 4928151
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 248,
+      "end_bytes": 4926842,
+      "file": "chunk-248.jsonl",
+      "mtime_utc": "2026-08-24T12:06:58.744884Z",
+      "snapshot_bytes": 4926842
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 249,
+      "end_bytes": 4924405,
+      "file": "chunk-249.jsonl",
+      "mtime_utc": "2026-08-24T12:07:28.723167Z",
+      "snapshot_bytes": 4924405
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 25,
+      "end_bytes": 4896665,
+      "file": "chunk-25.jsonl",
+      "mtime_utc": "2026-08-24T10:09:31.628930Z",
+      "snapshot_bytes": 4896665
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 250,
+      "end_bytes": 4923986,
+      "file": "chunk-250.jsonl",
+      "mtime_utc": "2026-08-24T12:10:02.767152Z",
+      "snapshot_bytes": 4923986
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 251,
+      "end_bytes": 4924565,
+      "file": "chunk-251.jsonl",
+      "mtime_utc": "2026-08-24T12:08:26.423098Z",
+      "snapshot_bytes": 4924565
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 252,
+      "end_bytes": 4933171,
+      "file": "chunk-252.jsonl",
+      "mtime_utc": "2026-08-24T12:14:56.737693Z",
+      "snapshot_bytes": 4933171
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 253,
+      "end_bytes": 4930908,
+      "file": "chunk-253.jsonl",
+      "mtime_utc": "2026-08-24T12:12:40.919351Z",
+      "snapshot_bytes": 4930908
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 254,
+      "end_bytes": 4930184,
+      "file": "chunk-254.jsonl",
+      "mtime_utc": "2026-08-24T12:08:55.118160Z",
+      "snapshot_bytes": 4930184
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 255,
+      "end_bytes": 4880821,
+      "file": "chunk-255.jsonl",
+      "mtime_utc": "2026-08-24T12:09:58.056803Z",
+      "snapshot_bytes": 4880821
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 26,
+      "end_bytes": 4892958,
+      "file": "chunk-26.jsonl",
+      "mtime_utc": "2026-08-24T10:17:50.135643Z",
+      "snapshot_bytes": 4892958
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 27,
+      "end_bytes": 4891781,
+      "file": "chunk-27.jsonl",
+      "mtime_utc": "2026-08-24T10:18:24.634728Z",
+      "snapshot_bytes": 4891781
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 28,
+      "end_bytes": 4902001,
+      "file": "chunk-28.jsonl",
+      "mtime_utc": "2026-08-24T10:19:14.713642Z",
+      "snapshot_bytes": 4902001
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 29,
+      "end_bytes": 4895159,
+      "file": "chunk-29.jsonl",
+      "mtime_utc": "2026-08-24T10:23:12.134061Z",
+      "snapshot_bytes": 4895159
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 3,
+      "end_bytes": 4866004,
+      "file": "chunk-3.jsonl",
+      "mtime_utc": "2026-08-24T10:10:48.562605Z",
+      "snapshot_bytes": 4866004
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 30,
+      "end_bytes": 4901233,
+      "file": "chunk-30.jsonl",
+      "mtime_utc": "2026-08-24T10:20:18.080701Z",
+      "snapshot_bytes": 4901233
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 31,
+      "end_bytes": 4894611,
+      "file": "chunk-31.jsonl",
+      "mtime_utc": "2026-08-24T10:19:58.534223Z",
+      "snapshot_bytes": 4894611
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 32,
+      "end_bytes": 4892404,
+      "file": "chunk-32.jsonl",
+      "mtime_utc": "2026-08-24T10:22:34.359068Z",
+      "snapshot_bytes": 4892404
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 33,
+      "end_bytes": 4893965,
+      "file": "chunk-33.jsonl",
+      "mtime_utc": "2026-08-24T10:24:40.872404Z",
+      "snapshot_bytes": 4893965
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 34,
+      "end_bytes": 4893979,
+      "file": "chunk-34.jsonl",
+      "mtime_utc": "2026-08-24T10:25:28.619423Z",
+      "snapshot_bytes": 4893979
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 35,
+      "end_bytes": 4886895,
+      "file": "chunk-35.jsonl",
+      "mtime_utc": "2026-08-24T10:24:46.721557Z",
+      "snapshot_bytes": 4886895
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 36,
+      "end_bytes": 4891823,
+      "file": "chunk-36.jsonl",
+      "mtime_utc": "2026-08-24T10:22:04.909948Z",
+      "snapshot_bytes": 4891823
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 37,
+      "end_bytes": 4898337,
+      "file": "chunk-37.jsonl",
+      "mtime_utc": "2026-08-24T10:26:11.987008Z",
+      "snapshot_bytes": 4898337
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 38,
+      "end_bytes": 4897209,
+      "file": "chunk-38.jsonl",
+      "mtime_utc": "2026-08-24T10:26:45.621713Z",
+      "snapshot_bytes": 4897209
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 39,
+      "end_bytes": 4899628,
+      "file": "chunk-39.jsonl",
+      "mtime_utc": "2026-08-24T10:27:24.925090Z",
+      "snapshot_bytes": 4899628
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 4,
+      "end_bytes": 4868139,
+      "file": "chunk-4.jsonl",
+      "mtime_utc": "2026-08-24T10:12:18.572925Z",
+      "snapshot_bytes": 4868139
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 40,
+      "end_bytes": 4892670,
+      "file": "chunk-40.jsonl",
+      "mtime_utc": "2026-08-24T10:28:00.115932Z",
+      "snapshot_bytes": 4892670
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 41,
+      "end_bytes": 4898076,
+      "file": "chunk-41.jsonl",
+      "mtime_utc": "2026-08-24T10:26:30.672517Z",
+      "snapshot_bytes": 4898076
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 42,
+      "end_bytes": 4891113,
+      "file": "chunk-42.jsonl",
+      "mtime_utc": "2026-08-24T10:26:46.178109Z",
+      "snapshot_bytes": 4891113
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 43,
+      "end_bytes": 4895028,
+      "file": "chunk-43.jsonl",
+      "mtime_utc": "2026-08-24T10:29:33.153718Z",
+      "snapshot_bytes": 4895028
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 44,
+      "end_bytes": 4909552,
+      "file": "chunk-44.jsonl",
+      "mtime_utc": "2026-08-24T10:30:26.095440Z",
+      "snapshot_bytes": 4909552
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 45,
+      "end_bytes": 4903947,
+      "file": "chunk-45.jsonl",
+      "mtime_utc": "2026-08-24T10:30:02.347950Z",
+      "snapshot_bytes": 4903947
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 46,
+      "end_bytes": 4907156,
+      "file": "chunk-46.jsonl",
+      "mtime_utc": "2026-08-24T10:32:23.945621Z",
+      "snapshot_bytes": 4907156
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 47,
+      "end_bytes": 4903126,
+      "file": "chunk-47.jsonl",
+      "mtime_utc": "2026-08-24T10:32:36.157329Z",
+      "snapshot_bytes": 4903126
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 48,
+      "end_bytes": 4898505,
+      "file": "chunk-48.jsonl",
+      "mtime_utc": "2026-08-24T10:32:36.040908Z",
+      "snapshot_bytes": 4898505
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 49,
+      "end_bytes": 4905291,
+      "file": "chunk-49.jsonl",
+      "mtime_utc": "2026-08-24T10:39:17.591350Z",
+      "snapshot_bytes": 4905291
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 5,
+      "end_bytes": 4900130,
+      "file": "chunk-5.jsonl",
+      "mtime_utc": "2026-08-24T10:14:17.251804Z",
+      "snapshot_bytes": 4900130
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 50,
+      "end_bytes": 4926002,
+      "file": "chunk-50.jsonl",
+      "mtime_utc": "2026-08-24T10:28:03.476297Z",
+      "snapshot_bytes": 4926002
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 51,
+      "end_bytes": 4925799,
+      "file": "chunk-51.jsonl",
+      "mtime_utc": "2026-08-24T10:27:04.693863Z",
+      "snapshot_bytes": 4925799
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 52,
+      "end_bytes": 4919345,
+      "file": "chunk-52.jsonl",
+      "mtime_utc": "2026-08-24T10:27:25.308991Z",
+      "snapshot_bytes": 4919345
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 53,
+      "end_bytes": 4928817,
+      "file": "chunk-53.jsonl",
+      "mtime_utc": "2026-08-24T10:29:43.537995Z",
+      "snapshot_bytes": 4928817
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 54,
+      "end_bytes": 4917403,
+      "file": "chunk-54.jsonl",
+      "mtime_utc": "2026-08-24T10:28:21.787809Z",
+      "snapshot_bytes": 4917403
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 55,
+      "end_bytes": 4918164,
+      "file": "chunk-55.jsonl",
+      "mtime_utc": "2026-08-24T10:32:00.994830Z",
+      "snapshot_bytes": 4918164
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 56,
+      "end_bytes": 4926623,
+      "file": "chunk-56.jsonl",
+      "mtime_utc": "2026-08-24T10:31:12.841253Z",
+      "snapshot_bytes": 4926623
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 57,
+      "end_bytes": 4911648,
+      "file": "chunk-57.jsonl",
+      "mtime_utc": "2026-08-24T10:31:47.275337Z",
+      "snapshot_bytes": 4911648
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 58,
+      "end_bytes": 4922648,
+      "file": "chunk-58.jsonl",
+      "mtime_utc": "2026-08-24T10:31:48.969275Z",
+      "snapshot_bytes": 4922648
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 59,
+      "end_bytes": 4914757,
+      "file": "chunk-59.jsonl",
+      "mtime_utc": "2026-08-24T10:35:17.326744Z",
+      "snapshot_bytes": 4914757
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 6,
+      "end_bytes": 4894604,
+      "file": "chunk-6.jsonl",
+      "mtime_utc": "2026-08-24T10:10:37.780841Z",
+      "snapshot_bytes": 4894604
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 60,
+      "end_bytes": 4909120,
+      "file": "chunk-60.jsonl",
+      "mtime_utc": "2026-08-24T10:33:45.986176Z",
+      "snapshot_bytes": 4909120
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 61,
+      "end_bytes": 4907964,
+      "file": "chunk-61.jsonl",
+      "mtime_utc": "2026-08-24T10:35:50.759788Z",
+      "snapshot_bytes": 4907964
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 62,
+      "end_bytes": 4909562,
+      "file": "chunk-62.jsonl",
+      "mtime_utc": "2026-08-24T10:37:31.579262Z",
+      "snapshot_bytes": 4909562
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 63,
+      "end_bytes": 4913744,
+      "file": "chunk-63.jsonl",
+      "mtime_utc": "2026-08-24T10:40:00.496208Z",
+      "snapshot_bytes": 4913744
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 64,
+      "end_bytes": 4933027,
+      "file": "chunk-64.jsonl",
+      "mtime_utc": "2026-08-24T10:42:53.048682Z",
+      "snapshot_bytes": 4933027
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 65,
+      "end_bytes": 4926222,
+      "file": "chunk-65.jsonl",
+      "mtime_utc": "2026-08-24T10:40:17.038785Z",
+      "snapshot_bytes": 4926222
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 66,
+      "end_bytes": 4917266,
+      "file": "chunk-66.jsonl",
+      "mtime_utc": "2026-08-24T10:41:50.282075Z",
+      "snapshot_bytes": 4917266
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 67,
+      "end_bytes": 4919767,
+      "file": "chunk-67.jsonl",
+      "mtime_utc": "2026-08-24T10:39:23.353197Z",
+      "snapshot_bytes": 4919767
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 68,
+      "end_bytes": 4922350,
+      "file": "chunk-68.jsonl",
+      "mtime_utc": "2026-08-24T10:40:41.067153Z",
+      "snapshot_bytes": 4922350
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 69,
+      "end_bytes": 4920621,
+      "file": "chunk-69.jsonl",
+      "mtime_utc": "2026-08-24T10:36:16.614465Z",
+      "snapshot_bytes": 4920621
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 7,
+      "end_bytes": 4904043,
+      "file": "chunk-7.jsonl",
+      "mtime_utc": "2026-08-24T10:16:30.489765Z",
+      "snapshot_bytes": 4904043
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 70,
+      "end_bytes": 4924976,
+      "file": "chunk-70.jsonl",
+      "mtime_utc": "2026-08-24T10:41:51.282307Z",
+      "snapshot_bytes": 4924976
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 71,
+      "end_bytes": 4916074,
+      "file": "chunk-71.jsonl",
+      "mtime_utc": "2026-08-24T10:41:32.482761Z",
+      "snapshot_bytes": 4916074
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 72,
+      "end_bytes": 4913495,
+      "file": "chunk-72.jsonl",
+      "mtime_utc": "2026-08-24T10:41:16.149891Z",
+      "snapshot_bytes": 4913495
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 73,
+      "end_bytes": 4930447,
+      "file": "chunk-73.jsonl",
+      "mtime_utc": "2026-08-24T10:39:27.410089Z",
+      "snapshot_bytes": 4930447
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 74,
+      "end_bytes": 4917751,
+      "file": "chunk-74.jsonl",
+      "mtime_utc": "2026-08-24T10:40:48.580555Z",
+      "snapshot_bytes": 4917751
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 75,
+      "end_bytes": 4926234,
+      "file": "chunk-75.jsonl",
+      "mtime_utc": "2026-08-24T10:42:04.583957Z",
+      "snapshot_bytes": 4926234
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 76,
+      "end_bytes": 4921041,
+      "file": "chunk-76.jsonl",
+      "mtime_utc": "2026-08-24T10:41:32.354805Z",
+      "snapshot_bytes": 4921041
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 77,
+      "end_bytes": 4916728,
+      "file": "chunk-77.jsonl",
+      "mtime_utc": "2026-08-24T10:42:32.649061Z",
+      "snapshot_bytes": 4916728
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 78,
+      "end_bytes": 4917453,
+      "file": "chunk-78.jsonl",
+      "mtime_utc": "2026-08-24T10:39:04.658694Z",
+      "snapshot_bytes": 4917453
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 79,
+      "end_bytes": 4923447,
+      "file": "chunk-79.jsonl",
+      "mtime_utc": "2026-08-24T10:43:18.473942Z",
+      "snapshot_bytes": 4923447
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 8,
+      "end_bytes": 4903683,
+      "file": "chunk-8.jsonl",
+      "mtime_utc": "2026-08-24T10:19:50.299046Z",
+      "snapshot_bytes": 4903683
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 80,
+      "end_bytes": 4920818,
+      "file": "chunk-80.jsonl",
+      "mtime_utc": "2026-08-24T10:41:26.197737Z",
+      "snapshot_bytes": 4920818
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 81,
+      "end_bytes": 4909426,
+      "file": "chunk-81.jsonl",
+      "mtime_utc": "2026-08-24T10:42:11.984762Z",
+      "snapshot_bytes": 4909426
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 82,
+      "end_bytes": 4907262,
+      "file": "chunk-82.jsonl",
+      "mtime_utc": "2026-08-24T10:43:34.303586Z",
+      "snapshot_bytes": 4907262
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 83,
+      "end_bytes": 4910570,
+      "file": "chunk-83.jsonl",
+      "mtime_utc": "2026-08-24T10:44:54.157676Z",
+      "snapshot_bytes": 4910570
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 84,
+      "end_bytes": 4917031,
+      "file": "chunk-84.jsonl",
+      "mtime_utc": "2026-08-24T10:44:09.746665Z",
+      "snapshot_bytes": 4917031
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 85,
+      "end_bytes": 4917876,
+      "file": "chunk-85.jsonl",
+      "mtime_utc": "2026-08-24T10:42:35.727079Z",
+      "snapshot_bytes": 4917876
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 86,
+      "end_bytes": 4916095,
+      "file": "chunk-86.jsonl",
+      "mtime_utc": "2026-08-24T10:46:28.801880Z",
+      "snapshot_bytes": 4916095
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 87,
+      "end_bytes": 4908825,
+      "file": "chunk-87.jsonl",
+      "mtime_utc": "2026-08-24T10:45:42.685221Z",
+      "snapshot_bytes": 4908825
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 88,
+      "end_bytes": 4915951,
+      "file": "chunk-88.jsonl",
+      "mtime_utc": "2026-08-24T10:44:46.874371Z",
+      "snapshot_bytes": 4915951
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 89,
+      "end_bytes": 4911775,
+      "file": "chunk-89.jsonl",
+      "mtime_utc": "2026-08-24T10:49:46.853675Z",
+      "snapshot_bytes": 4911775
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 9,
+      "end_bytes": 4901346,
+      "file": "chunk-9.jsonl",
+      "mtime_utc": "2026-08-24T10:11:32.637133Z",
+      "snapshot_bytes": 4901346
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 90,
+      "end_bytes": 4916482,
+      "file": "chunk-90.jsonl",
+      "mtime_utc": "2026-08-24T10:48:35.184520Z",
+      "snapshot_bytes": 4916482
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 91,
+      "end_bytes": 4924311,
+      "file": "chunk-91.jsonl",
+      "mtime_utc": "2026-08-24T10:57:21.190520Z",
+      "snapshot_bytes": 4924311
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 92,
+      "end_bytes": 4925118,
+      "file": "chunk-92.jsonl",
+      "mtime_utc": "2026-08-24T10:50:09.701008Z",
+      "snapshot_bytes": 4925118
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 93,
+      "end_bytes": 4920965,
+      "file": "chunk-93.jsonl",
+      "mtime_utc": "2026-08-24T10:50:36.284301Z",
+      "snapshot_bytes": 4920965
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 94,
+      "end_bytes": 4918558,
+      "file": "chunk-94.jsonl",
+      "mtime_utc": "2026-08-24T10:58:14.769092Z",
+      "snapshot_bytes": 4918558
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 95,
+      "end_bytes": 4914326,
+      "file": "chunk-95.jsonl",
+      "mtime_utc": "2026-08-24T10:51:11.166583Z",
+      "snapshot_bytes": 4914326
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 96,
+      "end_bytes": 4912274,
+      "file": "chunk-96.jsonl",
+      "mtime_utc": "2026-08-24T10:49:16.923490Z",
+      "snapshot_bytes": 4912274
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 97,
+      "end_bytes": 4909220,
+      "file": "chunk-97.jsonl",
+      "mtime_utc": "2026-08-24T10:52:12.416972Z",
+      "snapshot_bytes": 4909220
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 98,
+      "end_bytes": 4910739,
+      "file": "chunk-98.jsonl",
+      "mtime_utc": "2026-08-24T10:49:07.177702Z",
+      "snapshot_bytes": 4910739
+    },
+    {
+      "changed_during_scan": false,
+      "chunk_id": 99,
+      "end_bytes": 4913531,
+      "file": "chunk-99.jsonl",
+      "mtime_utc": "2026-08-24T10:55:12.005966Z",
+      "snapshot_bytes": 4913531
+    }
+  ],
+  "files_scanned": 256,
+  "generated_at_utc": "2026-08-24T22:05:44.282257Z",
+  "index_coverage_in_observed_range": 1.0,
+  "invalid_examples": [],
+  "malformed_rows": 0,
+  "maximum_index": 5158974,
+  "minimum_index": 0,
+  "missing_index_count": 0,
+  "missing_index_ranges": [],
+  "mode": "snapshot",
+  "negative_candidate_count": 0,
+  "negative_candidate_indices": [],
+  "observed_index_span": 5158975,
+  "remote": "hrant@cluster.ysu.am",
+  "remote_root": "/mnt/weka/hrant/interval-search",
+  "rows": 5158975,
+  "scan_count": 1,
+  "schema": "order16-class-audit/v1",
+  "stable_scans_observed": 1,
+  "status_histogram": {
+    "colorable": 5158975
+  },
+  "timeout_index_count": 0,
+  "timeout_indices": [],
+  "total_duration_seconds": 283.502,
+  "unique_hashes": 5158975,
+  "unique_indices": 5158975
+}
