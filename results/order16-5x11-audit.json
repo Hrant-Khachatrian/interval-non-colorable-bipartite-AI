@@ -1,0 +1,14 @@
+{
+  "dataset": "order16-5x11",
+  "expected_records": 5158975,
+  "rows": 5158975,
+  "unique_indices": 5158975,
+  "duplicate_index_rows": 0,
+  "unique_hashes": 5158975,
+  "duplicate_hash_rows": 0,
+  "status_histogram": {
+    "colorable": 5158975
+  },
+  "minimum_index": 0,
+  "maximum_index": 5158974
+}
