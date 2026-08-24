@@ -103,7 +103,9 @@ The 704 chunks contain 45,339,226 records. Every index and every bipartition-col
 
 The committed Δ≤10 rounds are also closed. Round 2 generated 4,034,560 candidates and completed 1,260 unique compositions; round 3 generated 25,872 configured candidates and completed 12 unique compositions. All 1,272 completed compositions are colorable. Both searches exhausted their configured families, with zero timeouts, conflicting classifications, or independently confirmed negatives.
 
-The remaining order-15 class is `7+8`, with exactly 243,304,742 canonical records. It is being processed as deterministic Slurm slices; any timeout will be rerun exactly rather than counted as colorable or non-colorable.
+The remaining order-15 class was `7+8`, with exactly 243,304,742 canonical records. All 512 deterministic Slurm slices completed. A one-pass final audit scanned 243,290,613 result rows: every zero-based index and bipartition-colored canonical hash was distinct, there were no malformed rows, and no graph was classified non-colorable. The three initial five-second timeouts were rerun independently with a one-hour limit; all became colorable at spans 11, 12, and 13. The remaining 14,129 rows are the timeout rows rewritten in place by those exact reruns rather than unseen graphs.
+
+Thus every connected minimum-degree-2 bipartite graph on 10--15 vertices has now been checked: 288,643,968 canonical order-15 candidates in total, with no counterexample and no unresolved timeout. The final audit and exact reruns are `results/order15-7x8-final-audit.json` and `results/order15-7x8-timeout-*.json`.
 
 ## Targeted order 16 and degree-bound transformations
 

@@ -321,3 +321,29 @@ The degree-transfer r3 pass also survived a router outage. Its durable state con
 That continuation completed after the failed agent turn. The r3 report records 177,021 further constructions, 5,152 newly solved unique canonical graphs, and zero non-colorable decisions or timeouts. Erdős–Fano contributed 740 classifications; `M5_delta_555` contributed 4,412. Combined with the baseline (3,495) and completed resumed extension (3,000), the represented total is now 11,647 unique colorable Δ≤10 graphs. Report and durable row log are `results/degree-transfer-delta10-extension-r3.json` and `results/degree-transfer-delta10-extension-r3-state.jsonl`.
 
 A separate one-pass live snapshot audit ran on YSU `research_cpu` as job 227326, using about 8.4 GB peak memory in 19 minutes. It scanned 345 chunks and 129,324,159 result rows. There were no malformed JSON rows, missing fields, duplicate indices, or duplicate canonical hashes. The status histogram contained only colorable decisions, with zero timeout rows and zero negative rows. This validates the first 129,324,159 records of the expected 243,304,742-record `7+8` class; the remaining 113,980,583 records are still being generated.
+
+## 2026-08-24 — Complete order-15 exhaustive search
+
+All 512 slices of the final order-15 `7+8` class completed on YSU. The raw chunk files contained 243,290,613 newline-delimited primary results against an expected census of 243,304,742 records. A final one-pass audit (Slurm job 228009) used about 16.4 GiB peak memory and 30 minutes 37 seconds to scan all chunks once, externally sort indices and hashes, and verify schema coverage.
+
+The audit found:
+
+- 243,290,613 distinct zero-based indices;
+- 243,290,613 distinct bipartition-colored canonical hashes;
+- zero malformed JSON rows;
+- zero missing required fields;
+- zero duplicate index or hash rows;
+- zero non-colorable classifications;
+- three unresolved five-second sweep timeouts.
+
+The apparent row deficit of 14,129 is fully explained by the runner's resume policy: when a timeout is later rerun successfully, it rewrites the original timeout row in place instead of appending a second row for the same index. Each of the three timeout indices was therefore rerun independently with rank-potential CP-SAT under a one-hour limit (Slurm job 227998):
+
+| index | outcome | span | solve time |
+|---:|---|---:|---:|
+| 243,290,182 | colorable | 13 | 3.83 s |
+| 243,304,543 | colorable | 12 | 4.40 s |
+| 243,304,592 | colorable | 11 | 3.42 s |
+
+After these exact resolutions, the effective histogram is 243,290,613 colorable, 0 non-colorable, and 0 timeout. Together with the previously audited small, 5+10, and 6+9 classes, all 288,643,968 connected minimum-degree-2 bipartite graphs on 15 vertices are now classified. There is no interval-non-colorable example on 15 or fewer vertices and no unresolved timeout anywhere in that exhaustive range.
+
+Artifacts: `results/order15-7x8-final-audit.json`, plus `results/order15-7x8-timeout-243290182.json`, `results/order15-7x8-timeout-243304543.json`, and `results/order15-7x8-timeout-243304592.json`.
