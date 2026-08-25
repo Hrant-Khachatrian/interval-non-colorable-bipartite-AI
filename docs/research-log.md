@@ -452,6 +452,8 @@ Alternate-family v3 completed those 31 residuals and then classified 1,000 addit
 
 A full hash-keyed replay of alternate-family v1 reconstructed each graph, joined by canonical SHA256 rather than unstable rank, and replayed all 1,200 decisions with two solver workers. All 1,200 were valid colorable decisions, with zero mismatches and zero timeouts.
 
+The neighborhood-graft continuation reached rank7,094. It validated all prior decisions without recomputation, then classified ranks6,095--7,094 exactly: all 1,000 were colorable with zero timeouts.
+
 After a WSL restart terminated local helper processes, all interrupted construction lanes were resumed from durable checkpoints rather than regenerated. The neighborhood-graft ledger was reconciled through rank5,094 with no gaps/duplicates/negatives/timeouts, and ranks5,095--6,094 were restarted under low priority. On YSU, the first real `7+9` classification element remained healthy past 330,000 of 439,987 rows, all colorable. The `6+10` strict acceptance job, `8+8` finalizer, and first order-17 generator remained queued behind the per-user job limit; none was canceled or duplicated. Their latest gate snapshots were written on the cluster, not yet mirrored into this repository.
 
 The final structured order-18 tail completed ranks10,501--12,987. Its reconciliation found all 2,487 ranks exactly once, zero duplicate/missing/unexpected ranks, zero rank/hash mismatches, and zero rank or canonical-hash overlap with v3--v8. Every tail graph was colorable with zero timeouts. Together with slices v3--v8, the deterministic structured queue of 12,987 unique order-18 graphs is now exhaustively covered negative.
