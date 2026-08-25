@@ -1,0 +1,100 @@
+{
+  "authoritative_classification_state": "classification-events.jsonl",
+  "canonical_hashes_unique_within_v7": true,
+  "duplicate_canonical_hashes": [],
+  "duplicate_rank_records": [],
+  "event_classification_records": 2000,
+  "expected_rank_window_one_based": [
+    6501,
+    8500
+  ],
+  "missing_ranks": [],
+  "prior_canonical_hash_overlap_count": 0,
+  "prior_rank_overlap": [],
+  "prior_slices": {
+    "v3": {
+      "canonical_hash_overlap_with_v7": [],
+      "rank_overlap_with_v7": [],
+      "rank_records": 500,
+      "rank_window": [
+        1,
+        500
+      ],
+      "unique_hash_records": 500,
+      "unique_rank_records": 500
+    },
+    "v4": {
+      "canonical_hash_overlap_with_v7": [],
+      "rank_overlap_with_v7": [],
+      "rank_records": 2000,
+      "rank_window": [
+        501,
+        2500
+      ],
+      "unique_hash_records": 2000,
+      "unique_rank_records": 2000
+    },
+    "v5": {
+      "canonical_hash_overlap_with_v7": [],
+      "rank_overlap_with_v7": [],
+      "rank_records": 2000,
+      "rank_window": [
+        2501,
+        4500
+      ],
+      "unique_hash_records": 2000,
+      "unique_rank_records": 2000
+    },
+    "v6": {
+      "canonical_hash_overlap_with_v7": [],
+      "rank_overlap_with_v7": [],
+      "rank_records": 2000,
+      "rank_window": [
+        4501,
+        6500
+      ],
+      "unique_hash_records": 2000,
+      "unique_rank_records": 2000
+    }
+  },
+  "queue": {
+    "duplicates_removed": 110281,
+    "generated_raw": 123760,
+    "generated_raw_by_lane": {
+      "delete-vertex-add-cross-edges": 1393,
+      "edge-rewire": 302,
+      "one-pair-same-side-identification": 166,
+      "reverse-extension-edge-additions": 96797,
+      "reverse-extension-new-vertex": 36,
+      "two-edge-switch-then-identification": 25066
+    },
+    "passed_filters_before_deduplication": 123268,
+    "rank_window_zero_based": [
+      6500,
+      8500
+    ],
+    "ranked_candidates": 12987,
+    "rejected_by_filters": 492,
+    "retained_candidate_count": 8500,
+    "selected_by_lane": {
+      "delete-vertex-add-cross-edges": 101,
+      "one-pair-same-side-identification": 4,
+      "reverse-extension-edge-additions": 1690,
+      "reverse-extension-new-vertex": 11,
+      "two-edge-switch-then-identification": 194
+    },
+    "unique_after_nauty": 12987,
+    "unique_ranked_by_lane": {
+      "delete-vertex-add-cross-edges": 165,
+      "one-pair-same-side-identification": 45,
+      "reverse-extension-edge-additions": 11823,
+      "reverse-extension-new-vertex": 17,
+      "two-edge-switch-then-identification": 937
+    }
+  },
+  "queue_reconstructed_from": "src/order18_targeted_search.py",
+  "rank_hash_mismatches": [],
+  "reconciliation_status": "complete",
+  "unexpected_ranks": [],
+  "unique_rank_records": 2000
+}

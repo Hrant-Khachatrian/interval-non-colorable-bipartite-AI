@@ -418,4 +418,8 @@ The first scaled bridge-coupling family generated 4,370 constructions on the fiv
 
 An expanded bridge-coupling pass enumerated all ten terminal pairs and every finite internal bridge port with round-robin coverage. It generated 21,090 constructions; 500 unique Δ≤10 survivors were classified exactly, all colorable with zero timeouts or overlap with the first bridge family. Its best span and hub margin matched the isolated-terminal benchmark, so direct bridge coupling is rejected as a scaling direction under this construction model.
 
+Order-18 targeted slice v7 completed ranks 6,501--8,500 after its local process exited naturally. Reconciliation confirmed all 2,000 ranks exactly once, no duplicate/unexpected ranks, no rank/hash mismatches, and no overlap with slices v3--v6. All 2,000 graphs were colorable, with zero timeouts and therefore no independent confirmations to run.
+
+The cluster queue remained healthy but saturated by the per-user job limit. The `6+10` array continued advancing, while the bounded incremental audit and order-17 small-class chains stayed pending with their dependencies intact. Compact scheduler snapshots now record the audited 120-chunk prefix (68,418,360 clean rows) and the exact order-17 job/resource plan.
+
 The `6+10` terminal-audit workflow was repaired to avoid rescanning unchanged chunks when the global hash sidecar is still incomplete. Chunks 0--119 are validated from cache with 68,418,360 sorted hash entries; incremental checkpoints and cache replacements are atomic, and per-pass versus cumulative scope is reported separately. Bounded Slurm job 229252 was submitted for the next 24 oldest terminal chunks using four CPU slots and 32 GB memory.

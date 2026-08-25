@@ -70,6 +70,40 @@ def append_json_line(path: Path, value: dict) -> None:
         os.fsync(handle.fileno())
 
 
+def durable_classification_rows(events_path: Path, expected_by_rank: dict[int, str]) -> list[dict]:
+    """Recover only validated, fsync'd completion events for a resumed window."""
+    if not events_path.exists():
+        return []
+    rows_by_rank: dict[int, dict] = {}
+    hashes: set[str] = set()
+    with events_path.open(encoding="utf-8") as handle:
+        for line_number, line in enumerate(handle, start=1):
+            try:
+                event = json.loads(line)
+            except json.JSONDecodeError as exc:
+                raise ValueError(
+                    f"invalid durable event at {events_path}:{line_number}"
+                ) from exc
+            if event.get("event") != "classification_completed":
+                continue
+            row = event.get("row")
+            if not isinstance(row, dict):
+                raise ValueError(f"classification event {line_number} has no row")
+            rank = row.get("rank")
+            digest = row.get("canonical_sha256")
+            if rank not in expected_by_rank:
+                raise ValueError(f"classification event {line_number} has unexpected rank {rank}")
+            if digest != expected_by_rank[rank]:
+                raise ValueError(f"classification event {line_number} has a rank/hash mismatch")
+            if rank in rows_by_rank:
+                raise ValueError(f"duplicate durable classification rank {rank}")
+            if digest in hashes:
+                raise ValueError(f"duplicate durable classification hash {digest}")
+            rows_by_rank[rank] = row
+            hashes.add(digest)
+    return [rows_by_rank[rank] for rank in sorted(rows_by_rank)]
+
+
 def graph_metrics(graph: Graph) -> dict:
     adjacency = graph.adjacency()
     graph.adjacency = lambda: adjacency
@@ -553,6 +587,7 @@ def make_report(args, diagnostics, raw_lanes, generated_lanes, selected_lanes, r
             "minimality_checks_enabled": not args.skip_minimality,
             "minimality_time_limit_seconds": args.minimality_time_limit,
             "deadline_seconds": args.deadline_seconds,
+            "resume_from_durable_events": args.resume,
         },
         "generation": {
             **diagnostics,
@@ -660,6 +695,11 @@ def main() -> None:
         type=Path,
         help="Small atomically refreshed summary written alongside the full checkpoint.",
     )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Reuse only validated completion rows already durably recorded in events-path.",
+    )
     args = parser.parse_args()
 
     run_started = time.monotonic()
@@ -716,6 +756,19 @@ def main() -> None:
             selected_lanes,
             diagnostics,
         ) = generate_candidates(args)
+        selected = selected[: min(args.classify_cap, len(selected))]
+        expected_by_rank = {
+            args.rank_start + number + 1: digest
+            for number, (_, _, _, _, digest, _graph, _metrics) in enumerate(selected)
+        }
+        if args.resume:
+            if not args.events_path:
+                raise ValueError("--resume requires --events-path")
+            rows = durable_classification_rows(args.events_path, expected_by_rank)
+            for row in rows:
+                counts[row["status"]] += 1
+                if row["primary_status"] == "non-colorable":
+                    counts["primary_noncolorable"] += 1
         generation_complete = make_report(
             args,
             diagnostics,
@@ -736,9 +789,8 @@ def main() -> None:
         print(json.dumps({"phase": "classification_started", **diagnostics}), flush=True)
 
         futures = {}
-        for number, (_, _, _, _, digest, graph, _metrics) in enumerate(
-            selected[: min(args.classify_cap, len(selected))]
-        ):
+        completed_ranks = {row["rank"] for row in rows}
+        for number, (_, _, _, _, digest, graph, _metrics) in enumerate(selected):
             task = {
                 "candidate_id": f"O18-R{args.rank_start + number + 1:05d}",
                 "rank": args.rank_start + number + 1,
@@ -750,6 +802,8 @@ def main() -> None:
                 "check_minimality": not args.skip_minimality,
                 "minimality_time_limit": args.minimality_time_limit,
             }
+            if task["rank"] in completed_ranks:
+                continue
             futures[executor.submit(classify_one, task)] = (task, graph)
         for future in concurrent.futures.as_completed(futures):
             task, graph = futures[future]
@@ -786,6 +840,8 @@ def main() -> None:
                 stopped_reason = "deadline_reached"
                 interrupted = True
                 break
+        if not interrupted and len(rows) == len(selected):
+            stopped_reason = "all_selected_classified"
     finally:
         executor.shutdown(wait=False, cancel_futures=True)
         try:

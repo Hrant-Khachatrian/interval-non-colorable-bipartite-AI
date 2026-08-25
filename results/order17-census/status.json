@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-08-25T08:15:38Z",
+  "state": "queued_intact",
+  "resource_policy_verified": "research_cpu; qos=researcher; matching cpuonly gres and cpus-per-task",
+  "classes": {
+    "2+15": {
+      "records_expected": 1,
+      "jobs": {"generate": 229267, "shard": 229268, "classify": 229269, "audit": 229272},
+      "generate_state": "PENDING",
+      "generate_reason": "QOSMaxJobsPerUserLimit",
+      "audit_gate": "not reached"
+    },
+    "3+14": {
+      "records_expected": 144,
+      "jobs": {"generate": 229273, "shard": 229274, "classify": 229275, "audit": 229276},
+      "state": "PENDING_DEPENDENCY_afterok_229272"
+    },
+    "4+13": {
+      "records_expected": 51616,
+      "jobs": {"generate": 229277, "shard": 229278, "classify": 229279, "audit": 229280},
+      "state": "PENDING_DEPENDENCY_afterok_229276"
+    }
+  },
+  "integrity": {
+    "completed_result_rows": 0,
+    "malformed_rows": 0,
+    "duplicate_indices": 0,
+    "duplicate_hashes": 0,
+    "timeouts": 0,
+    "primary_negatives": 0,
+    "note": "No class stage has begun, so these are not completed-audit findings."
+  },
+  "action": "No cancellation, resubmission, or downstream release; dependencies are the gate."
+}

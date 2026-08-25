@@ -4,3 +4,7 @@ __pycache__/
 tools/
 literature/raw/
 data/order14-*-d2.g6
+data/order17-*.g6
+data/order17-*-shards/
+results/order17-census/classification-*/
+results/order17-census/slurm-*.out

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-08-25T08:15:38Z",
+  "job": {
+    "array": 228788,
+    "scheduler_terminal_completed": 363,
+    "scheduler_running": 149,
+    "scheduler_failures": [],
+    "scheduler_timeouts": []
+  },
+  "terminal_integrity": {
+    "validated_chunks": 120,
+    "validated_rows": 68418360,
+    "expected_rows": 291917907,
+    "validated_fraction": 0.23437534443544775,
+    "malformed_rows": 0,
+    "duplicate_indices": 0,
+    "missing_indices": 0,
+    "timeout_rows": 0,
+    "primary_negatives": 0,
+    "sha256_unique_entries": 68418360,
+    "sha256_duplicate_entries": 0,
+    "hash_index_complete": false,
+    "terminal_audit_backlog_chunks": 243
+  },
+  "pending_audit": {
+    "job": 229252,
+    "state": "PENDING",
+    "reason": "QOSMaxJobsPerUserLimit",
+    "resources": "research_cpu; qos=researcher; gres=cpuonly:4; cpus-per-task=4; mem=32G; time=02:00:00",
+    "action": "intact; no duplicate audit submission"
+  },
+  "rerun_policy": "No exact timeout rows or primary negatives have been observed in the fully validated subset; no reruns submitted."
+}
