@@ -486,6 +486,8 @@ Chunk0 has also completed and passed its dedicated strict terminal audit: job229
 
 The strict batch-0 ledger subsequently grew to 16 accepted chunks (`1--7`, `23--24`, `26`, and `29--32` plus `34--35`) totaling **7,039,792** rows. Every accepted chunk had exactly439,987 valid rows and passed schema/domain, index/hash, solver-time, timeout, and negative checks.
 
+The order-16 census gap implied by the 2015 hard-candidate total was identified and closed. Regenerating `4+12` with maximum degree raised from11 to12 produced29,515 graphs, exactly3,185 more than the former Δ≤11 file. Each of those3,185 Δ=12 candidates was isolated by canonical SHA256, checked for order16, bipartition sizes4+12, simplicity, connectedness, minimum degree at least2, and exact Δ=12, then classified by rank-potential CP-SAT. A separate audit replayed every candidate with two solver workers, validated a coloring at its reported span (using fixed-span CP-SAT when the replay chose another valid span), and found all3,185 colorable with zero structural/hash issues, mismatches, or timeouts. Together with published reductions for disconnected graphs, pendant vertices, and parts of size at most3, this removes the last known easy-case ambiguity in the order-16 count.
+
 An independent audit certified the exhausted expanded-bound alternate family: all4,592 unique v1--v4 candidates were covered exactly once, all1,361 v4 residuals reconstructed correctly, and144 deterministic replays were valid with zero mismatches or timeouts.
 
 The neighborhood-graft continuation reached rank10,094 after validating every predecessor without recomputation. The newest1,000 decisions were all colorable with zero timeouts.

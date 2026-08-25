@@ -1,0 +1,13 @@
+{"completed": 250, "counts": {"colorable": 250, "non-colorable": 0, "timeout": 0}, "wall_seconds": 25.444}
+{"completed": 500, "counts": {"colorable": 500, "non-colorable": 0, "timeout": 0}, "wall_seconds": 59.012}
+{"completed": 750, "counts": {"colorable": 750, "non-colorable": 0, "timeout": 0}, "wall_seconds": 83.529}
+{"completed": 1000, "counts": {"colorable": 1000, "non-colorable": 0, "timeout": 0}, "wall_seconds": 109.21}
+{"completed": 1250, "counts": {"colorable": 1250, "non-colorable": 0, "timeout": 0}, "wall_seconds": 134.763}
+{"completed": 1500, "counts": {"colorable": 1500, "non-colorable": 0, "timeout": 0}, "wall_seconds": 156.718}
+{"completed": 1750, "counts": {"colorable": 1750, "non-colorable": 0, "timeout": 0}, "wall_seconds": 176.557}
+{"completed": 2000, "counts": {"colorable": 2000, "non-colorable": 0, "timeout": 0}, "wall_seconds": 198.356}
+{"completed": 2250, "counts": {"colorable": 2250, "non-colorable": 0, "timeout": 0}, "wall_seconds": 224.045}
+{"completed": 2500, "counts": {"colorable": 2500, "non-colorable": 0, "timeout": 0}, "wall_seconds": 250.54}
+{"completed": 2750, "counts": {"colorable": 2750, "non-colorable": 0, "timeout": 0}, "wall_seconds": 281.075}
+{"completed": 3000, "counts": {"colorable": 3000, "non-colorable": 0, "timeout": 0}, "wall_seconds": 317.068}
+{"n1": 4, "n2": 12, "edge_range": [24, 48], "residue": [0, 1], "index_offset": 0, "input": "results/order16-4x12-delta12/delta12.g6", "index_range": null, "processed": 3185, "counts": {"colorable": 3185, "non-colorable": 0, "timeout": 0}, "wall_seconds": 349.352}

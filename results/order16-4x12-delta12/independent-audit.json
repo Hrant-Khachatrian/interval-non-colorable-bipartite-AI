@@ -1,0 +1,26 @@
+{
+  "completion": "complete",
+  "configuration": {
+    "identity": "filtered-source-index plus canonical SHA256",
+    "production_workers": 2,
+    "replay_workers": 2,
+    "time_limit_seconds": 5.0
+  },
+  "counts": {
+    "classification_records": 3185,
+    "issues": 0,
+    "manifest_records": 3185,
+    "mismatches": 0,
+    "outcome_valid": 3185,
+    "replays": 3185,
+    "structural_checks": 3185
+  },
+  "elapsed_seconds": 349.08135276300027,
+  "issues": [],
+  "mismatch_examples": [],
+  "schema": "order16-4x12-delta12-independent-audit-v1",
+  "status_histogram": {
+    "colorable": 3185
+  },
+  "verdict": "pass"
+}
