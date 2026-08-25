@@ -476,4 +476,8 @@ The alternate-family verification was raised to full-replay strength. Hash-keyed
 
 A stable reconciliation of those ledgers confirms 3,231 globally unique verified alternate-family candidates. It records zero duplicate hashes, zero overlaps with the completed first queue, zero decision disagreements, zero missing evidence, and zero timeouts; 1,361 candidates at the expanded v3 bound remain unverified.
 
+The remaining expanded-bound set was then classified exhaustively and reconciled by exact hash-set equality: all 1,361 residual candidates were colorable, with zero negatives or timeouts. Thus the constructed alternate family at that bound contains 4,592 unique post-first-queue graphs, every one exactly classified negative.
+
+The neighborhood-graft continuation reached rank9,094. It validated all prior decisions without recomputation, then classified ranks8,095--9,094 exactly: all 1,000 were colorable with zero timeouts.
+
 On YSU, the strict batch-0 auditor accepted the first two terminal `7+9` chunks beyond chunk0. Chunks1--2 contained exactly 439,987 rows each (879,974 total), with no missing/duplicate indices, malformed rows, hash duplicates, unresolved timeouts, or primary negatives. Chunk0 remains under its dedicated terminal audit.

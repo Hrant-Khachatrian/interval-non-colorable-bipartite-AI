@@ -1,0 +1,40 @@
+{
+  "construction_bounds": {
+    "near_switch_limit": 1620,
+    "restore_limit": 80,
+    "witness_switch_limit": 180
+  },
+  "event_membership": {
+    "completed_rows": 1361,
+    "completed_unique_hashes": 1361,
+    "exact_match": true,
+    "expected_unique_hashes": 1361
+  },
+  "expanded_bound_family_exhausted": true,
+  "expected_residual_count": 1361,
+  "generation": {
+    "completed_first_queue_excluded": 1229,
+    "generated_raw": 49118,
+    "prior_alternate_durable_hashes": 3231,
+    "remaining_after_all_prior_coverage": 1361,
+    "unique_after_completed_first_queue_filter": 4592
+  },
+  "outcomes": {
+    "colorable": 1361,
+    "confirmed_non_colorable": 0,
+    "primary_negatives": 0,
+    "timeout": 0
+  },
+  "prior_event_hash_counts": {
+    "results/order18-alternate-family-v1/classification-events.jsonl": 1200,
+    "results/order18-alternate-family-v2/expanded-step1/classification-events.jsonl": 377,
+    "results/order18-alternate-family-v2/expanded-step2/classification-events.jsonl": 209,
+    "results/order18-alternate-family-v2/v1-residual/classification-events.jsonl": 414,
+    "results/order18-alternate-family-v3/expanded-step3/classification-events.jsonl": 1000,
+    "results/order18-alternate-family-v3/v2-residual/classification-events.jsonl": 31
+  },
+  "purpose": "Exact reconstruction and membership reconciliation for the final expanded-bound alternate-family residual.",
+  "reconstructed_residual_count": 1361,
+  "residual_count_matches_expected": true,
+  "schema_version": 1
+}
