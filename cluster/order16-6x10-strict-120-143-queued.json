@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-08-25T09:50:31Z",
+  "scope": "order16-6x10 chunks 120-143",
+  "incremental_telemetry_job": {
+    "job_id": "229252",
+    "role": "telemetry_only",
+    "acceptance_authority": false
+  },
+  "strict_acceptance_job": {
+    "job_id": "229483",
+    "state_at_recording": "PENDING_DEPENDENCY",
+    "dependency": "afterany:229252",
+    "script": "/mnt/weka/hrant/interval-search/cluster/audit_order16_6x10_strict.py",
+    "report": "/mnt/weka/hrant/interval-search/results/order16-6x10/.audit/strict-120-143-report.json",
+    "accepted_cache": "/mnt/weka/hrant/interval-search/results/order16-6x10/.audit/strict-120-143-cache.json",
+    "accepted_hashes": "/mnt/weka/hrant/interval-search/results/order16-6x10/.audit/strict-120-143-hashes.sorted",
+    "acceptance_authority": true
+  },
+  "release_gate": "No downstream release from 229252 alone.  Release requires strict report acceptance_ready=true and the atomically published accepted cache and hash sidecar."
+}

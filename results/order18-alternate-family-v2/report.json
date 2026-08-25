@@ -1,0 +1,82 @@
+{
+  "completion": "complete",
+  "completion_details": {
+    "reason": "target_1000_new_unique_classifications_reached",
+    "unclassified_new_unique_remaining_at_final_bound": 31
+  },
+  "configuration": {
+    "filters": [
+      "exactly 18 vertices",
+      "simple bipartite",
+      "connected",
+      "minimum degree >= 2"
+    ],
+    "fixed_span_time_limit_seconds": 5.0,
+    "global_deduplication": "Nauty bipartition-colored canonical SHA-256 against the 12,987-candidate completed first queue and all prior alternate-family event logs",
+    "independent_negative_confirmation": "fixed-span CP-SAT over every legal span for every primary negative",
+    "primary_solver": "rank-potential CP-SAT",
+    "primary_time_limit_seconds": 3.0,
+    "timeout_policy": "Only UNKNOWN is unresolved; no timeout is reported as non-colorable."
+  },
+  "counts": {
+    "colorable": 1000,
+    "generated": 12812,
+    "globally_unique_after_first_queue_filter": 2231,
+    "new_unique_v2_across_all_phases": 1031,
+    "newly_classified": 1000,
+    "non_colorable": 0,
+    "previously_classified_v2_before_final_phase": 791,
+    "previously_solved_v1": 1614,
+    "primary_noncolorable": 0,
+    "timeout": 0
+  },
+  "final_bound_generation": {
+    "generated_raw": 12812,
+    "globally_unique_after_first_queue_filter": 2231,
+    "new_unique_available_after_all_prior_solutions": 240,
+    "overlap_with_completed_first_queue": 839,
+    "previously_solved_excluded_before_selection": 1991,
+    "unique_before_first_queue_filter": 3070
+  },
+  "goal": "complete the v1 residual and broaden the alternate order-18 structural family without reclassifying solved graphs",
+  "negative_events": [],
+  "phases": [
+    {
+      "classified": 414,
+      "construction_bounds": {
+        "near_switch_limit": 180,
+        "restore_limit": 14,
+        "witness_switch_limit": 20
+      },
+      "events_path": "results/order18-alternate-family-v2/v1-residual/classification-events.jsonl",
+      "generated": 6904,
+      "name": "v1-residual",
+      "new_unique_available": 414
+    },
+    {
+      "classified": 377,
+      "construction_bounds": {
+        "near_switch_limit": 270,
+        "restore_limit": 18,
+        "witness_switch_limit": 30
+      },
+      "events_path": "results/order18-alternate-family-v2/expanded-step1/classification-events.jsonl",
+      "generated": 9858,
+      "name": "expanded-step1",
+      "new_unique_available": 377
+    },
+    {
+      "classified": 209,
+      "construction_bounds": {
+        "near_switch_limit": 360,
+        "restore_limit": 22,
+        "witness_switch_limit": 40
+      },
+      "events_path": "results/order18-alternate-family-v2/expanded-step2/classification-events.jsonl",
+      "generated": 12812,
+      "name": "expanded-step2",
+      "new_unique_available": 240
+    }
+  ],
+  "schema_version": 1
+}

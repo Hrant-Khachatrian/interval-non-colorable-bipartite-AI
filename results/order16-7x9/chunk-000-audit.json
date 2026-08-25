@@ -1,0 +1,84 @@
+{
+  "audit_schema": "order16-7x9/chunk-audit/v1",
+  "audit_state": "running_snapshot_not_acceptance",
+  "generated_at_utc": "2026-08-25T09:58:10Z",
+  "target": {
+    "array_job_id": 228989,
+    "array_task_id": 0,
+    "slurm_job_id": 229469,
+    "slurm_state": "RUNNING",
+    "slurm_start_local": "2026-08-25T13:30:43+04:00",
+    "input": "/mnt/weka/hrant/interval-search/data/order16-7x9-d2to11.g6",
+    "input_records": 3604370591,
+    "chunk_size": 439987,
+    "range_start_inclusive": 0,
+    "range_stop_exclusive": 439987,
+    "expected_records": 439987,
+    "is_final_chunk": false,
+    "output": "/mnt/weka/hrant/interval-search/results/order16-7x9/chunk-0.jsonl",
+    "worker_log": "/mnt/weka/hrant/interval-search/slurm-228989_0.out"
+  },
+  "expected_row_schema": {
+    "additional_properties": false,
+    "required": [
+      "index",
+      "canonical_sha256",
+      "order",
+      "size",
+      "delta",
+      "minimum_degree",
+      "status",
+      "span",
+      "solver_seconds"
+    ],
+    "domains": {
+      "index": "integer in [0, 439987)",
+      "canonical_sha256": "string matching ^7:9:[0-9a-f]{64}$; unique within the chunk",
+      "order": "integer equal to 16",
+      "size": "integer in [15, 63]",
+      "delta": "integer in [2, 9]",
+      "minimum_degree": "integer in [2, delta]",
+      "status": [
+        "colorable",
+        "non-colorable",
+        "timeout",
+        "regular-skipped"
+      ],
+      "span": "integer in [delta, 2*size-15] only for colorable; null otherwise",
+      "solver_seconds": "finite non-boolean number >= 0; regular-skipped must be 0; > 30 seconds is a sanity failure pending explanation"
+    }
+  },
+  "live_snapshot": {
+    "output_exists": true,
+    "output_rows": 70500,
+    "output_bytes": 16935053,
+    "output_mtime_local": "2026-08-25T13:57:52.098559625+04:00",
+    "worker_completed": 70500,
+    "worker_status_counts": {
+      "colorable": 70500,
+      "non-colorable": 0,
+      "timeout": 0
+    },
+    "worker_wall_seconds": 1648.075,
+    "estimated_rows_per_second": 42.777,
+    "estimated_remaining_seconds_at_observed_rate": 8642
+  },
+  "acceptance_checks": {
+    "terminal_job_required": true,
+    "stable_output_required": true,
+    "exact_record_count_required": 439987,
+    "missing_indices": "not yet evaluated on a changing file",
+    "duplicate_indices": "not yet evaluated on a changing file",
+    "canonical_hashes": "not yet evaluated on a changing file",
+    "strict_schema": "not yet evaluated on a changing file",
+    "solver_time_sanity": "not yet evaluated on a changing file",
+    "timeout_policy": "timeout rows are unresolved and block acceptance as a completed classification",
+    "primary_negative_policy": "each primary non-colorable row requires independent all-legal-span confirmation; UNKNOWN, error, missing hit, or hash mismatch is unresolved"
+  },
+  "acceptance": false,
+  "notes": [
+    "No cancellation, rerun, or mutation of Slurm job 228989_0 was performed.",
+    "This is not the final chunk; final-chunk handling is intentionally not applied.",
+    "The worker's hash format is a bipartition-prefixed SHA-256, not a bare SHA-256 digest."
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "run": "order16-8x8",
   "schema_version": 4,
-  "updated_at": "2026-08-25T12:33:14+04:00",
+  "updated_at": "2026-08-25T13:48:25+04:00",
   "generation": {
     "job_id": 229085,
     "state": "COMPLETED",
@@ -30,6 +30,8 @@
       "dependency": "afterok:229085",
       "state": "PENDING",
       "reason": "QOSMaxJobsPerUserLimit",
+      "last_observed_at": "2026-08-25T13:48:25+04:00",
+      "running_jobs_at_observation": 150,
       "eligible_at": "2026-08-25T12:25:25+04:00",
       "command": "/mnt/weka/hrant/interval-search/bin/finalize_order16_8x8.sh"
     },
