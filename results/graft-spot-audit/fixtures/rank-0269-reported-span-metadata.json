@@ -1,0 +1,493 @@
+{
+  "audit": {
+    "canonical_sha256": "10:15:39f21aaae96f5f709c0cca6ac5d56d000f7a6ce3b9623a0091b198bec006376f",
+    "fixed_span_lower_witnesses": {
+      "10": {
+        "coloring": {
+          "C10|V0_3": 3,
+          "C10|V1_6": 4,
+          "C10|u": 2,
+          "C11|V0_3": 2,
+          "C11|V1_7": 3,
+          "C11|u": 1,
+          "C3|V0_1": 6,
+          "C3|V1_7": 5,
+          "C3|u": 4,
+          "C4|V0_2": 8,
+          "C4|V1_4": 7,
+          "C4|u": 9,
+          "C5|V0_2": 9,
+          "C5|V1_5": 8,
+          "C5|u": 10,
+          "C6|V0_2": 7,
+          "C6|V1_6": 5,
+          "C6|u": 6,
+          "C7|V0_2": 6,
+          "C7|V1_7": 4,
+          "C7|u": 5,
+          "C8|V0_3": 4,
+          "C8|V1_4": 5,
+          "C8|u": 3,
+          "C9|V0_3": 5,
+          "C9|V1_5": 6,
+          "C9|u": 7,
+          "N00_R|N01_L": 9,
+          "N00_R|N05_L": 7,
+          "N00_R|V1_6": 6,
+          "N00_R|u": 8,
+          "N01_L|N02_R": 8,
+          "N01_L|N03_R": 7,
+          "N01_L|N04_R": 6,
+          "N02_R|N05_L": 6,
+          "N02_R|V1_5": 7,
+          "N03_R|V1_4": 8,
+          "N04_R|V0_1": 7,
+          "N05_L|N06_R": 4,
+          "N05_L|N07_R": 5,
+          "N06_R|V0_1": 5,
+          "N07_R|V1_4": 6
+        },
+        "serial_confirmation": {
+          "certificate_valid": true,
+          "coloring": {
+            "C10|V0_3": 5,
+            "C10|V1_6": 3,
+            "C10|u": 4,
+            "C11|V0_3": 7,
+            "C11|V1_7": 8,
+            "C11|u": 9,
+            "C3|V0_1": 6,
+            "C3|V1_7": 7,
+            "C3|u": 8,
+            "C4|V0_2": 7,
+            "C4|V1_4": 5,
+            "C4|u": 6,
+            "C5|V0_2": 5,
+            "C5|V1_5": 4,
+            "C5|u": 3,
+            "C6|V0_2": 6,
+            "C6|V1_6": 4,
+            "C6|u": 5,
+            "C7|V0_2": 8,
+            "C7|V1_7": 9,
+            "C7|u": 10,
+            "C8|V0_3": 4,
+            "C8|V1_4": 3,
+            "C8|u": 2,
+            "C9|V0_3": 6,
+            "C9|V1_5": 5,
+            "C9|u": 7,
+            "N00_R|N01_L": 3,
+            "N00_R|N05_L": 4,
+            "N00_R|V1_6": 2,
+            "N00_R|u": 1,
+            "N01_L|N02_R": 4,
+            "N01_L|N03_R": 5,
+            "N01_L|N04_R": 6,
+            "N02_R|N05_L": 5,
+            "N02_R|V1_5": 6,
+            "N03_R|V1_4": 4,
+            "N04_R|V0_1": 5,
+            "N05_L|N06_R": 6,
+            "N05_L|N07_R": 3,
+            "N06_R|V0_1": 7,
+            "N07_R|V1_4": 2
+          },
+          "status": "OPTIMAL",
+          "workers": 1
+        },
+        "status": "OPTIMAL",
+        "time_limit_seconds": 3.0,
+        "workers": 3
+      }
+    },
+    "fixed_span_reported": {
+      "certificate_valid": true,
+      "span": 11,
+      "status": "OPTIMAL",
+      "time_limit_seconds": 3.0,
+      "workers": 3
+    },
+    "rank_potential": {
+      "certificate_valid": true,
+      "span": 10,
+      "status": "colorable",
+      "time_limit_seconds": 3.0,
+      "workers": 3
+    }
+  },
+  "graph": {
+    "bipartition": [
+      [
+        "N01_L",
+        "N05_L",
+        "V0_1",
+        "V0_2",
+        "V0_3",
+        "V1_4",
+        "V1_5",
+        "V1_6",
+        "V1_7",
+        "u"
+      ],
+      [
+        "C10",
+        "C11",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "N00_R",
+        "N02_R",
+        "N03_R",
+        "N04_R",
+        "N06_R",
+        "N07_R"
+      ]
+    ],
+    "edges": [
+      [
+        "C10",
+        "V0_3"
+      ],
+      [
+        "C10",
+        "V1_6"
+      ],
+      [
+        "C10",
+        "u"
+      ],
+      [
+        "C11",
+        "V0_3"
+      ],
+      [
+        "C11",
+        "V1_7"
+      ],
+      [
+        "C11",
+        "u"
+      ],
+      [
+        "C3",
+        "V0_1"
+      ],
+      [
+        "C3",
+        "V1_7"
+      ],
+      [
+        "C3",
+        "u"
+      ],
+      [
+        "C4",
+        "V0_2"
+      ],
+      [
+        "C4",
+        "V1_4"
+      ],
+      [
+        "C4",
+        "u"
+      ],
+      [
+        "C5",
+        "V0_2"
+      ],
+      [
+        "C5",
+        "V1_5"
+      ],
+      [
+        "C5",
+        "u"
+      ],
+      [
+        "C6",
+        "V0_2"
+      ],
+      [
+        "C6",
+        "V1_6"
+      ],
+      [
+        "C6",
+        "u"
+      ],
+      [
+        "C7",
+        "V0_2"
+      ],
+      [
+        "C7",
+        "V1_7"
+      ],
+      [
+        "C7",
+        "u"
+      ],
+      [
+        "C8",
+        "V0_3"
+      ],
+      [
+        "C8",
+        "V1_4"
+      ],
+      [
+        "C8",
+        "u"
+      ],
+      [
+        "C9",
+        "V0_3"
+      ],
+      [
+        "C9",
+        "V1_5"
+      ],
+      [
+        "C9",
+        "u"
+      ],
+      [
+        "N00_R",
+        "N01_L"
+      ],
+      [
+        "N00_R",
+        "N05_L"
+      ],
+      [
+        "N00_R",
+        "V1_6"
+      ],
+      [
+        "N00_R",
+        "u"
+      ],
+      [
+        "N01_L",
+        "N02_R"
+      ],
+      [
+        "N01_L",
+        "N03_R"
+      ],
+      [
+        "N01_L",
+        "N04_R"
+      ],
+      [
+        "N02_R",
+        "N05_L"
+      ],
+      [
+        "N02_R",
+        "V1_5"
+      ],
+      [
+        "N03_R",
+        "V1_4"
+      ],
+      [
+        "N04_R",
+        "V0_1"
+      ],
+      [
+        "N05_L",
+        "N06_R"
+      ],
+      [
+        "N05_L",
+        "N07_R"
+      ],
+      [
+        "N06_R",
+        "V0_1"
+      ],
+      [
+        "N07_R",
+        "V1_4"
+      ]
+    ],
+    "metadata": {
+      "blocks": [
+        [
+          "C0",
+          "C1"
+        ]
+      ],
+      "candidate_id": "Q1-00012",
+      "graft_operation": {
+        "core_terminal_count": 5,
+        "edges": [
+          [
+            "HUB",
+            "N00_R"
+          ],
+          [
+            "N00_R",
+            "N01_L"
+          ],
+          [
+            "N00_R",
+            "N05_L"
+          ],
+          [
+            "N00_R",
+            "T04"
+          ],
+          [
+            "N01_L",
+            "N02_R"
+          ],
+          [
+            "N01_L",
+            "N03_R"
+          ],
+          [
+            "N01_L",
+            "N04_R"
+          ],
+          [
+            "N02_R",
+            "T02"
+          ],
+          [
+            "N03_R",
+            "T01"
+          ],
+          [
+            "N04_R",
+            "T00"
+          ],
+          [
+            "N05_L",
+            "N06_R"
+          ],
+          [
+            "N05_L",
+            "N07_R"
+          ],
+          [
+            "N06_R",
+            "T03"
+          ],
+          [
+            "N07_R",
+            "T01"
+          ]
+        ],
+        "nodes": [
+          {
+            "kind": "retained-hub",
+            "name": "HUB",
+            "side": "L"
+          },
+          {
+            "kind": "new",
+            "name": "N00_R",
+            "side": "R"
+          },
+          {
+            "kind": "new",
+            "name": "N01_L",
+            "side": "L"
+          },
+          {
+            "kind": "new",
+            "name": "N02_R",
+            "side": "R"
+          },
+          {
+            "kind": "new",
+            "name": "N03_R",
+            "side": "R"
+          },
+          {
+            "kind": "new",
+            "name": "N04_R",
+            "side": "R"
+          },
+          {
+            "kind": "new",
+            "name": "N05_L",
+            "side": "L"
+          },
+          {
+            "kind": "new",
+            "name": "N06_R",
+            "side": "R"
+          },
+          {
+            "kind": "new",
+            "name": "N07_R",
+            "side": "R"
+          }
+        ],
+        "non_tree_chords": [
+          [
+            "N02_R",
+            "N05_L"
+          ]
+        ],
+        "root_children": 1,
+        "rule": "rooted-height-3-bipartite-multitree",
+        "tree_new_vertices": 8
+      },
+      "lane": "edge-minimal-neighborhood-graft-delta10",
+      "order_reduction": 1,
+      "parent": "Q1-00012",
+      "root_kind": "known_delta11_quotient_seed",
+      "source_path": "results/graphs/quotient-r1/Q1-00012.graph.json"
+    },
+    "sha256_bipartition_canonical": "10:15:39f21aaae96f5f709c0cca6ac5d56d000f7a6ce3b9623a0091b198bec006376f",
+    "sha256_labelled": "a4bf750b777bb73c93703c6de542cbed6714227bb75fab67adb3f05d2d2e6b7d",
+    "vertices": [
+      "C10",
+      "C11",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9",
+      "u",
+      "V0_1",
+      "V0_2",
+      "V0_3",
+      "V1_4",
+      "V1_5",
+      "V1_6",
+      "V1_7",
+      "N00_R",
+      "N01_L",
+      "N02_R",
+      "N03_R",
+      "N04_R",
+      "N05_L",
+      "N06_R",
+      "N07_R"
+    ]
+  },
+  "ledger": {
+    "canonical_sha256": "10:15:39f21aaae96f5f709c0cca6ac5d56d000f7a6ce3b9623a0091b198bec006376f",
+    "parent": "Q1-00012",
+    "rank": 269,
+    "reported_decision": "colorable",
+    "reported_rank_potential_span": 11,
+    "reported_rank_potential_workers": 4,
+    "state": "results/neighborhood-graft-delta10-agent/extension-beyond-top94/classification-state.jsonl"
+  },
+  "purpose": "Reproducible reported-span metadata discrepancy; colorability decision remains valid.",
+  "schema_version": 1
+}

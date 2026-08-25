@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "all_source_claims_colorable": true,
+    "canonical_hash_mismatches": 0,
+    "elapsed_seconds": 73.82614210999964,
+    "fixed_span_unsatisfied_or_invalid": 0,
+    "invalid_rank_potential_certificates": 0,
+    "lower_span_checks": 2,
+    "max_row_runtime_seconds": 1.7136206489994947,
+    "reported_metadata_mismatches": 0,
+    "reported_span_minimality_unresolved": 0,
+    "reported_span_not_minimal": 2,
+    "solver_disagreements": 0,
+    "structural_mismatches": 0
+  },
+  "conclusion": "reported-span-metadata-mismatch; decision-status-integrity-pass",
+  "sampled_counts": {
+    "by_band": {
+      "beyond-top1094": 24,
+      "beyond-top94": 24,
+      "initial-top94": 24
+    },
+    "by_parent": {
+      "Q1-00012": 33,
+      "Q1-00014": 25,
+      "hat_K34_prime_Delta11": 14
+    },
+    "total": 72
+  },
+  "status": "complete"
+}

@@ -451,3 +451,5 @@ The finalized cumulative ledger confirms that all 12,987 structured order-18 can
 An independent tail audit replayed 36 deterministic rows spanning ranks10,501--12,987 using two-worker rank-potential and fixed-span runs. All structural, hash, certificate, and solver checks passed with zero mismatches; maximum sampled runtime was 0.736 seconds.
 
 The neighborhood-graft continuation was extended through rank3,094 after validating all prior rows without recomputation. The new contiguous batch contained 1,000 unique graphs, all colorable with zero timeouts; the lane now has 3,094 exact negative decisions.
+
+An independent spot audit sampled 24 rows from each of the initial, beyond-top94, and beyond-top1094 graft ledgers (72 total). All structural, canonical-hash, decision/status, certificate, and fixed-reported-span checks passed. Two rows had nonminimal `reported_span` metadata: both ledger entries said span11, while independent serial replays produced verified span10 colorings. This is a reporting defect only; it does not affect their colorable decisions or the search's negative conclusion.
