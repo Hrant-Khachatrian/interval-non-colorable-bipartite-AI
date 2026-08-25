@@ -1,0 +1,343 @@
+{
+  "bridge_pair_coverage": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "complete": false,
+  "configuration": {
+    "bridge": "one direct edge joining opposite bipartition sides of two distinct terminals",
+    "bridge_port_bound": "first two local vertices on each motif side",
+    "diversity_requirement": "every construction contains C12, theta, and three-rooted-C4 terminals",
+    "global_canonical_seed_count": 120386,
+    "negative_confirmation": "independent fixed-span CP-SAT across every legal span",
+    "parent": "M5_delta_555",
+    "primary_oracle": "rank-potential CP-SAT",
+    "selected_parent_edges": [
+      27,
+      33,
+      36,
+      39,
+      42
+    ],
+    "terminal_motifs": [
+      "rooted_C12",
+      "rooted_theta_3x4",
+      "rooted_theta_4x4",
+      "three_rooted_C4_blocks"
+    ],
+    "timeout_policy": "unresolved only",
+    "unique_cap": 600
+  },
+  "counts": {
+    "classified": 600,
+    "colorable": 600,
+    "duplicate": 3770,
+    "generated": 4370,
+    "independent_unresolved": 0,
+    "non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "rejected_invariant": 0,
+    "timeout": 0,
+    "unique": 600
+  },
+  "counts_this_invocation": {
+    "classified": 0,
+    "colorable": 0,
+    "duplicate": 0,
+    "generated": 0,
+    "independent_unresolved": 0,
+    "non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "rejected_invariant": 0,
+    "timeout": 0,
+    "unique": 0
+  },
+  "elapsed_seconds_this_invocation": 12.02457285499986,
+  "hypothesis_worth_scaling": false,
+  "observed_span": {
+    "maximum": 22,
+    "median": 15
+  },
+  "recommendation": "not worth scaling at this checkpoint: no primary negative, confirmed non-colorable graph, or span improvement over the prior span-22 near miss was observed",
+  "sample_records": [
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "positions": [
+          "c1",
+          "a0"
+        ],
+        "terminal_indices": [
+          0,
+          1
+        ],
+        "terminal_motif_pair": [
+          "rooted_C12",
+          "rooted_theta_3x4"
+        ],
+        "vertices": [
+          "BC000001_T0_c1",
+          "BC000001_T1_a0"
+        ]
+      },
+      "candidate_id": "BC10-000001",
+      "canonical_sha256": "36:36:9f8ec6b81a636dbd6e5fb278f43725fcbe87c1ec27d2b48064f6ea06599114fd",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05624021909233175,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 72,
+      "primary_span": 14,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_C12",
+        "rooted_theta_3x4",
+        "rooted_theta_3x4",
+        "rooted_theta_4x4",
+        "three_rooted_C4_blocks"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "positions": [
+          "c1",
+          "a0"
+        ],
+        "terminal_indices": [
+          0,
+          1
+        ],
+        "terminal_motif_pair": [
+          "rooted_C12",
+          "rooted_theta_3x4"
+        ],
+        "vertices": [
+          "BC000004_T0_c1",
+          "BC000004_T1_a0"
+        ]
+      },
+      "candidate_id": "BC10-000004",
+      "canonical_sha256": "38:37:2e4c039d7df8488743b0d9cb3cf3663822aaa6f622dcb263e19eddd22f38bf68",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.053395795795795634,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 75,
+      "primary_span": 18,
+      "primary_status": "colorable",
+      "size": 109,
+      "terminal_motifs": [
+        "rooted_C12",
+        "rooted_theta_3x4",
+        "rooted_theta_4x4",
+        "rooted_theta_4x4",
+        "three_rooted_C4_blocks"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "positions": [
+          "c1",
+          "a0"
+        ],
+        "terminal_indices": [
+          0,
+          1
+        ],
+        "terminal_motif_pair": [
+          "rooted_C12",
+          "rooted_theta_4x4"
+        ],
+        "vertices": [
+          "BC000010_T0_c1",
+          "BC000010_T1_a0"
+        ]
+      },
+      "candidate_id": "BC10-000010",
+      "canonical_sha256": "36:36:2b8bf2bf012a63f200e40214dc150bd3b261366055063ea3f4b6b808d1ffb694",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05624021909233175,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 72,
+      "primary_span": 16,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_C12",
+        "rooted_theta_4x4",
+        "rooted_theta_3x4",
+        "rooted_theta_3x4",
+        "three_rooted_C4_blocks"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "positions": [
+          "c1",
+          "a0"
+        ],
+        "terminal_indices": [
+          0,
+          1
+        ],
+        "terminal_motif_pair": [
+          "rooted_C12",
+          "rooted_theta_4x4"
+        ],
+        "vertices": [
+          "BC000011_T0_c1",
+          "BC000011_T1_a0"
+        ]
+      },
+      "candidate_id": "BC10-000011",
+      "canonical_sha256": "38:37:2b55060c1763140d9b26b7aca36dfe68832d7671e4298e6f89ad7f67da2f1b64",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.053395795795795634,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 75,
+      "primary_span": 19,
+      "primary_status": "colorable",
+      "size": 109,
+      "terminal_motifs": [
+        "rooted_C12",
+        "rooted_theta_4x4",
+        "rooted_theta_3x4",
+        "rooted_theta_4x4",
+        "three_rooted_C4_blocks"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "positions": [
+          "c1",
+          "b0_0"
+        ],
+        "terminal_indices": [
+          0,
+          1
+        ],
+        "terminal_motif_pair": [
+          "rooted_C12",
+          "three_rooted_C4_blocks"
+        ],
+        "vertices": [
+          "BC000019_T0_c1",
+          "BC000019_T1_b0_0"
+        ]
+      },
+      "candidate_id": "BC10-000019",
+      "canonical_sha256": "36:36:edd0b8b3a2fb72dc4e56100222b01c701bdee2920477fd86868b005edf8d22c0",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05624021909233175,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 72,
+      "primary_span": 14,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_C12",
+        "three_rooted_C4_blocks",
+        "rooted_theta_3x4",
+        "rooted_theta_3x4",
+        "rooted_theta_4x4"
+      ]
+    }
+  ],
+  "schema": "bridge-coupled-delta10-v1",
+  "state_rows_total": 600,
+  "stop": "unique_cap"
+}

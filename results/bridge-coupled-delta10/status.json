@@ -1,0 +1,66 @@
+{
+  "assessment": "not worth scaling at this checkpoint: no primary negative, confirmed non-colorable graph, or span improvement over the prior span-22 near miss was observed",
+  "bridge_pair_coverage": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "counts": {
+    "classified": 600,
+    "colorable": 600,
+    "duplicate": 3770,
+    "generated": 4370,
+    "independent_unresolved": 0,
+    "non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "rejected_invariant": 0,
+    "timeout": 0,
+    "unique": 600
+  },
+  "counts_this_invocation": {
+    "classified": 0,
+    "colorable": 0,
+    "duplicate": 0,
+    "generated": 0,
+    "independent_unresolved": 0,
+    "non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "rejected_invariant": 0,
+    "timeout": 0,
+    "unique": 0
+  },
+  "elapsed_seconds_this_invocation": 12.02457285499986,
+  "hypothesis_worth_scaling": false,
+  "observed_span": {
+    "maximum": 22,
+    "median": 15
+  },
+  "schema": "bridge-coupled-delta10-v1",
+  "state_rows_total": 600,
+  "stop": "unique_cap"
+}
