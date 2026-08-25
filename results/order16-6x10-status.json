@@ -1,462 +1,11 @@
 {
   "chunks": {
-    "completed_files_present": 204,
+    "completed_files_present": 215,
     "expected_total": 512,
-    "invalid_chunks": [
-      {
-        "chunk": 353,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 354,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 355,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 356,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 357,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 358,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 359,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 360,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 361,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 362,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 363,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 364,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 365,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 366,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 367,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 368,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 369,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 370,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 371,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 372,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 373,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 374,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 375,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 376,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 377,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 378,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 379,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 380,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 381,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 382,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 383,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 384,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 385,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 386,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 387,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 388,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 389,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 390,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 391,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 392,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 393,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 394,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 395,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 396,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 397,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 398,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 399,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 400,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 401,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      },
-      {
-        "chunk": 402,
-        "duplicate_index_count": 570153,
-        "expected_rows": 570153,
-        "malformed_json": 570153,
-        "missing_index_count": 570153,
-        "problem": "missing_completed_file",
-        "rows": 0
-      }
-    ],
+    "invalid_chunks": [],
     "running_with_files": 149,
-    "terminal_audit_backlog": 180,
-    "terminal_chunks_in_this_integrity_pass": 183,
+    "terminal_audit_backlog": 191,
+    "terminal_chunks_in_this_integrity_pass": 24,
     "terminal_completed_state": 363,
     "terminal_deferred_details": [
       {
@@ -576,6 +125,126 @@
       },
       {
         "chunk": 23,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 24,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 25,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 26,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 27,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 28,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 29,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 30,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 31,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 32,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 33,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 34,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 35,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 36,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 37,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 38,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 39,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 40,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 41,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 42,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 43,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 44,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 45,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 46,
+        "expected_rows": 570153,
+        "reason": "audit_backlog"
+      },
+      {
+        "chunk": 47,
         "expected_rows": 570153,
         "reason": "audit_backlog"
       },
@@ -820,126 +489,6 @@
         "reason": "audit_backlog"
       },
       {
-        "chunk": 96,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 97,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 98,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 99,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 100,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 101,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 102,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 103,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 104,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 105,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 106,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 107,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 108,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 109,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 110,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 111,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 112,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 113,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 114,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 115,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 116,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 117,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 118,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
-        "chunk": 119,
-        "expected_rows": 570153,
-        "reason": "audit_backlog"
-      },
-      {
         "chunk": 120,
         "expected_rows": 570153,
         "reason": "audit_backlog"
@@ -960,18 +509,170 @@
         "reason": "audit_backlog"
       }
     ],
-    "terminal_invalid": 159,
+    "terminal_existing_files": 214,
+    "terminal_invalid_actual": 0,
+    "terminal_missing_file_count": 148,
+    "terminal_missing_file_ids": [
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      437,
+      438,
+      439,
+      440,
+      441,
+      442,
+      443,
+      444,
+      445,
+      446,
+      447,
+      448,
+      449,
+      450,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458,
+      459,
+      460,
+      461,
+      462,
+      463,
+      464,
+      465,
+      466,
+      467,
+      468,
+      469,
+      470,
+      471,
+      472,
+      473,
+      474,
+      475,
+      476,
+      477,
+      478,
+      479,
+      480,
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490,
+      491,
+      492,
+      493,
+      494,
+      495,
+      496,
+      497,
+      498,
+      499,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510,
+      511
+    ],
     "terminal_valid": 24
   },
   "classification": "order16-6x10-d2to11",
   "dataset": "/mnt/weka/hrant/interval-search/data/order16-6x10-d2to11.g6",
   "expected_rows": 291917907,
   "integrity": {
-    "incremental_hash_sidecar_bytes": 1915714080,
+    "incremental_hash_sidecar_bytes": 4789285200,
     "terminal_duplicate_hash_count": 0,
     "terminal_duplicate_hash_values": [],
-    "terminal_duplicate_row_indices": 90653898,
-    "terminal_malformed_json": 90653898
+    "terminal_duplicate_row_indices": 0,
+    "terminal_malformed_json": 0
   },
   "job_id": "228788",
   "notes": [
@@ -982,8 +683,8 @@
   ],
   "progress": {
     "confirmed_contiguous_prefix_rows": 0,
-    "expected_rows_in_terminal_completed_chunks_audited": 104337570,
-    "missing_rows_in_completed_chunks": 90653898,
+    "expected_rows_in_terminal_completed_chunks_audited": 13683672,
+    "missing_rows_in_completed_chunks": 0,
     "overall_expected_rows": 291917907,
     "overall_fraction": 0.046875069,
     "partial_running_files_are_excluded_from_completion": true,
@@ -1015,5 +716,5 @@
     "failed_ids": [],
     "scheduler_timeout_ids": []
   },
-  "updated_at_utc": "2026-08-25T06:41:40.627834Z"
+  "updated_at_utc": "2026-08-25T06:57:38.839487Z"
 }

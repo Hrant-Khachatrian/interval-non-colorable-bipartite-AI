@@ -1,0 +1,65 @@
+{
+  "cap": 10,
+  "classified": 1000,
+  "classified_by_primary_family": {
+    "cap_delete_restore": 281,
+    "minimal_cap_delete": 9,
+    "same_side_identify": 8,
+    "two_edge_switch": 621,
+    "vertex_delete_1": 7,
+    "vertex_delete_2": 74
+  },
+  "classified_by_primary_seed": {
+    "benchmark:Erd_Fano_2222221": 115,
+    "benchmark:M5_delta_555": 15,
+    "benchmark:hat_K222": 173,
+    "benchmark:hat_K34_prime_Delta11": 151,
+    "candidate:Q1-00012": 374,
+    "candidate:Q1-00014": 172
+  },
+  "counts": {
+    "colorable": 1000,
+    "non-colorable": 0,
+    "primary-disagreement": 0,
+    "timeout": 0
+  },
+  "elapsed_seconds": 0.055680171999938466,
+  "external_hashes_excluded": 6244,
+  "families": [
+    "cap_delete_restore",
+    "minimal_cap_delete",
+    "same_side_identify",
+    "two_edge_switch",
+    "vertex_delete_1",
+    "vertex_delete_2"
+  ],
+  "generated": {
+    "cap_delete_restore": 6900,
+    "minimal_cap_delete": 525,
+    "same_side_identify": 658,
+    "two_edge_switch": 8048,
+    "vertex_delete_1": 137,
+    "vertex_delete_2": 1274
+  },
+  "minimum_degree": 2,
+  "negative_confirmation": "independent fixed-span CP-SAT over every legal span",
+  "rejected": {
+    "reported_duplicate": 16093,
+    "same_side_identify": 240,
+    "vertex_delete_1": 49,
+    "vertex_delete_2": 394
+  },
+  "schema": "multi-seed-reduction-v1",
+  "seeds": [
+    "candidate:Q1-00012",
+    "candidate:Q1-00014",
+    "benchmark:hat_K222",
+    "benchmark:M5_delta_555",
+    "benchmark:hat_K34_prime_Delta11",
+    "benchmark:hat_K34",
+    "benchmark:Erd_Fano_2222221"
+  ],
+  "target": "order <= 18 or Delta <= 10",
+  "unique": 1025,
+  "unique_pending": 25
+}
