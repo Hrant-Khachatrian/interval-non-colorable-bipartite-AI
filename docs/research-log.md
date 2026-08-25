@@ -443,3 +443,5 @@ The `6+10` terminal-audit workflow was repaired to avoid rescanning unchanged ch
 An independent order-18 spot audit rebuilt the deterministic queue and rechecked 18 rows from each completed slice v3--v8, totaling 108 claims. For every colorable claim it validated structure, canonical hash, rank-potential certificate, and fixed-span satisfiability at the reported span using a different worker count. It found zero invalid certificates, solver disagreements, or mismatches.
 
 A second neighborhood-graft continuation preserved ranks1--1,094 and classified ranks1,095--2,094. All 1,000 new graphs were colorable with zero timeouts; the neighborhood-graft negative ledger now contains 2,094 exact decisions.
+
+The final structured order-18 tail completed ranks10,501--12,987. Its reconciliation found all 2,487 ranks exactly once, zero duplicate/missing/unexpected ranks, zero rank/hash mismatches, and zero rank or canonical-hash overlap with v3--v8. Every tail graph was colorable with zero timeouts. Together with slices v3--v8, the deterministic structured queue of 12,987 unique order-18 graphs is now exhaustively covered negative.
