@@ -1,0 +1,57 @@
+{
+  "classification": {
+    "independent_negative_confirmation": {
+      "required": "fixed-span CP-SAT across every legal span for each primary negative",
+      "verified_primary_negative_count": 0
+    },
+    "outcomes": {
+      "colorable": 1011,
+      "confirmed_non_colorable": 0,
+      "primary_negatives": 0,
+      "timeout": 0
+    },
+    "queue_status": "still_open",
+    "ranked_selection_size": 1000,
+    "remaining_unclassified_global_fresh": 7593
+  },
+  "construction_bounds": {
+    "near_switch_limit": 4050,
+    "restore_limit": 200,
+    "witness_switch_limit": 450
+  },
+  "event_membership": {
+    "additional_boundary_classifications": 11,
+    "all_completed_globally_fresh": true,
+    "completed_rows": 1011,
+    "completed_unique_hashes": 1011,
+    "manifest_top_1000_classified": true,
+    "selection_manifest_path": "results/order18-alternate-family-v5-expansion/selection-manifest.json"
+  },
+  "filters": [
+    "exactly 18 vertices",
+    "simple bipartite",
+    "connected",
+    "minimum degree >= 2"
+  ],
+  "generation": {
+    "completed_first_queue_excluded": 1376,
+    "construction_enumeration_exhausted": true,
+    "generated_raw": 113588,
+    "globally_new_unique_candidates": 8593,
+    "prior_alternate_durable_hashes": 4592,
+    "unique_after_completed_first_queue_filter": 13185
+  },
+  "global_identity": "Nauty bipartition-colored canonical SHA-256",
+  "new_bound_status": "still_open",
+  "prior_event_hash_counts": {
+    "results/order18-alternate-family-v1/classification-events.jsonl": 1200,
+    "results/order18-alternate-family-v2/expanded-step1/classification-events.jsonl": 377,
+    "results/order18-alternate-family-v2/expanded-step2/classification-events.jsonl": 209,
+    "results/order18-alternate-family-v2/v1-residual/classification-events.jsonl": 414,
+    "results/order18-alternate-family-v3/expanded-step3/classification-events.jsonl": 1000,
+    "results/order18-alternate-family-v3/v2-residual/classification-events.jsonl": 31,
+    "results/order18-alternate-family-v4-residual/classification-events.jsonl": 1361
+  },
+  "purpose": "Exact reconstruction and membership reconciliation for the v5 wider alternate-family expansion.",
+  "schema_version": 1
+}

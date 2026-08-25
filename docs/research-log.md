@@ -483,3 +483,11 @@ The neighborhood-graft continuation reached rank9,094. It validated all prior de
 On YSU, the strict batch-0 auditor accepted the first two terminal `7+9` chunks beyond chunk0. Chunks1--2 contained exactly 439,987 rows each (879,974 total), with no missing/duplicate indices, malformed rows, hash duplicates, unresolved timeouts, or primary negatives. Chunk0 remains under its dedicated terminal audit.
 
 Chunk0 has also completed and passed its dedicated strict terminal audit: job229469 exited successfully, the output was stable during audit, and all439,987 rows were colorable. There were zero missing/duplicate indices, malformed/schema failures, duplicate canonical hashes, timeouts, or primary negatives; the sorted canonical-hash list has SHA256 `cf42627abfe7e13b22edad1943e7ecfc20ae6f7902a082acd65f85ced2263494`.
+
+The strict batch-0 ledger subsequently grew to 16 accepted chunks (`1--7`, `23--24`, `26`, and `29--32` plus `34--35`) totaling **7,039,792** rows. Every accepted chunk had exactly439,987 valid rows and passed schema/domain, index/hash, solver-time, timeout, and negative checks.
+
+An independent audit certified the exhausted expanded-bound alternate family: all4,592 unique v1--v4 candidates were covered exactly once, all1,361 v4 residuals reconstructed correctly, and144 deterministic replays were valid with zero mismatches or timeouts.
+
+The neighborhood-graft continuation reached rank10,094 after validating every predecessor without recomputation. The newest1,000 decisions were all colorable with zero timeouts.
+
+A wider alternate-family expansion generated113,588 constructions and found13,185 globally unique candidates after first-queue filtering. Its strongest1,011 fresh candidates were classified exactly: all colorable with zero timeouts. Construction at this bound is exhausted, while7,582 fresh ranked candidates remain available for exact classification.

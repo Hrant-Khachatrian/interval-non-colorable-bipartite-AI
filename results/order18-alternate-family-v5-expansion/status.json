@@ -1,0 +1,276 @@
+{
+  "completion": "complete",
+  "completion_details": {
+    "reason": "all_selected_classified",
+    "status": "complete"
+  },
+  "configuration": {
+    "construction_bounds": {
+      "near_switch_limit": 4050,
+      "restore_limit": 200,
+      "witness_switch_limit": 450
+    },
+    "filters": [
+      "exactly 18 vertices",
+      "simple bipartite",
+      "connected",
+      "minimum degree >= 2"
+    ],
+    "fixed_span_time_limit_seconds": 4.0,
+    "global_deduplication": "Nauty bipartition-colored canonical SHA-256 against the reconstructed first queue and every supplied durable alternate-family event log",
+    "independent_negative_confirmation": "fixed-span CP-SAT across every legal span",
+    "operations": [
+      "same-side identification followed by one-edge deletion/restoration",
+      "deterministic cyclic three-edge switches"
+    ],
+    "primary_solver": "rank-potential CP-SAT",
+    "primary_time_limit_seconds": 2.0,
+    "timeout_policy": "Only UNKNOWN outcomes are timeout/unresolved; no timeout is counted as non-colorable."
+  },
+  "counts": {
+    "classified": 1011,
+    "classified_by_lane": {
+      "identify-then-edge-delete-restore": 705,
+      "identify-then-three-edge-switch": 306
+    },
+    "colorable": 1011,
+    "construction_enumeration_exhausted": true,
+    "generated": 113588,
+    "new_bound_exhausted": false,
+    "newly_solved": 1011,
+    "non_colorable": 0,
+    "previously_solved": 4592,
+    "primary_noncolorable": 0,
+    "timeout": 0,
+    "unclassified_global_fresh": 7582,
+    "unique": 8593,
+    "unique_after_completed_first_queue": 13185
+  },
+  "elapsed_seconds": 99.95420785999977,
+  "events_path": "results/order18-alternate-family-v5-expansion/classification-events.jsonl",
+  "generation": {
+    "generated_raw": 113588,
+    "generated_raw_by_lane": {
+      "identify-then-edge-delete-restore": 33200,
+      "identify-then-three-edge-switch": 74358,
+      "near-miss-three-edge-switch": 6030
+    },
+    "new_unique_after_prior_solutions": 8593,
+    "overlap_hash_sample": [
+      "7:11:005aa07ec6edb2bdd95e3f81391ca22b9c2e6446c1bab0819edce8d6266fa675",
+      "7:11:0070db78a630d60b727e3ffa5160ab13c782c3602590f4a89db8dc0708197509",
+      "7:11:0093b37f783888677ac6a65cf417bcdd1f57cf60c820e91f4f057177771aec46",
+      "7:11:00a1162114e81e8729a584196db9c54effa7960c54d2003e8aeb8acd5ed6f90e",
+      "7:11:00f66f1871c824d0b42203d143cedb8fbe2969ad5dff5770f4341b0ed796d076",
+      "7:11:00fa64791b0f748060f8571edb5e96734c9198799c67265fc323dd4498ffe4db",
+      "7:11:010b5d1a0e319af502bf1a28736f31e4e9f53afbaf165b2d336ca5f53079f749",
+      "7:11:017f2404c2b789821123e96e7b9a2f790e03bd8d9a82be95e8b8ed8751ece690",
+      "7:11:02cd6d4889d27dde295c85b2901ddad8b6495b77f9748771a98ba90b9d418467",
+      "7:11:02ff61f985036aaaf5d7aa860c43cc02c258e49311abff75bda560f3bdc8f8ec",
+      "7:11:0365f79e29be492e69a54136295f5b29c5274e99a3ef4630bed6724ad5aa0e9d",
+      "7:11:039cf981d01605f19325037e91ae8c675b30003f23b65e54b2691cc3900cf7e5",
+      "7:11:03e4c85240551105ea8c99dbd5b9e857acc42efede9a24fed1f92273902a7e55",
+      "7:11:04132f7e33b29fbd22ec3d1052595aa8572659ca0d7ea2ba1b2706fedf088f01",
+      "7:11:0456319d738d3d47d05469b088d60e906b655191d90e03e88baa480cb9bb2e9e",
+      "7:11:048d64cdb8d92d15f6d99f9a09db68562475d0e3c1bde27d33d7a7faf656cfc1",
+      "7:11:049b9e2463f6ea93d74b66741f4f406c2023bd8926742090226d301b0be2ff96",
+      "7:11:04b2d7c3e4f76aee3a1e31eb08cef23f1bdec3013be9b1990f6b19ffb6b55626",
+      "7:11:051d436de0fdd9690f05ae9051c0784a0c4e22b191c124cd538ec5b56dee7468",
+      "7:11:053d54679e6da29bffb79df07396a8889957795edf4fbb2c6a3c1bd47f97e5e8"
+    ],
+    "overlap_with_completed_first_queue": 1376,
+    "passed_graph_filters": 113588,
+    "passed_graph_filters_by_lane": {
+      "identify-then-edge-delete-restore": 33200,
+      "identify-then-three-edge-switch": 74358,
+      "near-miss-three-edge-switch": 6030
+    },
+    "previously_solved_excluded": 4592,
+    "prior_queue_hash_count": 12987,
+    "self_duplicates_removed": 99027,
+    "unique_before_prior_queue_filter": 14561,
+    "unique_new_after_global_filter": 13185
+  },
+  "goal": "classify a globally disjoint structured family of simple connected bipartite order-18 candidates",
+  "negative_events": [],
+  "ranked_preview": [
+    {
+      "candidate_id": "O18-AF-00001",
+      "canonical_sha256": "7:11:d9509ec28da8bacc85794ef1fc4236ca62ab29017e5e2d7d613d44e8ff1be417",
+      "degree_variance_normalized": 0.2171387073347857,
+      "delta": 11,
+      "hub_best_margin": -1,
+      "rank": 1,
+      "size": 31,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00002",
+      "canonical_sha256": "7:11:949d32a73876694d6b9975f8aea1afc4b1a3b2b32b355ce3f3c0ea10bf63d2d0",
+      "degree_variance_normalized": 0.21060275962236746,
+      "delta": 11,
+      "hub_best_margin": -1,
+      "rank": 2,
+      "size": 31,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00003",
+      "canonical_sha256": "7:11:2119717472f5ddf686fe0ff3fef07118e81e3b8de87a771959d2d34cedd4f085",
+      "degree_variance_normalized": 0.2846768336964414,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 3,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00004",
+      "canonical_sha256": "7:11:7ab0f83bf1603c7daa79001daa655ec1a8e765e23e4c4c590f8102de6f965689",
+      "degree_variance_normalized": 0.27814088598402315,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 4,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00005",
+      "canonical_sha256": "7:11:39b682719b1e65261b3c34f1afd252ea8df0f58db0229dae726a4a0234fe08fa",
+      "degree_variance_normalized": 0.2716049382716048,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 5,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00006",
+      "canonical_sha256": "7:11:60e5fe1977eb03484308a607b1927afd78290b8424e70972ee29de8e6fac0f64",
+      "degree_variance_normalized": 0.25490196078431365,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 6,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00007",
+      "canonical_sha256": "7:11:75062f55e54216a7d4baad13c2bbc38b214549490e50201af43512ea0cae777d",
+      "degree_variance_normalized": 0.24836601307189538,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 7,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00008",
+      "canonical_sha256": "7:11:72fde057cd6d2418d348e8e6a0753b353a166ea3e6bbb83d19106f6a2d4fb424",
+      "degree_variance_normalized": 0.24546114742193167,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 8,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00009",
+      "canonical_sha256": "7:11:986d0e31e17d6602a128b38e9e8305af62abdb81f0fc0d49fc2ebd4bc6fed3c7",
+      "degree_variance_normalized": 0.23529411764705882,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 9,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00010",
+      "canonical_sha256": "7:11:e0031095dc143f065adaeabd36ea04c7ce1f301d2d5586698411e1296e466cf2",
+      "degree_variance_normalized": 0.23529411764705876,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 10,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00011",
+      "canonical_sha256": "7:11:40747d091da7c9bdbc7ad314e42f5c10d121256751cf7af69467c090b386bf54",
+      "degree_variance_normalized": 0.23529411764705876,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 11,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00012",
+      "canonical_sha256": "7:11:931a81e719a2e0c4b8863e79d4d5d1da0313cb32da42da421e63b3b4013b9103",
+      "degree_variance_normalized": 0.23529411764705876,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 12,
+      "size": 33,
+      "status": "colorable"
+    }
+  ],
+  "reconciliation": {
+    "classification": {
+      "independent_negative_confirmation": {
+        "required": "fixed-span CP-SAT across every legal span for each primary negative",
+        "verified_primary_negative_count": 0
+      },
+      "outcomes": {
+        "colorable": 1011,
+        "confirmed_non_colorable": 0,
+        "primary_negatives": 0,
+        "timeout": 0
+      },
+      "queue_status": "still_open",
+      "ranked_selection_size": 1000,
+      "remaining_unclassified_global_fresh": 7593
+    },
+    "construction_bounds": {
+      "near_switch_limit": 4050,
+      "restore_limit": 200,
+      "witness_switch_limit": 450
+    },
+    "event_membership": {
+      "additional_boundary_classifications": 11,
+      "all_completed_globally_fresh": true,
+      "completed_rows": 1011,
+      "completed_unique_hashes": 1011,
+      "manifest_top_1000_classified": true,
+      "selection_manifest_path": "results/order18-alternate-family-v5-expansion/selection-manifest.json"
+    },
+    "filters": [
+      "exactly 18 vertices",
+      "simple bipartite",
+      "connected",
+      "minimum degree >= 2"
+    ],
+    "generation": {
+      "completed_first_queue_excluded": 1376,
+      "construction_enumeration_exhausted": true,
+      "generated_raw": 113588,
+      "globally_new_unique_candidates": 8593,
+      "prior_alternate_durable_hashes": 4592,
+      "unique_after_completed_first_queue_filter": 13185
+    },
+    "global_identity": "Nauty bipartition-colored canonical SHA-256",
+    "new_bound_status": "still_open",
+    "prior_event_hash_counts": {
+      "results/order18-alternate-family-v1/classification-events.jsonl": 1200,
+      "results/order18-alternate-family-v2/expanded-step1/classification-events.jsonl": 377,
+      "results/order18-alternate-family-v2/expanded-step2/classification-events.jsonl": 209,
+      "results/order18-alternate-family-v2/v1-residual/classification-events.jsonl": 414,
+      "results/order18-alternate-family-v3/expanded-step3/classification-events.jsonl": 1000,
+      "results/order18-alternate-family-v3/v2-residual/classification-events.jsonl": 31,
+      "results/order18-alternate-family-v4-residual/classification-events.jsonl": 1361
+    },
+    "purpose": "Exact reconstruction and membership reconciliation for the v5 wider alternate-family expansion.",
+    "schema_version": 1
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,2885 @@
+{
+  "events": [
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:064e94a9ea00b007bf0f2991a662ce6b4248c6e5aa9e79f069a977bc1b598a59",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 799
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:0fbe3de1b2ea4e5984053fd7d399773db8c4a883d731e0dfc470c04b5ba2941c",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1222
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:184f14e0c5a535ec419dd3cc060a7723ed4f0a3363f54e0a3968f709d91b67de",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 12,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 515
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:22639487b78e6cc132cb6fae51377724971af4e9784657fbf5611442f9323994",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 420
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:29f92623685627f618fc99c8fa165c44cd74b8cc1bcc668409f1cf2e7daebb66",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 457
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:33ba2b466f91752256d94ae6ad9df8da8fbaea4c08eeb8765941f52a26d86b91",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 428
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:3f47527770f0e5f433120554abde93f2d90cf407ae6c067b0d0b95b6c2d4a8f4",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 525
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:46580fa07615897411b617648e075768b9c6b52f4fb2cfd6c5569d6f52e2c8a6",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 12,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 538
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:53bd54187450d74717452ed47639cdd7ddcadcf788ae32998f9e5c42be8c9965",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 429
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:639758ca0716c8f15c57fd706efd94d346b32943ad237687183ff460193d36b6",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 571
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:6b735ec4bbb3073ef99f502d591e0e886f85386294d4b25acc10b19bb84801af",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 463
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:791c532fdc16f0ee97052277c38c2b0cf84ef90cd70da257ee8ae1f10ae363e4",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 539
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:8457b4f5e20ea67cbe678565a419896faa8b5e0ff3698e12e2c02d11b5ae4636",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 551
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:8e4e95abf5ca9a905ede9036ffdba756a2bfc8477c104b6c4cbb4a68fe7bd47b",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 526
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:9a1a4af9db0c5e120aa1268e04db4ba3bb6c3ae451a39ea28fa442599477959c",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 518
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:a36421df04278c3a0e97b6002115e0248c29ed26c7ae9354ff5fbbd53e6a9deb",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 12,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 448
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:b0b4bf32d65c38eddfaa5b532a91c6abb744aa06878a7db49faf84eadf1c09f7",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 12,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 474
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:b75ca0f641df026f15c62ff1a0cddb48604b34dcbf27ca28524a234ef9d6314b",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 12,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1326
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:bb71ab17b501665bf80752e745b9dc90c0b3cb4a803b2ff715573b9d82a54a70",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 496
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:c50f1aa16aed3069d8b0c68d2e16f4046afc433bee9cf69a51a87969b95cb530",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 482
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:d0d9574338caef770783303b71f6080b502ffa80f14e78551f06db41f9ff17cc",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 486
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:dd2a0e09b83e21a95e23e54ea2dad9e84f49a258b725addb9f9351bf930060d3",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 442
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:e3e67a813347d4627775ab118db2f2656fc8b9781455ab3c6f0605968f7bf35d",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 445
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:ecab6539da92c953a9c1bade616b4ecd2686fe6e16fc45c0ad1ed8dc8680dbe8",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 627
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:f3ee2e2885d53f96291e31ce8ded685dd746cccd51dcbcb41404280cd835f3e9",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 12,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 530
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "7:11:fa2db37cd7630dae9bdb85ec2458de13fc316af1a3e84b6aad9de6ea23720ab5",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 699
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:025cedd005149c974b69c45edeacfb453e79cb99974953ac7bd097e13440ebf2",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1115
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:0525e5a3abb0168900689bbeabd1f7993974318a832d4937e50ee6a6054fcf1d",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1116
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:06d16dc6551ed4b39bcac68bcaf78fd1c0be8f3e3696edde9e84a937277df99c",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1254
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:092c6680f3fb713aa7e2278a389c320320bafc8456f65189bbdc6d256b57b7c3",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 116
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:0c2e9c522826a757c9c4a36ee464fa9e7bca173ba2ed3842f255caa13361f384",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 607
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:0efeff8aed990a73468d4e648467675684c981411c4df194ed5918a6b7fe0ad3",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 949
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:11639f1e66cced5859102d96a24004c7602b6129b5dbbc64adcc0603b38b81a0",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 952
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:1290834e5743700b2909150db6acbaa3f743aed9954463a3b0ad6c89e6c25944",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 954
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:15619db244bbfc1d1ac64871779c57712e153d556e9a58c5271676ebe6a211ec",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 812
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:17fa95794ecf198916a6748b3ad3a7ef0972a0afc01b1a408710917a875557e7",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 610
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:1a298e7554b1837b81e25f580b73332c545ddc24b41decba9f54232fa6ce923e",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 958
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:1e0c37d376fcfa33718b372a0198681dd909af957491974c3422fa8d3a675907",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 129
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:2047352139c2460615e6c11b639e2b9d25b1401bcd679aca04c7ed48477808b6",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 130
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:231ee595771ff6da0ee092bcba6f8f662fe55841bf0323c9bb6d5f85533c2fe5",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 246
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:260233d409d5e8ea332e145cf33ef32486a35c8162d77d05ace3de9ae55dac43",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 966
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:294d9a45a2f76ee46de155a0d6e8e5e42182432d24ca54d016b091d1caf9449c",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 311
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:2ad3529d45af2e6f8dff190ff415ef6218d02cf97af0319449319e8b904d56e1",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 136
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:2c399dd9b3a005759042396ab2a7677edfce29692d558a9f9596c05eef9a0ce5",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 269
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:2e3484407e39961794303130497032cf27400a1581171a327f2243841ca4b68a",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 803
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:2f954cfa3777647deff1e508a38eaaa703778615b37874cf2ae60cc0b9bd4b44",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 974
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:3274229e6591eb090e5f266c8022b1da0c2b7fc984275ee1b3b0ede4eaf35ae3",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 382
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:34c60a0da3f31212a36319ec42b9a9d7b11496c620d15a3063d93daa90c81eb0",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1129
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:3740355ad1ffc0f0c321815514564b17e4382135e1d066d27e6c3532948a1396",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 140
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:393c0c74de23efa661a3e2325a6f85a9c12e9a7ae0c616b6799ad0d96fb62f47",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1246
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:3b5e72da1b933c1456f59f22d9c77222c588bfb2616cd3fc1530dab1893fc722",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1290
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:3ddecc593064086394ed8ce05c2ca9776a59d845ab91d9673a45ba283e4448ab",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 837
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:411dbc788b0d3f1c64ba6a88f782892e1adca5eb484b4cd0d7db77d7ca289cde",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1345
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:4481ba6763c2e6bb00051d946ef5400b38ed2c1e01dc4ff11baae67d165052af",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 983
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:47942a4fc1db028ed742c1c1349b4000a6b1400081556c32522262a8eb48e8f4",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1098
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:4ab162d5e40070de88c89e0d723fc7aaabd6c607ca7b65fc787aa22c5edb42f9",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 665
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:4c1d7c32da6eef720a194351eb892b727444da8f34d710ced59c05146a035696",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 992
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:4fb235b8742b34204ee88da23c3594d9d2ce78e0950f18b044ac3430d52e0310",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 148
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:5381f4cb2cae39fea7ef8070a5f44d86ccd992878d2d17ea873fbdcd20f6c125",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 995
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:561078cdb96cc27f86da362919a5cb0462783750ae0438a8220e9e70dc07411d",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 94
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:5882a0546628d660c11d81514ba193a9b7d9030f6bb3ce20e726f7de7ba1e3ca",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 721
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:5a73b4c57c5f5e4270a911abc51f5ff1ab60e9614b19fd26ad811cbe9cb8d88d",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1137
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:5d1d5ad68312db2c87300e06287c64473442b4f1c0be8d8a986ed6a1ec9e5df7",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1314
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:5f96d3ff932e7d3336f2536be726eaaf20231b60f1822d873f7ef3ff5bc27897",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 96
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:61c90c9a442e2850f7cda08a32bb8ff18ca56a4935d672fcd738f84263beb4e7",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1141
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:64e40321141063d18c136e4ca1fbfe4e9e1aded1ffc269d219e69e253737fb75",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 849
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:673288adf7f591d85c2707b5573e4ae994dfb9ad3ecd1ee16659c9cb69884155",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 158
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:68589de63a95571e0e3cf4304adc86272b4b9b14d7b58c14361b54651f7d1e12",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 937
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:6a12c5c45891debb904b7b67b106ca21d1391e9bd03eb35ad147517eed633955",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 918
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:6cec389990acb20a58fd0b73de5a7b401a0b029283261b735daf638a0054251f",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1346
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:6e90a70d73110fb3b840d480274167f5106ae189d6323fa3e5439cfda2bee86a",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 5
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:721fdec922c3a7945828226901d9be79bc45ecbe6e3ed51e2557d9dc387860c6",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 854
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:73bff1dc67c30667cc7216cba326378d25dec2e2f33999efe554bff7e0ae287e",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 856
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:75087b5e0681950f8a339a73c37da0ea114feabc2b7b76c5edec5907ad2cc14e",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 388
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:768a81c541cafbe19e15aa55eaa3938c7075ee78c53072708512f15f2d898562",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1151
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:78514f7a68e7f757d7bd5d9e2ba1f0c6cc10929dc2c25289e18c496738076582",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 170
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:79c8aa75093b8f64be71c93564d57dcaff81a95518157857324257c0ecc9e322",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1015
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:7c4cae165e44605b828433c4bf95c0ea8a95393a710e6ce0fa5d16e122080f33",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 83
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:7dfce5e48897508498be30bb1cc30ead3996a9ac23f931a8144fe646ef20d8c8",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 103
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:7f766cb854f5bf46372ff6ea3832ae9c5f2608f031d082c89c90523791c6d6a9",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 733
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:80cecf79cc4b836ddc1f1f5781aac518f5be0e8d77ff76170a2b2ae628b9d1b5",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 736
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:823ef80be020c84a586e00753be7431643fd6e5c834c63c0db83ee7bc24f4bec",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 177
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:84c9b9d0fdcad933f56d8e3eb51108413be607a32d92e69d1d2dc82250e77f11",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1025
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:8753639602d60c1439fd5f30d9e492b9cd64440f5e13bdc24a31db1de35065b1",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 739
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:8925d209709f07bdd077c145ea822e8a93c48f31972cc70ab7ddbe8a06d27127",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 689
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:8b017a37035d9bf4643d60729363a793deb564e77c16eaf6ae79afcbc780441a",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 389
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:8cea6cffc18bd71f6eeb688320c16d498368f57e509fb1d4fa1a4cbde7947859",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1348
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:8e7ee5eef662d6beefae384d1e728814049a66249dc8062dcc4c91632aa16d23",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1108
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:90778cda4bd601808cb3422fafda60d634e9a219d923efb536fa8f83ef8764e5",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1032
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:93a5699162a7a7d105028bcef8d34db06a9745cf91b5b0840aca0e352c1ce767",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1288
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:9536f41fc5fe727e8425dbd6ce442c2e294b8d8d930b428308df995b863b62e7",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1322
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:96abc96cee8a7bb4db5152288908f4ab9c81938b92fbea62721ec0f56c11c5f6",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 22
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:98cae58e7432e058cdef79b5b29040e1820ba910a645247a5d9a54a55ff658ee",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 188
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:9b38fcc6c7757c602e3316ec2febf1cf322d89ebde39dfe2ac2fe2a531d5eb80",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1038
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:9be20355b995b6006c0ed7c4d8110e754ac05c613395f59c66ada734fbd8ef18",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 873
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:9d61527f34520149b671171d906e796de6eb6faa7d1b20dfb7446628d735ef10",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 750
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:a09ac14c956938edba647ad7942ad46110761cb061706a779a34aa453cfd2ffd",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1045
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:a3df577365cfe09162357d0da859fbd52726251ea9a48dfff8ca1c88b52679e4",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 929
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:a59906ce223f3670b2103f8cc9e7a374f3ca8ece2b1e7034dc7037496aab3917",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 26
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:a8e549909e5ff99207c66ed1ef8d925ebcbc5d50f123601182214c793f7e7f09",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 879
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:abb761f3e3e01932be9b7ac51f5b5b61130d68d7869ffdca57c70003c1742fea",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 31
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:ad59da6518776690cc64e080476807658b97f80131cb2c6d5b4cbf14d24b7270",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 390
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:b0e08da9c501e3959681f5fddc25072edb68fdc68dc465433573d838c6c798f7",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 11,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 755
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:b32b0c62c2db03addcea25ff0dda830cc8c71ef96fbe04d5318117918966f4bc",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1055
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:b5b3e6eb170afe807c1fcdfd60ad48548a5c01dc5e6b168fda2628ddbdd1dd02",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 758
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:b6fbe7c2ee06aec79166b750295a1e606381ff771bd3113fbd04ea48cfe68a13",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1057
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:ba8ba57259d7e090b5e5606da0efb4c196c582c785019fbaa88b3a1382be0902",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 204
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:bbe13411b903ea18c612fa5c3cd2768abaa81fbc92f08856bc808ba6b180ad8f",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1265
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:be7cb9eae9816989336863bfb07deba550f7f2486bae15aaeca6e5a0ad4a6bed",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 205
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:bfe33c846ac9b6205c9f454e116f271330f1d3bfe9be27afc8f735321cd2cb1f",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 207
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:c2186234a0fbcc43b4af9fe8a8b203015d570405bd12c9182eb924c54be7f2e8",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 410
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:c42da43eb3eb2a8f6c397e9274837d3d0f586684d4d54357b80f15cca16a47f3",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 9,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 9,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 416
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:c5e7ae033b973352f935b8ec90a64ddd06b9219d89f3b6014fd34b42cca6828b",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 762
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:c8b037bd04f79d464532b295314f1d5c945d476dab26020e5fbbfe1e50f9d349",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 45
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:cb5610c95b3f51c9d4f7c8306694e9a198f459c5de8c9376dd6243cb9036f48c",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1180
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:cd517512500f200e73cf5f97b5432cd4e4577b01ab212071df653ad0533703ab",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 357
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:d03d1ffd4afa09bda6b4a4a61d18d2e3c032f061181b4b76f210f3a74ddef913",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1331
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:d2f83dfdaf49a5c5a93044389cfbc01adab074bf1514539af4dbad57adccc88e",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 359
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:d554d3a4660430531f67bcedcc0413f0efb06714325ca0dc0b05eaee0f7f87cc",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 691
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:d6ae521cc6f1039ac64facd4258588e982fb792336912d186bce5bd1af79b274",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1070
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:d7c77e4f1b1bb95fe3a0884547d00ec951ca843671cf2a3c815493d047cda89d",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 648
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:d9cb6df58f08f36f613b4c1fc8d264b1587cc53a05dd85317eaa24d4d9e735a7",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 292
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:dc548b04a769ad31630ceeefb66293ed06f56222b5cc2f55acb27cab512632e9",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 771
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:dec556ac1f441c54251057021faca8da6ec973f998623099478a2388ca168c99",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 294
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:dfa75ff783500b58843bc6810f39ced590dcf7781c59b3ded6be491db3c3f6d6",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 899
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:e1aa235414b8540453b39f88e24eedb202e449eab25465cdf2f151e951cd35f1",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 220
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:e3c03cccb3c6d2700260c6051e3530b7297218c0b9303b7b79c7b34dfc2e364d",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1204
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:e579d94eb4c6307d9d77af3fced522792c3e989060aba3005b6c7d768fe1baf3",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 655
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:e71a28955b7fd60176471d056d2441d4e5f5be95050809e24d2a2a545e07fef3",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 362
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:e94d0d40e3b3dac4f7eda156bd9eaccf53336a0a7d506e48a161b08d712a1f86",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1077
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:ec113d69dac676be8ad85d1056cba5c78b7c138636feb2b1d436ea224fc6bb9a",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": false,
+      "replay_status": "colorable",
+      "reported_span": 11,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "fixed-span-cpsat",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1357
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:ecea6e1ab0e5c8c56280a51dfda19c6885ba03ea2836fe8f022db75045b3058c",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 412
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:ee98375013dff6ccabc2b2c05b9e156dbb83200c4d5422f629a2d35b62ff428b",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 364
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:ef80517933848b739d2587fa6cde1c480eb93435fbca04bb0214c76e969eb388",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-edge-delete-restore",
+      "source_rank": 1352
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:f1f093aaeaa2971322c92079ee6f290a42e6c1c90ff2623cf27d0aeaa46c7dc0",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 263
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:f3331b853e318b46a030fe1afe5304f26a972b2a09bea5cc2059fbd6bcef75fb",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1194
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:f4c8e396d8f53d79738b46d927d1de8dbfda206ff35c9fb4ba06b38dcea94d5d",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1085
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:f65291063c23934aedbe9f47feb6a1543d216ee8ce708ea9075426d9d7b47527",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 365
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:f83b0313cc2a64428e4726f4c710c3a7dd6231e5aa1c975f938736959d4b7ffc",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 239
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:f965e5e7e3a55b4013ee7186259a10d28e9e9e19db16bb36900eaa514e6ca1f0",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 413
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:fb0f249b26deadba165770ceecdbbe6fd9e3af60a8ac88649090b03f455b2d5e",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 913
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:fc611dd9ae347adab4b0e5c099abf2c2b97572b157569e5fd5499296a2fb981e",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 299
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:fd73c141436697b7c9d470bf8e2864ef51eab57eec91405c79d34c429a6bd8a4",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 624
+    },
+    {
+      "apparent_negative_all_span_check": null,
+      "canonical_sha256": "8:10:fffccbb1a347b2be5a14bc98e5d0a816391f8d66a9d6edd8ac638bf857033b85",
+      "outcome": "valid",
+      "replay_certificate_reason": "valid",
+      "replay_certificate_valid": true,
+      "replay_solver_status": "OPTIMAL",
+      "replay_span": 10,
+      "replay_span_agrees_with_reported": true,
+      "replay_status": "colorable",
+      "reported_span": 10,
+      "reported_span_validation": {
+        "certificate_reason": "valid",
+        "certificate_valid": true,
+        "method": "replay-certificate",
+        "solver_status": "OPTIMAL"
+      },
+      "source_lane": "identify-then-three-edge-switch",
+      "source_rank": 1096
+    }
+  ],
+  "schema_version": 1
+}
