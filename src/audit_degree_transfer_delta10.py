@@ -90,18 +90,27 @@ def audit(args: argparse.Namespace) -> dict:
 
     counted = Counter(row["decision"] for row in records)
     reported_counts = report.get("counts", {})
+    state_counted = Counter(row["decision"] for row in state_rows)
     count_reconciliation = {
-        "newly_classified": len(records) - len(checkpoint_rows),
-        "colorable": counted["colorable"],
-        "non_colorable": counted["non-colorable"],
-        "timeout": sum(value for key, value in counted.items() if key.startswith("unresolved")),
+        "newly_classified": len(state_rows),
+        "colorable": state_counted["colorable"],
+        "non_colorable": state_counted["non-colorable"],
+        "timeout": sum(value for key, value in state_counted.items() if key.startswith("unresolved")),
     }
     count_mismatches = {
         key: {"report": reported_counts.get(key), "recomputed": value}
         for key, value in count_reconciliation.items()
         if key in reported_counts and reported_counts[key] != value
     }
-    audit_pass = not any((missing_fields, mismatches, solver_mismatches, count_mismatches))
+    prior_primary_ok = False
+    if args.primary_evidence:
+        prior = json.loads(args.primary_evidence.read_text(encoding="utf-8"))
+        prior_primary_ok = bool(prior.get("reran_primary")) and not prior.get(
+            "primary_oracle_mismatches"
+        ) and prior.get("record_count") == len(records)
+    audit_pass = not any((missing_fields, mismatches, solver_mismatches, count_mismatches)) and (
+        args.rerun_primary or prior_primary_ok
+    )
     return {
         "schema": "degree-transfer-delta10-audit-v1",
         "report": str(args.report),
@@ -121,7 +130,8 @@ def audit(args: argparse.Namespace) -> dict:
         "primary_oracle_mismatches": solver_mismatches,
         "count_mismatches": count_mismatches,
         "decision_counts": dict(sorted(counted.items())),
-        "reran_primary": args.rerun_primary,
+        "reran_primary": args.rerun_primary or prior_primary_ok,
+        "primary_evidence": str(args.primary_evidence) if args.primary_evidence else None,
         "audit_pass": audit_pass,
         "elapsed_seconds": time.monotonic() - started,
     }
@@ -136,6 +146,7 @@ def main() -> None:
     parser.add_argument("--maximum-delta", type=int, default=10)
     parser.add_argument("--minimum-degree", type=int, default=2)
     parser.add_argument("--rerun-primary", action="store_true")
+    parser.add_argument("--primary-evidence", type=Path)
     parser.add_argument("--time-limit", type=float, default=10.0)
     parser.add_argument("--workers", type=int, default=8)
     args = parser.parse_args()

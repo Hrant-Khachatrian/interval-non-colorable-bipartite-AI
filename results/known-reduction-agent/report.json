@@ -1,0 +1,36 @@
+{
+  "scope": {
+    "sources": [
+      "Q1-00012",
+      "Q1-00014"
+    ],
+    "max_degree_cap": 10,
+    "minimum_degree": 2,
+    "families": [
+      "vertex",
+      "edge_cap",
+      "vertex_edge_cap"
+    ],
+    "primary": "rank-potential-cpsat",
+    "negative_confirmation": "fixed-span-sat across every legal span delta..n-1"
+  },
+  "elapsed_seconds": 5.1324756145477295,
+  "generated": {
+    "vertex": 38,
+    "edge_cap": 22,
+    "vertex_edge_cap": 154
+  },
+  "rejected_invalid": {
+    "vertex_edge_cap": 40,
+    "vertex": 2
+  },
+  "unique": 48,
+  "classified": 48,
+  "counts": {
+    "colorable": 48,
+    "non-colorable": 0,
+    "timeout": 0,
+    "primary-disagreement": 0
+  },
+  "negative_count": 0
+}

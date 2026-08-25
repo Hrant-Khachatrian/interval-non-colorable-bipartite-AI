@@ -1,0 +1,30 @@
+{
+  "audit_pass": false,
+  "checkpoint_hashes_all_in_report": true,
+  "checkpoint_report_overlap_count": 244,
+  "checkpoint_row_count": 244,
+  "checkpoint_state": "results/degree-transfer-delta10-extension-state.jsonl",
+  "count_mismatches": {
+    "colorable": {
+      "recomputed": 3000,
+      "report": 2756
+    }
+  },
+  "decision_counts": {
+    "colorable": 3000
+  },
+  "elapsed_seconds": 627.8312194199971,
+  "missing_fields": [],
+  "primary_oracle_mismatches": [],
+  "record_count": 3000,
+  "report": "results/degree-transfer-delta10-extension-resumed.json",
+  "reran_primary": true,
+  "schema": "degree-transfer-delta10-audit-v1",
+  "state": "results/degree-transfer-delta10-extension-resumed-state.jsonl",
+  "state_hashes_all_in_report": true,
+  "state_report_overlap_count": 2756,
+  "state_row_count": 2756,
+  "structural_or_hash_mismatches": [],
+  "unique_report_hashes": 3000,
+  "unique_report_signatures": 3000
+}

@@ -1,97 +1,233 @@
 {
-  "artifact_state": "awaiting_root_classification",
-  "dataset": "order16-7x9",
-  "schema_version": 1,
-  "timestamp_utc": "2026-08-25T02:32:00Z",
-  "expected_total": 3604370591,
-  "generation": {
-    "job_id": 228779,
-    "state": "COMPLETED",
-    "elapsed": "02:38:48",
-    "output_file": "/mnt/weka/hrant/interval-search/data/order16-7x9-d2to11.g6",
-    "output_bytes": 79296153002,
-    "line_count_verified": true,
-    "independent_line_count_passes": 2,
-    "line_count": 3604370591,
-    "sha256": "902e940b2af30043d2a757e2825c0b274a2dd769465313eba533e66fe2dc5270"
+  "artifact_state": "root_batch0_pending_audit_planning",
+  "audit": {
+    "chunks_audited": 0,
+    "chunks_expected": 8192,
+    "classified_unique_indices": 0,
+    "coverage_complete": false,
+    "last_queue_check_utc": "2026-08-25T06:12:18Z",
+    "mode": "incremental_read_only",
+    "remaining_records": 3604370591,
+    "script": "cluster/order16-7x9-audit.py",
+    "stable_file_grace_seconds": 120,
+    "state_file": "/mnt/weka/hrant/interval-search/results/order16-7x9/.worker-audit-state.json"
   },
+  "audit_note": "results/order16-7x9-audit-note.md",
   "classification": {
-    "script": "cluster/search_class_chunks.sh",
-    "owner": "root",
-    "worker_may_submit_classification": false,
-    "run": "order16-7x9",
+    "chunk_size": 439987,
+    "chunks": 8192,
+    "cpus_per_task": 4,
+    "estimated_record_output_gib_at_250_bytes": 839.21,
+    "existing_user_queue_pending_ranges": 1,
+    "existing_user_queue_running_tasks": 123,
+    "filesystem_free_tib": 29,
+    "gres": "cpuonly:4",
+    "input": "data/order16-7x9-d2to11.g6",
+    "input_copy_gib": 73.85,
+    "memory": "12G",
     "n1": 7,
     "n2": 9,
-    "input": "data/order16-7x9-d2to11.g6",
-    "total": 3604370591,
-    "chunks": 8192,
-    "chunk_size": 439987,
-    "partition": "research_cpu",
-    "qos": "researcher",
-    "gres": "cpuonly:4",
-    "cpus_per_task": 4,
-    "memory": "12G",
-    "time_limit_seconds_per_record": 10,
-    "walltime": "24:00:00",
-    "root_stated_first_batch": "0-1499%150",
     "observed_array_job_id": 228989,
-    "observed_batch_utc": "2026-08-25T02:31:49Z",
     "observed_batch": "0-999%150",
-    "observed_state": "PENDING",
+    "observed_batch_utc": "2026-08-25T06:12:18Z",
     "observed_queued_elements": 1000,
     "observed_running_elements": 0,
-    "worker_submitted": false,
+    "observed_state": "PENDING",
+    "owner": "root",
+    "partition": "research_cpu",
+    "qos": "researcher",
+    "root_stated_first_batch": "0-1499%150",
+    "run": "order16-7x9",
+    "script": "cluster/search_class_chunks.sh",
     "storage_assessment_utc": "2026-08-24T23:55:00Z",
-    "filesystem_free_tib": 29,
-    "input_copy_gib": 73.85,
-    "estimated_record_output_gib_at_250_bytes": 839.21,
-    "existing_user_queue_running_tasks": 123,
-    "existing_user_queue_pending_ranges": 1
-  },
-  "worker_shard_preparation": {
-    "state": "withdrawn_from_submission_plan",
-    "note": "prepared_before_root_ownership_message; not_used_by_root_contiguous_chunks",
-    "files": 3072,
-    "total_lines": 3604370591
-  },
-  "pilots": {
-    "state": "canceled_before_start",
-    "last_queue_state_utc": "2026-08-25T01:00:37Z",
-    "cancel_reason": "root_assumed_classification_and_worker_scope_is_audits_status_only",
-    "records_per_shard": 2000,
     "time_limit_seconds_per_record": 10,
-    "job_ids": [228948, 228949, 228950],
-    "shard_ids": [307, 1536, 2764],
-    "purpose": "measure_runtime_and_output_bytes_before_staged_submission"
+    "total": 3604370591,
+    "walltime": "24:00:00",
+    "worker_may_submit_classification": false,
+    "worker_submitted": false
   },
-  "rerun_policy": {
-    "timeout_counts_as_noncolorable": false,
-    "rerun_limit_seconds": 3600,
-    "rerun_scope": "failed_and_timeout_records_exactly"
-  },
-  "negative_verification_policy": {
-    "primary_negative_requires_independent_confirmation": true,
-    "confirmation_scope": "all_legal_spans",
-    "confirmed_negative_certificates": []
-  },
-    "audit": {
-    "mode": "incremental_read_only",
-    "script": "cluster/order16-7x9-audit.py",
-    "state_file": "/mnt/weka/hrant/interval-search/results/order16-7x9/.worker-audit-state.json",
-    "stable_file_grace_seconds": 120,
-    "last_queue_check_utc": "2026-08-25T02:31:49Z",
-    "chunks_expected": 8192,
-    "chunks_audited": 0,
-    "classified_unique_indices": 0,
-    "remaining_records": 3604370591,
-    "coverage_complete": false
-  },
-  "results_directory_created": true,
   "counts": {
-    "input_lines": 3604370591,
     "classified_rows": null,
     "colorable": null,
-    "verified_noncolorable": null,
-    "timeout_unresolved": null
+    "input_lines": 3604370591,
+    "timeout_unresolved": null,
+    "verified_noncolorable": null
+  },
+  "dataset": "order16-7x9",
+  "expected_total": 3604370591,
+  "generation": {
+    "elapsed": "02:38:48",
+    "independent_line_count_passes": 2,
+    "job_id": 228779,
+    "line_count": 3604370591,
+    "line_count_verified": true,
+    "output_bytes": 79296153002,
+    "output_file": "/mnt/weka/hrant/interval-search/data/order16-7x9-d2to11.g6",
+    "sha256": "902e940b2af30043d2a757e2825c0b274a2dd769465313eba533e66fe2dc5270",
+    "state": "COMPLETED"
+  },
+  "later_batches_1000_8191_plan": {
+    "array_throttle": 150,
+    "cpus_per_task": 4,
+    "dependency": "after_previous_stage_audits_clean",
+    "gres": "cpuonly:4",
+    "memory": "12G",
+    "owner": "root",
+    "recommended_stage_size": 1000,
+    "stage_boundaries": [
+      1000,
+      1999,
+      2000,
+      2999,
+      3000,
+      3999,
+      4000,
+      4999,
+      5000,
+      5999,
+      6000,
+      6999,
+      7000,
+      7999,
+      8000,
+      8191
+    ],
+    "stage_wall_hours_conservative": [
+      34.72,
+      34.72,
+      34.72,
+      34.72,
+      34.72,
+      34.72,
+      34.72,
+      9.92
+    ],
+    "status": "ready_for_root_review",
+    "walltime": "24:00:00",
+    "worker_may_submit": false
+  },
+  "negative_verification_policy": {
+    "confirmation_scope": "all_legal_spans",
+    "confirmed_negative_certificates": [],
+    "primary_negative_requires_independent_confirmation": true
+  },
+  "partition_validation": {
+    "chunk_size": 439987,
+    "chunks": 8192,
+    "contiguous_no_overlap_or_gap": true,
+    "covered_records": 3604370591,
+    "exact_partition": true,
+    "first_range": [
+      0,
+      439986
+    ],
+    "last_chunk_id": 8191,
+    "last_count": 437074,
+    "last_range": [
+      3603933517,
+      3604370590
+    ],
+    "validated_utc": "2026-08-25T06:00:49Z"
+  },
+  "pilots": {
+    "cancel_reason": "root_assumed_classification_and_worker_scope_is_audits_status_only",
+    "job_ids": [
+      228948,
+      228949,
+      228950
+    ],
+    "last_queue_state_utc": "2026-08-25T01:00:37Z",
+    "purpose": "measure_runtime_and_output_bytes_before_staged_submission",
+    "records_per_shard": 2000,
+    "shard_ids": [
+      307,
+      1536,
+      2764
+    ],
+    "state": "canceled_before_start",
+    "time_limit_seconds_per_record": 10
+  },
+  "queue_impact": {
+    "estimated_batch0_total_hours_including_run": {
+      "density_multiplier_1.0": 27.1,
+      "density_multiplier_1.25": 33.8,
+      "density_multiplier_1.5_conservative": 40.5,
+      "density_multiplier_2.0": 54.0
+    },
+    "estimated_start_delay_hours": {
+      "density_multiplier_1.25": 4.8,
+      "density_multiplier_1.5_conservative": 5.8,
+      "density_multiplier_2.0": 7.8,
+      "observed_snapshot_density_multiplier_1.0": 3.9
+    },
+    "latest_observed_7x9_pending_ranges": 1,
+    "latest_observed_7x9_running": 0,
+    "latest_observed_order16_6x10_pending_ranges": 1,
+    "latest_observed_order16_6x10_running": 149,
+    "latest_snapshot_utc": "2026-08-25T06:20:50Z",
+    "observed_pending": 177,
+    "observed_running": 149,
+    "order16_6x10_job": "228788",
+    "queue_delay_model": "150-slot homogeneous service; conservative Little-law completion of all ahead before first 7x9 start",
+    "root_reported_pending": 334,
+    "root_reported_running": 333,
+    "root_reported_scenario_start_delay_hours": {
+      "density_multiplier_1.0": 11.4,
+      "density_multiplier_1.25": 14.2,
+      "density_multiplier_1.5_conservative": 17.1,
+      "density_multiplier_2.0": 22.8
+    },
+    "root_reported_scenario_total_hours": {
+      "density_multiplier_1.0": 34.6,
+      "density_multiplier_1.25": 43.1,
+      "density_multiplier_1.5_conservative": 51.8,
+      "density_multiplier_2.0": 69.1
+    },
+    "snapshot_utc": "2026-08-25T06:12:18Z"
+  },
+  "rerun_policy": {
+    "rerun_limit_seconds": 3600,
+    "rerun_scope": "failed_and_timeout_records_exactly",
+    "timeout_counts_as_noncolorable": false
+  },
+  "results_directory_created": true,
+  "schema_version": 2,
+  "throughput_and_feasibility": {
+    "all_completed_jobs_seen": 187,
+    "baseline_source": "order16-6x10 job 228788; 12 evenly sampled COMPLETED chunks",
+    "chunks_1000_8191_serial_equivalent_wall_hours_at_150_slots": {
+      "baseline_multiplier_1_0": 158.55,
+      "conservative_multiplier_1_5": 237.83,
+      "density_multiplier_1_25": 198.19,
+      "high_uncertainty_multiplier_2_0": 317.11
+    },
+    "contiguous_input_scan_total_tib_all_8192_tasks": 295.37,
+    "density_multiplier_1_25_hours": 4.13,
+    "density_multiplier_1_5_hours": 4.96,
+    "density_multiplier_2_hours": 6.61,
+    "files_present_including_partial": 336,
+    "filesystem_free_tib_at_assessment": 28,
+    "late_stage_150_task_skip_reads_tib": {
+      "chunks_6000_6149": 8.02,
+      "chunks_7500_7649": 10.0
+    },
+    "mean_output_bytes_per_record": 244.43,
+    "mean_rows_per_task_hour": 133052.9,
+    "median_rows_per_task_hour": 137270.0,
+    "order16_7x9_per_chunk_baseline_hours": 3.31,
+    "projected_all_records_output_gib": 820.51,
+    "recommended_storage_reserve_gib": 1026,
+    "recommended_walltime_for_439987_record_chunk": "24:00:00",
+    "sample_max_elapsed_hours": 5.374,
+    "sample_mean_elapsed_hours": 4.356,
+    "sample_utc": "2026-08-25T06:16:00Z",
+    "sampled_completed_jobs": 187
+  },
+  "timestamp_utc": "2026-08-25T06:20:50Z",
+  "worker_shard_preparation": {
+    "files": 3072,
+    "note": "prepared_before_root_ownership_message; not_used_by_root_contiguous_chunks",
+    "state": "withdrawn_from_submission_plan",
+    "total_lines": 3604370591
   }
 }

@@ -60,6 +60,16 @@ def atomic_json(path: Path, value: dict) -> None:
             pass
 
 
+def append_json_line(path: Path, value: dict) -> None:
+    """Durably record completed work without rewriting prior classifications."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as handle:
+        json.dump(value, handle, sort_keys=True)
+        handle.write("\n")
+        handle.flush()
+        os.fsync(handle.fileno())
+
+
 def graph_metrics(graph: Graph) -> dict:
     adjacency = graph.adjacency()
     graph.adjacency = lambda: adjacency
@@ -366,11 +376,13 @@ def generate_candidates(args):
             )
         )
     ranked.sort(key=lambda item: item[:5])
-    selected = ranked[: args.candidate_cap]
+    retained = ranked[: args.candidate_cap]
+    selected = retained[args.rank_start :]
     args._selected_count = len(selected)
     generated_lanes = collections.Counter(
         item.metadata["lane"] for item in unique.values()
     )
+    raw_lanes = collections.Counter(item.metadata["lane"] for item in raw)
     selected_lanes = collections.Counter(
         item[-2].metadata["lane"] for item in selected
     )
@@ -380,8 +392,11 @@ def generate_candidates(args):
         "unique_after_nauty": len(unique),
         "rejected_by_filters": rejected_filters,
         "duplicates_removed": len(raw) - rejected_filters - len(unique),
+        "ranked_candidates": len(ranked),
+        "retained_candidate_count": len(retained),
+        "rank_window_zero_based": [args.rank_start, args.rank_start + len(selected)],
     }
-    return selected, generated_lanes, selected_lanes, diagnostics
+    return selected, raw_lanes, generated_lanes, selected_lanes, diagnostics
 
 
 def confirm_negative(graph: Graph, span_limit: float, workers: int):
@@ -505,7 +520,7 @@ def classify_one(task: dict) -> dict:
     return row
 
 
-def make_report(args, diagnostics, generated_lanes, selected_lanes, rows, counts, stopped_reason, negative_events, started, complete):
+def make_report(args, diagnostics, raw_lanes, generated_lanes, selected_lanes, rows, counts, stopped_reason, negative_events, started, complete):
     classified = len(rows)
     return {
         "schema_version": 1,
@@ -519,6 +534,12 @@ def make_report(args, diagnostics, generated_lanes, selected_lanes, rows, counts
             "primary_time_limit_seconds": args.primary_time_limit,
             "retained_candidate_cap": args.candidate_cap,
             "classification_cap": min(args.classify_cap, args.candidate_cap),
+            "rank_start_zero_based": args.rank_start,
+            "rank_window_one_based": [args.rank_start + 1, args.candidate_cap],
+            "classification_rank_window_one_based": [
+                args.rank_start + 1,
+                min(args.candidate_cap, args.rank_start + args.classify_cap),
+            ],
             "independent_confirmation": "fixed-span CP-SAT over every legal span",
             "span_time_limit_seconds": args.span_time_limit,
             "timeout_policy": "UNKNOWN is unresolved and is never counted non-colorable",
@@ -535,6 +556,7 @@ def make_report(args, diagnostics, generated_lanes, selected_lanes, rows, counts
         },
         "generation": {
             **diagnostics,
+            "generated_raw_by_lane": dict(sorted(raw_lanes.items())),
             "unique_ranked_by_lane": dict(sorted(generated_lanes.items())),
             "selected_by_lane": dict(sorted(selected_lanes.items())),
         },
@@ -567,6 +589,32 @@ def make_report(args, diagnostics, generated_lanes, selected_lanes, rows, counts
     }
 
 
+def compact_status(report: dict) -> dict:
+    """Keep a small, frequently refreshed status beside the full checkpoint."""
+    return {
+        "schema_version": report["schema_version"],
+        "goal": report["goal"],
+        "completion": report["completion"],
+        "completion_details": report["completion_details"],
+        "elapsed_seconds": report["elapsed_seconds"],
+        "configuration": {
+            key: report["configuration"][key]
+            for key in (
+                "lanes_requested",
+                "rank_window_one_based",
+                "classification_rank_window_one_based",
+                "primary_solver",
+                "primary_time_limit_seconds",
+                "span_time_limit_seconds",
+                "filters",
+            )
+        },
+        "generation": report["generation"],
+        "counts": report["counts"],
+        "negative_events": report["negative_events"],
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=Path("results/order18-targeted-search.json"))
@@ -584,6 +632,12 @@ def main() -> None:
         default="all",
     )
     parser.add_argument("--candidate-cap", type=int, default=2000)
+    parser.add_argument(
+        "--rank-start",
+        type=int,
+        default=0,
+        help="Zero-based offset into the deterministically ranked retained queue.",
+    )
     parser.add_argument("--classify-cap", type=int, default=500)
     parser.add_argument("--max-processes", type=int, default=3)
     parser.add_argument("--solver-workers", type=int, default=2)
@@ -596,6 +650,16 @@ def main() -> None:
     parser.add_argument("--skip-minimality", action="store_true")
     parser.add_argument("--minimality-time-limit", type=float, default=3.0)
     parser.add_argument("--deadline-seconds", type=float, default=3600.0)
+    parser.add_argument(
+        "--events-path",
+        type=Path,
+        help="Append-only JSONL log for generation and per-candidate completion events.",
+    )
+    parser.add_argument(
+        "--status-path",
+        type=Path,
+        help="Small atomically refreshed summary written alongside the full checkpoint.",
+    )
     args = parser.parse_args()
 
     run_started = time.monotonic()
@@ -605,6 +669,7 @@ def main() -> None:
     stopped_reason = "all_selected_classified"
     interrupted = False
     selected: list = []
+    raw_lanes = collections.Counter()
     generated_lanes = collections.Counter()
     selected_lanes = collections.Counter()
     diagnostics = {
@@ -616,9 +681,19 @@ def main() -> None:
     }
     executor = concurrent.futures.ProcessPoolExecutor(max_workers=args.max_processes)
     try:
+        if args.rank_start < 0 or args.rank_start >= args.candidate_cap:
+            raise ValueError("rank-start must be in [0, candidate-cap)")
+        if args.events_path:
+            append_json_line(args.events_path, {
+                "event": "run_started",
+                "candidate_cap": args.candidate_cap,
+                "rank_start_zero_based": args.rank_start,
+                "lanes": args.lanes,
+            })
         initial = make_report(
             args,
             diagnostics,
+            raw_lanes,
             generated_lanes,
             selected_lanes,
             rows,
@@ -630,10 +705,13 @@ def main() -> None:
         )
         atomic_json(args.output.with_suffix(".checkpoint.json"), initial)
         atomic_json(args.output, initial)
+        if args.status_path:
+            atomic_json(args.status_path, compact_status(initial))
         print(json.dumps({"phase": "generation_started"}), flush=True)
 
         (
             selected,
+            raw_lanes,
             generated_lanes,
             selected_lanes,
             diagnostics,
@@ -641,6 +719,7 @@ def main() -> None:
         generation_complete = make_report(
             args,
             diagnostics,
+            raw_lanes,
             generated_lanes,
             selected_lanes,
             rows,
@@ -652,6 +731,8 @@ def main() -> None:
         )
         atomic_json(args.output.with_suffix(".checkpoint.json"), generation_complete)
         atomic_json(args.output, generation_complete)
+        if args.status_path:
+            atomic_json(args.status_path, compact_status(generation_complete))
         print(json.dumps({"phase": "classification_started", **diagnostics}), flush=True)
 
         futures = {}
@@ -659,7 +740,8 @@ def main() -> None:
             selected[: min(args.classify_cap, len(selected))]
         ):
             task = {
-                "candidate_id": f"O18-{number:05d}",
+                "candidate_id": f"O18-R{args.rank_start + number + 1:05d}",
+                "rank": args.rank_start + number + 1,
                 "canonical_sha256": digest,
                 "graph": graph.to_json(),
                 "primary_time_limit": args.primary_time_limit,
@@ -678,11 +760,16 @@ def main() -> None:
                 interrupted = True
                 break
             rows.append(row)
+            row["rank"] = task["rank"]
             counts[row["status"]] += 1
             if row["primary_status"] == "non-colorable":
                 counts["primary_noncolorable"] += 1
-            checkpoint = make_report(args, diagnostics, generated_lanes, selected_lanes, rows, counts, stopped_reason, negative_events, run_started, complete=False)
+            if args.events_path:
+                append_json_line(args.events_path, {"event": "classification_completed", "row": row})
+            checkpoint = make_report(args, diagnostics, raw_lanes, generated_lanes, selected_lanes, rows, counts, stopped_reason, negative_events, run_started, complete=False)
             atomic_json(args.output.with_suffix(".checkpoint.json"), checkpoint)
+            if args.status_path:
+                atomic_json(args.status_path, compact_status(checkpoint))
             print(json.dumps({"completed": len(rows), "total": len(selected), "counts": dict(counts)}), flush=True)
             if row["status"] == "confirmed_non_colorable":
                 path = args.negative_dir / f"{row['candidate_id']}.graph.json"
@@ -705,6 +792,7 @@ def main() -> None:
             report = make_report(
                 args,
                 diagnostics,
+                raw_lanes,
                 generated_lanes,
                 selected_lanes,
                 rows,
@@ -715,6 +803,8 @@ def main() -> None:
                 complete=not interrupted and stopped_reason == "all_selected_classified",
             )
             atomic_json(args.output, report)
+            if args.status_path:
+                atomic_json(args.status_path, compact_status(report))
         except Exception as report_exc:
             print(json.dumps({"report_error": str(report_exc)}), flush=True)
             raise

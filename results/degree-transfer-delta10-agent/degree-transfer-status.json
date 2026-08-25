@@ -1,0 +1,261 @@
+{
+  "audit": {
+    "baseline_plus_completed_extension_certificates": 6495,
+    "completed_extension_audit": "results/degree-transfer-delta10-agent/completed-extension-audit-reconciled.json",
+    "completed_extension_audit_pass": true,
+    "completed_extension_resumed_rows": 2756,
+    "recovered_checkpoint_rows": 244
+  },
+  "pilot": {
+    "all_simple_connected_bipartite_hash_checks_passed": true,
+    "all_structural_claims_present": true,
+    "classified": 1000,
+    "colorable": 1000,
+    "complete": true,
+    "deduplicated": 14077,
+    "fresh_terminal_motifs": [
+      "rooted_C12",
+      "rooted_theta_3x4",
+      "rooted_theta_4x4",
+      "rooted_K_2_5",
+      "rooted_K_3_5",
+      "three_rooted_C4_blocks"
+    ],
+    "generated": 15077,
+    "maximum_delta": 10,
+    "minimum_degree": 2,
+    "non_colorable": 0,
+    "parent": "M5_delta_555",
+    "replayed_simple_connected_bipartite_hash_checks": 1000,
+    "report": "results/degree-transfer-delta10-agent/fresh-motifs-m5-pilot.json",
+    "seed_certificate_count": 11647,
+    "seed_overlap_count": 0,
+    "stop": "unique_cap",
+    "strongest_near_misses": [
+      {
+        "canonical_sha256": "32:30:64b6ccc6abd231054e6ff591f952adc5aa73b4c4a133930dbc2d5b6013f5592b",
+        "delta": 10,
+        "fresh_motifs": [
+          "three_rooted_C4_blocks",
+          "rooted_C12",
+          "rooted_C12",
+          "rooted_K_2_5",
+          "rooted_K_2_5"
+        ],
+        "minimum_degree": 2,
+        "order": 62,
+        "primary_span": 22,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 96
+      },
+      {
+        "canonical_sha256": "34:29:b33c0264816a733be260fc9192c578092ec1929d2d34dd4145d7f4acd2e2cb2d",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_theta_4x4",
+          "rooted_K_2_5",
+          "rooted_K_3_5",
+          "three_rooted_C4_blocks",
+          "three_rooted_C4_blocks"
+        ],
+        "minimum_degree": 2,
+        "order": 63,
+        "primary_span": 22,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 105
+      },
+      {
+        "canonical_sha256": "36:37:82008f30594ab6a8c17d674b352cb20058fe4203dc5aa5149db20f4795d077c2",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_C12",
+          "rooted_theta_3x4",
+          "rooted_theta_3x4",
+          "rooted_theta_3x4",
+          "rooted_theta_4x4"
+        ],
+        "minimum_degree": 2,
+        "order": 73,
+        "primary_span": 22,
+        "selected_parent_edges": [
+          30,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 104
+      },
+      {
+        "canonical_sha256": "34:32:9e99ae1e2454b8ffca82f1fc7cc3626da13d4869009bae538b3768f8f812d300",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_K_3_5",
+          "rooted_C12",
+          "rooted_theta_4x4",
+          "rooted_K_3_5",
+          "three_rooted_C4_blocks"
+        ],
+        "minimum_degree": 2,
+        "order": 66,
+        "primary_span": 21,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 110
+      },
+      {
+        "canonical_sha256": "36:33:ddad6fccff7b1351e7a4b71807ad84be6fc37da98f292709d6cac5f79b006d65",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_theta_3x4",
+          "rooted_theta_4x4",
+          "three_rooted_C4_blocks",
+          "three_rooted_C4_blocks",
+          "three_rooted_C4_blocks"
+        ],
+        "minimum_degree": 2,
+        "order": 69,
+        "primary_span": 21,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 104
+      },
+      {
+        "canonical_sha256": "35:34:9a2bf82badcfcc76a0ea3b6951b56fc6f663c9a1c4f95d96a3f43dd391131028",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_K_3_5",
+          "rooted_theta_3x4",
+          "rooted_theta_3x4",
+          "rooted_theta_3x4",
+          "rooted_theta_4x4"
+        ],
+        "minimum_degree": 2,
+        "order": 69,
+        "primary_span": 21,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 107
+      },
+      {
+        "canonical_sha256": "38:36:83f637371f34bd2441acfd2ed591a3dbe6a764c5f54eb0cfe9591ffcce1b17dc",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_theta_4x4",
+          "rooted_C12",
+          "rooted_theta_4x4",
+          "three_rooted_C4_blocks",
+          "three_rooted_C4_blocks"
+        ],
+        "minimum_degree": 2,
+        "order": 74,
+        "primary_span": 21,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 108
+      },
+      {
+        "canonical_sha256": "30:24:600de3c7c25f062004ab9384513fbe6996969ae7e9fdb196fc6e6614a791ed63",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_theta_3x4",
+          "rooted_K_2_5",
+          "rooted_K_2_5",
+          "rooted_K_2_5",
+          "rooted_K_3_5"
+        ],
+        "minimum_degree": 2,
+        "order": 54,
+        "primary_span": 20,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 97
+      },
+      {
+        "canonical_sha256": "30:27:5f45f6487327778989889d00db1e47e16f9c92e8d4e58188d833161a9d227108",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_K_2_5",
+          "rooted_C12",
+          "rooted_K_3_5",
+          "rooted_K_3_5",
+          "rooted_K_3_5"
+        ],
+        "minimum_degree": 2,
+        "order": 57,
+        "primary_span": 20,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 107
+      },
+      {
+        "canonical_sha256": "31:28:d70a080fe46f4897f0e9121de62a3a35b6b4995ea716f8aa934519cb603b4bba",
+        "delta": 10,
+        "fresh_motifs": [
+          "rooted_K_2_5",
+          "rooted_C12",
+          "rooted_K_3_5",
+          "rooted_K_3_5",
+          "three_rooted_C4_blocks"
+        ],
+        "minimum_degree": 2,
+        "order": 59,
+        "primary_span": 20,
+        "selected_parent_edges": [
+          27,
+          33,
+          36,
+          39,
+          42
+        ],
+        "size": 104
+      }
+    ],
+    "timeout": 0,
+    "unique": 1000,
+    "unique_output_hashes": 1000
+  },
+  "schema": "degree-transfer-delta10-fresh-motifs-status-v1"
+}

@@ -1,38 +1,30 @@
 {
   "run": "order16-8x8",
-  "schema_version": 2,
-  "updated_at": "2026-08-25T10:04:31+04:00",
+  "schema_version": 3,
+  "updated_at": "2026-08-25T10:16:19+04:00",
   "generation": {
     "job_id": 229085,
     "prior_job_id": 228780,
     "state": "RUNNING",
     "time_limit": "24:00:00",
-    "elapsed": "02:53:06",
+    "elapsed": "03:04:54",
     "node": "gpu04",
     "output": "/mnt/weka/hrant/interval-search/data/order16-8x8-d2to11.g6",
-    "output_bytes": 102961876992,
-    "output_mtime": 1787637868,
-    "output_size_mod_22": null,
+    "output_bytes": 107571290112,
+    "output_mtime": 1787638569,
+    "output_size_mod_22": 0,
     "fixed_width_records": true,
     "record_width_bytes": 22
   },
   "stale_estimate": {
     "value": 159757218,
     "status": "invalid_stale_estimate",
-    "evidence": "Partial job 228780 already contained 4707971072 records; the corrected 7+9 census also superseded its local timeout-derived estimate."
+    "evidence": "partial job 228780 produced 4707971072 records before timeout; corrected 7+9 also superseded its local estimate"
   },
   "verification": {
     "line_count": null,
     "sha256": null,
     "state": "deferred_until_generator_closes"
-  },
-  "classification_policy": {
-    "submitted_job_id": null,
-    "state": "blocked_pending_verified_census",
-    "timeouts_count_as_negative": false,
-    "timeout_rerun_limit_seconds": 3600,
-    "primary_negative_requires_independent_confirmation": true,
-    "confirmation_scope": "all_legal_spans"
   },
   "history": {
     "prior_partial_228780": {
@@ -43,19 +35,51 @@
       "outcome": "scheduler_timeout_preserved_not_final"
     }
   },
-  "obsolete_expected_total": {
-    "value": 159757218,
-    "status": "invalid_stale_estimate",
-    "evidence": "Partial job 228780 already contained 4707971072 records; prior dense-split local estimates were also invalidated."
-  },
-
-  "classification_submission": {
-    "submitted_job_id": null,
-    "state": "blocked_pending_verified_census"
-  },
   "notes": [
     "Line count and SHA256 are deferred until generation completes.",
     "Timeouts remain unresolved and require exact one-hour-limit reruns.",
     "Primary negatives must be independently confirmed across all legal spans."
+  ],
+  "provisional_census_estimate": {
+    "status": "PROVISIONAL_NOT_FINAL",
+    "method": "file_size divided by independently sampled fixed-width graph6 records",
+    "record_width_bytes": 22,
+    "complete_records_in_snapshot": 4889604096,
+    "lower_bound_records": 4889604096,
+    "upper_bound_records": 4889604097,
+    "width_validation": {
+      "sampled_records": 257,
+      "bad_records": 0,
+      "invariant": "record starts with O, ends with LF, and is 22 bytes"
+    },
+    "caveat": "writer remains active; a live byte snapshot may include a buffered partial record, so this is not the final census"
+  },
+  "dependent_jobs": {
+    "finalization_job_id": 229204,
+    "finalization_dependency": "afterok:229085",
+    "timeout_preservation_job_id": 229205,
+    "timeout_preservation_dependency": "afternotok:229085",
+    "state": "PENDING_DEPENDENCY"
+  },
+  "capacity_at_observation": {
+    "filesystem_avail_bytes": 30670612983808,
+    "filesystem_avail_tib": 27.894760008901358,
+    "assessment": "sufficient for final graph6, physical staging shards, and JSONL result growth"
+  },
+  "classification": {
+    "submitted_job_id": null,
+    "state": "blocked_pending_verified_census_and_shard_plan",
+    "timeouts_count_as_negative": false,
+    "timeout_rerun_limit_seconds": 3600,
+    "primary_negative_requires_independent_confirmation": true,
+    "confirmation_scope": "all_legal_spans"
+  },
+  "observations": [
+    {
+      "id": "fixed_width_sample",
+      "sampled_records": 257,
+      "bad_records": 0,
+      "result": "every sampled record begins with O, ends with LF, and is 22 bytes"
+    }
   ]
 }

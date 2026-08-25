@@ -48,6 +48,8 @@ def main() -> None:
                         help="first graph6 line to classify when using --input")
     parser.add_argument("--stop-index", type=int,
                         help="exclusive last graph6 line to classify when using --input")
+    parser.add_argument("--index-offset", type=int, default=0,
+                        help="global index of the first record in a pre-sharded input")
     args = parser.parse_args()
 
     output_path = Path(args.output)
@@ -87,7 +89,7 @@ def main() -> None:
     with output_path.open("a") as out:
         with input_stream:
             for offset, line in enumerate(input_stream):
-                index = offset if args.start_index is None else args.start_index + offset
+                index = (offset if args.start_index is None else args.start_index + offset) + args.index_offset
                 if (
                     args.start_index is None
                     and args.mod != 1
@@ -141,6 +143,7 @@ def main() -> None:
         "n2": args.n2,
         "edge_range": [args.min_edges, args.max_edges],
         "residue": [args.res, args.mod],
+        "index_offset": args.index_offset,
         "input": str(args.input) if args.input else None,
         "index_range": (
             [args.start_index, args.stop_index]

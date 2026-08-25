@@ -646,6 +646,7 @@ def search_root(
         graph = candidate.graph
         if graph is None:
             continue
+        counters.generated += 1
         if graph.delta > MAXIMUM_DELTA:
             counters.rejected_degree_cap += 1
             continue
@@ -670,7 +671,9 @@ def search_root(
             )
         )
 
-    selected = [candidate for candidate in candidates if candidate.features["high_margin"]]
+    # The focused run classifies every accepted unique graph.  The high-margin
+    # count remains as the stricter structural-screen diagnostic.
+    selected = list(candidates)
     counters.high_margin_unique = len(selected)
     selected.sort(key=ranking_key)
     counters.selected_for_classification = len(selected)
@@ -686,7 +689,7 @@ def search_root(
             configuration(args),
             [],
             [*completed_summaries, summary],
-            [*records, *( [latest_record] if latest_record else [] )],
+            ([*records, latest_record] if latest_record else records)[-max(0, args.checkpoint_record_window):],
             negatives,
             time.monotonic() - started,
             state,

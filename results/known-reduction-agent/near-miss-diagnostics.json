@@ -1,0 +1,3646 @@
+[
+  {
+    "candidate_id": "KR-0012",
+    "order": 18,
+    "size": 23,
+    "delta": 4,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 5,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "u"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 11,
+        "margin": -8,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 11,
+        "margin": -8,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 11,
+        "margin": -8,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0033",
+    "order": 18,
+    "size": 23,
+    "delta": 4,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 6,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "u"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 11,
+        "margin": -8,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 11,
+        "margin": -8,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C4",
+        "degree": 2,
+        "weighted_neighbor_diameter": 10,
+        "margin": -9,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0000",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0002",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0006",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C8",
+        "degree": 2,
+        "weighted_neighbor_diameter": 12,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0007",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0010",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0018",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0025",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0028",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 12,
+        "margin": -3,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V1_6",
+        "degree": 3,
+        "weighted_neighbor_diameter": 13,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0003",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 14,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0005",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 14,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 3,
+        "weighted_neighbor_diameter": 13,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0008",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C2",
+        "degree": 3,
+        "weighted_neighbor_diameter": 13,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0011",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C4",
+        "degree": 2,
+        "weighted_neighbor_diameter": 11,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0013",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 2,
+        "weighted_neighbor_diameter": 11,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0015",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C4",
+        "degree": 2,
+        "weighted_neighbor_diameter": 12,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0017",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 14,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0019",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0020",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0024",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0026",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 13,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 3,
+        "weighted_neighbor_diameter": 13,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0027",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 14,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0029",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 14,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0039",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C0&C1"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0009",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0014",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 14,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0032",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 14,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0034",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C4"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C5"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C8"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C9"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0035",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C1"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C2"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C3"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C5"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C4",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0036",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C2"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C3"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 12,
+        "margin": -3,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0037",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C10"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C11"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0038",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C10"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C11"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C9"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0040",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0041",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0042",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0043",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 3,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0044",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0045",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0046",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C4",
+        "degree": 2,
+        "weighted_neighbor_diameter": 12,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0047",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 10,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 10,
+        "weighted_neighbor_diameter": 11,
+        "margin": -2,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 13,
+        "margin": -10,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0004",
+    "order": 18,
+    "size": 30,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 13,
+        "margin": -3,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0016",
+    "order": 18,
+    "size": 30,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 13,
+        "margin": -3,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0023",
+    "order": 18,
+    "size": 30,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 13,
+        "margin": -3,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "C0&C1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 15,
+        "margin": -12,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0021",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 14,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0022",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 14,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0030",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 14,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0031",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 14,
+        "margin": -4,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_3",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  },
+  {
+    "candidate_id": "KR-0001",
+    "order": 18,
+    "size": 32,
+    "delta": 11,
+    "minimum_degree": 2,
+    "classification": "colorable",
+    "colorable_span": 11,
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "weighted_hubs_best": [
+      {
+        "hub": "u",
+        "degree": 11,
+        "weighted_neighbor_diameter": 15,
+        "margin": -5,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_1",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      },
+      {
+        "hub": "V0_2",
+        "degree": 4,
+        "weighted_neighbor_diameter": 14,
+        "margin": -11,
+        "sufficient_obstruction": false
+      }
+    ]
+  }
+]

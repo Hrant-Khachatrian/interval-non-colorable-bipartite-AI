@@ -1,0 +1,4086 @@
+[
+  {
+    "candidate_id": "KR-0000",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "C1": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V1_6": 3,
+      "C11": 2,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:065c4783c60b9be5352fe48fa4939f00177ac5f1004a40053d1742a335f61412",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.09866770499502309,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 78,
+      "branches": 2207,
+      "wall_time": 0.08984765800000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0001",
+    "order": 18,
+    "size": 32,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_1": 4,
+      "V0_2": 4,
+      "u": 11,
+      "C1": 3,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:0c6ebdb4d5619aa77d4c5125fd44df92bac572b3b786f762bc0530665a13b456",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.1618437509969226,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 383,
+      "branches": 3362,
+      "wall_time": 0.15871895400000002
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0002",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 2,
+      "V1_5": 3,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:11b09f385dd4611f28223e2f8079164d0b30b0bb116621336b9a5d37fa6c7a4b",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.11673146799876122,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 87,
+      "branches": 2293,
+      "wall_time": 0.11351532700000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0003",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 2,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 3,
+      "C5": 2,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:13f594113acf6c1d7a84f81ca64a51bc70ae97b7df0fc1c0cfc2ef5e335a155b",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.15431501899729483,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 37,
+      "branches": 2301,
+      "wall_time": 0.151090904
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0004",
+    "order": 18,
+    "size": 30,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 11,
+      "C1": 2,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:14a1a7a78066cf64ac0408e33f58223f3bafe37250d5239c45bd758012354d29",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08237976000236813,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 74,
+      "branches": 2669,
+      "wall_time": 0.079452889
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0005",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:15790d99781375c94a7b7903bb1797d585217fe79abc9a02518e7947143a5ff2",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08110605799447512,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 64,
+      "branches": 2334,
+      "wall_time": 0.07883865100000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0006",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:1e6c79e7de5593a6642875a8b9e68523e53190eb8e6e6fd2de6baf04a0294d55",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07766917000117246,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 72,
+      "branches": 2185,
+      "wall_time": 0.075723494
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0007",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:1ede275de446aef3cb84e324f09bc8fa7449ca3aa20ed121558c784f390a09d0",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07484714499878464,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 55,
+      "branches": 2225,
+      "wall_time": 0.072316927
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0008",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "C1": 2,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 2,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:20cc973d63c359434c2302f130e723a0bccdcc164ebf8fdc3925fda103d23125",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07533789100125432,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 24,
+      "branches": 2290,
+      "wall_time": 0.072841599
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0009",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 2,
+      "V0_1": 4,
+      "V0_2": 4,
+      "C1": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:34449a7ef625ad487d3682b24be87ca8c9d7baae19a241e94c99a04cac10876e",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08895903200027533,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 75,
+      "branches": 2456,
+      "wall_time": 0.08571603800000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0010",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 3,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:46cfe4bf3b3b79e05876b4ed426292d0eab64c6d18c0780e775f2c521b6de8c1",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06865507900511147,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 6,
+      "branches": 2088,
+      "wall_time": 0.066762105
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0011",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C4": 2,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:4f1a98c88c17082840f2ea7431d00a55f989369a9a50e33f85936d2ccdf099d5",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06893172699346906,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 42,
+      "branches": 2266,
+      "wall_time": 0.066699537
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0012",
+    "order": 18,
+    "size": 23,
+    "delta": 4,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "C1": 2,
+      "V1_5": 3,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 2,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 2,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:680de659bb4c60a60f43df647a2957d36c076c615d91c5f18cf65486041233bd",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "u"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.037049205995572265,
+      "span": 5,
+      "solver_status": "OPTIMAL",
+      "conflicts": 4,
+      "branches": 670,
+      "wall_time": 0.034182709000000006
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0013",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 2,
+      "V1_4": 3,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "u": 10,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:94cdf621909125d3190e4bfea9a4e426653de9544fb9346a06648475e5bf4933",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06973294100316707,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 29,
+      "branches": 2187,
+      "wall_time": 0.066700148
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0014",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_1": 4,
+      "V0_2": 4,
+      "u": 10,
+      "C1": 3,
+      "V1_5": 3,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:94f1ea4f0b9d7414551624eb01d4b9fbd6f84bdafe15d3d0614304c6d13b0105",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07859630400344031,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 60,
+      "branches": 2427,
+      "wall_time": 0.07529297600000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0015",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V0_3": 4,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 3,
+      "C4": 2,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 2,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:95d5b2bb75c2625d6a1d2dc07c135a265070b4c7fc4325dea8149a02179d3c2f",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06439980799768819,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 117,
+      "branches": 2479,
+      "wall_time": 0.062282807
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0016",
+    "order": 18,
+    "size": 30,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 11,
+      "C1": 3,
+      "V1_5": 3,
+      "C10": 2,
+      "V1_6": 3,
+      "C11": 2,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:9e3a1366cb5474265bf8fd00c8784e4c744ff37688c7dda7b0ff3021fd2b81a0",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06710335399839096,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 53,
+      "branches": 2427,
+      "wall_time": 0.064820448
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0017",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V0_3": 4,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 2,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:9eb2ee82f002f9c87c8b0840ab608a6c05f481eefce76d4a725e9419578a6f12",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06415658599871676,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 56,
+      "branches": 2382,
+      "wall_time": 0.06184362300000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0018",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 2,
+      "V0_2": 4,
+      "V1_4": 2,
+      "C1": 2,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:a19ee2cd1336b63a344cd9940dc902bfb7051eed3dd0d771b4fefadf8423a3d4",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.050476390999392606,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 71,
+      "branches": 2207,
+      "wall_time": 0.047888516000000006
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0019",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 2,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 2,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:a61ade63e3812b9ff15995fa11d002d87899d0e75e2bbdbe249f861581a75391",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06822753600135911,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 104,
+      "branches": 2436,
+      "wall_time": 0.065196455
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0020",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V0_3": 4,
+      "C11": 2,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 2,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:a675bddc428edcb8af1f8b14c287dfde34381d3c8d9bc5cdbbf93e2f287fd670",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.058406590003869496,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 43,
+      "branches": 2282,
+      "wall_time": 0.056290341
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0021",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 11,
+      "C1": 2,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 2,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:b4279730a8896f479237f854a742506e2a2aba1a2710f625b5b0e53684eb2483",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.1162536830015597,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 118,
+      "branches": 2774,
+      "wall_time": 0.11400864000000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0022",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 11,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:b557f0a7d44669a47760063e4440882a616d16518a30735d6131859f3c45e101",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_1"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06765219000226352,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 59,
+      "branches": 2668,
+      "wall_time": 0.064567818
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0023",
+    "order": 18,
+    "size": 30,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 11,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:be65641ada4cfcae5c9b4c6dcb4f6bd6a7c13de4ab42d865e4647ca9a98dfcb9",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.0748110370041104,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 85,
+      "branches": 2588,
+      "wall_time": 0.07257461
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0024",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 2,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 2,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:c83dc8cac2734700a24735559a21e052fc6e003afedf4778d1c829df0efa47a9",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07123896799748763,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 4,
+      "branches": 2221,
+      "wall_time": 0.069242728
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0025",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 2,
+      "V1_5": 3,
+      "C10": 2,
+      "V1_6": 3,
+      "C11": 2,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:cb906af531c1dad0a48a9e7b3924f0fa41c29ca53006ce7f5f84c77fadb872fc",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07224427399341948,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 53,
+      "branches": 2161,
+      "wall_time": 0.06617347700000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0026",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V0_1": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:cfc8c433badab7b47fea662e63f512a0b80875da9d09df8f180a07ef687b56cb",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08376238399796421,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 168,
+      "branches": 2586,
+      "wall_time": 0.081757277
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0027",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "C10": 2,
+      "V0_3": 4,
+      "u": 10,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 2,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:d0efeceecc060c764baff920ef02b5f037f33b7299b6c805c9029adda787f137",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06619926400162512,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 72,
+      "branches": 2319,
+      "wall_time": 0.063479717
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0028",
+    "order": 18,
+    "size": 29,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "u": 10,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:d40e5f8fc2b81d1f2f7efae79b6a4fbb13f1e414ebb4033fe629e9238c8e237a",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_2"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V0_3"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.14236047199665336,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 28,
+      "branches": 2108,
+      "wall_time": 0.095928179
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0029",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 2,
+      "V0_1": 3,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "u": 10,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:d58d56a85fcd54d8f6e0214c6d7546eb7a9bdbb0c1d776473b84055a2428b83f",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.1046697099955054,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 122,
+      "branches": 2525,
+      "wall_time": 0.101722139
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0030",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 11,
+      "C10": 2,
+      "V0_3": 4,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 2,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:d8b8a63834c5f665ab0f370e8ec96deebc83444f4a7e9d7eed3bad9641f92e5b",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.09979352300433675,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 98,
+      "branches": 2758,
+      "wall_time": 0.096890867
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0031",
+    "order": 18,
+    "size": 31,
+    "delta": 11,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V0_1": 3,
+      "V1_5": 3,
+      "u": 11,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:e0c6692d56beb91a28614c4ee03ac9c63c88102ee8ed81218e9ce44ef75dd960",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "V1_5"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08192126699577784,
+      "span": 11,
+      "solver_status": "OPTIMAL",
+      "conflicts": 177,
+      "branches": 2984,
+      "wall_time": 0.07847514900000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0032",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_1": 4,
+      "V0_2": 4,
+      "u": 10,
+      "C1": 2,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "7:11:e95b0767eb05d725c2a8775e3bef4bf8feff4c8b14a6e8db43caf17bb7f2363d",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex_edge_cap",
+        "deleted_vertices": [
+          "V1_4"
+        ],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07365048900101101,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 130,
+      "branches": 2551,
+      "wall_time": 0.070720272
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0033",
+    "order": 18,
+    "size": 23,
+    "delta": 4,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 2,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 2,
+      "C4": 2,
+      "V0_2": 4,
+      "C5": 2,
+      "C6": 2,
+      "C7": 2,
+      "C8": 2,
+      "C9": 2
+    },
+    "canonical_sha256": "7:11:f1cdb44c5dc5631a72150c8ea8de68e9d8127780db313fc3d3e41c90350c9604",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "u"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.024664482996740844,
+      "span": 6,
+      "solver_status": "OPTIMAL",
+      "conflicts": 3,
+      "branches": 661,
+      "wall_time": 0.02229917
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0034",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 2,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "V0_2": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:10:a70f48806fbd1c129afa68a32421ee63ef058cabdc2a2a3e640a00441c68919f",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C4"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C5"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C8"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C9"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.08256240899936529,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 70,
+      "branches": 2448,
+      "wall_time": 0.080037893
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0035",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 3,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "V1_5": 2,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:10:aa7dc3e8f1abc9b1aa02050028ff6c28f95e3bfd86f464ea775e9e0f934ad46b",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C1"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C2"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C3"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C5"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.05562922500394052,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 17,
+      "branches": 2396,
+      "wall_time": 0.053477407000000005
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0036",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 2,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 2,
+      "C11": 3,
+      "V1_7": 3,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:10:c179a0245b967d1a18b6c7ddcb81075964037aa1dd255af91f47aadeccc13a55",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C2"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C3"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07441934000235051,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 79,
+      "branches": 2454,
+      "wall_time": 0.071370718
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0037",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C11": 3,
+      "V0_3": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "V1_6": 2,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:10:f2459a89d79bb3aeff6f3b61264778be218f8bb8bdb5f1c8f5c0e77f4240797f",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C10"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C11"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C6"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C7"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06702741800108925,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 34,
+      "branches": 2508,
+      "wall_time": 0.065037438
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0038",
+    "order": 18,
+    "size": 31,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 3,
+      "V1_5": 3,
+      "C11": 3,
+      "V0_3": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "V1_6": 2,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:10:f5cf7db909882ebb75be29c471158f382bc7a4663dbf1e06f41bf32fe3c7cb46",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C10"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C11"
+        ],
+        "deleted_edges": []
+      },
+      {
+        "source": "Q1-00014",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C9"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.05906703499931609,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 28,
+      "branches": 2384,
+      "wall_time": 0.056512342
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0039",
+    "order": 18,
+    "size": 30,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "u": 10,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "V0_1": 2,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "V1_4": 2,
+      "C5": 3,
+      "V1_5": 2,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:10:fb88cfff9fd17f85840f5c54054c459436484d44e4e066ba4c99505b07a80657",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "vertex",
+        "deleted_vertices": [
+          "C0&C1"
+        ],
+        "deleted_edges": []
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.05801343300117878,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 23,
+      "branches": 2219,
+      "wall_time": 0.05587758600000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0040",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 3,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "C1": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:53facc5aef4dc77dfc57d68012a9fc89a7459262807d8f7e903e1b95b08d100c",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C0&C4",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.10050457299803384,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 329,
+      "branches": 3067,
+      "wall_time": 0.098570608
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0041",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 2,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:76cb4da2d7f164d7522e195af8999bd733615a0eec7135246985ac2d86a438d2",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07013534200086724,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 44,
+      "branches": 2525,
+      "wall_time": 0.068190758
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0042",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 2,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:88c4812126c79053cb543f86750ffcbeb30693a993743b61d5a574c7765716d6",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C1",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C2",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C3",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.071223557999474,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 148,
+      "branches": 2784,
+      "wall_time": 0.06843653400000001
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0043",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 3,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 3,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "u": 10,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:98f826549917825428731a3b70a2ea49db78f3257a34323fe04f509fa06d5f0f",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C0&C1",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07969081299961545,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 71,
+      "branches": 2553,
+      "wall_time": 0.077534718
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0044",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 3,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:b093b50e43cd5fcfcfecd990756446fa8818e011dd037c88dda03b3642d4fbc7",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C6",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C7",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07787131700024474,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 62,
+      "branches": 2532,
+      "wall_time": 0.075790445
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0045",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 3,
+      "V1_5": 3,
+      "C10": 2,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:d6d1365a89c467b9ad245e9bc28f940d553e6ee4c2ff2540bd4a4c059a8d38ac",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C10",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C11",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.0804125020003994,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 125,
+      "branches": 2869,
+      "wall_time": 0.076912985
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0046",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C1": 4,
+      "V0_1": 3,
+      "V1_4": 3,
+      "V1_5": 3,
+      "u": 10,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C4": 2,
+      "V0_2": 4,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 3,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:d74addfa22a309ec917118538b6295dee7377683d03c5d4f5dbcb09073c1c0a3",
+    "provenance": [
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C4",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C5",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      },
+      {
+        "source": "Q1-00012",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C9",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.06470023799920455,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 88,
+      "branches": 2683,
+      "wall_time": 0.062703014
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  },
+  {
+    "candidate_id": "KR-0047",
+    "order": 19,
+    "size": 33,
+    "delta": 10,
+    "minimum_degree": 2,
+    "connected": true,
+    "degrees": {
+      "C0&C4": 4,
+      "V0_1": 4,
+      "V0_2": 4,
+      "V1_4": 2,
+      "u": 10,
+      "C1": 3,
+      "V1_5": 3,
+      "C10": 3,
+      "V0_3": 4,
+      "V1_6": 3,
+      "C11": 3,
+      "V1_7": 3,
+      "C2": 3,
+      "C3": 3,
+      "C5": 3,
+      "C6": 3,
+      "C7": 3,
+      "C8": 2,
+      "C9": 3
+    },
+    "canonical_sha256": "8:11:d8dd7d2b7f0ed7b3acd358f6c1a00e515f022a99e6259b94194939648b458dd8",
+    "provenance": [
+      {
+        "source": "Q1-00014",
+        "family": "edge_cap",
+        "deleted_vertices": [],
+        "deleted_edges": [
+          [
+            "C8",
+            "u"
+          ]
+        ]
+      }
+    ],
+    "primary_result": {
+      "status": "colorable",
+      "encoding": "rank-potential-cpsat",
+      "elapsed_seconds": 0.07126324300043052,
+      "span": 10,
+      "solver_status": "OPTIMAL",
+      "conflicts": 128,
+      "branches": 2695,
+      "wall_time": 0.069128778
+    },
+    "confirmation": null,
+    "classification": "colorable"
+  }
+]
