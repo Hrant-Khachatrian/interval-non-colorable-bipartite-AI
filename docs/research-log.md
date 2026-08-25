@@ -453,3 +453,7 @@ An independent tail audit replayed 36 deterministic rows spanning ranks10,501--1
 The neighborhood-graft continuation was extended through rank3,094 after validating all prior rows without recomputation. The new contiguous batch contained 1,000 unique graphs, all colorable with zero timeouts; the lane now has 3,094 exact negative decisions.
 
 An independent spot audit sampled 24 rows from each of the initial, beyond-top94, and beyond-top1094 graft ledgers (72 total). All structural, canonical-hash, decision/status, certificate, and fixed-reported-span checks passed. Two rows had nonminimal `reported_span` metadata: both ledger entries said span11, while independent serial replays produced verified span10 colorings. This is a reporting defect only; it does not affect their colorable decisions or the search's negative conclusion.
+
+The neighborhood-graft continuation reached rank4,094. It validated all prior decisions without recomputation, then classified ranks3,095--4,094 exactly: all 1,000 were colorable with zero timeouts.
+
+A second structured order-18 family used same-side identification with bounded edge deletion/restoration plus cyclic three-edge switches. It generated 6,904 candidates, retained 2,111 internally unique graphs, excluded 497 overlaps with the completed first queue, and classified the strongest 1,200 of its 1,614 globally new candidates. All were colorable with zero timeouts.
