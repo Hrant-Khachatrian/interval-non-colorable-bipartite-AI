@@ -1,0 +1,108 @@
+{
+  "classification": {
+    "completed_by_lane": {
+      "delete-vertex-add-cross-edges": {
+        "colorable": 5
+      },
+      "one-pair-same-side-identification": {
+        "colorable": 3
+      },
+      "reverse-extension-edge-additions": {
+        "colorable": 1938
+      },
+      "two-edge-switch-then-identification": {
+        "colorable": 54
+      }
+    }
+  },
+  "completion": "complete",
+  "completion_details": {
+    "status": "complete",
+    "stopped_reason": "all_selected_ranks_classified",
+    "unresolved_rank_count": 0,
+    "unresolved_ranks": []
+  },
+  "configuration": {
+    "classification_rank_window_one_based": [
+      2501,
+      4500
+    ],
+    "filters": [
+      "exactly 18 vertices",
+      "simple bipartite",
+      "connected",
+      "minimum degree >= 2"
+    ],
+    "lanes_requested": "all",
+    "primary_solver": "rank-potential CP-SAT",
+    "primary_time_limit_seconds": 3.0,
+    "rank_window_one_based": [
+      2501,
+      4500
+    ],
+    "span_time_limit_seconds": 5.0
+  },
+  "counts": {
+    "classified": 2000,
+    "colorable": 2000,
+    "completion_count": 2000,
+    "confirmation_timeout": 0,
+    "generated": 123760,
+    "non_colorable_certified": 0,
+    "primary_noncolorable": 0,
+    "primary_timeout": 0,
+    "selected_for_classification": 2000,
+    "unique": 12987
+  },
+  "elapsed_seconds": 228.15985190100014,
+  "generation": {
+    "duplicates_removed": 110281,
+    "generated_raw": 123760,
+    "generated_raw_by_lane": {
+      "delete-vertex-add-cross-edges": 1393,
+      "edge-rewire": 302,
+      "one-pair-same-side-identification": 166,
+      "reverse-extension-edge-additions": 96797,
+      "reverse-extension-new-vertex": 36,
+      "two-edge-switch-then-identification": 25066
+    },
+    "passed_filters_before_deduplication": 123268,
+    "rank_window_zero_based": [
+      2500,
+      4500
+    ],
+    "ranked_candidates": 12987,
+    "rejected_by_filters": 492,
+    "retained_candidate_count": 4500,
+    "selected_by_lane": {
+      "delete-vertex-add-cross-edges": 5,
+      "one-pair-same-side-identification": 3,
+      "reverse-extension-edge-additions": 1938,
+      "two-edge-switch-then-identification": 54
+    },
+    "unique_after_nauty": 12987,
+    "unique_ranked_by_lane": {
+      "delete-vertex-add-cross-edges": 165,
+      "one-pair-same-side-identification": 45,
+      "reverse-extension-edge-additions": 11823,
+      "reverse-extension-new-vertex": 17,
+      "two-edge-switch-then-identification": 937
+    }
+  },
+  "goal": "find an interval-non-colorable simple connected bipartite graph on exactly 18 vertices",
+  "negative_events": [],
+  "reconciliation": {
+    "authoritative_classification_state": "classification-events.jsonl",
+    "canonical_hashes_unique_within_v5": true,
+    "duplicate_rank_records": [],
+    "event_classification_records": 2000,
+    "expected_rank_window_one_based": [
+      2501,
+      4500
+    ],
+    "unique_rank_records": 2000,
+    "v4_canonical_hash_overlap_count": 0,
+    "v4_rank_overlap": []
+  },
+  "schema_version": 1
+}

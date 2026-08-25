@@ -1,0 +1,13 @@
+{
+  "authoritative_classification_state": "classification-events.jsonl",
+  "canonical_hashes_unique_within_v5": true,
+  "duplicate_rank_records": [],
+  "event_classification_records": 2000,
+  "expected_rank_window_one_based": [
+    2501,
+    4500
+  ],
+  "unique_rank_records": 2000,
+  "v4_canonical_hash_overlap_count": 0,
+  "v4_rank_overlap": []
+}

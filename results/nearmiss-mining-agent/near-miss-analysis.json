@@ -1,0 +1,2407 @@
+{
+  "families": {
+    "degree-transfer-extensions": {
+      "certified_colorable": 11834,
+      "higher_span_quartile": {
+        "count": 2958,
+        "degree_variance_median": null,
+        "hub_margin_median": -4.0,
+        "order_median": 50.0,
+        "size_median": 82.0,
+        "span_median": 16.0
+      },
+      "primary_span_max": 21,
+      "primary_span_median": 13.0,
+      "raw_records": 11834,
+      "routine_remainder": {
+        "count": 8876,
+        "degree_variance_median": null,
+        "hub_margin_median": -2,
+        "order_median": 43.0,
+        "size_median": 76.0,
+        "span_median": 12.0
+      },
+      "source_paths": [
+        "results/degree-transfer-delta10.json",
+        "results/degree-transfer-delta10-extension.json",
+        "results/degree-transfer-delta10-extension-r3.json",
+        "results/degree-transfer-delta10-extension-resumed.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "25:27:ef4237cd167ebb43d0bddb01d9f6280633e357f530b548b0145325c6df7d3a50",
+          "canonical_sha256": "25:27:ef4237cd167ebb43d0bddb01d9f6280633e357f530b548b0145325c6df7d3a50",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": null,
+          "lane": "degree-transfer-extensions",
+          "order": 52,
+          "primary_span": 21,
+          "size": 82,
+          "structural_metadata": [
+            5,
+            2,
+            3,
+            9,
+            9
+          ]
+        },
+        {
+          "candidate_id": "29:31:056d61c348fb9c94c2ee0241c6d02b381b8363c62205e3d4ad89b1c54f07eb59",
+          "canonical_sha256": "29:31:056d61c348fb9c94c2ee0241c6d02b381b8363c62205e3d4ad89b1c54f07eb59",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "degree-transfer-extensions",
+          "order": 60,
+          "primary_span": 20,
+          "size": 94,
+          "structural_metadata": [
+            1,
+            7,
+            7,
+            7,
+            8
+          ]
+        },
+        {
+          "candidate_id": "28:30:98cfa4c05c75041e8451ce11966de8d2e5590d41958e5c5d85bfccd88862e2c2",
+          "canonical_sha256": "28:30:98cfa4c05c75041e8451ce11966de8d2e5590d41958e5c5d85bfccd88862e2c2",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "degree-transfer-extensions",
+          "order": 58,
+          "primary_span": 20,
+          "size": 92,
+          "structural_metadata": [
+            0,
+            7,
+            7,
+            7,
+            8
+          ]
+        },
+        {
+          "candidate_id": "30:32:b457d5199965ae218a87f52776df7e3a49856f811025d394c20938f17f29dbf3",
+          "canonical_sha256": "30:32:b457d5199965ae218a87f52776df7e3a49856f811025d394c20938f17f29dbf3",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": null,
+          "lane": "degree-transfer-extensions",
+          "order": 62,
+          "primary_span": 20,
+          "size": 96,
+          "structural_metadata": [
+            4,
+            7,
+            7,
+            7,
+            8
+          ]
+        },
+        {
+          "candidate_id": "26:29:e54a4bfb38c4241b17528167471e672aa77413faa9caff68690a9b743889aa62",
+          "canonical_sha256": "26:29:e54a4bfb38c4241b17528167471e672aa77413faa9caff68690a9b743889aa62",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": null,
+          "lane": "degree-transfer-extensions",
+          "order": 55,
+          "primary_span": 20,
+          "size": 84,
+          "structural_metadata": [
+            4,
+            3,
+            5,
+            9,
+            9
+          ]
+        }
+      ]
+    },
+    "degree-transfer-fresh-motifs": {
+      "certified_colorable": 1000,
+      "higher_span_quartile": {
+        "count": 250,
+        "degree_variance_median": 0.071,
+        "hub_margin_median": -4,
+        "order_median": 68.0,
+        "size_median": 104.0,
+        "span_median": 18.0
+      },
+      "primary_span_max": 22,
+      "primary_span_median": 16.0,
+      "raw_records": 1000,
+      "routine_remainder": {
+        "count": 750,
+        "degree_variance_median": null,
+        "hub_margin_median": null,
+        "order_median": 65.0,
+        "size_median": 104.0,
+        "span_median": 15.0
+      },
+      "source_paths": [
+        "results/degree-transfer-delta10-agent/fresh-motifs-m5-pilot.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "34:29:b33c0264816a733be260fc9192c578092ec1929d2d34dd4145d7f4acd2e2cb2d",
+          "canonical_sha256": "34:29:b33c0264816a733be260fc9192c578092ec1929d2d34dd4145d7f4acd2e2cb2d",
+          "degree_variance": 0.08397337429595486,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "degree-transfer-fresh-motifs",
+          "order": 63,
+          "primary_span": 22,
+          "size": 105,
+          "structural_metadata": [
+            "rooted_theta_4x4",
+            "rooted_K_2_5",
+            "rooted_K_3_5",
+            "three_rooted_C4_blocks",
+            "three_rooted_C4_blocks"
+          ]
+        },
+        {
+          "candidate_id": "32:30:64b6ccc6abd231054e6ff591f952adc5aa73b4c4a133930dbc2d5b6013f5592b",
+          "canonical_sha256": "32:30:64b6ccc6abd231054e6ff591f952adc5aa73b4c4a133930dbc2d5b6013f5592b",
+          "degree_variance": 0.08022722232646987,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "degree-transfer-fresh-motifs",
+          "order": 62,
+          "primary_span": 22,
+          "size": 96,
+          "structural_metadata": [
+            "three_rooted_C4_blocks",
+            "rooted_C12",
+            "rooted_C12",
+            "rooted_K_2_5",
+            "rooted_K_2_5"
+          ]
+        },
+        {
+          "candidate_id": "36:37:82008f30594ab6a8c17d674b352cb20058fe4203dc5aa5149db20f4795d077c2",
+          "canonical_sha256": "36:37:82008f30594ab6a8c17d674b352cb20058fe4203dc5aa5149db20f4795d077c2",
+          "degree_variance": 0.050864243864806896,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "degree-transfer-fresh-motifs",
+          "order": 73,
+          "primary_span": 22,
+          "size": 104,
+          "structural_metadata": [
+            "rooted_C12",
+            "rooted_theta_3x4",
+            "rooted_theta_3x4",
+            "rooted_theta_3x4",
+            "rooted_theta_4x4"
+          ]
+        },
+        {
+          "candidate_id": "34:32:9e99ae1e2454b8ffca82f1fc7cc3626da13d4869009bae538b3768f8f812d300",
+          "canonical_sha256": "34:32:9e99ae1e2454b8ffca82f1fc7cc3626da13d4869009bae538b3768f8f812d300",
+          "degree_variance": 0.07101787101787096,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "degree-transfer-fresh-motifs",
+          "order": 66,
+          "primary_span": 21,
+          "size": 110,
+          "structural_metadata": [
+            "rooted_K_3_5",
+            "rooted_C12",
+            "rooted_theta_4x4",
+            "rooted_K_3_5",
+            "three_rooted_C4_blocks"
+          ]
+        },
+        {
+          "candidate_id": "36:33:ddad6fccff7b1351e7a4b71807ad84be6fc37da98f292709d6cac5f79b006d65",
+          "canonical_sha256": "36:33:ddad6fccff7b1351e7a4b71807ad84be6fc37da98f292709d6cac5f79b006d65",
+          "degree_variance": 0.07096877818550233,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "degree-transfer-fresh-motifs",
+          "order": 69,
+          "primary_span": 21,
+          "size": 104,
+          "structural_metadata": [
+            "rooted_theta_3x4",
+            "rooted_theta_4x4",
+            "three_rooted_C4_blocks",
+            "three_rooted_C4_blocks",
+            "three_rooted_C4_blocks"
+          ]
+        }
+      ]
+    },
+    "failure-guided": {
+      "certified_colorable": 256,
+      "higher_span_quartile": {
+        "count": 64,
+        "degree_variance_median": 0.2374,
+        "hub_margin_median": -5.0,
+        "order_median": 26.0,
+        "size_median": 42.0,
+        "span_median": 10.0
+      },
+      "primary_span_max": 11,
+      "primary_span_median": 9.0,
+      "raw_records": 256,
+      "routine_remainder": {
+        "count": 192,
+        "degree_variance_median": 0.1723,
+        "hub_margin_median": -6.5,
+        "order_median": 25.0,
+        "size_median": 42.0,
+        "span_median": 9.0
+      },
+      "source_paths": [
+        "results/failure-guided-delta10.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "FGD10-0337",
+          "canonical_sha256": "12:16:151f80249fdff792e31d5f054de1605aa99c4f6371329cf45ae048ae50db0116",
+          "degree_variance": 0.2004132231404961,
+          "delta": 9,
+          "hub_margin": -5,
+          "lane": "failure-guided-anchor-repair",
+          "order": 28,
+          "primary_span": 11,
+          "size": 44,
+          "structural_metadata": {
+            "anchor_set": [
+              "V0_1",
+              "V0_3"
+            ],
+            "construction_id": 1901,
+            "copy_gadget_degrees": [
+              1,
+              1
+            ],
+            "distribution_pattern": "round-robin-insertion",
+            "ear_path_lengths_by_anchor": [
+              4,
+              5
+            ],
+            "ears": [
+              {
+                "anchor": "V0_1",
+                "copy": "FGD001901_CA",
+                "edges": [
+                  [
+                    "FGD001901_CA",
+                    "FGD001901_E00V01R"
+                  ],
+                  [
+                    "FGD001901_E00V01R",
+                    "FGD001901_E00V02L"
+                  ],
+                  [
+                    "FGD001901_E00V02L",
+                    "FGD001901_E00V03R"
+                  ],
+                  [
+                    "FGD001901_E00V03R",
+                    "V0_1"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD001901_E00V01R",
+                  "FGD001901_E00V02L",
+                  "FGD001901_E00V03R"
+                ],
+                "path_length": 4
+              },
+              {
+                "anchor": "V0_3",
+                "copy": "FGD001901_CB",
+                "edges": [
+                  [
+                    "FGD001901_CB",
+                    "FGD001901_E01V01R"
+                  ],
+                  [
+                    "FGD001901_E01V01R",
+                    "FGD001901_E01V02L"
+                  ],
+                  [
+                    "FGD001901_E01V02L",
+                    "FGD001901_E01V03R"
+                  ],
+                  [
+                    "FGD001901_E01V03R",
+                    "FGD001901_E01V04L"
+                  ],
+                  [
+                    "FGD001901_E01V04L",
+                    "FGD001901_E01V05R"
+                  ],
+                  [
+                    "FGD001901_E01V05R",
+                    "V0_3"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD001901_E01V01R",
+                  "FGD001901_E01V02L",
+                  "FGD001901_E01V03R",
+                  "FGD001901_E01V04L",
+                  "FGD001901_E01V05R"
+                ],
+                "path_length": 6
+              }
+            ],
+            "gadget_edges": [
+              [
+                "FGD001901_CA",
+                "FGD001901_E00V01R"
+              ],
+              [
+                "FGD001901_E00V01R",
+                "FGD001901_E00V02L"
+              ],
+              [
+                "FGD001901_E00V02L",
+                "FGD001901_E00V03R"
+              ],
+              [
+                "FGD001901_E00V03R",
+                "V0_1"
+              ],
+              [
+                "FGD001901_CB",
+                "FGD001901_E01V01R"
+              ],
+              [
+                "FGD001901_E01V01R",
+                "FGD001901_E01V02L"
+              ],
+              [
+                "FGD001901_E01V02L",
+                "FGD001901_E01V03R"
+              ],
+              [
+                "FGD001901_E01V03R",
+                "FGD001901_E01V04L"
+              ],
+              [
+                "FGD001901_E01V04L",
+                "FGD001901_E01V05R"
+              ],
+              [
+                "FGD001901_E01V05R",
+                "V0_3"
+              ]
+            ],
+            "gadget_vertices": [
+              "FGD001901_E00V01R",
+              "FGD001901_E00V02L",
+              "FGD001901_E00V03R",
+              "FGD001901_E01V01R",
+              "FGD001901_E01V02L",
+              "FGD001901_E01V03R",
+              "FGD001901_E01V04L",
+              "FGD001901_E01V05R"
+            ],
+            "include_shared_pair_relays": false,
+            "operation_family": "failure-guided-anchor-repair",
+            "replaced_hub": "u",
+            "replacement_copies": [
+              "FGD001901_CA",
+              "FGD001901_CB"
+            ],
+            "replacement_side": "left",
+            "shared_pair_relays": [],
+            "spoke_loads": [
+              8,
+              3
+            ]
+          }
+        },
+        {
+          "candidate_id": "FGD10-0315",
+          "canonical_sha256": "11:16:68113b9dee6c2686d88947a35eba087bcff78c2212885cb75fc4ec1dba0dd509",
+          "degree_variance": 0.2599999999999999,
+          "delta": 10,
+          "hub_margin": -6,
+          "lane": "failure-guided-anchor-repair",
+          "order": 27,
+          "primary_span": 11,
+          "size": 45,
+          "structural_metadata": {
+            "anchor_set": [
+              "C0&C4",
+              "V0_2",
+              "V0_3"
+            ],
+            "construction_id": 1922,
+            "copy_gadget_degrees": [
+              2,
+              1
+            ],
+            "distribution_pattern": "round-robin-insertion",
+            "ear_path_lengths_by_anchor": [
+              2,
+              3,
+              2
+            ],
+            "ears": [
+              {
+                "anchor": "C0&C4",
+                "copy": "FGD001922_CA",
+                "edges": [
+                  [
+                    "FGD001922_CA",
+                    "FGD001922_E00V01R"
+                  ],
+                  [
+                    "FGD001922_E00V01R",
+                    "FGD001922_E00V02L"
+                  ],
+                  [
+                    "C0&C4",
+                    "FGD001922_E00V02L"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD001922_E00V01R",
+                  "FGD001922_E00V02L"
+                ],
+                "path_length": 3
+              },
+              {
+                "anchor": "V0_2",
+                "copy": "FGD001922_CB",
+                "edges": [
+                  [
+                    "FGD001922_CB",
+                    "FGD001922_E01V01R"
+                  ],
+                  [
+                    "FGD001922_E01V01R",
+                    "FGD001922_E01V02L"
+                  ],
+                  [
+                    "FGD001922_E01V02L",
+                    "FGD001922_E01V03R"
+                  ],
+                  [
+                    "FGD001922_E01V03R",
+                    "V0_2"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD001922_E01V01R",
+                  "FGD001922_E01V02L",
+                  "FGD001922_E01V03R"
+                ],
+                "path_length": 4
+              },
+              {
+                "anchor": "V0_3",
+                "copy": "FGD001922_CA",
+                "edges": [
+                  [
+                    "FGD001922_CA",
+                    "FGD001922_E02V01R"
+                  ],
+                  [
+                    "FGD001922_E02V01R",
+                    "V0_3"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD001922_E02V01R"
+                ],
+                "path_length": 2
+              }
+            ],
+            "gadget_edges": [
+              [
+                "FGD001922_CA",
+                "FGD001922_E00V01R"
+              ],
+              [
+                "FGD001922_E00V01R",
+                "FGD001922_E00V02L"
+              ],
+              [
+                "C0&C4",
+                "FGD001922_E00V02L"
+              ],
+              [
+                "FGD001922_CB",
+                "FGD001922_E01V01R"
+              ],
+              [
+                "FGD001922_E01V01R",
+                "FGD001922_E01V02L"
+              ],
+              [
+                "FGD001922_E01V02L",
+                "FGD001922_E01V03R"
+              ],
+              [
+                "FGD001922_E01V03R",
+                "V0_2"
+              ],
+              [
+                "FGD001922_CA",
+                "FGD001922_E02V01R"
+              ],
+              [
+                "FGD001922_E02V01R",
+                "V0_3"
+              ],
+              [
+                "FGD001922_PR0102R",
+                "V0_2"
+              ],
+              [
+                "FGD001922_PR0102R",
+                "V0_3"
+              ]
+            ],
+            "gadget_vertices": [
+              "FGD001922_E00V01R",
+              "FGD001922_E00V02L",
+              "FGD001922_E01V01R",
+              "FGD001922_E01V02L",
+              "FGD001922_E01V03R",
+              "FGD001922_E02V01R",
+              "FGD001922_PR0102R"
+            ],
+            "include_shared_pair_relays": true,
+            "operation_family": "failure-guided-anchor-repair",
+            "replaced_hub": "u",
+            "replacement_copies": [
+              "FGD001922_CA",
+              "FGD001922_CB"
+            ],
+            "replacement_side": "left",
+            "shared_pair_relays": [
+              {
+                "anchors": [
+                  "V0_2",
+                  "V0_3"
+                ],
+                "edges": [
+                  [
+                    "FGD001922_PR0102R",
+                    "V0_2"
+                  ],
+                  [
+                    "FGD001922_PR0102R",
+                    "V0_3"
+                  ]
+                ],
+                "relay": "FGD001922_PR0102R"
+              }
+            ],
+            "spoke_loads": [
+              8,
+              3
+            ]
+          }
+        },
+        {
+          "candidate_id": "FGD10-0384",
+          "canonical_sha256": "11:15:1c161ff9217ae281b39066d80ff76283daa24f9241833128eda6a398f56e3dab",
+          "degree_variance": 0.20227149810708486,
+          "delta": 9,
+          "hub_margin": -7,
+          "lane": "failure-guided-anchor-repair",
+          "order": 26,
+          "primary_span": 11,
+          "size": 43,
+          "structural_metadata": {
+            "anchor_set": [
+              "C0&C4",
+              "V0_1",
+              "V0_3"
+            ],
+            "construction_id": 2251,
+            "copy_gadget_degrees": [
+              2,
+              1
+            ],
+            "distribution_pattern": "round-robin-insertion",
+            "ear_path_lengths_by_anchor": [
+              2,
+              3,
+              2
+            ],
+            "ears": [
+              {
+                "anchor": "C0&C4",
+                "copy": "FGD002251_CA",
+                "edges": [
+                  [
+                    "FGD002251_CA",
+                    "FGD002251_E00V01R"
+                  ],
+                  [
+                    "FGD002251_E00V01R",
+                    "FGD002251_E00V02L"
+                  ],
+                  [
+                    "C0&C4",
+                    "FGD002251_E00V02L"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD002251_E00V01R",
+                  "FGD002251_E00V02L"
+                ],
+                "path_length": 3
+              },
+              {
+                "anchor": "V0_1",
+                "copy": "FGD002251_CB",
+                "edges": [
+                  [
+                    "FGD002251_CB",
+                    "FGD002251_E01V01R"
+                  ],
+                  [
+                    "FGD002251_E01V01R",
+                    "FGD002251_E01V02L"
+                  ],
+                  [
+                    "FGD002251_E01V02L",
+                    "FGD002251_E01V03R"
+                  ],
+                  [
+                    "FGD002251_E01V03R",
+                    "V0_1"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD002251_E01V01R",
+                  "FGD002251_E01V02L",
+                  "FGD002251_E01V03R"
+                ],
+                "path_length": 4
+              },
+              {
+                "anchor": "V0_3",
+                "copy": "FGD002251_CA",
+                "edges": [
+                  [
+                    "FGD002251_CA",
+                    "FGD002251_E02V01R"
+                  ],
+                  [
+                    "FGD002251_E02V01R",
+                    "V0_3"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD002251_E02V01R"
+                ],
+                "path_length": 2
+              }
+            ],
+            "gadget_edges": [
+              [
+                "FGD002251_CA",
+                "FGD002251_E00V01R"
+              ],
+              [
+                "FGD002251_E00V01R",
+                "FGD002251_E00V02L"
+              ],
+              [
+                "C0&C4",
+                "FGD002251_E00V02L"
+              ],
+              [
+                "FGD002251_CB",
+                "FGD002251_E01V01R"
+              ],
+              [
+                "FGD002251_E01V01R",
+                "FGD002251_E01V02L"
+              ],
+              [
+                "FGD002251_E01V02L",
+                "FGD002251_E01V03R"
+              ],
+              [
+                "FGD002251_E01V03R",
+                "V0_1"
+              ],
+              [
+                "FGD002251_CA",
+                "FGD002251_E02V01R"
+              ],
+              [
+                "FGD002251_E02V01R",
+                "V0_3"
+              ]
+            ],
+            "gadget_vertices": [
+              "FGD002251_E00V01R",
+              "FGD002251_E00V02L",
+              "FGD002251_E01V01R",
+              "FGD002251_E01V02L",
+              "FGD002251_E01V03R",
+              "FGD002251_E02V01R"
+            ],
+            "include_shared_pair_relays": false,
+            "operation_family": "failure-guided-anchor-repair",
+            "replaced_hub": "u",
+            "replacement_copies": [
+              "FGD002251_CA",
+              "FGD002251_CB"
+            ],
+            "replacement_side": "left",
+            "shared_pair_relays": [],
+            "spoke_loads": [
+              7,
+              4
+            ]
+          }
+        },
+        {
+          "candidate_id": "FGD10-0353",
+          "canonical_sha256": "12:16:ea1ca4c6418f6cdc14de9e7d726b83542c8a939cfabd99c879cfb3633854a2d3",
+          "degree_variance": 0.1570247933884298,
+          "delta": 7,
+          "hub_margin": -7,
+          "lane": "failure-guided-anchor-repair",
+          "order": 28,
+          "primary_span": 11,
+          "size": 44,
+          "structural_metadata": {
+            "anchor_set": [
+              "V0_1",
+              "V0_2"
+            ],
+            "construction_id": 2399,
+            "copy_gadget_degrees": [
+              1,
+              1
+            ],
+            "distribution_pattern": "contiguous-insertion",
+            "ear_path_lengths_by_anchor": [
+              4,
+              5
+            ],
+            "ears": [
+              {
+                "anchor": "V0_1",
+                "copy": "FGD002399_CA",
+                "edges": [
+                  [
+                    "FGD002399_CA",
+                    "FGD002399_E00V01R"
+                  ],
+                  [
+                    "FGD002399_E00V01R",
+                    "FGD002399_E00V02L"
+                  ],
+                  [
+                    "FGD002399_E00V02L",
+                    "FGD002399_E00V03R"
+                  ],
+                  [
+                    "FGD002399_E00V03R",
+                    "V0_1"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD002399_E00V01R",
+                  "FGD002399_E00V02L",
+                  "FGD002399_E00V03R"
+                ],
+                "path_length": 4
+              },
+              {
+                "anchor": "V0_2",
+                "copy": "FGD002399_CB",
+                "edges": [
+                  [
+                    "FGD002399_CB",
+                    "FGD002399_E01V01R"
+                  ],
+                  [
+                    "FGD002399_E01V01R",
+                    "FGD002399_E01V02L"
+                  ],
+                  [
+                    "FGD002399_E01V02L",
+                    "FGD002399_E01V03R"
+                  ],
+                  [
+                    "FGD002399_E01V03R",
+                    "FGD002399_E01V04L"
+                  ],
+                  [
+                    "FGD002399_E01V04L",
+                    "FGD002399_E01V05R"
+                  ],
+                  [
+                    "FGD002399_E01V05R",
+                    "V0_2"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD002399_E01V01R",
+                  "FGD002399_E01V02L",
+                  "FGD002399_E01V03R",
+                  "FGD002399_E01V04L",
+                  "FGD002399_E01V05R"
+                ],
+                "path_length": 6
+              }
+            ],
+            "gadget_edges": [
+              [
+                "FGD002399_CA",
+                "FGD002399_E00V01R"
+              ],
+              [
+                "FGD002399_E00V01R",
+                "FGD002399_E00V02L"
+              ],
+              [
+                "FGD002399_E00V02L",
+                "FGD002399_E00V03R"
+              ],
+              [
+                "FGD002399_E00V03R",
+                "V0_1"
+              ],
+              [
+                "FGD002399_CB",
+                "FGD002399_E01V01R"
+              ],
+              [
+                "FGD002399_E01V01R",
+                "FGD002399_E01V02L"
+              ],
+              [
+                "FGD002399_E01V02L",
+                "FGD002399_E01V03R"
+              ],
+              [
+                "FGD002399_E01V03R",
+                "FGD002399_E01V04L"
+              ],
+              [
+                "FGD002399_E01V04L",
+                "FGD002399_E01V05R"
+              ],
+              [
+                "FGD002399_E01V05R",
+                "V0_2"
+              ]
+            ],
+            "gadget_vertices": [
+              "FGD002399_E00V01R",
+              "FGD002399_E00V02L",
+              "FGD002399_E00V03R",
+              "FGD002399_E01V01R",
+              "FGD002399_E01V02L",
+              "FGD002399_E01V03R",
+              "FGD002399_E01V04L",
+              "FGD002399_E01V05R"
+            ],
+            "include_shared_pair_relays": false,
+            "operation_family": "failure-guided-anchor-repair",
+            "replaced_hub": "u",
+            "replacement_copies": [
+              "FGD002399_CA",
+              "FGD002399_CB"
+            ],
+            "replacement_side": "left",
+            "shared_pair_relays": [],
+            "spoke_loads": [
+              6,
+              5
+            ]
+          }
+        },
+        {
+          "candidate_id": "FGD10-0370",
+          "canonical_sha256": "11:16:59859a7bb74cc02f96e3ab73c6b2cb42f73bcb43256561376a10f072d07b6cc4",
+          "degree_variance": 0.1784607438016528,
+          "delta": 7,
+          "hub_margin": -8,
+          "lane": "failure-guided-anchor-repair",
+          "order": 27,
+          "primary_span": 11,
+          "size": 44,
+          "structural_metadata": {
+            "anchor_set": [
+              "V0_1",
+              "V0_3"
+            ],
+            "construction_id": 2572,
+            "copy_gadget_degrees": [
+              1,
+              1
+            ],
+            "distribution_pattern": "round-robin-insertion",
+            "ear_path_lengths_by_anchor": [
+              3,
+              4
+            ],
+            "ears": [
+              {
+                "anchor": "V0_1",
+                "copy": "FGD002572_CA",
+                "edges": [
+                  [
+                    "FGD002572_CA",
+                    "FGD002572_E00V01R"
+                  ],
+                  [
+                    "FGD002572_E00V01R",
+                    "FGD002572_E00V02L"
+                  ],
+                  [
+                    "FGD002572_E00V02L",
+                    "FGD002572_E00V03R"
+                  ],
+                  [
+                    "FGD002572_E00V03R",
+                    "V0_1"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD002572_E00V01R",
+                  "FGD002572_E00V02L",
+                  "FGD002572_E00V03R"
+                ],
+                "path_length": 4
+              },
+              {
+                "anchor": "V0_3",
+                "copy": "FGD002572_CB",
+                "edges": [
+                  [
+                    "FGD002572_CB",
+                    "FGD002572_E01V01R"
+                  ],
+                  [
+                    "FGD002572_E01V01R",
+                    "FGD002572_E01V02L"
+                  ],
+                  [
+                    "FGD002572_E01V02L",
+                    "FGD002572_E01V03R"
+                  ],
+                  [
+                    "FGD002572_E01V03R",
+                    "V0_3"
+                  ]
+                ],
+                "internal_vertices": [
+                  "FGD002572_E01V01R",
+                  "FGD002572_E01V02L",
+                  "FGD002572_E01V03R"
+                ],
+                "path_length": 4
+              }
+            ],
+            "gadget_edges": [
+              [
+                "FGD002572_CA",
+                "FGD002572_E00V01R"
+              ],
+              [
+                "FGD002572_E00V01R",
+                "FGD002572_E00V02L"
+              ],
+              [
+                "FGD002572_E00V02L",
+                "FGD002572_E00V03R"
+              ],
+              [
+                "FGD002572_E00V03R",
+                "V0_1"
+              ],
+              [
+                "FGD002572_CB",
+                "FGD002572_E01V01R"
+              ],
+              [
+                "FGD002572_E01V01R",
+                "FGD002572_E01V02L"
+              ],
+              [
+                "FGD002572_E01V02L",
+                "FGD002572_E01V03R"
+              ],
+              [
+                "FGD002572_E01V03R",
+                "V0_3"
+              ],
+              [
+                "FGD002572_PR0001R",
+                "V0_1"
+              ],
+              [
+                "FGD002572_PR0001R",
+                "V0_3"
+              ]
+            ],
+            "gadget_vertices": [
+              "FGD002572_E00V01R",
+              "FGD002572_E00V02L",
+              "FGD002572_E00V03R",
+              "FGD002572_E01V01R",
+              "FGD002572_E01V02L",
+              "FGD002572_E01V03R",
+              "FGD002572_PR0001R"
+            ],
+            "include_shared_pair_relays": true,
+            "operation_family": "failure-guided-anchor-repair",
+            "replaced_hub": "u",
+            "replacement_copies": [
+              "FGD002572_CA",
+              "FGD002572_CB"
+            ],
+            "replacement_side": "left",
+            "shared_pair_relays": [
+              {
+                "anchors": [
+                  "V0_1",
+                  "V0_3"
+                ],
+                "edges": [
+                  [
+                    "FGD002572_PR0001R",
+                    "V0_1"
+                  ],
+                  [
+                    "FGD002572_PR0001R",
+                    "V0_3"
+                  ]
+                ],
+                "relay": "FGD002572_PR0001R"
+              }
+            ],
+            "spoke_loads": [
+              6,
+              5
+            ]
+          }
+        }
+      ]
+    },
+    "lane1-rewires": {
+      "certified_colorable": 283,
+      "higher_span_quartile": {
+        "count": 70,
+        "degree_variance_median": 0.1658,
+        "hub_margin_median": null,
+        "order_median": 20.0,
+        "size_median": 35.0,
+        "span_median": 11.0
+      },
+      "primary_span_max": 13,
+      "primary_span_median": 11,
+      "raw_records": 287,
+      "routine_remainder": {
+        "count": 213,
+        "degree_variance_median": 0.1658,
+        "hub_margin_median": null,
+        "order_median": 20,
+        "size_median": 35,
+        "span_median": 11
+      },
+      "source_paths": [
+        "results/lane1-hub-subsets.json",
+        "results/lane1-redistribution.json",
+        "results/lane1-switch-depth1.json",
+        "results/lane1-switch-depth2.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "L1-0167",
+          "canonical_sha256": "8:12:0f04e4d2c8ca79ca3cd51fe0e31da020bd2ed15807039a60d053e360edf205f4",
+          "degree_variance": 0.16578947368421051,
+          "delta": 11,
+          "hub_margin": null,
+          "lane": "lane1-degree-preserving-switches",
+          "order": 20,
+          "primary_span": 13,
+          "size": 35,
+          "structural_metadata": {
+            "lane": "lane1-degree-preserving-switches",
+            "mutation": "depth2;S7;-C3V0_1,-C6V0_2,+C9V1_5,+C9u",
+            "parent": "hat_K34_prime_Delta11"
+          }
+        },
+        {
+          "candidate_id": "L1-0001",
+          "canonical_sha256": "8:12:f6a0b7be8c8e62b502431794421c9238138ce3350eca2fe152ecd9105dcc979c",
+          "degree_variance": 0.16578947368421051,
+          "delta": 11,
+          "hub_margin": null,
+          "lane": "lane1-connector-redistribution",
+          "order": 20,
+          "primary_span": 12,
+          "size": 35,
+          "structural_metadata": {
+            "lane": "lane1-connector-redistribution",
+            "matrix": [
+              [
+                0,
+                0,
+                1,
+                3
+              ],
+              [
+                0,
+                2,
+                2,
+                0
+              ],
+              [
+                3,
+                1,
+                0,
+                0
+              ]
+            ],
+            "parent": "hat_K34_prime_Delta11",
+            "unhubbed_cell": [
+              0,
+              3
+            ]
+          }
+        },
+        {
+          "candidate_id": "L1-0006",
+          "canonical_sha256": "8:12:0ddd1f50a5ce9f94088a048d099ccbc670cbdbab89de8bb072da6885942bbb31",
+          "degree_variance": 0.16578947368421051,
+          "delta": 11,
+          "hub_margin": null,
+          "lane": "lane1-connector-redistribution",
+          "order": 20,
+          "primary_span": 12,
+          "size": 35,
+          "structural_metadata": {
+            "lane": "lane1-connector-redistribution",
+            "matrix": [
+              [
+                0,
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                0
+              ]
+            ],
+            "parent": "hat_K34_prime_Delta11",
+            "unhubbed_cell": [
+              0,
+              3
+            ]
+          }
+        },
+        {
+          "candidate_id": "L1-0008",
+          "canonical_sha256": "8:12:9c1eab96b3902e16bf1edd7cb34b8cdbe789a5e18028cf0d8f40acac78c43dfa",
+          "degree_variance": 0.16578947368421051,
+          "delta": 11,
+          "hub_margin": null,
+          "lane": "lane1-connector-redistribution",
+          "order": 20,
+          "primary_span": 12,
+          "size": 35,
+          "structural_metadata": {
+            "lane": "lane1-connector-redistribution",
+            "matrix": [
+              [
+                0,
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                0
+              ]
+            ],
+            "parent": "hat_K34_prime_Delta11",
+            "unhubbed_cell": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "candidate_id": "L1-0032",
+          "canonical_sha256": "8:12:9b89256da922c6447deafdc9938756ec87fc1c2181d22a6bbe1cd028d6719631",
+          "degree_variance": 0.16578947368421051,
+          "delta": 11,
+          "hub_margin": null,
+          "lane": "lane1-degree-preserving-switches",
+          "order": 20,
+          "primary_span": 12,
+          "size": 35,
+          "structural_metadata": {
+            "lane": "lane1-degree-preserving-switches",
+            "mutation": "depth2;S0;-C1V0_1,-C4V1_4,+C9V1_5,+C9u",
+            "parent": "hat_K34_prime_Delta11"
+          }
+        }
+      ]
+    },
+    "lane6-synchronizers": {
+      "certified_colorable": 1562,
+      "higher_span_quartile": {
+        "count": 390,
+        "degree_variance_median": null,
+        "hub_margin_median": -5.0,
+        "order_median": 28.0,
+        "size_median": 47.0,
+        "span_median": 11.0
+      },
+      "primary_span_max": 17,
+      "primary_span_median": 10.0,
+      "raw_records": 1562,
+      "routine_remainder": {
+        "count": 1172,
+        "degree_variance_median": null,
+        "hub_margin_median": -5.0,
+        "order_median": 28.0,
+        "size_median": 46.0,
+        "span_median": 9.0
+      },
+      "source_paths": [
+        "results/lane6-chained-sync-corrected.json",
+        "results/lane6-signature-r2.json",
+        "results/lane6-signature-r5.json",
+        "results/lane6-signature-r6.json",
+        "results/lane6-split-hub-delta10.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "L6R5-0121",
+          "canonical_sha256": "23:28:d0ca55834324c2ddeaf90f0c8e35b7e6d6b93b7658029d52d6334c2caaea8cd7",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -6,
+          "lane": "lane6-multiway-mixed-relay-ring-r5",
+          "order": 51,
+          "primary_span": 17,
+          "size": 69,
+          "structural_metadata": {
+            "connector_load_vector": [
+              2,
+              1,
+              1,
+              8
+            ],
+            "construction": "three_or_four_hub_mixed_strict_extreme_relay_ring",
+            "contiguous_cutpoints": [
+              2,
+              3,
+              4
+            ],
+            "forced_degree10_hubs": [
+              3
+            ],
+            "hub_degrees_before_relay_attachment": [
+              4,
+              3,
+              3,
+              10
+            ],
+            "lane": "lane6-multiway-mixed-relay-ring-r5",
+            "relay_edge_keys": [
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+            ],
+            "relay_pattern_by_position": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "ring_size": 4
+          }
+        },
+        {
+          "candidate_id": "L6R2-0034",
+          "canonical_sha256": "13:15:eabbdf9b811b95d842119218e3a3d7cbe96f6823032a09b01d192a4cf33fd55e",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -5,
+          "lane": "lane6-terminal-signature-r2",
+          "order": 28,
+          "primary_span": 14,
+          "size": 46,
+          "structural_metadata": {
+            "gadget_edges": [
+              [
+                "L0",
+                "R0"
+              ],
+              [
+                "L0",
+                "T0"
+              ],
+              [
+                "L1",
+                "R0"
+              ],
+              [
+                "L1",
+                "T0"
+              ],
+              [
+                "L2",
+                "R0"
+              ],
+              [
+                "L2",
+                "T0"
+              ],
+              [
+                "L3",
+                "R0"
+              ],
+              [
+                "L3",
+                "T1"
+              ]
+            ],
+            "lane": "lane6-terminal-signature-r2",
+            "mask": "000100010100",
+            "max_internal_vertices": 5,
+            "signature_filter": "strict_extreme",
+            "u0_degree": 4,
+            "u1_degree": 10
+          }
+        },
+        {
+          "candidate_id": "L6R2-1249",
+          "canonical_sha256": "11:17:080cd923baa1eef768466001cb066ad1cb4c9816efc832304e6c5b1e1386785b",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -5,
+          "lane": "lane6-terminal-signature-r2",
+          "order": 28,
+          "primary_span": 14,
+          "size": 46,
+          "structural_metadata": {
+            "gadget_edges": [
+              [
+                "L0",
+                "R0"
+              ],
+              [
+                "L0",
+                "R1"
+              ],
+              [
+                "L0",
+                "R2"
+              ],
+              [
+                "L0",
+                "T0"
+              ],
+              [
+                "L1",
+                "R0"
+              ],
+              [
+                "L1",
+                "R1"
+              ],
+              [
+                "L1",
+                "R2"
+              ],
+              [
+                "L1",
+                "T1"
+              ]
+            ],
+            "lane": "lane6-terminal-signature-r2",
+            "mask": "000100010100",
+            "max_internal_vertices": 5,
+            "signature_filter": "strict_extreme",
+            "u0_degree": 4,
+            "u1_degree": 10
+          }
+        },
+        {
+          "candidate_id": "L6R2-1046",
+          "canonical_sha256": "12:16:54fd04472731cfaf7d4309e052b52e609769608852a8905fa4962738c22961cb",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -5,
+          "lane": "lane6-terminal-signature-r2",
+          "order": 28,
+          "primary_span": 14,
+          "size": 44,
+          "structural_metadata": {
+            "gadget_edges": [
+              [
+                "L0",
+                "R0"
+              ],
+              [
+                "L0",
+                "R1"
+              ],
+              [
+                "L1",
+                "R0"
+              ],
+              [
+                "L1",
+                "T0"
+              ],
+              [
+                "L2",
+                "R1"
+              ],
+              [
+                "L2",
+                "T1"
+              ]
+            ],
+            "lane": "lane6-terminal-signature-r2",
+            "mask": "000100010100",
+            "max_internal_vertices": 5,
+            "signature_filter": "strict_extreme",
+            "u0_degree": 4,
+            "u1_degree": 10
+          }
+        },
+        {
+          "candidate_id": "L6R5-0148",
+          "canonical_sha256": "23:28:19bd4a1b9a89089b1561f61600897b970c688a4c465d545b161021b8631babdd",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -6,
+          "lane": "lane6-multiway-mixed-relay-ring-r5",
+          "order": 51,
+          "primary_span": 14,
+          "size": 69,
+          "structural_metadata": {
+            "connector_load_vector": [
+              2,
+              8,
+              1,
+              1
+            ],
+            "construction": "three_or_four_hub_mixed_strict_extreme_relay_ring",
+            "contiguous_cutpoints": [
+              2,
+              10,
+              11
+            ],
+            "forced_degree10_hubs": [
+              1
+            ],
+            "hub_degrees_before_relay_attachment": [
+              4,
+              10,
+              3,
+              3
+            ],
+            "lane": "lane6-multiway-mixed-relay-ring-r5",
+            "relay_edge_keys": [
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L1\",\"R0\"],[\"L1\",\"T0\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]",
+              "[[\"L0\",\"R0\"],[\"L0\",\"R1\"],[\"L0\",\"T0\"],[\"L1\",\"R0\"],[\"L1\",\"T1\"],[\"L2\",\"R1\"],[\"L2\",\"T1\"]]"
+            ],
+            "relay_pattern_by_position": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "ring_size": 4
+          }
+        }
+      ]
+    },
+    "multihub-sync": {
+      "certified_colorable": 1491,
+      "higher_span_quartile": {
+        "count": 372,
+        "degree_variance_median": 0.2627,
+        "hub_margin_median": -8.0,
+        "order_median": 30.0,
+        "size_median": 49.0,
+        "span_median": 12.0
+      },
+      "primary_span_max": 15,
+      "primary_span_median": 10,
+      "raw_records": 1491,
+      "routine_remainder": {
+        "count": 1119,
+        "degree_variance_median": 0.2204,
+        "hub_margin_median": -8,
+        "order_median": 28,
+        "size_median": 46,
+        "span_median": 10
+      },
+      "source_paths": [
+        "results/multihub-sync-delta10.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "MHSD10-0057",
+          "canonical_sha256": "13:20:9ef31286e79f90a197515021ae3d5c103452ab2e2b05b6393e5cac57bf4874ca",
+          "degree_variance": 0.30709876543209863,
+          "delta": 10,
+          "hub_margin": -6,
+          "lane": "multihub-sync",
+          "order": 33,
+          "primary_span": 15,
+          "size": 54,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "MHSD10-0336",
+          "canonical_sha256": "15:22:0542c9603239de4ea04eb033246b1d7f1e4ef0f7e298836c5f8e692cce45b8fa",
+          "degree_variance": 0.3209917355371899,
+          "delta": 10,
+          "hub_margin": -9,
+          "lane": "multihub-sync",
+          "order": 37,
+          "primary_span": 15,
+          "size": 55,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "MHSD10-0056",
+          "canonical_sha256": "13:20:806a4d487a8f28e80f8b2c9a62a5279891bc59a2953eb44a8cca951c249ca1fd",
+          "degree_variance": 0.30709876543209863,
+          "delta": 10,
+          "hub_margin": -6,
+          "lane": "multihub-sync",
+          "order": 33,
+          "primary_span": 14,
+          "size": 54,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "MHSD10-0018",
+          "canonical_sha256": "11:18:9b95ef8cf2c1ff8c2d3118faa71105a1f84f2ce9de9f28cdcbac26e33f4c6d57",
+          "degree_variance": 0.2296000000000002,
+          "delta": 9,
+          "hub_margin": -6,
+          "lane": "multihub-sync",
+          "order": 29,
+          "primary_span": 14,
+          "size": 50,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "MHSD10-0004",
+          "canonical_sha256": "9:21:eab1e9440e62f1524740134af01a7cd6ec8df7049b0b7ac2e247d7523473f5ed",
+          "degree_variance": 0.45647802355644923,
+          "delta": 10,
+          "hub_margin": -8,
+          "lane": "multihub-sync",
+          "order": 30,
+          "primary_span": 14,
+          "size": 59,
+          "structural_metadata": null
+        }
+      ]
+    },
+    "new-targeted-envelope": {
+      "certified_colorable": 25,
+      "higher_span_quartile": {
+        "count": 6,
+        "degree_variance_median": 0.0528,
+        "hub_margin_median": -4.0,
+        "order_median": 86.0,
+        "size_median": 131.0,
+        "span_median": 20.5
+      },
+      "primary_span_max": 21,
+      "primary_span_median": 17,
+      "raw_records": 25,
+      "routine_remainder": {
+        "count": 19,
+        "degree_variance_median": 0.0468,
+        "hub_margin_median": -4,
+        "order_median": 89,
+        "size_median": 130,
+        "span_median": 17
+      },
+      "source_paths": [
+        "results/nearmiss-mining-agent/targeted-pass-report.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "NM-TGT-0151",
+          "canonical_sha256": "46:36:a0390d52126cb92ba470a4677ce05a9a1dd4be49356101e6dda5a6a1c793c3a2",
+          "degree_variance": 0.06021548020358263,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "m5-five-transfer-long-terminal-envelope",
+          "order": 82,
+          "primary_span": 21,
+          "size": 124,
+          "structural_metadata": [
+            "rooted_C16",
+            "rooted_K_2_7",
+            "rooted_K_2_7",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4"
+          ]
+        },
+        {
+          "candidate_id": "NM-TGT-0011",
+          "canonical_sha256": "49:41:41bd65e7921ac2bfffcab445328d9f5617837baba2eddccd777d3417be29e0ed",
+          "degree_variance": 0.04680260785129703,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "m5-five-transfer-long-terminal-envelope",
+          "order": 90,
+          "primary_span": 21,
+          "size": 130,
+          "structural_metadata": [
+            "rooted_C16",
+            "rooted_K_2_7",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4"
+          ]
+        },
+        {
+          "candidate_id": "NM-TGT-0121",
+          "canonical_sha256": "46:43:f6e567a15a8f45dfbe89916844290ce65527b6606196e53bf9e00a4b366fc6f8",
+          "degree_variance": 0.043469029392524124,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "m5-five-transfer-long-terminal-envelope",
+          "order": 89,
+          "primary_span": 21,
+          "size": 130,
+          "structural_metadata": [
+            "rooted_K_3_6",
+            "rooted_C16",
+            "rooted_C16",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4"
+          ]
+        },
+        {
+          "candidate_id": "NM-TGT-0052",
+          "canonical_sha256": "47:36:4914f4e821b30d03e337bc032a23ec0df1e5b81d5c2e9ded40abf9c66858ed21",
+          "degree_variance": 0.05881415760013296,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "m5-five-transfer-long-terminal-envelope",
+          "order": 83,
+          "primary_span": 20,
+          "size": 132,
+          "structural_metadata": [
+            "rooted_K_2_7",
+            "rooted_K_3_6",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4"
+          ]
+        },
+        {
+          "candidate_id": "NM-TGT-0004",
+          "canonical_sha256": "50:41:f829c3fab3e569e798dd0cc750bbfe69b7b28e116fb03751a90935999a69fe05",
+          "degree_variance": 0.046263870439694564,
+          "delta": 10,
+          "hub_margin": -4,
+          "lane": "m5-five-transfer-long-terminal-envelope",
+          "order": 91,
+          "primary_span": 19,
+          "size": 138,
+          "structural_metadata": [
+            "rooted_theta_5x4",
+            "rooted_K_3_6",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4",
+            "rooted_theta_5x4"
+          ]
+        }
+      ]
+    },
+    "order17-targeted": {
+      "certified_colorable": 1200,
+      "higher_span_quartile": {
+        "count": 300,
+        "degree_variance_median": 0.285,
+        "hub_margin_median": -2.0,
+        "order_median": 17.0,
+        "size_median": 39.0,
+        "span_median": 11.0
+      },
+      "primary_span_max": 16,
+      "primary_span_median": 10.0,
+      "raw_records": 1200,
+      "routine_remainder": {
+        "count": 900,
+        "degree_variance_median": 0.2171,
+        "hub_margin_median": -3.0,
+        "order_median": 17.0,
+        "size_median": 33.0,
+        "span_median": 10.0
+      },
+      "source_paths": [
+        "results/order17-targeted-v1/report.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "O17-R00002",
+          "canonical_sha256": "11:6:629d74eed820ff131d4f9c7b367a7fa7e522bc714b5492748f12d713d6ae4112",
+          "degree_variance": 0.2465397923875432,
+          "delta": 11,
+          "hub_margin": 0,
+          "lane": "order16-one-vertex-extension",
+          "order": 17,
+          "primary_span": 16,
+          "size": 36,
+          "structural_metadata": {
+            "lane": "order16-one-vertex-extension",
+            "new_vertex_neighbors": [
+              "x10",
+              "x11",
+              "x12"
+            ],
+            "parent": "O16-5131467",
+            "source": "order16-strong"
+          }
+        },
+        {
+          "candidate_id": "O17-R00004",
+          "canonical_sha256": "11:6:d4288fae1e8b53909ef748758d5087bc3f844151b215423299c2e270705cc1f3",
+          "degree_variance": 0.22880622837370243,
+          "delta": 11,
+          "hub_margin": 0,
+          "lane": "order16-one-vertex-extension",
+          "order": 17,
+          "primary_span": 15,
+          "size": 38,
+          "structural_metadata": {
+            "lane": "order16-one-vertex-extension",
+            "new_vertex_neighbors": [
+              "x10",
+              "x11",
+              "x12",
+              "x13",
+              "x14"
+            ],
+            "parent": "O16-5131467",
+            "source": "order16-strong"
+          }
+        },
+        {
+          "candidate_id": "O17-R00001",
+          "canonical_sha256": "11:6:53300f18a3caca405f1969a78a14b796d27686857642c5f67c42771fd7dd27ab",
+          "degree_variance": 0.2638408304498269,
+          "delta": 11,
+          "hub_margin": 0,
+          "lane": "order16-one-vertex-extension",
+          "order": 17,
+          "primary_span": 14,
+          "size": 35,
+          "structural_metadata": {
+            "lane": "order16-one-vertex-extension",
+            "new_vertex_neighbors": [
+              "x10",
+              "x11"
+            ],
+            "parent": "O16-5131467",
+            "source": "order16-strong"
+          }
+        },
+        {
+          "candidate_id": "O17-R00003",
+          "canonical_sha256": "11:6:abc0bfbbaee6321df67b6159ee2df5aaabf59c635d1607ee48d32da57090e46f",
+          "degree_variance": 0.23486159169550175,
+          "delta": 11,
+          "hub_margin": 0,
+          "lane": "order16-one-vertex-extension",
+          "order": 17,
+          "primary_span": 14,
+          "size": 37,
+          "structural_metadata": {
+            "lane": "order16-one-vertex-extension",
+            "new_vertex_neighbors": [
+              "x10",
+              "x11",
+              "x12",
+              "x13"
+            ],
+            "parent": "O16-5131467",
+            "source": "order16-strong"
+          }
+        },
+        {
+          "candidate_id": "O17-R00006",
+          "canonical_sha256": "11:6:4490ab552ec32284fcaf8db752444a8ce9729ff0d0a5d7f7109f29f09cacfe68",
+          "degree_variance": 0.38884083044982687,
+          "delta": 10,
+          "hub_margin": -1,
+          "lane": "order16-one-vertex-extension",
+          "order": 17,
+          "primary_span": 14,
+          "size": 35,
+          "structural_metadata": {
+            "lane": "order16-one-vertex-extension",
+            "new_vertex_neighbors": [
+              "x10",
+              "x11",
+              "x12"
+            ],
+            "parent": "O16-5081223",
+            "source": "order16-strong"
+          }
+        }
+      ]
+    },
+    "order18-targeted-v4": {
+      "certified_colorable": 2000,
+      "higher_span_quartile": {
+        "count": 500,
+        "degree_variance_median": 0.2542,
+        "hub_margin_median": -3.0,
+        "order_median": 18.0,
+        "size_median": 36.0,
+        "span_median": 11.0
+      },
+      "primary_span_max": 12,
+      "primary_span_median": 11.0,
+      "raw_records": 2000,
+      "routine_remainder": {
+        "count": 1500,
+        "degree_variance_median": 0.2346,
+        "hub_margin_median": -3.0,
+        "order_median": 18.0,
+        "size_median": 37.0,
+        "span_median": 11.0
+      },
+      "source_paths": [
+        "results/order18-targeted-v4/report.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "O18-R00511",
+          "canonical_sha256": "7:11:f78c437e366338b801a9efda3521f66f4574d848de1e181b38f663a27762a221",
+          "degree_variance": 0.2679738562091503,
+          "delta": 11,
+          "hub_margin": -3,
+          "lane": "reverse-extension-edge-additions",
+          "order": 18,
+          "primary_span": 12,
+          "size": 36,
+          "structural_metadata": {
+            "added_edges": [
+              [
+                "C1",
+                "V0_3"
+              ],
+              [
+                "C8",
+                "V0_1&V0_2"
+              ],
+              [
+                "C8",
+                "V1_5"
+              ]
+            ],
+            "lane": "reverse-extension-edge-additions",
+            "parent": "Q2-00132"
+          }
+        },
+        {
+          "candidate_id": "O18-R00512",
+          "canonical_sha256": "7:11:f8a9f5ce9c819479db07f39a96900795539f610534e89f5bdfafda782b2a785e",
+          "degree_variance": 0.2679738562091503,
+          "delta": 11,
+          "hub_margin": -3,
+          "lane": "reverse-extension-edge-additions",
+          "order": 18,
+          "primary_span": 12,
+          "size": 36,
+          "structural_metadata": {
+            "added_edges": [
+              [
+                "C0&C4",
+                "V0_3"
+              ],
+              [
+                "C0&C4",
+                "V1_5"
+              ],
+              [
+                "C10",
+                "V0_1&V0_2"
+              ]
+            ],
+            "lane": "reverse-extension-edge-additions",
+            "parent": "Q2-00132"
+          }
+        },
+        {
+          "candidate_id": "O18-R00520",
+          "canonical_sha256": "7:11:99c4ceb4c8cf7b1c1098c60a8661466afc969a7ff5d4f0ed4129983155ae3ed1",
+          "degree_variance": 0.26724763979665955,
+          "delta": 11,
+          "hub_margin": -3,
+          "lane": "reverse-extension-edge-additions",
+          "order": 18,
+          "primary_span": 12,
+          "size": 37,
+          "structural_metadata": {
+            "added_edges": [
+              [
+                "C0&C4",
+                "V1_5&V1_6"
+              ],
+              [
+                "C3",
+                "V0_2"
+              ],
+              [
+                "C3",
+                "V1_5&V1_6"
+              ]
+            ],
+            "lane": "reverse-extension-edge-additions",
+            "parent": "Q2-00287"
+          }
+        },
+        {
+          "candidate_id": "O18-R00529",
+          "canonical_sha256": "7:11:45afa9582cf76e005e5a72c9ee283871273d07f336e31c44e394ace44f76cfa0",
+          "degree_variance": 0.2672476397966595,
+          "delta": 11,
+          "hub_margin": -3,
+          "lane": "reverse-extension-edge-additions",
+          "order": 18,
+          "primary_span": 12,
+          "size": 37,
+          "structural_metadata": {
+            "added_edges": [
+              [
+                "C0&C1",
+                "V1_6"
+              ],
+              [
+                "C4",
+                "V1_6"
+              ],
+              [
+                "C8",
+                "V1_6"
+              ]
+            ],
+            "lane": "reverse-extension-edge-additions",
+            "parent": "Q2-00185"
+          }
+        },
+        {
+          "candidate_id": "O18-R00519",
+          "canonical_sha256": "7:11:89f345e341c8dce668ccabd99a7559d9e2815ef676d2b71ac8077f92b6887e3b",
+          "degree_variance": 0.2672476397966595,
+          "delta": 11,
+          "hub_margin": -3,
+          "lane": "reverse-extension-edge-additions",
+          "order": 18,
+          "primary_span": 12,
+          "size": 35,
+          "structural_metadata": {
+            "added_edges": [
+              [
+                "C8",
+                "V0_1&V0_2"
+              ],
+              [
+                "C8",
+                "V1_5"
+              ]
+            ],
+            "lane": "reverse-extension-edge-additions",
+            "parent": "Q2-00132"
+          }
+        }
+      ]
+    },
+    "quotient-reductions": {
+      "certified_colorable": 5478,
+      "higher_span_quartile": {
+        "count": 1369,
+        "degree_variance_median": null,
+        "hub_margin_median": null,
+        "order_median": 17,
+        "size_median": 32,
+        "span_median": 10
+      },
+      "primary_span_max": 13,
+      "primary_span_median": 9.0,
+      "raw_records": 5478,
+      "routine_remainder": {
+        "count": 4109,
+        "degree_variance_median": null,
+        "hub_margin_median": null,
+        "order_median": 17,
+        "size_median": 31,
+        "span_median": 9
+      },
+      "source_paths": [
+        "results/quotient-r2.json",
+        "results/quotient-r3.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "Q3-00074",
+          "canonical_sha256": "5:12:3c11ca4e3dccacd6bc12f3fc01bde4ec66073f9f09217f5f592518ad3c00853a",
+          "degree_variance": null,
+          "delta": 12,
+          "hub_margin": null,
+          "lane": "same-side-quotient",
+          "order": 17,
+          "primary_span": 13,
+          "size": 35,
+          "structural_metadata": {
+            "blocks": [
+              [
+                "V0_1",
+                "V0_2",
+                "V0_3"
+              ],
+              [
+                "V1_6",
+                "V1_7"
+              ]
+            ],
+            "candidate_id": "Q3-00074",
+            "lane": "same-side-quotient",
+            "order_reduction": 3,
+            "parent": "hat_K34_prime_Delta11"
+          }
+        },
+        {
+          "candidate_id": "Q3-00073",
+          "canonical_sha256": "5:12:7b0c34b5504062ba0d45a7ec2275630c36e7c5efde44b69301c592c6c55dbf3b",
+          "degree_variance": null,
+          "delta": 12,
+          "hub_margin": null,
+          "lane": "same-side-quotient",
+          "order": 17,
+          "primary_span": 13,
+          "size": 32,
+          "structural_metadata": {
+            "blocks": [
+              [
+                "V0_1",
+                "V0_2",
+                "V0_3"
+              ],
+              [
+                "V1_7",
+                "u"
+              ]
+            ],
+            "candidate_id": "Q3-00073",
+            "lane": "same-side-quotient",
+            "order_reduction": 3,
+            "parent": "hat_K34_prime_Delta11"
+          }
+        },
+        {
+          "candidate_id": "Q3-01199",
+          "canonical_sha256": "6:11:6f7aed54180c956b5257fb80dc2db0f317ec6444d2058d02f70f7d28f63bd7d6",
+          "degree_variance": null,
+          "delta": 11,
+          "hub_margin": null,
+          "lane": "same-side-quotient",
+          "order": 17,
+          "primary_span": 13,
+          "size": 32,
+          "structural_metadata": {
+            "blocks": [
+              [
+                "C4",
+                "C8"
+              ],
+              [
+                "V0_1",
+                "V0_2",
+                "V0_3"
+              ]
+            ],
+            "candidate_id": "Q3-01199",
+            "lane": "same-side-quotient",
+            "order_reduction": 3,
+            "parent": "hat_K34_prime_Delta11"
+          }
+        },
+        {
+          "candidate_id": "Q3-00002",
+          "canonical_sha256": "5:12:3e195e47a184d373c472a7a9a050dcf9dce750eedae0dad0f6f470bf07a09b5a",
+          "degree_variance": null,
+          "delta": 12,
+          "hub_margin": null,
+          "lane": "same-side-quotient",
+          "order": 17,
+          "primary_span": 13,
+          "size": 30,
+          "structural_metadata": {
+            "blocks": [
+              [
+                "V1_4",
+                "V1_5",
+                "u"
+              ],
+              [
+                "V1_6",
+                "V1_7"
+              ]
+            ],
+            "candidate_id": "Q3-00002",
+            "lane": "same-side-quotient",
+            "order_reduction": 3,
+            "parent": "hat_K34_prime_Delta11"
+          }
+        },
+        {
+          "candidate_id": "Q2-00131",
+          "canonical_sha256": "7:11:8d469d68d9cfc2d86fe8fa0a9b8a1f39012a021d4206a8527169c4d7d24cd967",
+          "degree_variance": null,
+          "delta": 11,
+          "hub_margin": null,
+          "lane": "same-side-quotient",
+          "order": 18,
+          "primary_span": 12,
+          "size": 35,
+          "structural_metadata": {
+            "blocks": [
+              [
+                "C0",
+                "C10"
+              ],
+              [
+                "V0_1",
+                "V0_2"
+              ]
+            ],
+            "candidate_id": "Q2-00131",
+            "lane": "same-side-quotient",
+            "order_reduction": 2,
+            "parent": "hat_K34_prime_Delta11"
+          }
+        }
+      ]
+    },
+    "set-system": {
+      "certified_colorable": 743,
+      "higher_span_quartile": {
+        "count": 185,
+        "degree_variance_median": null,
+        "hub_margin_median": -2,
+        "order_median": 14,
+        "size_median": 20,
+        "span_median": 10
+      },
+      "primary_span_max": 13,
+      "primary_span_median": 8,
+      "raw_records": 743,
+      "routine_remainder": {
+        "count": 558,
+        "degree_variance_median": null,
+        "hub_margin_median": -2.0,
+        "order_median": 11.0,
+        "size_median": 15.0,
+        "span_median": 7.0
+      },
+      "source_paths": [
+        "results/set-system-delta10.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "SS10-00260",
+          "canonical_sha256": "4:11:5fa472cc552bb33105a4e6ee77a6718ab600aeec83970beb4e737e25591feee4",
+          "degree_variance": null,
+          "delta": 8,
+          "hub_margin": -2,
+          "lane": "set-system",
+          "order": 15,
+          "primary_span": 13,
+          "size": 22,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "SS10-00633",
+          "canonical_sha256": "3:12:61c8472c88069adc60aec1b53dab379109b109b10eb655db34c67349d7c7ab1f",
+          "degree_variance": null,
+          "delta": 9,
+          "hub_margin": -2,
+          "lane": "set-system",
+          "order": 15,
+          "primary_span": 12,
+          "size": 22,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "SS10-00029",
+          "canonical_sha256": "3:9:081823ee91297e5ee727fbcf429d8875020eee33c8d802aa02e4aac59917f706",
+          "degree_variance": null,
+          "delta": 8,
+          "hub_margin": 0,
+          "lane": "set-system",
+          "order": 12,
+          "primary_span": 11,
+          "size": 16,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "SS10-00176",
+          "canonical_sha256": "4:11:7dce41df67af82e5484c6d05e8f4304a2f851a18f217512188003f4be32ea2d7",
+          "degree_variance": null,
+          "delta": 10,
+          "hub_margin": -1,
+          "lane": "set-system",
+          "order": 15,
+          "primary_span": 11,
+          "size": 22,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "SS10-00587",
+          "canonical_sha256": "6:10:955f595d3d5fb447257f033334a3ce3b2f8b15606cd5d9177d18f19a5a9696c1",
+          "degree_variance": null,
+          "delta": 6,
+          "hub_margin": -2,
+          "lane": "set-system",
+          "order": 16,
+          "primary_span": 11,
+          "size": 24,
+          "structural_metadata": null
+        }
+      ]
+    },
+    "vertex-split": {
+      "certified_colorable": 280,
+      "higher_span_quartile": {
+        "count": 70,
+        "degree_variance_median": 0.1668,
+        "hub_margin_median": -5.0,
+        "order_median": 21.5,
+        "size_median": 45.0,
+        "span_median": 11.0
+      },
+      "primary_span_max": 14,
+      "primary_span_median": 8.0,
+      "raw_records": 280,
+      "routine_remainder": {
+        "count": 210,
+        "degree_variance_median": 0.0462,
+        "hub_margin_median": -5.0,
+        "order_median": 21.0,
+        "size_median": 36.0,
+        "span_median": 7.0
+      },
+      "source_paths": [
+        "results/vertex-split-delta10.json",
+        "results/vertex-split-delta10-v2.json"
+      ],
+      "top_near_misses": [
+        {
+          "candidate_id": "VSD10-0003-M5_delta_555",
+          "canonical_sha256": "5:15:500ff207e236f39119b4c98a3396b892d833fbe22d54d28316f9df62e7b6ef8e",
+          "degree_variance": 0.3530864197530864,
+          "delta": 10,
+          "hub_margin": -6,
+          "lane": "vertex-split",
+          "order": 20,
+          "primary_span": 14,
+          "size": 45,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "VSD10V2-0019-M5_delta_555",
+          "canonical_sha256": "7:15:f3703b039162124db6fad6dc0d8322322c8d45ef246d37633db14e90f96ab28f",
+          "degree_variance": 0.34172839506172864,
+          "delta": 10,
+          "hub_margin": -9,
+          "lane": "vertex-split",
+          "order": 22,
+          "primary_span": 14,
+          "size": 45,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "VSD10-0006-M5_delta_555",
+          "canonical_sha256": "6:15:2ce7ea99e477a0c6c2c0849dcfd81dca30f6a679fb4c0750d0db0ff2a9686a14",
+          "degree_variance": 0.322222222222222,
+          "delta": 10,
+          "hub_margin": -9,
+          "lane": "vertex-split",
+          "order": 21,
+          "primary_span": 14,
+          "size": 45,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "VSD10V2-0012-M5_delta_555",
+          "canonical_sha256": "6:15:2ce7ea99e477a0c6c2c0849dcfd81dca30f6a679fb4c0750d0db0ff2a9686a14",
+          "degree_variance": 0.322222222222222,
+          "delta": 10,
+          "hub_margin": -9,
+          "lane": "vertex-split",
+          "order": 21,
+          "primary_span": 14,
+          "size": 45,
+          "structural_metadata": null
+        },
+        {
+          "candidate_id": "VSD10V2-0009-M5_delta_555",
+          "canonical_sha256": "9:15:408e30a5bcaa7376b0319aafe1726473068c51730e54a28814c04882384a68d4",
+          "degree_variance": 0.40444444444444444,
+          "delta": 10,
+          "hub_margin": -8,
+          "lane": "vertex-split",
+          "order": 24,
+          "primary_span": 13,
+          "size": 45,
+          "structural_metadata": null
+        }
+      ]
+    }
+  },
+  "schema": "nearmiss-mining-v1",
+  "scope": "exact rank-potential CP-SAT colorable records only; no causal interpretation"
+}

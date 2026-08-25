@@ -406,4 +406,8 @@ That continuation completed ranks 1,201--2,351 after reconciliation against the 
 
 Because targeted coverage is not an exhaustive proof, work has started on an order-17 census feasibility plan across the eight bipartition-side classes. The plan will distinguish exact generated counts from estimates, verify graph6 files by line count and SHA256 before classification, and stage only classes whose storage/runtime budget is defensible on the YSU cluster.
 
+The structured order-18 queue was extended through rank 4,500. Slice v5 covered ranks 2,501--4,500 exactly once after recovering from a transient checkpoint-process interruption; all 2,000 graphs were colorable, with no timeouts, duplicate ranks/hashes, or overlap with earlier slices. Cumulative targeted coverage is now 4,500 of 12,987 ranked unique graphs.
+
+A near-miss mining pass compared high-span colorable constructions across transfer, split, order-17, and order-18 families. A bounded fresh envelope added 16 new exact classifications (all colorable) with zero collisions against 118,349 prior certificates. The strongest observed colorable span remains 22 for fresh M5 terminal-transfer motifs. The next construction hypothesis is therefore bridge coupling between terminal pairs, rather than more isolated terminal growth.
+
 The `6+10` terminal-audit workflow was repaired to avoid rescanning unchanged chunks when the global hash sidecar is still incomplete. Chunks 0--119 are validated from cache with 68,418,360 sorted hash entries; incremental checkpoints and cache replacements are atomic, and per-pass versus cumulative scope is reported separately. Bounded Slurm job 229252 was submitted for the next 24 oldest terminal chunks using four CPU slots and 32 GB memory.

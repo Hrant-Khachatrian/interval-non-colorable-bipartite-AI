@@ -1,0 +1,815 @@
+{
+  "complete": true,
+  "configuration": {
+    "bounded_candidate_cap": 16,
+    "global_canonical_seed_count": 117884,
+    "lane": "m5-five-transfer-long-terminal-envelope",
+    "motifs": [
+      "rooted_C16",
+      "rooted_theta_5x4",
+      "rooted_K_3_6",
+      "rooted_K_2_7"
+    ],
+    "negative_confirmation": "independent fixed-span CP-SAT across every legal span",
+    "parent": "M5_delta_555",
+    "primary_oracle": "rank-potential CP-SAT",
+    "selected_parent_edges": [
+      27,
+      33,
+      36,
+      39,
+      42
+    ],
+    "timeout_policy": "unresolved only"
+  },
+  "counts": {
+    "classified": 16,
+    "colorable": 16,
+    "duplicate": 136,
+    "generated": 152,
+    "independent_unresolved": 0,
+    "non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "timeout": 0,
+    "unique": 16
+  },
+  "records": [
+    {
+      "candidate_id": "NM-TGT-0001",
+      "canonical_sha256": "51:40:c152ee557f2b20c092b6b6eddc2cd64989908565f95be4e7eac3b8bd60e9b687",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04819600423996025,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 91,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.37621884100008174,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 14,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 134,
+      "terminal_motifs": [
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0002",
+      "canonical_sha256": "50:41:b99a9d493297bd6daeb5687d7a2b64b28635c796e2db4586d76db8f82e331e57",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.046263870439694564,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 91,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.9290829190003933,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 16,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 138,
+      "terminal_motifs": [
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0003",
+      "canonical_sha256": "51:40:1154d0c78c409d127825f39e957d670ac0b24d36ac3b627dfe76316b080e714d",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04819600423996024,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 91,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.3709262170000329,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 14,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 134,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0004",
+      "canonical_sha256": "50:41:f829c3fab3e569e798dd0cc750bbfe69b7b28e116fb03751a90935999a69fe05",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.046263870439694564,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 91,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.6715009500003362,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 19,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 138,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0011",
+      "canonical_sha256": "49:41:41bd65e7921ac2bfffcab445328d9f5617837baba2eddccd777d3417be29e0ed",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04680260785129703,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 90,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.44307181400017726,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 21,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 130,
+      "terminal_motifs": [
+        "rooted_C16",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0012",
+      "canonical_sha256": "48:42:f5ffb6d8b4eb3c3ce499ac163fa63d9868c0fa3fc931d817d879d2497036fc54",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.044938271604938324,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 90,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.4116475919995537,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 17,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 134,
+      "terminal_motifs": [
+        "rooted_C16",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0019",
+      "canonical_sha256": "49:41:58e73b1afa8dd49b2d3c9bcbc00fa82bda33e1fb1ca7d2a6075af4e98719d89b",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04680260785129703,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 90,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.3420534889996816,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 16,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 130,
+      "terminal_motifs": [
+        "rooted_K_2_7",
+        "rooted_C16",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0023",
+      "canonical_sha256": "48:42:ed59cd7d1ab4a44716abd17f8a3bf1c28b269e86ab2ed09f4a60f6d56b20a247",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.044938271604938324,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 90,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.4077334109997537,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 14,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 134,
+      "terminal_motifs": [
+        "rooted_K_3_6",
+        "rooted_C16",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0027",
+      "canonical_sha256": "49:41:dbef6a9f394f2022d4a989789bb9e6cae38dd51f9713e7139726ab4ae5f6253c",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04680260785129703,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 90,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.3161813820001953,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 18,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 130,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_C16",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0028",
+      "canonical_sha256": "48:42:bb186c344179900a29c1ef76fda8b0048c5b9015712c5f7e743bc71aff7c48a2",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.044938271604938324,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 90,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.34778619100006836,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 18,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 134,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_C16",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0051",
+      "canonical_sha256": "48:35:9cacd5b167c6bcb140b979ca3a8e8a0bff600d126ddbb346c20ff96ff3d9bd09",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.061476585153425786,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 83,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.42174303199999486,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 17,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 128,
+      "terminal_motifs": [
+        "rooted_K_2_7",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0052",
+      "canonical_sha256": "47:36:4914f4e821b30d03e337bc032a23ec0df1e5b81d5c2e9ded40abf9c66858ed21",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05881415760013296,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 83,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.6178639919999114,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 20,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 132,
+      "terminal_motifs": [
+        "rooted_K_2_7",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0059",
+      "canonical_sha256": "47:36:1d8fed3dcf9c845333cf3d67761ee416248af2f387eee4872b493a7b64c78986",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05881415760013296,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 83,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.40158820699980424,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 17,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 132,
+      "terminal_motifs": [
+        "rooted_K_3_6",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0060",
+      "canonical_sha256": "46:37:2f4e219857d4be88825ee8586e8361592f42fc3c146eb973bd434e7d99bc31a1",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.055925140467836615,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 83,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.4801116250000632,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 17,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 136,
+      "terminal_motifs": [
+        "rooted_K_3_6",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0067",
+      "canonical_sha256": "48:35:ff7f14baaaaae360ce2f7e9645e58d7df1e2241ce52c67c7863efa4e69c798a6",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.061476585153425786,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 83,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.3742187200000444,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 17,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 128,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_K_2_7",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0068",
+      "canonical_sha256": "47:36:3c18870258c52549402d0b3660c5f7234a4f481ebc2cb7f9fd404741a3de4fb1",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05881415760013298,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 83,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.42304238799988525,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 18,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 132,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_K_2_7",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0074",
+      "canonical_sha256": "46:37:9a8bd3b728d12ff1607174e03f8bc1ee855b403fd13fa9540f0ea39c66025eac",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.055925140467836615,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 83,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.530406344000312,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 17,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 136,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_K_3_6",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0091",
+      "canonical_sha256": "47:42:00ace53cd50b3a1cfa4d687dbe33f118485c5be730c72ae0829504278c545b84",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04525943693978019,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 89,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.36122502899979736,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 18,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 126,
+      "terminal_motifs": [
+        "rooted_C16",
+        "rooted_C16",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0092",
+      "canonical_sha256": "46:43:a6ab88a8e89b08930c5925eebd4ad25a13768c4bd3cdab511e45bcd87df447bd",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.043469029392524124,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 89,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.36329932900025597,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 15,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 130,
+      "terminal_motifs": [
+        "rooted_C16",
+        "rooted_C16",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0115",
+      "canonical_sha256": "47:42:03ca8d86e1aa319445b8ef24ff5b0f9b2a02ab4d368cd5de1fa5b026872dde88",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04525943693978019,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 89,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.2929501449998497,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 15,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 126,
+      "terminal_motifs": [
+        "rooted_K_2_7",
+        "rooted_C16",
+        "rooted_C16",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0121",
+      "canonical_sha256": "46:43:f6e567a15a8f45dfbe89916844290ce65527b6606196e53bf9e00a4b366fc6f8",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.043469029392524124,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 89,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.32185527699994054,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 21,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 130,
+      "terminal_motifs": [
+        "rooted_K_3_6",
+        "rooted_C16",
+        "rooted_C16",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0127",
+      "canonical_sha256": "47:42:229037834363a4128dd45f581183b16060f42b127c7b34e191ff71bd1510de07",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.04525943693978019,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 89,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.33465071000000535,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 17,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 126,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_C16",
+        "rooted_C16",
+        "rooted_K_2_7",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0128",
+      "canonical_sha256": "46:43:dbe97ddafa07fded6ebb8ef30d2d1b4af2ecb24e67f9bdb01c32019b0ba96d8b",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.043469029392524124,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 89,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.5390902310000456,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 18,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 130,
+      "terminal_motifs": [
+        "rooted_theta_5x4",
+        "rooted_C16",
+        "rooted_C16",
+        "rooted_K_3_6",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0151",
+      "canonical_sha256": "46:36:a0390d52126cb92ba470a4677ce05a9a1dd4be49356101e6dda5a6a1c793c3a2",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.06021548020358263,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 82,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.3961043780000182,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 21,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 124,
+      "terminal_motifs": [
+        "rooted_C16",
+        "rooted_K_2_7",
+        "rooted_K_2_7",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    },
+    {
+      "candidate_id": "NM-TGT-0152",
+      "canonical_sha256": "45:37:f8e828cb65496dee417a3195237d1b1cc73901fe3d215db204078a5971ab6485",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.057630305300343194,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "lane": "m5-five-transfer-long-terminal-envelope",
+      "minimum_degree": 2,
+      "order": 82,
+      "parent": "M5_delta_555",
+      "primary_elapsed_seconds": 0.4554624630000035,
+      "primary_solver_status": "OPTIMAL",
+      "primary_span": 16,
+      "primary_status": "colorable",
+      "selected_parent_edges": [
+        27,
+        33,
+        36,
+        39,
+        42
+      ],
+      "size": 128,
+      "terminal_motifs": [
+        "rooted_C16",
+        "rooted_K_2_7",
+        "rooted_K_3_6",
+        "rooted_theta_5x4",
+        "rooted_theta_5x4"
+      ]
+    }
+  ],
+  "schema": "nearmiss-mining-targeted-pass-v1",
+  "state_rows_total": 25
+}
