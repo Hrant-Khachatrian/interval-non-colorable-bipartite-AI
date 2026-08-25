@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "lane": "edge-minimal-neighborhood-graft-delta10",
+  "provenance_conclusion": {
+    "predecessor": "results/neighborhood-graft-delta10-smoke.json",
+    "predecessor_sha256": "6035726a897ba40a556ba0576d42220b7661640499952bf32e7177580e9e4c74",
+    "conclusion": "interrupted checkpoint, not an intentional Q1-00012-only rerun",
+    "evidence": [
+      "The predecessor declares all seven starting graphs but has roots: [] and checkpoint.partial: true.",
+      "Its 104.49-second elapsed time is below the 180-second smoke deadline and it lacks the resolved seed metadata written by a final report.",
+      "The predecessor is retained unchanged; its final 16 decision records are a rolling checkpoint window, not a complete append-only history."
+    ]
+  },
+  "extension": {
+    "scope": "all seven declared roots",
+    "report": "results/neighborhood-graft-delta10-agent/extension-full-roots/report.json",
+    "append_only_state": "results/neighborhood-graft-delta10-agent/extension-full-roots/classification-state.jsonl",
+    "elapsed_seconds": 623.1727022269997,
+    "generated": 61375,
+    "unique": 10950,
+    "classified": 94,
+    "colorable": 94,
+    "non_colorable": 0,
+    "timeout": 0,
+    "all_selected_classified": true,
+    "all_unique_classified": false,
+    "root_results": [
+      {"root": "Q1-00012", "generated": 24496, "unique": 4855, "classified": 40, "colorable": 40},
+      {"root": "Q1-00014", "generated": 24459, "unique": 4249, "classified": 32, "colorable": 32},
+      {"root": "M5_delta_555", "inapplicable_reason": "parent has a non-hub vertex above final delta cap"},
+      {"root": "Erd_Fano_2222221", "inapplicable_reason": "parent has a non-hub vertex above final delta cap"},
+      {"root": "hat_K34", "inapplicable_reason": "parent has a non-hub vertex above final delta cap"},
+      {"root": "hat_K34_prime_Delta11", "generated": 12420, "unique": 1846, "classified": 22, "colorable": 22},
+      {"root": "hat_K222", "inapplicable_reason": "parent has a non-hub vertex above final delta cap"}
+    ]
+  },
+  "solver_policy": {
+    "primary": "rank_potential_solve CP-SAT",
+    "negative_confirmation": "fixed_span_sat_solve CP-SAT over every legal span",
+    "timeout_policy": "UNKNOWN is unresolved only"
+  },
+  "integrity": {
+    "simple_connected_bipartite_checked_before_deduplication": true,
+    "minimum_degree_at_least": 2,
+    "maximum_final_delta_at_most": 10,
+    "deduplication": "bipartition-colored Nauty certificate SHA-256",
+    "state_event_counts": {"run-start": 1, "classification": 94, "root-complete": 7, "run-complete": 1}
+  }
+}

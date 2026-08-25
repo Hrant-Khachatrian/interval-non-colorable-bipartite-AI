@@ -420,6 +420,12 @@ An expanded bridge-coupling pass enumerated all ten terminal pairs and every fin
 
 Order-18 targeted slice v7 completed ranks 6,501--8,500 after its local process exited naturally. Reconciliation confirmed all 2,000 ranks exactly once, no duplicate/unexpected ranks, no rank/hash mismatches, and no overlap with slices v3--v6. All 2,000 graphs were colorable, with zero timeouts and therefore no independent confirmations to run.
 
+A cumulative order-18 coverage ledger reconstructed the 12,987-rank queue and validated completed slices v3--v7 by rank/hash samples. It found exactly 8,500 authoritative covered ranks, no gaps/overlaps/duplicates/mismatches, plus 1,228 valid provisional v8 rows. Thus 9,728 ranks have been observed colorable and 3,259 remain unobserved.
+
+The neighborhood-graft predecessor was identified as an interrupted checkpoint rather than an intentional one-root rerun and was preserved byte-for-byte. A corrected extension across all seven declared roots generated 61,375 constructions and retained 10,950 unique Δ≤10 graphs. Only three roots were eligible under the final-degree cap; their 94 selected high-margin survivors were classified exactly and all were colorable, with zero timeouts.
+
 The cluster queue remained healthy but saturated by the per-user job limit. The `6+10` array continued advancing, while the bounded incremental audit and order-17 small-class chains stayed pending with their dependencies intact. Compact scheduler snapshots now record the audited 120-chunk prefix (68,418,360 clean rows) and the exact order-17 job/resource plan.
+
+Order-16 `8+8` generation completed successfully in 5h14m. The stable output is 185,259,598,216 bytes, divisible by the independently sampled 22-byte record width, implying only a provisional count of 8,420,890,828 records. Exact line count and SHA256 remain gated behind successful finalizer job 229204; physical sharding and classification stay blocked until that manifest is validated.
 
 The `6+10` terminal-audit workflow was repaired to avoid rescanning unchanged chunks when the global hash sidecar is still incomplete. Chunks 0--119 are validated from cache with 68,418,360 sorted hash entries; incremental checkpoints and cache replacements are atomic, and per-pass versus cumulative scope is reported separately. Bounded Slurm job 229252 was submitted for the next 24 oldest terminal chunks using four CPU slots and 32 GB memory.

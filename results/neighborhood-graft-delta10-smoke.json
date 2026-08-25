@@ -20,21 +20,7 @@
     "runtime_hard_deadline_seconds": 180.0,
     "checkpoint_record_window": 16,
     "atomic_checkpoint_after_every_solve": true,
-    "smoke_run": true,
-    "seed_resolution": {
-      "quotient_seeds": [
-        "Q1-00012",
-        "Q1-00014"
-      ],
-      "reconstructed_benchmarks": [
-        "M5_delta_555",
-        "Erd_Fano_2222221",
-        "hat_K34",
-        "hat_K34_prime_Delta11",
-        "hat_K222"
-      ],
-      "resolved_benchmark_count": 5
-    }
+    "smoke_run": true
   },
   "operation_definition": {
     "neighborhood_rule": "remove one or two vertices adjacent to the unique degree-11 hub; the retained hub plus every surviving core endpoint of those removed connectors forms the replacement boundary",
@@ -53,64 +39,14 @@
     "timeout_policy": "primary or independent UNKNOWN remains unresolved, counts once as timeout, and never counts as non-colorable",
     "graph_serialization_policy": "full graph JSON appears only inside confirmed_negatives"
   },
-  "roots": [
-    {
-      "name": "Q1-00012",
-      "order": 19,
-      "size": 34,
-      "maximum_degree": 11,
-      "degree_11_hub": "u"
-    },
-    {
-      "name": "Q1-00014",
-      "order": 19,
-      "size": 34,
-      "maximum_degree": 11,
-      "degree_11_hub": "u"
-    },
-    {
-      "name": "M5_delta_555",
-      "order": 19,
-      "size": 45,
-      "maximum_degree": 15,
-      "degree_11_hub": null
-    },
-    {
-      "name": "Erd_Fano_2222221",
-      "order": 21,
-      "size": 52,
-      "maximum_degree": 13,
-      "degree_11_hub": null
-    },
-    {
-      "name": "hat_K34",
-      "order": 20,
-      "size": 36,
-      "maximum_degree": 12,
-      "degree_11_hub": null
-    },
-    {
-      "name": "hat_K34_prime_Delta11",
-      "order": 20,
-      "size": 35,
-      "maximum_degree": 11,
-      "degree_11_hub": "u"
-    },
-    {
-      "name": "hat_K222",
-      "order": 19,
-      "size": 36,
-      "maximum_degree": 12,
-      "degree_11_hub": null
-    }
-  ],
+  "roots": [],
   "deadline_seconds": 180.0,
-  "elapsed_seconds": 398.4771089209971,
+  "elapsed_seconds": 104.49013032400035,
   "counts": {
-    "generated": 0,
+    "generated": 24496,
     "unique": 4855,
-    "classified": 0,
-    "colorable": 0,
+    "classified": 40,
+    "colorable": 40,
     "non_colorable": 0,
     "timeout": 0,
     "confirmed_non_colorable": 0,
@@ -119,46 +55,1264 @@
     "duplicate": 19641,
     "high_margin_unique": 40,
     "selected_for_classification": 40,
-    "unclassified_deadline": 40
+    "unclassified_deadline": 0
   },
   "completion": {
     "bounded_generation_complete": true,
-    "all_selected_unique_classified": false,
+    "all_selected_unique_classified": true,
     "classification_complete": false,
     "independent_confirmation_complete": true,
-    "runtime_deadline_hit": true,
-    "stop_reason": "root-deadline",
-    "complete": false
+    "runtime_deadline_hit": false,
+    "stop_reason": null,
+    "complete": true
   },
-  "complete": false,
+  "complete": true,
   "negative_events": [],
   "summaries": [
     {
-      "constructions_attempted": 674983,
-      "generated": 0,
+      "constructions_attempted": 24496,
+      "generated": 24496,
       "rejected_disconnected": 0,
       "rejected_low_degree": 0,
-      "rejected_degree_cap": 650487,
+      "rejected_degree_cap": 0,
       "rejected_invalid": 0,
       "duplicate": 19641,
       "unique": 4855,
       "high_margin_unique": 40,
-      "classified": 0,
-      "colorable": 0,
+      "classified": 40,
+      "colorable": 40,
       "non_colorable": 0,
       "timeout": 0,
       "primary_negative_candidates": 0,
       "confirmed_non_colorable": 0,
       "independent_unresolved": 0,
-      "unclassified_deadline": 40,
+      "unclassified_deadline": 0,
       "selected_for_classification": 40,
       "root": "Q1-00012",
       "classification_complete": false,
-      "independent_confirmation_complete": true,
-      "complete": false,
-      "elapsed_seconds": 398.44702251899434
+      "independent_confirmation_complete": true
     }
   ],
-  "records": [],
-  "confirmed_negatives": []
+  "records": [
+    {
+      "candidate_id": "NGD10-02582",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:13:5f5464c5db2c15ae28b8cff0445f17742bd2f825c27e896683552b2d33aea3d8",
+      "order": 22,
+      "size": 37,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 5,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -5,
+          -5
+        ],
+        "hub_margin_sum_top3": -12,
+        "normalized_degree_variance": 0.2132943754565378,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.05048160100068344,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 253,
+        "branches": 3023,
+        "wall_time": 0.048893818000000006
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02565",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:13:dd6a65ae19a2209322c930b0e89e637447b38778661d65d68a6cc4cac03daed5",
+      "order": 22,
+      "size": 37,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 5,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -5,
+          -5
+        ],
+        "hub_margin_sum_top3": -12,
+        "normalized_degree_variance": 0.2132943754565378,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04341067999939696,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 147,
+        "branches": 2830,
+        "wall_time": 0.041463852
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02545",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:13:78c9194e9f43527fb29bae159c88f1d29e97fcc2085ffdc40219db69a28e7b23",
+      "order": 22,
+      "size": 37,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 5,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -7,
+          -10
+        ],
+        "hub_margin_sum_top3": -19,
+        "normalized_degree_variance": 0.2132943754565378,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 8,
+            "margin": -7,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 11,
+            "margin": -10,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N03_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 11,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.039273964000130945,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 137,
+        "branches": 2831,
+        "wall_time": 0.037834246
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-01448",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:13:eb707591166abfcc14b2788ed644ea83549f2c03c3065619c7e2c5f2728f29f5",
+      "order": 22,
+      "size": 37,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C2"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 5,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -7,
+          -10
+        ],
+        "hub_margin_sum_top3": -19,
+        "normalized_degree_variance": 0.2132943754565378,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 8,
+            "margin": -7,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03467001000080927,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 61,
+        "branches": 2662,
+        "wall_time": 0.032566561
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-01398",
+      "parent": "Q1-00012",
+      "canonical_sha256": "10:14:c4c0627dcd990364ae30386a707fa525c8a798a4a16638ddfbb7d1a805c7d2f4",
+      "order": 24,
+      "size": 39,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C2"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 7,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -6,
+          -10
+        ],
+        "hub_margin_sum_top3": -18,
+        "normalized_degree_variance": 0.21499013806706116,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N03_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.04429349400015781,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 68,
+        "branches": 2736,
+        "wall_time": 0.041941685
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02460",
+      "parent": "Q1-00012",
+      "canonical_sha256": "10:14:b1f152193d88f0e8259b01dda483fc9db42829c9b725e8e460c4d296c5d49935",
+      "order": 24,
+      "size": 39,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 7,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -9,
+          -9
+        ],
+        "hub_margin_sum_top3": -20,
+        "normalized_degree_variance": 0.21499013806706116,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N03_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 10,
+            "margin": -9,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N05_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 10,
+            "margin": -9,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03854968399991776,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 130,
+        "branches": 2852,
+        "wall_time": 0.037051269000000005
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02807",
+      "parent": "Q1-00012",
+      "canonical_sha256": "10:14:65f0bba1ad0523cda29e2e8253a77d5e4d5a42c942356e19c787744c5d755b84",
+      "order": 24,
+      "size": 39,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C5"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 7,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -5,
+          -5
+        ],
+        "hub_margin_sum_top3": -12,
+        "normalized_degree_variance": 0.22287968441814593,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N06_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.042897227999674215,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 155,
+        "branches": 2900,
+        "wall_time": 0.04115924
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-01395",
+      "parent": "Q1-00012",
+      "canonical_sha256": "10:14:7e54b5c35bc070fdeb1f9585656febd2ebcfdbb9dfb648366e60927fac3f547c",
+      "order": 24,
+      "size": 39,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C2"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 7,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -5,
+          -5
+        ],
+        "hub_margin_sum_top3": -12,
+        "normalized_degree_variance": 0.22287968441814593,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N01_L",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 6,
+            "margin": -5,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.030718677000550088,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 73,
+        "branches": 2687,
+        "wall_time": 0.029189024
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-01413",
+      "parent": "Q1-00012",
+      "canonical_sha256": "10:14:4ebe8aff175659ca74552e80890e188b7ba8eb8edb14e0d16362054180fba70f",
+      "order": 24,
+      "size": 39,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C2"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 7,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -7,
+          -10
+        ],
+        "hub_margin_sum_top3": -19,
+        "normalized_degree_variance": 0.22287968441814593,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 8,
+            "margin": -7,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.042662134999773116,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 197,
+        "branches": 2905,
+        "wall_time": 0.041273878
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02455",
+      "parent": "Q1-00012",
+      "canonical_sha256": "10:14:d58709dd1f631042e17d77200805dfff0f09498b1614ce5dbeb4ba6290b3aa3b",
+      "order": 24,
+      "size": 39,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 7,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -9,
+          -9
+        ],
+        "hub_margin_sum_top3": -20,
+        "normalized_degree_variance": 0.22287968441814593,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N01_L",
+            "degree": 2,
+            "weighted_neighbor_diameter": 10,
+            "margin": -9,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 10,
+            "margin": -9,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 10,
+            "margin": -9,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03482323899970652,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 111,
+        "branches": 2777,
+        "wall_time": 0.033281192
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-01327",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:14:4a30fe60ef263ecc65a591d2708ecab48dc238e329e64594fc3385861abaf1b8",
+      "order": 23,
+      "size": 38,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C2"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 6,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -6,
+          -6
+        ],
+        "hub_margin_sum_top3": -14,
+        "normalized_degree_variance": 0.22645429362880873,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N05_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.051993283000228985,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 115,
+        "branches": 2785,
+        "wall_time": 0.049976517000000005
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02454",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:14:6da7c2cf5f7ead798d86d65a3abe220a9e74e5703e6614ad7937bb032cccdb6e",
+      "order": 23,
+      "size": 38,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 6,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -6,
+          -6
+        ],
+        "hub_margin_sum_top3": -14,
+        "normalized_degree_variance": 0.22645429362880873,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N05_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.041300844000033976,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 145,
+        "branches": 2905,
+        "wall_time": 0.039639672
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02275",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:14:82727fbca1f1a6af50f7cf77a98ffdf120ecd20a844bab985a523680ebae7cf3",
+      "order": 23,
+      "size": 38,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 6,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -6,
+          -6
+        ],
+        "hub_margin_sum_top3": -14,
+        "normalized_degree_variance": 0.22645429362880873,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03737998599990533,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 115,
+        "branches": 2869,
+        "wall_time": 0.035976681
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-02174",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:14:afb2dbb3a91fafe873bc6771b8c70edd0d4f08d398bee2a9ca2f78cb347a8540",
+      "order": 23,
+      "size": 38,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C4"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 6,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -6,
+          -6
+        ],
+        "hub_margin_sum_top3": -14,
+        "normalized_degree_variance": 0.22645429362880873,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N02_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N04_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 7,
+            "margin": -6,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.03589105799983372,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 118,
+        "branches": 2844,
+        "wall_time": 0.034552505000000004
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-01394",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:14:200128d0ebcbbd64c14d62ac64a88fa29854d966cca2ff84bdd54fe3bc0efc87",
+      "order": 23,
+      "size": 38,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C2"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 6,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -7,
+          -10
+        ],
+        "hub_margin_sum_top3": -19,
+        "normalized_degree_variance": 0.22645429362880873,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N05_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 8,
+            "margin": -7,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.031287941000300634,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 60,
+        "branches": 2702,
+        "wall_time": 0.029787973000000002
+      },
+      "decision": "colorable"
+    },
+    {
+      "candidate_id": "NGD10-01394",
+      "parent": "Q1-00012",
+      "canonical_sha256": "9:14:200128d0ebcbbd64c14d62ac64a88fa29854d966cca2ff84bdd54fe3bc0efc87",
+      "order": 23,
+      "size": 38,
+      "delta": 10,
+      "minimum_degree": 2,
+      "operation": {
+        "rule": "rooted-height-3-bipartite-tree",
+        "hub": "u",
+        "removed_connectors": [
+          "C0&C1",
+          "C2"
+        ],
+        "boundary_port_count": 2,
+        "core_terminal_count": 5,
+        "tree_new_vertices": 6,
+        "non_tree_chords": []
+      },
+      "ranking": {
+        "hub_best_margin": -2,
+        "hub_best_margin_tier": "margin-at-least-minus-2.5",
+        "hub_best_margin_tier_rank": 1,
+        "high_margin": true,
+        "sufficient_obstruction_count": 0,
+        "top_three_hub_margins": [
+          -2,
+          -7,
+          -10
+        ],
+        "hub_margin_sum_top3": -19,
+        "normalized_degree_variance": 0.22645429362880873,
+        "weighted_hubs_best": [
+          {
+            "hub": "u",
+            "degree": 10,
+            "weighted_neighbor_diameter": 11,
+            "margin": -2,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "N05_R",
+            "degree": 2,
+            "weighted_neighbor_diameter": 8,
+            "margin": -7,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_2",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          },
+          {
+            "hub": "V0_3",
+            "degree": 4,
+            "weighted_neighbor_diameter": 13,
+            "margin": -10,
+            "sufficient_obstruction": false
+          }
+        ]
+      },
+      "primary_result": {
+        "status": "colorable",
+        "encoding": "rank-potential-cpsat",
+        "elapsed_seconds": 0.031287941000300634,
+        "span": 10,
+        "solver_status": "OPTIMAL",
+        "conflicts": 60,
+        "branches": 2702,
+        "wall_time": 0.029787973000000002
+      },
+      "decision": "colorable"
+    }
+  ],
+  "confirmed_negatives": [],
+  "checkpoint": {
+    "partial": true
+  }
 }

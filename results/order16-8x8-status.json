@@ -1,85 +1,79 @@
 {
   "run": "order16-8x8",
-  "schema_version": 3,
-  "updated_at": "2026-08-25T10:16:19+04:00",
+  "schema_version": 4,
+  "updated_at": "2026-08-25T12:33:14+04:00",
   "generation": {
     "job_id": 229085,
-    "prior_job_id": 228780,
-    "state": "RUNNING",
-    "time_limit": "24:00:00",
-    "elapsed": "03:04:54",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "05:14:00",
+    "start": "2026-08-25T07:11:25+04:00",
+    "end": "2026-08-25T12:25:25+04:00",
     "node": "gpu04",
     "output": "/mnt/weka/hrant/interval-search/data/order16-8x8-d2to11.g6",
-    "output_bytes": 107571290112,
-    "output_mtime": 1787638569,
-    "output_size_mod_22": 0,
-    "fixed_width_records": true,
-    "record_width_bytes": 22
-  },
-  "stale_estimate": {
-    "value": 159757218,
-    "status": "invalid_stale_estimate",
-    "evidence": "partial job 228780 produced 4707971072 records before timeout; corrected 7+9 also superseded its local estimate"
+    "observed_bytes": 185259598216,
+    "observed_mtime_epoch": 1787646174,
+    "record_width_bytes": 22,
+    "size_mod_record_width": 0,
+    "observed_complete_records_provisional": 8420890828
   },
   "verification": {
+    "state": "PENDING_FINALIZER",
+    "census_status": "PROVISIONAL_NOT_FINAL",
     "line_count": null,
     "sha256": null,
-    "state": "deferred_until_generator_closes"
+    "reason": "Only finalization job 229204 may establish the exact census after stability, width, sampled-record, line-count, and SHA256 checks."
+  },
+  "dependent_jobs": {
+    "finalization": {
+      "job_id": 229204,
+      "dependency": "afterok:229085",
+      "state": "PENDING",
+      "reason": "QOSMaxJobsPerUserLimit",
+      "eligible_at": "2026-08-25T12:25:25+04:00",
+      "command": "/mnt/weka/hrant/interval-search/bin/finalize_order16_8x8.sh"
+    },
+    "preservation": {
+      "job_id": 229205,
+      "dependency": "afternotok:229085",
+      "state": "PENDING",
+      "reason": "DependencyNeverSatisfied",
+      "action": "leave_untouched; it must never run after successful generation"
+    }
+  },
+  "capacity_at_observation": {
+    "filesystem_total_bytes": 300000000000000,
+    "filesystem_avail_bytes": 30630944948224,
+    "source_plus_shard_copy_plus_2tib_bytes": 2569542451984,
+    "headroom_bytes": 28061402496240,
+    "assessment": "provisionally sufficient; recheck against final source size before physical sharding"
+  },
+  "physical_sharding": {
+    "state": "BLOCKED_PENDING_FINAL_CENSUS",
+    "script": "/mnt/weka/hrant/interval-search/bin/prepare_order16_8x8_shards.sh",
+    "target_records_per_shard": 450000,
+    "requirements": [
+      "generation-manifest.json and .generation-complete",
+      "final source capacity recheck",
+      "shard file count equals ceil(final records / 450000)",
+      "sum of shard line counts equals final records",
+      "every shard byte count is divisible by 22"
+    ]
+  },
+  "classification": {
+    "state": "NOT_SUBMITTED",
+    "gate": "finalized census, validated physical shard map, and post-shard audit",
+    "runner": "/mnt/weka/hrant/interval-search/bin/search_class_shard_generic.sh",
+    "batching": "arrays of at most 1000 shard IDs with concurrency capped at 150",
+    "timeout_policy": "unresolved; rerun exactly the timed-out shard at 3600 seconds",
+    "negative_policy": "primary negatives require independent confirmation over every legal span"
   },
   "history": {
     "prior_partial_228780": {
       "records": 4707971072,
       "bytes": 103575363584,
-      "sha256": null,
-      "preserved_as": "/mnt/weka/hrant/interval-search/data/order16-8x8-d2to11.incomplete-228780.g6",
       "outcome": "scheduler_timeout_preserved_not_final"
     }
   },
-  "notes": [
-    "Line count and SHA256 are deferred until generation completes.",
-    "Timeouts remain unresolved and require exact one-hour-limit reruns.",
-    "Primary negatives must be independently confirmed across all legal spans."
-  ],
-  "provisional_census_estimate": {
-    "status": "PROVISIONAL_NOT_FINAL",
-    "method": "file_size divided by independently sampled fixed-width graph6 records",
-    "record_width_bytes": 22,
-    "complete_records_in_snapshot": 4889604096,
-    "lower_bound_records": 4889604096,
-    "upper_bound_records": 4889604097,
-    "width_validation": {
-      "sampled_records": 257,
-      "bad_records": 0,
-      "invariant": "record starts with O, ends with LF, and is 22 bytes"
-    },
-    "caveat": "writer remains active; a live byte snapshot may include a buffered partial record, so this is not the final census"
-  },
-  "dependent_jobs": {
-    "finalization_job_id": 229204,
-    "finalization_dependency": "afterok:229085",
-    "timeout_preservation_job_id": 229205,
-    "timeout_preservation_dependency": "afternotok:229085",
-    "state": "PENDING_DEPENDENCY"
-  },
-  "capacity_at_observation": {
-    "filesystem_avail_bytes": 30670612983808,
-    "filesystem_avail_tib": 27.894760008901358,
-    "assessment": "sufficient for final graph6, physical staging shards, and JSONL result growth"
-  },
-  "classification": {
-    "submitted_job_id": null,
-    "state": "blocked_pending_verified_census_and_shard_plan",
-    "timeouts_count_as_negative": false,
-    "timeout_rerun_limit_seconds": 3600,
-    "primary_negative_requires_independent_confirmation": true,
-    "confirmation_scope": "all_legal_spans"
-  },
-  "observations": [
-    {
-      "id": "fixed_width_sample",
-      "sampled_records": 257,
-      "bad_records": 0,
-      "result": "every sampled record begins with O, ends with LF, and is 22 bytes"
-    }
-  ]
+  "next_gate": "Wait for job 229204 to run and complete successfully; then independently inspect its manifest and scheduler record before allowing shard preparation."
 }
