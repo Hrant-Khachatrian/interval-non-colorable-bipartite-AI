@@ -422,6 +422,8 @@ Order-18 targeted slice v7 completed ranks 6,501--8,500 after its local process 
 
 A cumulative order-18 coverage ledger reconstructed the 12,987-rank queue and validated completed slices v3--v7 by rank/hash samples. It found exactly 8,500 authoritative covered ranks, no gaps/overlaps/duplicates/mismatches, plus 1,228 valid provisional v8 rows. Thus 9,728 ranks have been observed colorable and 3,259 remain unobserved.
 
+Order-18 slice v8 subsequently completed all ranks 8,501--10,500. Reconciliation confirmed exact rank/hash coverage, no duplicate or missing rows, and no overlap with v3--v7. All 2,000 graphs were colorable with zero timeouts. The structured queue now has 10,500 authoritative covered ranks; only ranks 10,501--12,987 remain.
+
 The neighborhood-graft predecessor was identified as an interrupted checkpoint rather than an intentional one-root rerun and was preserved byte-for-byte. A corrected extension across all seven declared roots generated 61,375 constructions and retained 10,950 unique Δ≤10 graphs. Only three roots were eligible under the final-degree cap; their 94 selected high-margin survivors were classified exactly and all were colorable, with zero timeouts.
 
 The cluster queue remained healthy but saturated by the per-user job limit. The `6+10` array continued advancing, while the bounded incremental audit and order-17 small-class chains stayed pending with their dependencies intact. Compact scheduler snapshots now record the audited 120-chunk prefix (68,418,360 clean rows) and the exact order-17 job/resource plan.

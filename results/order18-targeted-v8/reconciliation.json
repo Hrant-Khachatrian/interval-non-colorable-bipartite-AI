@@ -1,0 +1,72 @@
+{
+  "authoritative_classification_state": "classification-events.jsonl",
+  "canonical_hashes_unique_within_v8": true,
+  "duplicate_canonical_hashes": [],
+  "duplicate_rank_records": [],
+  "event_classification_records": 2000,
+  "expected_rank_window_one_based": [
+    8501,
+    10500
+  ],
+  "missing_ranks": [],
+  "previous_slice_canonical_hash_overlap_counts": {
+    "v3": 0,
+    "v4": 0,
+    "v5": 0,
+    "v6": 0,
+    "v7": 0
+  },
+  "previous_slice_canonical_hash_overlaps": {
+    "v3": [],
+    "v4": [],
+    "v5": [],
+    "v6": [],
+    "v7": []
+  },
+  "previous_slice_rank_overlaps": {
+    "v3": [],
+    "v4": [],
+    "v5": [],
+    "v6": [],
+    "v7": []
+  },
+  "queue": {
+    "duplicates_removed": 110281,
+    "generated_raw": 123760,
+    "generated_raw_by_lane": {
+      "delete-vertex-add-cross-edges": 1393,
+      "edge-rewire": 302,
+      "one-pair-same-side-identification": 166,
+      "reverse-extension-edge-additions": 96797,
+      "reverse-extension-new-vertex": 36,
+      "two-edge-switch-then-identification": 25066
+    },
+    "passed_filters_before_deduplication": 123268,
+    "rank_window_zero_based": [
+      8500,
+      10500
+    ],
+    "ranked_candidates": 12987,
+    "rejected_by_filters": 492,
+    "retained_candidate_count": 10500,
+    "selected_by_lane": {
+      "delete-vertex-add-cross-edges": 23,
+      "one-pair-same-side-identification": 4,
+      "reverse-extension-edge-additions": 1882,
+      "two-edge-switch-then-identification": 91
+    },
+    "unique_after_nauty": 12987,
+    "unique_ranked_by_lane": {
+      "delete-vertex-add-cross-edges": 165,
+      "one-pair-same-side-identification": 45,
+      "reverse-extension-edge-additions": 11823,
+      "reverse-extension-new-vertex": 17,
+      "two-edge-switch-then-identification": 937
+    }
+  },
+  "queue_reconstructed_from": "src/order18_targeted_search.py",
+  "rank_hash_mismatches": [],
+  "reconciliation_status": "complete",
+  "unexpected_ranks": [],
+  "unique_rank_records": 2000
+}

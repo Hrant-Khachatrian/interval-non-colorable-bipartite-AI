@@ -1,0 +1,167 @@
+{
+  "classification": {
+    "completed_by_lane": {
+      "delete-vertex-add-cross-edges": {
+        "colorable": 23
+      },
+      "one-pair-same-side-identification": {
+        "colorable": 4
+      },
+      "reverse-extension-edge-additions": {
+        "colorable": 1882
+      },
+      "two-edge-switch-then-identification": {
+        "colorable": 91
+      }
+    }
+  },
+  "completion": "complete",
+  "completion_details": {
+    "status": "complete",
+    "stopped_reason": "all_selected_ranks_classified",
+    "unresolved_rank_count": 0,
+    "unresolved_ranks": []
+  },
+  "configuration": {
+    "classification_rank_window_one_based": [
+      8501,
+      10500
+    ],
+    "filters": [
+      "exactly 18 vertices",
+      "simple bipartite",
+      "connected",
+      "minimum degree >= 2"
+    ],
+    "lanes_requested": "all",
+    "primary_solver": "rank-potential CP-SAT",
+    "primary_time_limit_seconds": 3.0,
+    "rank_window_one_based": [
+      8501,
+      10500
+    ],
+    "span_time_limit_seconds": 5.0
+  },
+  "counts": {
+    "classified": 2000,
+    "colorable": 2000,
+    "completion_count": 2000,
+    "confirmation_timeout": 0,
+    "generated": 123760,
+    "non_colorable_certified": 0,
+    "primary_noncolorable": 0,
+    "primary_timeout": 0,
+    "selected_for_classification": 2000,
+    "unique": 12987
+  },
+  "elapsed_seconds": 1400.6497020250008,
+  "generation": {
+    "duplicates_removed": 110281,
+    "generated_raw": 123760,
+    "generated_raw_by_lane": {
+      "delete-vertex-add-cross-edges": 1393,
+      "edge-rewire": 302,
+      "one-pair-same-side-identification": 166,
+      "reverse-extension-edge-additions": 96797,
+      "reverse-extension-new-vertex": 36,
+      "two-edge-switch-then-identification": 25066
+    },
+    "passed_filters_before_deduplication": 123268,
+    "rank_window_zero_based": [
+      8500,
+      10500
+    ],
+    "ranked_candidates": 12987,
+    "rejected_by_filters": 492,
+    "retained_candidate_count": 10500,
+    "selected_by_lane": {
+      "delete-vertex-add-cross-edges": 23,
+      "one-pair-same-side-identification": 4,
+      "reverse-extension-edge-additions": 1882,
+      "two-edge-switch-then-identification": 91
+    },
+    "unique_after_nauty": 12987,
+    "unique_ranked_by_lane": {
+      "delete-vertex-add-cross-edges": 165,
+      "one-pair-same-side-identification": 45,
+      "reverse-extension-edge-additions": 11823,
+      "reverse-extension-new-vertex": 17,
+      "two-edge-switch-then-identification": 937
+    }
+  },
+  "goal": "find an interval-non-colorable simple connected bipartite graph on exactly 18 vertices",
+  "negative_events": [],
+  "reconciliation": {
+    "authoritative_classification_state": "classification-events.jsonl",
+    "canonical_hashes_unique_within_v8": true,
+    "duplicate_canonical_hashes": [],
+    "duplicate_rank_records": [],
+    "event_classification_records": 2000,
+    "expected_rank_window_one_based": [
+      8501,
+      10500
+    ],
+    "missing_ranks": [],
+    "previous_slice_canonical_hash_overlap_counts": {
+      "v3": 0,
+      "v4": 0,
+      "v5": 0,
+      "v6": 0,
+      "v7": 0
+    },
+    "previous_slice_canonical_hash_overlaps": {
+      "v3": [],
+      "v4": [],
+      "v5": [],
+      "v6": [],
+      "v7": []
+    },
+    "previous_slice_rank_overlaps": {
+      "v3": [],
+      "v4": [],
+      "v5": [],
+      "v6": [],
+      "v7": []
+    },
+    "queue": {
+      "duplicates_removed": 110281,
+      "generated_raw": 123760,
+      "generated_raw_by_lane": {
+        "delete-vertex-add-cross-edges": 1393,
+        "edge-rewire": 302,
+        "one-pair-same-side-identification": 166,
+        "reverse-extension-edge-additions": 96797,
+        "reverse-extension-new-vertex": 36,
+        "two-edge-switch-then-identification": 25066
+      },
+      "passed_filters_before_deduplication": 123268,
+      "rank_window_zero_based": [
+        8500,
+        10500
+      ],
+      "ranked_candidates": 12987,
+      "rejected_by_filters": 492,
+      "retained_candidate_count": 10500,
+      "selected_by_lane": {
+        "delete-vertex-add-cross-edges": 23,
+        "one-pair-same-side-identification": 4,
+        "reverse-extension-edge-additions": 1882,
+        "two-edge-switch-then-identification": 91
+      },
+      "unique_after_nauty": 12987,
+      "unique_ranked_by_lane": {
+        "delete-vertex-add-cross-edges": 165,
+        "one-pair-same-side-identification": 45,
+        "reverse-extension-edge-additions": 11823,
+        "reverse-extension-new-vertex": 17,
+        "two-edge-switch-then-identification": 937
+      }
+    },
+    "queue_reconstructed_from": "src/order18_targeted_search.py",
+    "rank_hash_mismatches": [],
+    "reconciliation_status": "complete",
+    "unexpected_ranks": [],
+    "unique_rank_records": 2000
+  },
+  "schema_version": 1
+}
