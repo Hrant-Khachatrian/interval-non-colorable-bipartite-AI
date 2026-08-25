@@ -1,0 +1,50 @@
+{
+  "conclusion": "pass",
+  "elapsed_seconds": 123.28478925000036,
+  "identity_policy": "canonical_sha256 is the durable graph identity; phase-local ranks are retained only as source metadata",
+  "method": {
+    "all_rows": "reconstructed from event construction metadata and independently rehashed",
+    "audit_solver_workers": 2,
+    "sample": "all 31 v2-residual rows plus 30 expanded-step3 rows selected evenly by sorted canonical hash",
+    "source_solver_workers": 1,
+    "time_limit_seconds_per_solver_call": 8.0
+  },
+  "negative_claim_audit": {
+    "apparent_noncolorable_claim_count": 0,
+    "checks": [],
+    "unresolved_timeout_count": 0
+  },
+  "overlap_audit": {
+    "completed_first_queue_hash_count": 12987,
+    "overlap_error_count": 0,
+    "overlap_errors": [],
+    "prior_v1_v2_hash_count": 2200,
+    "v3_hash_count": 1031
+  },
+  "reconstruction": {
+    "canonical_hash_mismatch_count": 0,
+    "canonical_hash_mismatches": [],
+    "event_rows": 1031,
+    "reconstructed_by_canonical_hash": 1031,
+    "reconstruction_error_count": 0,
+    "reconstruction_errors": [],
+    "structural_mismatch_count": 0,
+    "structural_mismatches": []
+  },
+  "reported_count_mismatches": {},
+  "sample_summary": {
+    "invalid_certificate_count": 0,
+    "invalid_certificates": [],
+    "max_solver_runtime_seconds": 0.6785631709999507,
+    "sample_reconstruction_missing": [],
+    "sampled_by_phase": {
+      "expanded-step3": 30,
+      "v2-residual": 31
+    },
+    "sampled_count": 61,
+    "solver_disagreement_count": 0,
+    "solver_disagreements": []
+  },
+  "schema_version": 1,
+  "source": "results/order18-alternate-family-v3"
+}
