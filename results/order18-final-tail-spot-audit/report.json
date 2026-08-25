@@ -1,0 +1,1423 @@
+{
+  "artifact_comparison": {
+    "count_mismatches": {},
+    "event_report_row_mismatches": [],
+    "prior_slice_coverage_mismatches": {},
+    "reconciliation_coverage_mismatches": {},
+    "report_duplicate_rank_records": [],
+    "report_row_count": 2487,
+    "reported_reconciliation_status": {
+      "file": "complete",
+      "report": "complete",
+      "status": "complete"
+    },
+    "scalar_count_mismatches": {},
+    "source_completion": {
+      "report": "complete",
+      "status": "complete"
+    }
+  },
+  "completion": "complete",
+  "elapsed_seconds": 46.59923052787781,
+  "event_reconciliation": {
+    "bad_event_rows": [],
+    "duplicate_canonical_hashes": [],
+    "duplicate_rank_records": [],
+    "event_parse_errors": [],
+    "event_records": 2487,
+    "infeasible_primary_solver_ranks": [],
+    "missing_ranks": [],
+    "primary_solver_status_counts": {
+      "OPTIMAL": 2487
+    },
+    "primary_status_counts": {
+      "colorable": 2487
+    },
+    "prior_canonical_hash_overlap_count": 0,
+    "prior_rank_overlap": [],
+    "prior_slices": {
+      "v3": {
+        "duplicate_hashes": [],
+        "duplicate_ranks": [],
+        "hash_overlap_with_tail": [],
+        "parse_errors": [],
+        "rank_overlap_with_tail": [],
+        "records": 500,
+        "unique_hashes": 500,
+        "unique_ranks": 500
+      },
+      "v4": {
+        "duplicate_hashes": [],
+        "duplicate_ranks": [],
+        "hash_overlap_with_tail": [],
+        "parse_errors": [],
+        "rank_overlap_with_tail": [],
+        "records": 2000,
+        "unique_hashes": 2000,
+        "unique_ranks": 2000
+      },
+      "v5": {
+        "duplicate_hashes": [],
+        "duplicate_ranks": [],
+        "hash_overlap_with_tail": [],
+        "parse_errors": [],
+        "rank_overlap_with_tail": [],
+        "records": 2000,
+        "unique_hashes": 2000,
+        "unique_ranks": 2000
+      },
+      "v6": {
+        "duplicate_hashes": [],
+        "duplicate_ranks": [],
+        "hash_overlap_with_tail": [],
+        "parse_errors": [],
+        "rank_overlap_with_tail": [],
+        "records": 2000,
+        "unique_hashes": 2000,
+        "unique_ranks": 2000
+      },
+      "v7": {
+        "duplicate_hashes": [],
+        "duplicate_ranks": [],
+        "hash_overlap_with_tail": [],
+        "parse_errors": [],
+        "rank_overlap_with_tail": [],
+        "records": 2000,
+        "unique_hashes": 2000,
+        "unique_ranks": 2000
+      },
+      "v8": {
+        "duplicate_hashes": [],
+        "duplicate_ranks": [],
+        "hash_overlap_with_tail": [],
+        "parse_errors": [],
+        "rank_overlap_with_tail": [],
+        "records": 2000,
+        "unique_hashes": 2000,
+        "unique_ranks": 2000
+      }
+    },
+    "prior_union_missing_ranks": [],
+    "prior_union_unexpected_ranks": [],
+    "rank_hash_mismatches": [],
+    "reported_negative_or_unresolved_ranks": [],
+    "status_counts": {
+      "colorable": 2487
+    },
+    "unexpected_ranks": [],
+    "unique_hash_records": 2487,
+    "unique_rank_records": 2487
+  },
+  "event_types": {
+    "classification_completed": 2487,
+    "run_started": 1
+  },
+  "finished_at_unix_seconds": 1787649627.027339,
+  "planned_sample_count": 36,
+  "queue_generation": {
+    "duplicates_removed": 110281,
+    "generated_raw": 123760,
+    "generated_raw_by_lane": {
+      "delete-vertex-add-cross-edges": 1393,
+      "edge-rewire": 302,
+      "one-pair-same-side-identification": 166,
+      "reverse-extension-edge-additions": 96797,
+      "reverse-extension-new-vertex": 36,
+      "two-edge-switch-then-identification": 25066
+    },
+    "passed_filters_before_deduplication": 123268,
+    "rank_window_zero_based": [
+      0,
+      12987
+    ],
+    "ranked_candidates": 12987,
+    "rejected_by_filters": 492,
+    "retained_candidate_count": 12987,
+    "selected_by_lane": {
+      "delete-vertex-add-cross-edges": 165,
+      "one-pair-same-side-identification": 45,
+      "reverse-extension-edge-additions": 11823,
+      "reverse-extension-new-vertex": 17,
+      "two-edge-switch-then-identification": 937
+    },
+    "unique_after_nauty": 12987,
+    "unique_ranked_by_lane": {
+      "delete-vertex-add-cross-edges": 165,
+      "one-pair-same-side-identification": 45,
+      "reverse-extension-edge-additions": 11823,
+      "reverse-extension-new-vertex": 17,
+      "two-edge-switch-then-identification": 937
+    }
+  },
+  "queue_size": 12987,
+  "samples": [
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10501",
+      "canonical_sha256": "7:11:e8aacd2bc8b01e61ed5681bd530dab8a97dac094de431a4b65d64c385e9e197f",
+      "elapsed_seconds": 0.18929710399970645,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13428193800064037,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10501,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.05306763999942632,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10569",
+      "canonical_sha256": "7:11:d6fd10fa6fb82882ceefba1887797a257c2421ed287539371542a00acf2e18dd",
+      "elapsed_seconds": 0.1755716890002077,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13109664500007057,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10569,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.04161719600051583,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10574",
+      "canonical_sha256": "7:11:ec1bb8d1942f805d79cf698f99f12e887a13a7ec2d1590c34968d74f3ae129d0",
+      "elapsed_seconds": 0.16811441800018656,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13274561499929405,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10574,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.033081859999583685,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10634",
+      "canonical_sha256": "7:11:1584f15ed64f2ca3b6249d82970f8fe328bd611cde6f302348f6c5d79578b280",
+      "elapsed_seconds": 0.2322208759997011,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.19398834999992687,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10634,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.034929023999211495,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10669",
+      "canonical_sha256": "7:11:276b946b5ed1057949f07221736a0a2a1c683367478e8c4030611a781341b076",
+      "elapsed_seconds": 0.20831294799972966,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.1365842139985034,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10669,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.06937590100096713,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10776",
+      "canonical_sha256": "7:11:5e4bf4ca84292080bc508942d20b28cf848e62487a6516329dee3e743e4fc948",
+      "elapsed_seconds": 0.18155949100037105,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.14618542899916065,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10776,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.03322611700059497,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10878",
+      "canonical_sha256": "7:11:877ab85ab91af66afc65a2eaf436ca62cf0bbe3d5979fc2f91042981a3756f64",
+      "elapsed_seconds": 0.2400902009994752,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.19587296500139928,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10878,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.041986004000136745,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R10915",
+      "canonical_sha256": "7:11:972ebd3f3f4aa3eb1a6f2567a3d7625983dac9b69e1b985d4436a30050fb7340",
+      "elapsed_seconds": 0.17415293399972143,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13822149699990405,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 10915,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.03384618000018236,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11053",
+      "canonical_sha256": "7:11:d7cbd336ae85bb5efe8997cd80018821de7cfb5f72c4739fcf80f9efa9acf6e9",
+      "elapsed_seconds": 0.17596212799981004,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13913643900013994,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11053,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.0347282400016411,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11077",
+      "canonical_sha256": "7:11:e0eb76c7bd827d068f6d72b91b8dad8f6e0b73146c7320a9a46e5a2296ac948a",
+      "elapsed_seconds": 0.21762865999880887,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.16484246400068514,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11077,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.05048673600140319,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11322",
+      "canonical_sha256": "7:11:8882f5af0afe652c0df7808ab69bb164ef90072bde527b26c088d8eaa3f07790",
+      "elapsed_seconds": 0.17700303699893993,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13288200499846425,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11322,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.041681548000269686,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11329",
+      "canonical_sha256": "7:11:8f75880f701d35f2575b4fe2d416da5247c816a8c5a0ab3721d4ef4bb190927a",
+      "elapsed_seconds": 0.7358736740006862,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.683256419000827,
+        "solver_status": "OPTIMAL",
+        "span": 12,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11329,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.0503495800003293,
+        "solver_status": "OPTIMAL",
+        "span": 12,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 12,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "beginning"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11330",
+      "canonical_sha256": "7:11:909d576eab3efd37df641e2642a03d92ddbf510ad8b2b6c3c17562e19ff0f070",
+      "elapsed_seconds": 0.17794793499888328,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.1370124949989986,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11330,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.038817392000055406,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11533",
+      "canonical_sha256": "7:11:05b79ec4546c6227132b7a397ca2d52863a0828778946bd7cec1a038232fd2c4",
+      "elapsed_seconds": 0.1748771239999769,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13562987399927806,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11533,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.03694098600135476,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11648",
+      "canonical_sha256": "7:11:3b7ace7f52c4ee6de6917c82d85a222e3ec575faf962ac6b35e045306831d948",
+      "elapsed_seconds": 0.26272509599948535,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.22136779200081946,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11648,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.038466043000880745,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11744",
+      "canonical_sha256": "7:11:687096f02a18473523b32b9f5cba618b0b2cba9e06bbe917740679926b14c55b",
+      "elapsed_seconds": 0.1852290249989892,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.1377486030014552,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11744,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.04508172299938451,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11763",
+      "canonical_sha256": "7:11:75c529ee8b42e2a7f305f093622bbe9194c1bc225ba40692155a666db526509d",
+      "elapsed_seconds": 0.190120590999868,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.1436469459986256,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11763,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.044248275000427384,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11877",
+      "canonical_sha256": "7:11:af7388ba87c4e6e9e427edcd62793fbc59ab9f7506f74ff8b3fcf988d46676ad",
+      "elapsed_seconds": 0.21244265300083498,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.15800826199847506,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11877,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.05144887000096787,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11981",
+      "canonical_sha256": "7:11:e14b8d5c9d98e4558239f1f8a33a104dd8edd7d208086e4a42c78be35fb98485",
+      "elapsed_seconds": 0.23263024500010943,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.150917152999682,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11981,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.07933729599972139,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R11996",
+      "canonical_sha256": "7:11:e6087c30f398886d68b1c77ff55559b78d8c5722101ae5d6e194b0c120379181",
+      "elapsed_seconds": 0.2221086040008231,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.14427193800111127,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 11996,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.07572126299965021,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12063",
+      "canonical_sha256": "7:11:67e9bb0185959458fe255666bc3f2a1b0a2fd2425615de2df4bb94b8af4fb4df",
+      "elapsed_seconds": 0.2821164340002724,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.15659191200029454,
+        "solver_status": "OPTIMAL",
+        "span": 12,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12063,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.12358192600004259,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 12,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12082",
+      "canonical_sha256": "7:11:0fcd8d240e4304d1bcddbef3846ed406680cdfe05da6dada7ccc5c0b286d947f",
+      "elapsed_seconds": 0.35610770099992806,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.21256786999947508,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12082,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.14117664899822557,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12110",
+      "canonical_sha256": "7:11:2410048b73712178fae61d0bb2d8c4968ec8c6612364c28ac4f005767a1fa704",
+      "elapsed_seconds": 0.30966617800004315,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.2183021330001793,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12110,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.08899801799998386,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12158",
+      "canonical_sha256": "7:11:4123a729589d66d1b1db90081194a1621831b307dafa4266106e54a29bbfe354",
+      "elapsed_seconds": 0.27584902200032957,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.15815858600035426,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12158,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.11479719000089972,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "middle"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12159",
+      "canonical_sha256": "7:11:412d1b3ec191d8faa170c0159febbd226e88c2226e667d0e5b3955cdb6985c37",
+      "elapsed_seconds": 0.1707437420009228,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.13788470399958896,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12159,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.03073346500059415,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12192",
+      "canonical_sha256": "7:11:5ea10857aad5c67ec52678f619e2fe4afeb4d1f052ed5c80af52edda5a6abf41",
+      "elapsed_seconds": 0.17820424199999252,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.14006798199989134,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12192,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.03575204800108622,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12349",
+      "canonical_sha256": "7:11:ea6e8af406d74418662f2dc1acc58988086701bfdd46e11d7694d427446964c7",
+      "elapsed_seconds": 0.2631782589996874,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.2002281139994011,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12349,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.06091109599947231,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12486",
+      "canonical_sha256": "8:10:64746cd8fbae2bcc355d836741a52f5196180825647e00c9cca43b3a1519f326",
+      "elapsed_seconds": 0.13271741300013673,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.09810322999874188,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12486,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.032505082001080154,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 10,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12573",
+      "canonical_sha256": "8:10:7ae21997118594343b782ee1e630070d99b0e121c196f7232c6d2b1f77ffcaf6",
+      "elapsed_seconds": 0.09987917900070897,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.06272520000129589,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12573,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.035173280999515555,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 10,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12577",
+      "canonical_sha256": "8:10:94124616824fd6c87bd95b6f854016a1de3bb31e9d8a6e29098117677d0ba6f5",
+      "elapsed_seconds": 0.15316836300007708,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.12513321999904292,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12577,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.026094971999555128,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 10,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12579",
+      "canonical_sha256": "8:10:a0477fa1b7ce538ba8a0424398f53244c5128a931ad23e06406f0cceee543878",
+      "elapsed_seconds": 0.1216476240006159,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.06622237899864558,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12579,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.053570275000311085,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 10,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12741",
+      "canonical_sha256": "7:11:a3a2378e308ceb6640b22ffd1425421d85373a67abf5152f72ee37e7b4767437",
+      "elapsed_seconds": 0.15935766500115278,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.12746932100162667,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12741,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.029975002998980926,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12939",
+      "canonical_sha256": "8:10:8daa10ab8cc7acdb227a12f6190ac1ee00a4d7e094f23827f017eabf0e33ca18",
+      "elapsed_seconds": 0.167586145000314,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.138051333000476,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12939,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.026936263999232324,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12940",
+      "canonical_sha256": "8:10:ae8af3b2ae9d0b3f4a26e67887d3d456db59038bc8684dfb22c138f96df5270f",
+      "elapsed_seconds": 0.13405022200095118,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.10273153600064688,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12940,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.029461621999871568,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 10,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12970",
+      "canonical_sha256": "8:10:6f41231d54b72722573b35513aeae50c73f713e06944bf48c4ccb340701e7dcc",
+      "elapsed_seconds": 0.16358385999956226,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.12359183999978995,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12970,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.037861146998693584,
+        "solver_status": "OPTIMAL",
+        "span": 10,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 10,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    },
+    {
+      "all_legal_spans_when_negative_seen": null,
+      "candidate_id": "O18-R12987",
+      "canonical_sha256": "7:11:0a68d89fc8134353663f7070bf68e9c1e5ecad64781f1ab429108edcc5c56617",
+      "elapsed_seconds": 0.11979899200014188,
+      "escalation": null,
+      "fixed_reported_span_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.0821314730001177,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "outcome": "pass",
+      "rank": 12987,
+      "rank_potential_replay": {
+        "certificate_reason": null,
+        "certificate_valid": true,
+        "elapsed_seconds": 0.03583455699845217,
+        "solver_status": "OPTIMAL",
+        "span": 11,
+        "status": "colorable",
+        "time_limit_seconds": 15.0,
+        "workers": 2
+      },
+      "reported": {
+        "primary_span": 11,
+        "primary_status": "colorable",
+        "status": "colorable"
+      },
+      "structural_failures": [],
+      "third": "end"
+    }
+  ],
+  "sampling": {
+    "method": "first/middle/last anchors plus deterministic pseudo-random ranks in three equal tail thirds",
+    "per_third": 12,
+    "seed_prefix": "order18-final-tail-spot-audit-20260825-"
+  },
+  "schema_version": 1,
+  "source": "results/order18-targeted-final-tail",
+  "started_at_unix_seconds": 1787649580.4281085
+}

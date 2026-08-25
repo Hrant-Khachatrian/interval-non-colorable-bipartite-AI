@@ -38,7 +38,9 @@ SLICES = (
     Slice("v6", (4501, 6500), Path("results/order18-targeted-v6/report.json"), "report", "authoritative"),
     Slice("v7", (6501, 8500), Path("results/order18-targeted-v7/report.json"), "report", "authoritative"),
     Slice("v8", (8501, 10500), Path("results/order18-targeted-v8/report.json"), "report", "authoritative"),
-    Slice("final-tail", (10501, 12987), Path("results/order18-targeted-final-tail"), "unobserved", "unobserved"),
+    # The final-tail report is constructed by its separate reconciliation pass.
+    # It is a durable compact input here; this builder never opens its event log.
+    Slice("final-tail", (10501, 12987), Path("results/order18-targeted-final-tail/report.json"), "report", "authoritative"),
 )
 
 
@@ -243,6 +245,7 @@ def reconcile_slice(slice_: Slice, queue: dict[int, str]) -> tuple[dict, dict[in
         },
         "duplicate_rank_ranges": ranges(duplicate_ranks),
         "duplicate_canonical_hash_count": len(duplicate_hashes),
+        "duplicate_canonical_hashes": sorted(duplicate_hashes),
         "unexpected_rank_ranges": ranges(unexpected_ranks),
         "unresolved_rank_count": len(missing),
         "unresolved_rank_ranges": ranges(missing),
@@ -275,6 +278,8 @@ def markdown(ledger: dict) -> str:
     lines = [
         "# Order-18 Targeted Coverage Ledger",
         "",
+        "Scope: exhaustive coverage of the constructed structured queue only; this is not an exhaustive order-18 graph census.",
+        "",
         f"Queue: {coverage['queue_size']} unique ranked graphs. Authoritative coverage: {coverage['authoritative_covered_count']}; authoritative uncovered: {coverage['authoritative_uncovered_count']}. Covered outcomes: {outcome_summary}; timeouts: {coverage['authoritative_timeout_count']}.",
         "",
         "| Slice | Window | State | Durable rows | Unresolved | Hash check |",
@@ -286,15 +291,22 @@ def markdown(ledger: dict) -> str:
         lines.append(
             f"| {slice_['name']} | {window[0]}-{window[1]} | {slice_['state']} | {slice_['durable_classified_count']} | {slice_['unresolved_rank_count']} | {hash_check} |"
         )
+    full = ledger["full_queue_reconciliation"]
+    lines.extend([
+        "", "## Global Reconciliation", "",
+        f"Covered ranks: {full['covered_rank_count']}/{full['expected_rank_count']}; uncovered ranges: {full['uncovered_rank_ranges']}; rank overlaps: {full['rank_overlaps']}; duplicate ranks: {full['duplicate_rank_ranges']}.",
+        f"Canonical hashes: {full['unique_canonical_hash_count']}/{full['expected_rank_count']} unique; duplicate hashes: {full['duplicate_canonical_hashes']}; rank/hash mismatch ranges: {full['rank_hash_mismatch_ranges']}.",
+        f"Per-slice count total: {full['per_slice_durable_count_total']}; global rank count: {full['covered_rank_count']}; counts match: {full['per_slice_count_matches_global']}. All decisions colorable: {full['all_decisions_colorable']}; timeout count: {full['timeout_count']}.",
+        "", "## Sample Checks", "",
+    ])
+    for sample in ledger["completed_slice_rank_hash_sample_checks"]:
+        ranks = ", ".join(str(check["rank"]) for check in sample["checks"])
+        lines.append(f"- {sample['slice']}: ranks {ranks}; passed: {sample['passed']}.")
     lines.extend(["", "## Integrity", ""])
     if ledger["integrity"]["issues"]:
         lines.extend(f"- {issue}" for issue in ledger["integrity"]["issues"])
     else:
         lines.append("No rank, canonical-hash, overlap, duplicate, or completed-slice sample-check integrity issues.")
-    lines.extend(["", "## Next Action", ""])
-    for item in ledger["next_disjoint_windows"]:
-        windows = ", ".join(f"{part['start']}-{part['end']}" for part in item["rank_ranges"])
-        lines.append(f"- {item['slice']} ({item['state']}): {windows or 'none'}")
     lines.append("")
     return "\n".join(lines)
 
@@ -312,10 +324,23 @@ def main() -> None:
     all_hashes: dict[str, str] = {}
     rank_overlaps: list[dict] = []
     canonical_hash_overlaps: list[dict] = []
+    global_duplicate_ranks: set[int] = set()
+    global_duplicate_canonical_hashes: list[str] = []
+    global_mismatched_ranks: set[int] = set()
     for slice_ in SLICES:
         summary, rows, issues = reconcile_slice(slice_, queue)
         slices.append(summary)
         row_maps[slice_.name] = rows
+        global_duplicate_ranks.update(
+            part_rank
+            for part in summary["duplicate_rank_ranges"]
+            for part_rank in range(part["start"], part["end"] + 1)
+        )
+        global_mismatched_ranks.update(
+            part_rank
+            for part in summary["canonical_hash_coverage"]["rank_hash_mismatch_ranges"]
+            for part_rank in range(part["start"], part["end"] + 1)
+        )
         for issue in issues:
             integrity.append(f"{slice_.name}:{issue}")
         for rank, digest in rows.items():
@@ -323,6 +348,7 @@ def main() -> None:
             if owner is not None and owner != slice_.name:
                 integrity.append(f"rank_overlap:{rank}:{owner}:{slice_.name}")
                 rank_overlaps.append({"rank": rank, "first_slice": owner, "second_slice": slice_.name})
+                global_duplicate_ranks.add(rank)
             all_ranks[rank] = slice_.name
             hash_owner = all_hashes.get(digest)
             if hash_owner is not None and hash_owner != slice_.name:
@@ -332,7 +358,9 @@ def main() -> None:
                     "first_slice": hash_owner,
                     "second_slice": slice_.name,
                 })
+                global_duplicate_canonical_hashes.append(digest)
             all_hashes[digest] = slice_.name
+        global_duplicate_canonical_hashes.extend(summary["duplicate_canonical_hashes"])
         if slice_.state == "authoritative" and not summary["window_reconciled"]:
             integrity.append(f"completed_slice_not_reconciled:{slice_.name}")
 
@@ -349,10 +377,49 @@ def main() -> None:
     for slice_ in slices:
         if slice_["configured_state"] == "authoritative":
             authoritative_status_counts.update(slice_["status_counts"])
-    final_tail = next(item for item in slices if item["name"] == "final-tail")
+    covered_ranks = set(all_ranks)
+    uncovered_ranks = set(queue) - covered_ranks
+    expected_total = len(queue)
+    per_slice_durable_count_total = sum(item["durable_classified_count"] for item in slices)
+    status_counts = dict(sorted(authoritative_status_counts.items()))
+    timeout_count = sum(count for status, count in authoritative_status_counts.items() if "timeout" in status)
+    all_decisions_colorable = (
+        status_counts == {"colorable": expected_total}
+        and timeout_count == 0
+    )
+    full_queue = {
+        "expected_rank_count": expected_total,
+        "expected_rank_window_one_based": [1, QUEUE_SIZE],
+        "covered_rank_count": len(covered_ranks),
+        "uncovered_rank_count": len(uncovered_ranks),
+        "uncovered_rank_ranges": ranges(uncovered_ranks),
+        "coverage_gap_ranges": ranges(uncovered_ranks),
+        "rank_overlap_count": len(rank_overlaps),
+        "rank_overlaps": rank_overlaps,
+        "duplicate_rank_count": len(global_duplicate_ranks),
+        "duplicate_rank_ranges": ranges(global_duplicate_ranks),
+        "unique_canonical_hash_count": len(all_hashes),
+        "canonical_hash_overlap_count": len(canonical_hash_overlaps),
+        "canonical_hash_overlaps": canonical_hash_overlaps,
+        "duplicate_canonical_hash_count": len(set(global_duplicate_canonical_hashes)),
+        "duplicate_canonical_hashes": sorted(set(global_duplicate_canonical_hashes)),
+        "rank_hash_mismatch_count": len(global_mismatched_ranks),
+        "rank_hash_mismatch_ranges": ranges(global_mismatched_ranks),
+        "per_slice_durable_count_total": per_slice_durable_count_total,
+        "per_slice_count_matches_global": per_slice_durable_count_total == len(covered_ranks),
+        "status_counts": status_counts,
+        "all_decisions_colorable": all_decisions_colorable,
+        "timeout_count": timeout_count,
+    }
+    if full_queue["covered_rank_count"] != expected_total:
+        integrity.append("full_queue_coverage_incomplete")
+    if not full_queue["per_slice_count_matches_global"]:
+        integrity.append("per_slice_count_total_mismatch")
+    if not all_decisions_colorable:
+        integrity.append("not_every_decision_colorable_or_timeout_free")
     ledger = {
         "schema_version": 1,
-        "purpose": "Cumulative coverage ledger only; classification is never rerun by this builder.",
+        "purpose": "Cumulative coverage ledger only; classification is never rerun by this builder. This is exhaustive coverage of the constructed structured queue, not an exhaustive order-18 graph census.",
         "queue": {
             "size": QUEUE_SIZE,
             "reconstructed_from": "src/order18_targeted_search.py",
@@ -384,10 +451,8 @@ def main() -> None:
                 set(range(1, 10501)) - authoritative_ranks
             ),
         },
+        "full_queue_reconciliation": full_queue,
         "completed_slice_rank_hash_sample_checks": samples,
-        "next_disjoint_windows": [
-            {"slice": "final-tail", "state": "unobserved", "rank_ranges": final_tail["unresolved_rank_ranges"]},
-        ],
         "integrity": {"ok": not integrity, "issue_count": len(integrity), "issues": integrity},
     }
     args.output_dir.mkdir(parents=True, exist_ok=True)

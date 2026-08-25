@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "observed_at_utc": "2026-08-25T08:54:14Z",
+  "observed_at_utc": "2026-08-25T09:13:01Z",
   "state": "queued_intact",
   "resource_policy_verified": "research_cpu; qos=researcher; matching cpuonly gres and cpus-per-task",
   "classes": {
@@ -32,5 +32,12 @@
     "note": "No class stage has begun, so these are not completed-audit findings."
   },
   "audit_preparation": "Auditor validates manifest cardinality, per-shard row counts, row schema, hash format, coverage, timeout policy, and primary-negative confirmation before acceptance.",
+  "scheduler_observation": {
+    "order16_6x10_job": 228788,
+    "order16_6x10_running_elements": 150,
+    "order16_6x10_pending_elements": 103,
+    "main_array_228989_pending_elements": 1000,
+    "admission": "QOSMaxJobsPerUserLimit"
+  },
   "action": "No cancellation, resubmission, or downstream release; dependencies are the gate."
 }

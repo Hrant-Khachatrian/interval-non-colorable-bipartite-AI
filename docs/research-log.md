@@ -445,3 +445,9 @@ An independent order-18 spot audit rebuilt the deterministic queue and rechecked
 A second neighborhood-graft continuation preserved ranks1--1,094 and classified ranks1,095--2,094. All 1,000 new graphs were colorable with zero timeouts; the neighborhood-graft negative ledger now contains 2,094 exact decisions.
 
 The final structured order-18 tail completed ranks10,501--12,987. Its reconciliation found all 2,487 ranks exactly once, zero duplicate/missing/unexpected ranks, zero rank/hash mismatches, and zero rank or canonical-hash overlap with v3--v8. Every tail graph was colorable with zero timeouts. Together with slices v3--v8, the deterministic structured queue of 12,987 unique order-18 graphs is now exhaustively covered negative.
+
+The finalized cumulative ledger confirms that all 12,987 structured order-18 candidates are covered exactly once, all canonical hashes are globally unique, every decision is colorable, and there are no gaps, overlaps, duplicates, rank/hash mismatches, or timeouts. Boundary/midpoint samples from all seven constituent slices passed. This is exhaustive coverage of the constructed structural queue, not an exhaustive census of all order-18 bipartite graphs.
+
+An independent tail audit replayed 36 deterministic rows spanning ranks10,501--12,987 using two-worker rank-potential and fixed-span runs. All structural, hash, certificate, and solver checks passed with zero mismatches; maximum sampled runtime was 0.736 seconds.
+
+The neighborhood-graft continuation was extended through rank3,094 after validating all prior rows without recomputation. The new contiguous batch contained 1,000 unique graphs, all colorable with zero timeouts; the lane now has 3,094 exact negative decisions.

@@ -143,21 +143,40 @@
       ],
       "passed": true,
       "slice": "v8"
+    },
+    {
+      "checks": [
+        {
+          "expected_canonical_sha256": "7:11:e8aacd2bc8b01e61ed5681bd530dab8a97dac094de431a4b65d64c385e9e197f",
+          "matches": true,
+          "rank": 10501,
+          "recorded_canonical_sha256": "7:11:e8aacd2bc8b01e61ed5681bd530dab8a97dac094de431a4b65d64c385e9e197f"
+        },
+        {
+          "expected_canonical_sha256": "7:11:687096f02a18473523b32b9f5cba618b0b2cba9e06bbe917740679926b14c55b",
+          "matches": true,
+          "rank": 11744,
+          "recorded_canonical_sha256": "7:11:687096f02a18473523b32b9f5cba618b0b2cba9e06bbe917740679926b14c55b"
+        },
+        {
+          "expected_canonical_sha256": "7:11:0a68d89fc8134353663f7070bf68e9c1e5ecad64781f1ab429108edcc5c56617",
+          "matches": true,
+          "rank": 12987,
+          "recorded_canonical_sha256": "7:11:0a68d89fc8134353663f7070bf68e9c1e5ecad64781f1ab429108edcc5c56617"
+        }
+      ],
+      "passed": true,
+      "slice": "final-tail"
     }
   ],
   "coverage": {
-    "authoritative_covered_count": 10500,
+    "authoritative_covered_count": 12987,
     "authoritative_status_counts": {
-      "colorable": 10500
+      "colorable": 12987
     },
     "authoritative_timeout_count": 0,
-    "authoritative_uncovered_count": 2487,
-    "authoritative_uncovered_rank_ranges": [
-      {
-        "end": 12987,
-        "start": 10501
-      }
-    ],
+    "authoritative_uncovered_count": 0,
+    "authoritative_uncovered_rank_ranges": [],
     "queue_size": 12987
   },
   "cross_slice_reconciliation": {
@@ -167,24 +186,41 @@
     "rank_overlap_count": 0,
     "rank_overlaps": []
   },
+  "full_queue_reconciliation": {
+    "all_decisions_colorable": true,
+    "canonical_hash_overlap_count": 0,
+    "canonical_hash_overlaps": [],
+    "coverage_gap_ranges": [],
+    "covered_rank_count": 12987,
+    "duplicate_canonical_hash_count": 0,
+    "duplicate_canonical_hashes": [],
+    "duplicate_rank_count": 0,
+    "duplicate_rank_ranges": [],
+    "expected_rank_count": 12987,
+    "expected_rank_window_one_based": [
+      1,
+      12987
+    ],
+    "per_slice_count_matches_global": true,
+    "per_slice_durable_count_total": 12987,
+    "rank_hash_mismatch_count": 0,
+    "rank_hash_mismatch_ranges": [],
+    "rank_overlap_count": 0,
+    "rank_overlaps": [],
+    "status_counts": {
+      "colorable": 12987
+    },
+    "timeout_count": 0,
+    "uncovered_rank_count": 0,
+    "uncovered_rank_ranges": [],
+    "unique_canonical_hash_count": 12987
+  },
   "integrity": {
     "issue_count": 0,
     "issues": [],
     "ok": true
   },
-  "next_disjoint_windows": [
-    {
-      "rank_ranges": [
-        {
-          "end": 12987,
-          "start": 10501
-        }
-      ],
-      "slice": "final-tail",
-      "state": "unobserved"
-    }
-  ],
-  "purpose": "Cumulative coverage ledger only; classification is never rerun by this builder.",
+  "purpose": "Cumulative coverage ledger only; classification is never rerun by this builder. This is exhaustive coverage of the constructed structured queue, not an exhaustive order-18 graph census.",
   "queue": {
     "configuration": {
       "candidate_cap": 12987,
@@ -245,6 +281,7 @@
       },
       "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
+      "duplicate_canonical_hashes": [],
       "duplicate_rank_ranges": [],
       "durable_canonical_hash_count": 500,
       "durable_classified_count": 500,
@@ -278,6 +315,7 @@
       },
       "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
+      "duplicate_canonical_hashes": [],
       "duplicate_rank_ranges": [],
       "durable_canonical_hash_count": 2000,
       "durable_classified_count": 2000,
@@ -311,6 +349,7 @@
       },
       "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
+      "duplicate_canonical_hashes": [],
       "duplicate_rank_ranges": [],
       "durable_canonical_hash_count": 2000,
       "durable_classified_count": 2000,
@@ -344,6 +383,7 @@
       },
       "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
+      "duplicate_canonical_hashes": [],
       "duplicate_rank_ranges": [],
       "durable_canonical_hash_count": 2000,
       "durable_classified_count": 2000,
@@ -377,6 +417,7 @@
       },
       "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
+      "duplicate_canonical_hashes": [],
       "duplicate_rank_ranges": [],
       "durable_canonical_hash_count": 2000,
       "durable_classified_count": 2000,
@@ -410,6 +451,7 @@
       },
       "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
+      "duplicate_canonical_hashes": [],
       "duplicate_rank_ranges": [],
       "durable_canonical_hash_count": 2000,
       "durable_classified_count": 2000,
@@ -441,11 +483,12 @@
         "rank_hash_mismatch_ranges": [],
         "unique_within_slice": true
       },
-      "configured_state": "unobserved",
+      "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
+      "duplicate_canonical_hashes": [],
       "duplicate_rank_ranges": [],
-      "durable_canonical_hash_count": 0,
-      "durable_classified_count": 0,
+      "durable_canonical_hash_count": 2487,
+      "durable_classified_count": 2487,
       "expected_count": 2487,
       "integrity_issues": [],
       "name": "final-tail",
@@ -454,24 +497,19 @@
         12987
       ],
       "source": {
-        "completion_events": 0,
-        "exists": null,
-        "inspection": "intentionally_skipped",
+        "completion_events": 2487,
+        "exists": true,
         "lines_scanned": null,
-        "path": "results/order18-targeted-final-tail",
-        "reason": "final-tail is unobserved until its worker reports"
+        "path": "results/order18-targeted-final-tail/report.json"
       },
-      "state": "unobserved",
-      "status_counts": {},
+      "state": "complete",
+      "status_counts": {
+        "colorable": 2487
+      },
       "unexpected_rank_ranges": [],
-      "unresolved_rank_count": 2487,
-      "unresolved_rank_ranges": [
-        {
-          "end": 12987,
-          "start": 10501
-        }
-      ],
-      "window_reconciled": false
+      "unresolved_rank_count": 0,
+      "unresolved_rank_ranges": [],
+      "window_reconciled": true
     }
   ]
 }

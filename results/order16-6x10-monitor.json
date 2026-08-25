@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "observed_at_utc": "2026-08-25T08:54:14Z",
+  "observed_at_utc": "2026-08-25T09:13:01Z",
   "job": {
     "array": 228788,
     "scheduler_running": 150,
-    "scheduler_pending_range": "407-511",
+    "scheduler_pending_elements": 103,
+    "scheduler_pending_range": "409-511",
     "scheduler_pending_reason": "JobArrayTaskLimit",
     "scheduler_terminal_reconciliation": "deferred to the incremental audit; array accounting has previously been incomplete",
     "scheduler_failures": [],
@@ -35,6 +36,13 @@
     "reason": "QOSMaxJobsPerUserLimit",
     "resources": "research_cpu; qos=researcher; gres=cpuonly:4; cpus-per-task=4; mem=32G; time=02:00:00",
     "action": "intact; no duplicate audit submission"
+  },
+  "next_audit_plan": {
+    "candidate_chunks": "144-152,154-168",
+    "excluded_active_chunk": 153,
+    "active_chunk_state": "RUNNING",
+    "submission": "prepared only; not submitted while 229252 is pending QOS admission",
+    "release_condition": "229252 completes cleanly and scheduler capacity/policy admits another bounded audit"
   },
   "rerun_policy": "No exact timeout rows or primary negatives have been observed in the fully validated subset; no reruns submitted."
 }

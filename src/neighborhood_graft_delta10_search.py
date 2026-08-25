@@ -11,6 +11,7 @@ graft therefore has diameter at most six and at most twelve new vertices.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import heapq
 import itertools
 import json
@@ -95,6 +96,17 @@ def atomic_write_json(path: Path, payload: dict) -> None:
     os.replace(temporary, path)
 
 
+def append_state_event(path: Path | None, payload: dict) -> None:
+    """Durably record one decision without making the report itself append-only."""
+    if path is None:
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as handle:
+        handle.write(json.dumps(payload, sort_keys=True) + "\n")
+        handle.flush()
+        os.fsync(handle.fileno())
+
+
 def set_partitions(items: tuple[int, ...]) -> Iterable[tuple[tuple[int, ...], ...]]:
     if not items:
         yield ()
@@ -113,6 +125,29 @@ def normalized_degree_variance(graph: Graph) -> float:
     mean = sum(degrees) / len(degrees) if degrees else 0.0
     variance = sum((degree - mean) ** 2 for degree in degrees) / len(degrees)
     return variance / (mean * mean) if mean else 0.0
+
+
+def final_graph_validity(graph: Graph) -> str | None:
+    """Return the first violated final-graph invariant, if any."""
+    if not graph.vertices or any(left == right for left, right in graph.edges):
+        return "invalid"
+    if len(graph.edges) != len(set(graph.edges)):
+        return "invalid"
+    left, right = map(set, graph.bipartition)
+    if left | right != set(graph.vertices) or left & right:
+        return "invalid"
+    if any((u in left) == (v in left) for u, v in graph.edges):
+        return "invalid"
+    adjacency = graph.adjacency()
+    seen = {graph.vertices[0]}
+    frontier = [graph.vertices[0]]
+    while frontier:
+        vertex = frontier.pop()
+        for neighbor, _ in adjacency[vertex]:
+            if neighbor not in seen:
+                seen.add(neighbor)
+                frontier.append(neighbor)
+    return None if len(seen) == graph.n else "disconnected"
 
 
 def ranking_features(graph: Graph) -> dict:
@@ -168,9 +203,16 @@ def render_group(group: tuple[int, ...]) -> list[dict]:
     return options
 
 
-def replacement_trees(core_terminal_count: int) -> Iterable[dict]:
+def replacement_trees(
+    core_terminal_count: int, maximum_root_children: int | None = None
+) -> Iterable[dict]:
     terms = tuple(range(core_terminal_count))
     for root_blocks in set_partitions(terms):
+        if (
+            maximum_root_children is not None
+            and len(root_blocks) > maximum_root_children
+        ):
+            continue
         rendered_options = [render_group(block) for block in root_blocks]
         if any(not choices for choices in rendered_options):
             continue
@@ -419,15 +461,17 @@ def enumerate_root_candidates(
         return
     neighbors = sorted(next_vertex for next_vertex, _ in seed.adjacency()[hub])
     serial = 0
-    for selected_count in (1, 2):
+    for selected_count in (2,):
         for selected_neighbors in itertools.combinations(neighbors, selected_count):
             ports = boundary_ports(seed, hub, selected_neighbors)
             terminal_count = sum(len(values) for values in ports.values())
-            for base_tree in replacement_trees(terminal_count):
+            for base_tree in replacement_trees(terminal_count, 1):
                 templates = [base_tree]
                 tree_edge_set = set(base_tree["edges"])
                 for chord in chord_options(base_tree):
-                    if chord in tree_edge_set:
+                    # A HUB chord consumes scarce freed degree budget and is
+                    # dominated by using that budget for another root branch.
+                    if "HUB" in chord or chord in tree_edge_set:
                         continue
                     multitree = {
                         **base_tree,
@@ -530,13 +574,18 @@ def make_report(
     }
     completion = {
         "bounded_generation_complete": state.bounded_generation_complete,
+        "all_roots_reported": len(summaries) == len(roots),
+        "root_summaries_complete": all(item.get("complete", False) for item in summaries),
         "all_selected_unique_classified": totals["classified"] == totals["selected_for_classification"] and not totals["unclassified_deadline"],
-        "classification_complete": totals["classified"] == totals["unique"],
+        "all_unique_classified": totals["classified"] == totals["unique"],
+        "classification_complete": totals["classified"] == totals["selected_for_classification"] and not totals["unclassified_deadline"],
         "independent_confirmation_complete": state.independent_confirmation_complete,
         "runtime_deadline_hit": state.runtime_deadline_hit,
         "stop_reason": state.stop_reason,
         "complete": (
             state.bounded_generation_complete
+            and len(summaries) == len(roots)
+            and all(item.get("complete", False) for item in summaries)
             and totals["classified"] == totals["selected_for_classification"]
             and totals["unclassified_deadline"] == 0
             and state.independent_confirmation_complete
@@ -622,12 +671,14 @@ def search_root(
     negatives: list[dict],
     state: RunState,
     output_path: Path,
+    checkpoint_roots: Sequence[tuple[str, Graph]],
+    checkpoint_configuration: dict,
+    state_log_path: Path | None,
     started: float,
 ) -> dict:
     counters = Counters()
     candidates: list[Candidate] = []
     if any(degree > MAXIMUM_DELTA and degree != 11 for degree in root_graph.degrees.values()):
-        state.stop_reason = "unsupported-parent-overcap-vertex"
         return {
             "root": root_name,
             "constructions_attempted": 0,
@@ -638,7 +689,8 @@ def search_root(
             "unclassified_deadline": 0,
             "classification_complete": True,
             "independent_confirmation_complete": True,
-            "complete": False,
+            "complete": True,
+            "inapplicable_reason": "parent has a non-hub vertex above final delta cap",
             "elapsed_seconds": 0.0,
         }
     for candidate in enumerate_root_candidates(root_name, root_graph):
@@ -647,6 +699,13 @@ def search_root(
         if graph is None:
             continue
         counters.generated += 1
+        validity = final_graph_validity(graph)
+        if validity == "disconnected":
+            counters.rejected_disconnected += 1
+            continue
+        if validity is not None:
+            counters.rejected_invalid += 1
+            continue
         if graph.delta > MAXIMUM_DELTA:
             counters.rejected_degree_cap += 1
             continue
@@ -671,9 +730,9 @@ def search_root(
             )
         )
 
-    # The focused run classifies every accepted unique graph.  The high-margin
-    # count remains as the stricter structural-screen diagnostic.
-    selected = list(candidates)
+    # Original lane contract: classify only the stricter high-margin screen;
+    # all other unique graphs remain generated but unclassified by design.
+    selected = [candidate for candidate in candidates if candidate.features["high_margin"]]
     counters.high_margin_unique = len(selected)
     selected.sort(key=ranking_key)
     counters.selected_for_classification = len(selected)
@@ -686,8 +745,8 @@ def search_root(
             "independent_confirmation_complete": state.independent_confirmation_complete,
         }
         report = make_report(
-            configuration(args),
-            [],
+            checkpoint_configuration,
+            checkpoint_roots,
             [*completed_summaries, summary],
             ([*records, latest_record] if latest_record else records)[-max(0, args.checkpoint_record_window):],
             negatives,
@@ -695,6 +754,8 @@ def search_root(
             state,
         )
         report["checkpoint"] = {"partial": True}
+        report["completion"]["complete"] = False
+        report["complete"] = False
         atomic_write_json(output_path, report)
 
     for number, candidate in enumerate(selected, start=1):
@@ -764,6 +825,15 @@ def search_root(
         else:
             raise AssertionError(f"unexpected primary status {primary.status}")
         records.append(record)
+        append_state_event(
+            state_log_path,
+            {
+                "event": "classification",
+                "root": root_name,
+                "elapsed_seconds": time.monotonic() - started,
+                "record": record,
+            },
+        )
         checkpoint(record)
 
     classification_complete = (
@@ -804,6 +874,16 @@ def argument_parser():
     parser.add_argument("--deadline-seconds", type=float, default=10800.0)
     parser.add_argument("--checkpoint-record-window", type=int, default=256)
     parser.add_argument("--output", type=Path, default=Path("results/neighborhood-graft-delta10.json"))
+    parser.add_argument(
+        "--state-log",
+        type=Path,
+        help="append-only JSONL classification state; recommended for resumable runs",
+    )
+    parser.add_argument(
+        "--predecessor-report",
+        type=Path,
+        help="preserved prior report whose provenance is embedded in this run",
+    )
     parser.add_argument("--smoke", action="store_true")
     return parser
 
@@ -835,6 +915,35 @@ def main() -> None:
     roots, seed_resolution = resolve_roots()
     active_configuration = configuration(args)
     active_configuration["seed_resolution"] = seed_resolution
+    if args.predecessor_report:
+        predecessor_bytes = args.predecessor_report.read_bytes()
+        predecessor = json.loads(predecessor_bytes)
+        active_configuration["predecessor_report"] = {
+            "path": str(args.predecessor_report),
+            "sha256": hashlib.sha256(predecessor_bytes).hexdigest(),
+            "checkpoint_partial": bool(predecessor.get("checkpoint", {}).get("partial")),
+            "roots": predecessor.get("roots", []),
+            "counts": predecessor.get("counts", {}),
+            "elapsed_seconds": predecessor.get("elapsed_seconds"),
+        }
+    if args.state_log:
+        append_state_event(
+            args.state_log,
+            {
+                "event": "run-start",
+                "configuration": active_configuration,
+                "roots": [
+                    {
+                        "name": name,
+                        "order": graph.n,
+                        "size": graph.m,
+                        "maximum_degree": graph.delta,
+                        "degree_11_hub": applicable_hub(graph),
+                    }
+                    for name, graph in roots
+                ],
+            },
+        )
     global_seen: set[str] = set()
     summaries: list[dict] = []
     records: list[dict] = []
@@ -859,9 +968,20 @@ def main() -> None:
             negatives,
             state,
             args.output,
+            roots,
+            active_configuration,
+            args.state_log,
             started,
         )
         summaries.append(summary)
+        append_state_event(
+            args.state_log,
+            {
+                "event": "root-complete",
+                "root": root_name,
+                "summary": summary,
+            },
+        )
         construction_offset += summary["constructions_attempted"]
 
     report = make_report(
@@ -874,6 +994,15 @@ def main() -> None:
         state,
     )
     atomic_write_json(args.output, report)
+    append_state_event(
+        args.state_log,
+        {
+            "event": "run-complete",
+            "elapsed_seconds": time.monotonic() - started,
+            "counts": report["counts"],
+            "completion": report["completion"],
+        },
+    )
 
 
 if __name__ == "__main__":
