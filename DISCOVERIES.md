@@ -144,10 +144,12 @@ Order-16 progress is now as follows:
 | `4+12` | 26,330 | all colorable |
 | `5+11` | 5,158,975 | all colorable |
 | `6+10` | 291,917,907 | classification running |
-| `7+9` | 121,471,162 | generation running |
-| `8+8` | 159,757,218 | generation running |
+| `7+9` | 3,604,370,591 | staged classification running |
+| `8+8` | to be determined after generation | generation running |
 
 A reusable memory-safe audit tool (`src/audit_order16_class.py`) streams result chunks directly from YSU, checks malformed rows, duplicate indices, duplicate bipartition-colored hashes, status counts, timeout indices, and expected-count agreement. It reproduced both completed order-16 audits exactly on `4+12` and `5+11`.
+
+The initial `7+9` count of 121,471,162 was a partial count from a locally timed-out enumeration. The completed cluster generation produced exactly **3,604,370,591** graph6 records (79.3 GB), with SHA256 `902e940b2af30043d2a757e2825c0b274a2dd769465313eba533e66fe2dc5270`. Classification is therefore staged: batch 0 is Slurm array `228989`, chunks 0--999 with at most 150 running tasks; later batches will follow until all 8,192 planned chunk boundaries are covered.
 
 The third degree-transfer pass added another 177,021 constructions and classified 5,152 additional unique Δ≤10 graphs: 740 for Erdős–Fano and 4,412 for the Δ15 benchmark. Every classification returned colorable, with zero timeouts. The combined transfer evidence now represents 11,647 unique colorable graphs (`results/degree-transfer-delta10-extension-r3.json`).
 

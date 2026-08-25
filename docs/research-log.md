@@ -332,13 +332,19 @@ The full order-16 census was measured for every connected minimum-degree-2 side 
 | `7+9` | 121,471,162 |
 | `8+8` | 159,757,218 |
 
-The total is 573,170,427 canonical graphs before regular skips. `genbg` emitted canonical labeled bipartite graph6 output with connectivity and degree bounds enabled.
+The totals for the last two rows were initially underestimated because they came from timed-out local enumeration pipes. The authoritative `7+9` generation total is 3,604,370,591 records. The `8+8` total will be recorded only after its cluster generator completes.
 
 `4+12` was classified in 32 Slurm slices and audited: 26,330 rows, all distinct by index and bipartition-colored hash, all colorable, no timeouts. `5+11` used 256 slices; its 5,158,975 rows had the same clean integrity properties and all were colorable. These audits establish the first two order-16 classes exhaustively.
 
 `6+10` was generated on YSU into a 6.0 GB graph6 file with exactly 291,917,907 records. Classification array 228788 uses 512 contiguous chunks, four CPU slots per task, a ten-second primary limit per record, and up to 150 concurrent tasks. Results are checkpointed as append-only JSONL so interrupted tasks resume without duplicating indices. Any timeout will be rerun exactly with a one-hour limit; any primary negative must pass independent fixed-span confirmation before being reported.
 
 Generation jobs for `7+9` (expected 121,471,162) and `8+8` (expected 159,757,218) are also running. Their workers verify exact line counts before launching analogous resumable arrays. A reusable remote auditor (`src/audit_order16_class.py`) streams chunks once, uses bounded snapshots and remote sorting, and reports malformed rows, duplicate indices/hashes, status histograms, missing ranges, timeouts, and negatives. It reproduced the committed `4+12` and `5+11` audits exactly.
+
+## 2026-08-25 — Corrected 7+9 census and staged classification
+
+The cluster generator for order-16 `7+9` completed in 2 hours 38 minutes and emitted **3,604,370,591** graph6 records, not the earlier partial estimate of 121,471,162. The file is 79,296,153,002 bytes and has SHA256 `902e940b2af30043d2a757e2825c0b274a2dd769465313eba533e66fe2dc5270`. This correction is important: dense side splits have much longer graph6 lines, so row-count estimates extrapolated from sparse classes are invalid.
+
+Because the dataset is very large, classification is staged rather than submitted as one 8,192-task array. Batch 0 is Slurm array `228989`, covering chunks 0--999 (approximately the first 440 million graphs), with at most 150 tasks running. Each task uses four CPU slots, a ten-second primary CP-SAT limit per graph, and a 72-hour walltime. Results remain append-only and resumable by index. Later batches will cover the remaining chunk ranges after auditing throughput and integrity.
 
 The synchronized multi-hub Δ≤10 lane replaced each over-cap hub by two same-side copies and inserted deterministic bipartite synchronization gadgets between them. It enumerated 2,388 constructions, retained 1,491 unique canonical graphs after enforcing connectivity, minimum degree 2, simplicity, and final Δ≤10, and classified all of them exactly. All 1,491 were colorable; there were no primary negatives, confirmed negatives, or timeouts. Reports are `results/multihub-sync-delta10-smoke.json` and `results/multihub-sync-delta10.json`.
 

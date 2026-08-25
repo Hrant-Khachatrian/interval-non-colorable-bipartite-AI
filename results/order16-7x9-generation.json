@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "dataset": "order16-7x9-d2to11",
+  "generator_command": "nauty-genbg -q -c -g -l -d2:2 -D11:11 7 9",
+  "slurm_generation_job_id": 228779,
+  "generation_state": "COMPLETED",
+  "generation_elapsed": "02:38:48",
+  "path": "/mnt/weka/hrant/interval-search/data/order16-7x9-d2to11.g6",
+  "records": 3604370591,
+  "sha256": "902e940b2af30043d2a757e2825c0b274a2dd769465313eba533e66fe2dc5270",
+  "note": "The earlier estimate of 121,471,162 was a partial count produced after a local timeout and is superseded."
+}
