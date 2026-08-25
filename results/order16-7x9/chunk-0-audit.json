@@ -1,0 +1,94 @@
+{
+  "acceptance": {
+    "accepted": true,
+    "status": "ACCEPTED"
+  },
+  "audit": "order16-7x9-chunk0-terminal-strict",
+  "audit_utc": "2026-08-25T13:01:00.640436Z",
+  "canonical_hashes": {
+    "duplicate_canonical_hash_rows": 0,
+    "rows": 439987,
+    "sorted_list_sha256": "cf42627abfe7e13b22edad1943e7ecfc20ae6f7902a082acd65f85ced2263494"
+  },
+  "file_signature_after": {
+    "device": 1252131153,
+    "inode": 3682699585063550976,
+    "mtime_ns": 1787662602613894362,
+    "size": 106204400
+  },
+  "file_signature_before": {
+    "device": 1252131153,
+    "inode": 3682699585063550976,
+    "mtime_ns": 1787662602613894362,
+    "size": 106204400
+  },
+  "job": {
+    "array_job": "228989_0",
+    "job_id": "229469",
+    "scheduler": {
+      "active_squeue_rows": 0,
+      "sacct_primary": [
+        "229469",
+        "COMPLETED",
+        "0:0"
+      ],
+      "terminal_completed": true
+    },
+    "terminal_log": {
+      "summary": {
+        "counts": {
+          "colorable": 439987,
+          "non-colorable": 0,
+          "timeout": 0
+        },
+        "edge_range": [
+          2,
+          999
+        ],
+        "index_offset": 0,
+        "index_range": [
+          0,
+          439987
+        ],
+        "input": "data/order16-7x9-d2to11.g6",
+        "n1": 7,
+        "n2": 9,
+        "processed": 439987,
+        "residue": [
+          0,
+          1
+        ],
+        "wall_seconds": 12375.272
+      },
+      "valid": true
+    }
+  },
+  "primary_negatives": {
+    "confirmation_status_counts": {},
+    "confirmations": {},
+    "count": 0
+  },
+  "range": {
+    "expected_rows": 439987,
+    "start": 0,
+    "stop_exclusive": 439987
+  },
+  "rows": {
+    "duplicate_indices": 0,
+    "invalid_by_reason": {},
+    "invalid_examples": [],
+    "malformed": 0,
+    "missing_indices": 0,
+    "valid": 439987
+  },
+  "schema_version": 1,
+  "stable_during_audit": true,
+  "status_counts": {
+    "colorable": 439987
+  },
+  "timeouts": {
+    "count": 0,
+    "indices": [],
+    "policy": "unresolved; any primary timeout rejects acceptance"
+  }
+}

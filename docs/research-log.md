@@ -481,3 +481,5 @@ The remaining expanded-bound set was then classified exhaustively and reconciled
 The neighborhood-graft continuation reached rank9,094. It validated all prior decisions without recomputation, then classified ranks8,095--9,094 exactly: all 1,000 were colorable with zero timeouts.
 
 On YSU, the strict batch-0 auditor accepted the first two terminal `7+9` chunks beyond chunk0. Chunks1--2 contained exactly 439,987 rows each (879,974 total), with no missing/duplicate indices, malformed rows, hash duplicates, unresolved timeouts, or primary negatives. Chunk0 remains under its dedicated terminal audit.
+
+Chunk0 has also completed and passed its dedicated strict terminal audit: job229469 exited successfully, the output was stable during audit, and all439,987 rows were colorable. There were zero missing/duplicate indices, malformed/schema failures, duplicate canonical hashes, timeouts, or primary negatives; the sorted canonical-hash list has SHA256 `cf42627abfe7e13b22edad1943e7ecfc20ae6f7902a082acd65f85ced2263494`.
