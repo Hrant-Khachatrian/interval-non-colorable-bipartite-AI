@@ -471,3 +471,7 @@ An independent spot audit sampled 24 rows from each of the initial, beyond-top94
 The neighborhood-graft continuation reached rank4,094. It validated all prior decisions without recomputation, then classified ranks3,095--4,094 exactly: all 1,000 were colorable with zero timeouts.
 
 A second structured order-18 family used same-side identification with bounded edge deletion/restoration plus cyclic three-edge switches. It generated 6,904 candidates, retained 2,111 internally unique graphs, excluded 497 overlaps with the completed first queue, and classified the strongest 1,200 of its 1,614 globally new candidates. All were colorable with zero timeouts.
+
+The alternate-family verification was raised to full-replay strength. Hash-keyed replays validated all 1,200 v1 decisions, all 1,000 v2 decisions, and all 1,031 v3 decisions (31 residuals plus 1,000 expanded-bound candidates). Every reconstructed graph passed structural/hash checks, every decision remained colorable, every recorded span was validated, and there were zero mismatches or timeouts.
+
+On YSU, the strict batch-0 auditor accepted the first two terminal `7+9` chunks beyond chunk0. Chunks1--2 contained exactly 439,987 rows each (879,974 total), with no missing/duplicate indices, malformed rows, hash duplicates, unresolved timeouts, or primary negatives. Chunk0 remains under its dedicated terminal audit.

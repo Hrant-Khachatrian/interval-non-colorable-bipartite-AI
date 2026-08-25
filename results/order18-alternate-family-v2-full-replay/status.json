@@ -1,0 +1,51 @@
+{
+  "completion": "complete",
+  "configuration": {
+    "checkpoint_policy": "append durable events and atomically refresh status every 100 completed rows per phase",
+    "identity_policy": "each source row is reconstructed from metadata and checked against canonical_sha256; no rank join",
+    "low_priority_nice_applied": true,
+    "negative_policy": "a replay INFEASIBLE result is not a claim; fixed-span CP-SAT checks every legal span, and UNKNOWN remains unresolved",
+    "reported_span_policy": "reuse a valid replay certificate only at the recorded span, otherwise fixed-span CP-SAT",
+    "solver": "rank-potential CP-SAT",
+    "time_limit_seconds": 3.0,
+    "workers": 2
+  },
+  "counts": {
+    "mismatch": 0,
+    "negative_apparent": 0,
+    "negative_certified": 0,
+    "replayed": 1000,
+    "source": 1000,
+    "span_valid": 1000,
+    "timeout": 0,
+    "valid": 1000
+  },
+  "elapsed_seconds": 86.0699680130001,
+  "identity_join": "stored canonical_sha256; phase-local rank and candidate_id are reporting-only",
+  "max_runtime_seconds": 0.4736059499991825,
+  "reason": "all_source_colorable_decisions_replayed_and_reported_spans_validated",
+  "reported_span_validation": {
+    "completed": 1000,
+    "mismatch": 0,
+    "timeout": 0,
+    "valid": 1000
+  },
+  "schema_version": 1,
+  "source_phases": [
+    {
+      "events_path": "results/order18-alternate-family-v2/v1-residual/classification-events.jsonl",
+      "expected_rows": 414,
+      "name": "v1-residual"
+    },
+    {
+      "events_path": "results/order18-alternate-family-v2/expanded-step1/classification-events.jsonl",
+      "expected_rows": 377,
+      "name": "expanded-step1"
+    },
+    {
+      "events_path": "results/order18-alternate-family-v2/expanded-step2/classification-events.jsonl",
+      "expected_rows": 209,
+      "name": "expanded-step2"
+    }
+  ]
+}

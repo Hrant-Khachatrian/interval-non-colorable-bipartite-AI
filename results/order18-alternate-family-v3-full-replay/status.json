@@ -1,0 +1,49 @@
+{
+  "completion": "complete",
+  "configuration": {
+    "checkpoint_policy": "append-only events and atomic compact state every 100 completed decisions",
+    "low_priority_nice_applied": true,
+    "negative_policy": "every apparent negative is independently checked over all legal spans; UNKNOWN is unresolved only",
+    "rank_potential_solver": "CP-SAT",
+    "rank_potential_time_limit_seconds": 3.0,
+    "source_campaign_workers": 1,
+    "span_policy": "replay witness when it has the recorded span; otherwise fixed-span CP-SAT at the recorded span",
+    "workers": 2
+  },
+  "counts": {
+    "mismatch": 0,
+    "replayed": 1031,
+    "source": 1031,
+    "span_valid": 1031,
+    "timeout": 0,
+    "valid": 1031
+  },
+  "elapsed_seconds": 2.9915818749996106,
+  "identity_join": "canonical_sha256 only; source phase ranks are reporting metadata, never reconstruction keys",
+  "max_runtime_seconds": 0.791401983000469,
+  "phase_counts": {
+    "expanded_step3": 1000,
+    "v2_residual": 31
+  },
+  "reason": "all_1031_v3_colorable_decisions_replayed_and_recorded_spans_validated",
+  "reconstruction": {
+    "canonical_hash_agreement_count": 1031,
+    "expanded_step3_graph_count": 1000,
+    "preflight_mismatch_count": 0,
+    "preflight_mismatches": [],
+    "source_graph_count": 1031,
+    "target_graph_count": 1031,
+    "v2_residual_graph_count": 31
+  },
+  "reported_span_validation": {
+    "completed": 1031,
+    "mismatch": 0,
+    "timeout": 0,
+    "valid": 1031
+  },
+  "schema_version": 1,
+  "source_events": {
+    "expanded_step3": "results/order18-alternate-family-v3/expanded-step3/classification-events.jsonl",
+    "v2_residual": "results/order18-alternate-family-v3/v2-residual/classification-events.jsonl"
+  }
+}

@@ -1,0 +1,736 @@
+{
+  "accepted_chunks": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    24,
+    30,
+    32
+  ],
+  "accepted_scope": {
+    "chunks": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      24,
+      30,
+      32
+    ],
+    "rows": 3519896
+  },
+  "audit": "order16-7x9-batch0-terminal-strict",
+  "audit_utc": "2026-08-25T12:47:07.193132Z",
+  "chunks": [
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "15cafd1fa51fe908a392430645e635759279e19c8bbe03e9fb5d00b50a21e4ca"
+      },
+      "chunk": 1,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 12300995144916664320,
+        "mtime_ns": 1787659660751697471,
+        "size": 106342670
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 12300995144916664320,
+        "mtime_ns": 1787659660751697471,
+        "size": 106342670
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        439987,
+        879974
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            439987,
+            879974
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 9232.967
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    },
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "e790b67d3362181d483bbf0b774430f9ef88bcefe348dc038381cf8039ee5661"
+      },
+      "chunk": 2,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 4160124408531451904,
+        "mtime_ns": 1787660231410903055,
+        "size": 106653189
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 4160124408531451904,
+        "mtime_ns": 1787660231410903055,
+        "size": 106653189
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        879974,
+        1319961
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            879974,
+            1319961
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 9518.113
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    },
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "b2cd6d79d3d5d66c2fa741bfd36da1b10d41405ac10a86d02417eaf1296aeab7"
+      },
+      "chunk": 4,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 11056918904687624192,
+        "mtime_ns": 1787661566202594428,
+        "size": 106762321
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 11056918904687624192,
+        "mtime_ns": 1787661566202594428,
+        "size": 106762321
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        1759948,
+        2199935
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            1759948,
+            2199935
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 10624.451
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    },
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "013d71e99e7f491656d9ce85e7c940557438bfecf84bf9e53336859638d716a0"
+      },
+      "chunk": 6,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 14173005632823099392,
+        "mtime_ns": 1787661727526279506,
+        "size": 106765973
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 14173005632823099392,
+        "mtime_ns": 1787661727526279506,
+        "size": 106765973
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        2639922,
+        3079909
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            2639922,
+            3079909
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 10750.414
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    },
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "39fcdc3e467e63d531f4bc553fcdd765ea68b1814037206cb55087e163d87f66"
+      },
+      "chunk": 7,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 3039254421292449792,
+        "mtime_ns": 1787661597121927458,
+        "size": 106768168
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 3039254421292449792,
+        "mtime_ns": 1787661597121927458,
+        "size": 106768168
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        3079909,
+        3519896
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            3079909,
+            3519896
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 10459.293
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    },
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "01ccb97c558886dac3392099b579e3fc91ce6fe59c4edba9acdf59d4329c1ec7"
+      },
+      "chunk": 24,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 14143109390565244928,
+        "mtime_ns": 1787661601061078798,
+        "size": 107213540
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 14143109390565244928,
+        "mtime_ns": 1787661601061078798,
+        "size": 107213540
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        10559688,
+        10999675
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            10559688,
+            10999675
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 8644.294
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    },
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "4a3d88d3a2d51a6de75e35fe9be60a8699ec9844997d964cd1f57f6542ec1a7d"
+      },
+      "chunk": 30,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 17162354403726000128,
+        "mtime_ns": 1787661569616020563,
+        "size": 107214360
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 17162354403726000128,
+        "mtime_ns": 1787661569616020563,
+        "size": 107214360
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        13199610,
+        13639597
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            13199610,
+            13639597
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 8248.768
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    },
+    {
+      "accepted": true,
+      "canonical_hashes": {
+        "duplicate_canonical_hash_rows": 0,
+        "rows": 439987,
+        "sorted_list_sha256": "934cc98f48cc1452fb7264278a77f2f5f8d6d0b6830d547998815eba60927fd4"
+      },
+      "chunk": 32,
+      "expected_rows": 439987,
+      "file_signature_after": {
+        "device": 1252131153,
+        "inode": 14714317006790721536,
+        "mtime_ns": 1787661898933416993,
+        "size": 107220876
+      },
+      "file_signature_before": {
+        "device": 1252131153,
+        "inode": 14714317006790721536,
+        "mtime_ns": 1787661898933416993,
+        "size": 107220876
+      },
+      "primary_negatives": {
+        "confirmations": {},
+        "count": 0
+      },
+      "range": [
+        14079584,
+        14519571
+      ],
+      "rows": {
+        "duplicate_indices": 0,
+        "invalid_by_reason": {},
+        "invalid_examples": [],
+        "malformed": 0,
+        "missing_indices": 0,
+        "valid": 439987
+      },
+      "stable_during_audit": true,
+      "state": {
+        "exit_code": "0:0",
+        "state": "COMPLETED"
+      },
+      "status": "ACCEPTED",
+      "status_counts": {
+        "colorable": 439987
+      },
+      "terminal_log": {
+        "summary": {
+          "counts": {
+            "colorable": 439987,
+            "non-colorable": 0,
+            "timeout": 0
+          },
+          "edge_range": [
+            2,
+            999
+          ],
+          "index_offset": 0,
+          "index_range": [
+            14079584,
+            14519571
+          ],
+          "input": "data/order16-7x9-d2to11.g6",
+          "n1": 7,
+          "n2": 9,
+          "processed": 439987,
+          "residue": [
+            0,
+            1
+          ],
+          "wall_seconds": 8334.061
+        },
+        "valid": true
+      },
+      "timeouts": {
+        "count": 0,
+        "indices": [],
+        "policy": "unresolved; any primary timeout rejects acceptance"
+      }
+    }
+  ],
+  "contract": {
+    "array_job": "228989",
+    "batch_chunks": [
+      0,
+      999
+    ],
+    "exact_row_keys": [
+      "canonical_sha256",
+      "delta",
+      "index",
+      "minimum_degree",
+      "order",
+      "size",
+      "solver_seconds",
+      "span",
+      "status"
+    ],
+    "excluded_chunks": {
+      "0": "dedicated chunk-0 auditor"
+    },
+    "expected_rows_per_non_tail_chunk": 439987,
+    "hash_pattern": "9:7:[0-9a-f]{64}\\Z",
+    "negative_policy": "every primary negative is independently checked at all legal spans delta..15",
+    "timeout_policy": "unresolved; any primary timeout rejects acceptance"
+  },
+  "incremental": {
+    "new_terminal_candidates": [
+      4,
+      6,
+      7,
+      24,
+      30,
+      32
+    ],
+    "prior_accepted_chunks": [
+      1,
+      2
+    ],
+    "prior_ledger_warnings": []
+  },
+  "rejected_chunks": [],
+  "scheduler": {
+    "batch_counts": {
+      "pending_not_yet_materialized": 910,
+      "running": 82,
+      "terminal_completed": 8
+    },
+    "sacct_states": {
+      "COMPLETED": 8,
+      "RUNNING": 82
+    },
+    "squeue_compacted_rows": {
+      "PENDING": 1,
+      "RUNNING": 82
+    },
+    "terminal_completed_candidates": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      24,
+      30,
+      32
+    ]
+  },
+  "schema_version": 1
+}
