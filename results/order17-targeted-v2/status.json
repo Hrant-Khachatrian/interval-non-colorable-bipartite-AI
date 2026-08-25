@@ -1,0 +1,60 @@
+{
+  "completion": "complete",
+  "counts": {
+    "classified": 1151,
+    "colorable": 1151,
+    "confirmation_timeout": 0,
+    "generated": 8392,
+    "non_colorable": 0,
+    "primary_noncolorable": 0,
+    "selected_for_classification": 1151,
+    "timeout": 0,
+    "unique": 2351
+  },
+  "elapsed_seconds": 414.008471867,
+  "generation": {
+    "duplicates_removed": 5411,
+    "generated_raw": 8392,
+    "generated_raw_by_lane": {
+      "delete-add-cross-edges": 3619,
+      "delete-low-degree": 141,
+      "delete-two-edge-switch": 1880,
+      "order16-one-vertex-extension": 1792,
+      "q1-delete-two-low-degree": 306,
+      "q1-two-same-side-identifications": 654
+    },
+    "passed_filters_before_deduplication": 7762,
+    "rank_window": [
+      1201,
+      2351
+    ],
+    "rank_window_by_lane": {
+      "delete-add-cross-edges": 566,
+      "delete-low-degree": 15,
+      "delete-two-edge-switch": 490,
+      "order16-one-vertex-extension": 12,
+      "q1-delete-two-low-degree": 32,
+      "q1-two-same-side-identifications": 36
+    },
+    "rank_window_size": 1151,
+    "ranked_queue_size_reconstructed": 2351,
+    "rejected_by_filters": 630,
+    "selected_by_lane": {
+      "delete-add-cross-edges": 1167,
+      "delete-low-degree": 39,
+      "delete-two-edge-switch": 574,
+      "order16-one-vertex-extension": 381,
+      "q1-delete-two-low-degree": 50,
+      "q1-two-same-side-identifications": 140
+    },
+    "sources": {
+      "Q1-certified-negative": 2,
+      "Q2-near-negative": 7,
+      "order16-strong": 16,
+      "order18-ranked": 40
+    },
+    "unique_after_nauty": 2351
+  },
+  "goal": "focused exact search for an interval-non-colorable simple connected bipartite graph on exactly 17 vertices; this is not an exhaustive order-17 census",
+  "stopped_reason": "all_selected_classified"
+}

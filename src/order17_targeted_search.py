@@ -267,7 +267,7 @@ def emit_reductions(base: Graph, parent: str, source: str, args):
                             {"lane": "order16-one-vertex-extension", "parent": parent, "source": source, "new_vertex_neighbors": list(neighbors)})
 
 
-def generate(args):
+def generate(args, queue_cap: int | None = None):
     raw = []
     sources = []
     sources.extend((name, graph, "Q1-certified-negative") for name, graph in q1_bases())
@@ -290,7 +290,7 @@ def generate(args):
         metrics = graph_metrics(graph)
         ranked.append((-metrics["hub_best_margin"], -metrics["degree_variance_normalized"], -graph.delta, digest, graph, metrics))
     ranked.sort(key=lambda row: row[:4])
-    selected = ranked[:args.classify_cap]
+    selected = ranked[:queue_cap if queue_cap is not None else args.classify_cap]
     return selected, {
         "sources": collections.Counter(source for _parent, _graph, source in sources),
         "generated_raw": len(raw),
@@ -350,7 +350,9 @@ def classify(task: dict) -> dict:
     return row
 
 
-def report(args, diagnostics, rows, counts, started, completion, stopped_reason, negatives) -> dict:
+def report(args, diagnostics, rows, counts, started, completion, stopped_reason, negatives, rank_window, overlap) -> dict:
+    rows = sorted(rows, key=lambda row: row["rank"])
+    classified_by_lane = collections.Counter(row["metadata"]["lane"] for row in rows)
     return {
         "schema_version": 1,
         "goal": "focused exact search for an interval-non-colorable simple connected bipartite graph on exactly 17 vertices; this is not an exhaustive order-17 census",
@@ -364,26 +366,77 @@ def report(args, diagnostics, rows, counts, started, completion, stopped_reason,
             "deduplication": "Nauty bipartition-colored canonical SHA-256",
             "filters": ["exactly 17 vertices", "simple bipartite", "connected", "minimum degree >= 2"],
             "ranking": ["hub_best_margin descending", "degree_variance_normalized descending", "delta descending", "canonical hash"],
-            "classification_target": args.classify_cap,
+            "classification_target": len(rank_window),
+            "rank_window": [args.rank_start, args.rank_end],
         },
         "generation": diagnostics,
         "counts": {
             "generated": diagnostics.get("generated_raw", 0), "unique": diagnostics.get("unique_after_nauty", 0),
-            "selected_for_classification": min(args.classify_cap, diagnostics.get("unique_after_nauty", 0)),
+            "selected_for_classification": len(rank_window),
             "classified": len(rows), "colorable": counts["colorable"],
             "primary_noncolorable": counts["primary_noncolorable"], "non_colorable": counts["confirmed_non_colorable"],
             "timeout": counts["timeout"] + counts["confirmation_timeout"],
             "confirmation_timeout": counts["confirmation_timeout"],
         },
+        "reconciliation": overlap,
+        "classified_by_lane": dict(sorted(classified_by_lane.items())),
         "negative_events": negatives,
         "rows": rows,
     }
+
+
+def completed_rows(events: Path) -> dict[int, dict]:
+    """Replay durable completions; later duplicate rank events are rejected by the caller."""
+    rows = {}
+    if not events.exists():
+        return rows
+    for line in events.read_text(encoding="utf-8").splitlines():
+        if not line:
+            continue
+        event = json.loads(line)
+        if event.get("event") != "classification_completed":
+            continue
+        row = event["row"]
+        rank = row["rank"]
+        previous = rows.setdefault(rank, row)
+        if previous["canonical_sha256"] != row["canonical_sha256"]:
+            raise RuntimeError(f"conflicting durable classification events for rank {rank}")
+    return rows
+
+
+def reconcile_prior(report_path: Path | None, selected, rank_start: int) -> dict:
+    result = {"prior_report": str(report_path) if report_path else None, "prior_classified": 0,
+              "prefix_matches_prior": None, "window_overlap_hashes": 0}
+    if report_path is None:
+        return result
+    prior = json.loads(report_path.read_text(encoding="utf-8"))
+    prior_rows = prior.get("rows", [])
+    prior_by_rank = {row["rank"]: row["canonical_sha256"] for row in prior_rows}
+    if len(prior_by_rank) != len(prior_rows):
+        raise RuntimeError("prior report has duplicate ranks")
+    prefix = {rank: digest for rank, (_a, _b, _c, digest, _graph, _m) in enumerate(selected, 1) if rank < rank_start}
+    result["prior_classified"] = len(prior_by_rank)
+    result["prefix_matches_prior"] = prior_by_rank == prefix
+    if not result["prefix_matches_prior"]:
+        raise RuntimeError("deterministic queue prefix does not match prior report")
+    prior_hashes = set(prior_by_rank.values())
+    window_hashes = {digest for rank, (_a, _b, _c, digest, _graph, _m) in enumerate(selected, 1) if rank >= rank_start}
+    result["window_overlap_hashes"] = len(prior_hashes & window_hashes)
+    if result["window_overlap_hashes"]:
+        raise RuntimeError("rank window overlaps canonical hashes already classified by prior report")
+    return result
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-dir", type=Path, default=ROOT / "results/order17-targeted-v1")
     parser.add_argument("--classify-cap", type=int, default=1200)
+    parser.add_argument("--rank-start", type=int, default=1,
+                        help="inclusive global deterministic rank to classify")
+    parser.add_argument("--rank-end", type=int,
+                        help="inclusive global deterministic rank to classify; defaults to classify-cap")
+    parser.add_argument("--prior-report", type=Path,
+                        help="completed earlier report whose ranks below rank-start must match exactly")
     parser.add_argument("--max-processes", type=int, default=4)
     parser.add_argument("--solver-workers", type=int, default=1)
     parser.add_argument("--primary-time-limit", type=float, default=3.0)
@@ -400,27 +453,62 @@ def main() -> None:
     parser.add_argument("--order16-source-limit", type=int, default=16)
     parser.add_argument("--order16-neighbor-pool", type=int, default=7)
     args = parser.parse_args()
-    if args.classify_cap < 1000:
-        raise ValueError("classify-cap must be at least 1000 for this targeted run")
+    if args.rank_start < 1:
+        raise ValueError("rank-start must be positive")
+    if args.rank_end is None:
+        args.rank_end = args.classify_cap
+    if args.rank_end < args.rank_start:
+        raise ValueError("rank-end must be at least rank-start")
+    queue_cap = max(args.classify_cap, args.rank_end)
     out = args.output_dir
     events = out / "events.jsonl"
     status = out / "status.json"
     full = out / "report.json"
     started = time.monotonic()
-    rows, counts, negatives = [], collections.Counter(), []
-    append_event(events, {"event": "run_started", "configuration": vars(args) | {"output_dir": str(args.output_dir)}})
-    selected, diagnostics = generate(args)
-    append_event(events, {"event": "generation_completed", "generation": diagnostics, "selected": len(selected)})
-    if len(selected) < 1000:
-        raise RuntimeError(f"only {len(selected)} unique candidates survived; need at least 1000")
-    initial = report(args, diagnostics, rows, counts, started, "running", "classification_started", negatives)
+    existing = completed_rows(events)
+    event_configuration = {key: (str(value) if isinstance(value, Path) else value) for key, value in vars(args).items()}
+    append_event(events, {"event": "run_started", "configuration": event_configuration,
+                          "resume_completed_ranks": len(existing)})
+    selected, diagnostics = generate(args, queue_cap)
+    if len(selected) < args.rank_end:
+        raise RuntimeError(f"only {len(selected)} unique candidates survived; need rank {args.rank_end}")
+    rank_window = list(range(args.rank_start, args.rank_end + 1))
+    overlap = reconcile_prior(args.prior_report, selected, args.rank_start)
+    diagnostics["ranked_queue_size_reconstructed"] = len(selected)
+    diagnostics["rank_window"] = [args.rank_start, args.rank_end]
+    diagnostics["rank_window_size"] = len(rank_window)
+    diagnostics["rank_window_by_lane"] = dict(sorted(collections.Counter(
+        selected[rank - 1][4].metadata["lane"] for rank in rank_window).items()))
+    append_event(events, {"event": "generation_completed", "generation": diagnostics, "selected": len(selected),
+                          "reconciliation": overlap})
+    unexpected_existing = set(existing) - set(rank_window)
+    if unexpected_existing:
+        raise RuntimeError(f"output events contain ranks outside requested window: {sorted(unexpected_existing)[:5]}")
+    for rank, row in existing.items():
+        expected = selected[rank - 1][3]
+        if row["canonical_sha256"] != expected:
+            raise RuntimeError(f"durable row hash does not match reconstructed queue at rank {rank}")
+    rows = list(existing.values())
+    counts, negatives = collections.Counter(), []
+    for row in rows:
+        counts[row["status"]] += 1
+        if row["primary_status"] == "non-colorable":
+            counts["primary_noncolorable"] += 1
+        if row["status"] == "confirmed_non_colorable":
+            negatives.append({"candidate_id": row["candidate_id"], "canonical_sha256": row["canonical_sha256"],
+                              "path": str(out / "negatives" / f"{row['candidate_id']}.graph.json"),
+                              "independently_confirmed": True})
+    initial = report(args, diagnostics, rows, counts, started, "running", "classification_started", negatives, rank_window, overlap)
     atomic_json(status, {key: initial[key] for key in ("goal", "completion", "stopped_reason", "elapsed_seconds", "generation", "counts")})
     atomic_json(full.with_suffix(".checkpoint.json"), initial)
     stopped_reason, interrupted = "all_selected_classified", False
     executor = concurrent.futures.ProcessPoolExecutor(max_workers=args.max_processes)
     try:
         futures = {}
-        for rank, (_margin, _variance, _delta, digest, graph, _metrics) in enumerate(selected, 1):
+        for rank in rank_window:
+            if rank in existing:
+                continue
+            _margin, _variance, _delta, digest, graph, _metrics = selected[rank - 1]
             task = {"candidate_id": f"O17-R{rank:05d}", "rank": rank, "canonical_sha256": digest, "graph": graph.to_json(), "primary_time_limit": args.primary_time_limit, "span_time_limit": args.span_time_limit, "workers": args.solver_workers}
             futures[executor.submit(classify, task)] = (task, graph)
         for future in concurrent.futures.as_completed(futures):
@@ -436,7 +524,7 @@ def main() -> None:
                 graph.save(path)
                 negatives.append({"candidate_id": row["candidate_id"], "canonical_sha256": row["canonical_sha256"], "path": str(path), "independently_confirmed": True})
             append_event(events, {"event": "classification_completed", "row": row})
-            checkpoint = report(args, diagnostics, rows, counts, started, "running", stopped_reason, negatives)
+            checkpoint = report(args, diagnostics, rows, counts, started, "running", stopped_reason, negatives, rank_window, overlap)
             atomic_json(full.with_suffix(".checkpoint.json"), checkpoint)
             atomic_json(status, {key: checkpoint[key] for key in ("goal", "completion", "stopped_reason", "elapsed_seconds", "generation", "counts")})
             if time.monotonic() - started >= args.deadline_seconds:
@@ -445,7 +533,7 @@ def main() -> None:
     finally:
         executor.shutdown(wait=False, cancel_futures=True)
     completion = "complete" if not interrupted else "stable_checkpoint"
-    final = report(args, diagnostics, rows, counts, started, completion, stopped_reason, negatives)
+    final = report(args, diagnostics, rows, counts, started, completion, stopped_reason, negatives, rank_window, overlap)
     atomic_json(full, final)
     atomic_json(status, {key: final[key] for key in ("goal", "completion", "stopped_reason", "elapsed_seconds", "generation", "counts")})
     append_event(events, {"event": "run_completed", "completion": completion, "counts": final["counts"]})

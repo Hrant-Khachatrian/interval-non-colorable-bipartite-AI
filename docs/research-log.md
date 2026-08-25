@@ -402,4 +402,8 @@ A broader multi-seed reduction pass combined Q1 witnesses with the M5, Erdős--F
 
 The first focused order-17 search generated 8,392 structured candidates from certified negative seeds, near-negative Q2 seeds, strong order-16 graphs, and ranked order-18 ancestors. It retained 2,351 unique canonical order-17 graphs and exactly classified the strongest 1,200: all colorable, zero timeouts, and no primary negatives. The remaining ranked candidates were queued for a disjoint continuation rather than recounted as completed.
 
+That continuation completed ranks 1,201--2,351 after reconciliation against the v1 prefix: all 1,151 remaining canonical graphs were colorable, with zero timeouts and zero hash overlap. Thus the entire configured structured order-17 queue is now exhausted negative.
+
+Because targeted coverage is not an exhaustive proof, work has started on an order-17 census feasibility plan across the eight bipartition-side classes. The plan will distinguish exact generated counts from estimates, verify graph6 files by line count and SHA256 before classification, and stage only classes whose storage/runtime budget is defensible on the YSU cluster.
+
 The `6+10` terminal-audit workflow was repaired to avoid rescanning unchanged chunks when the global hash sidecar is still incomplete. Chunks 0--119 are validated from cache with 68,418,360 sorted hash entries; incremental checkpoints and cache replacements are atomic, and per-pass versus cumulative scope is reported separately. Bounded Slurm job 229252 was submitted for the next 24 oldest terminal chunks using four CPU slots and 32 GB memory.
