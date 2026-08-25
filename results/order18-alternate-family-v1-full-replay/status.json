@@ -1,0 +1,66 @@
+{
+  "completion": "complete",
+  "configuration": {
+    "certificate_policy": "source ledger has no certificate bytes; replay exactly once and validate the returned coloring",
+    "checkpoint_policy": "after every 100 durable hash-ordered replays",
+    "low_priority_nice_applied": true,
+    "solver": "rank-potential CP-SAT",
+    "source_campaign_workers": 1,
+    "time_limit_seconds": 3.0,
+    "workers": 2
+  },
+  "counts": {
+    "mismatch": 0,
+    "replayed": 1200,
+    "source": 1200,
+    "timeout": 0,
+    "valid": 1200
+  },
+  "elapsed_seconds": 254.89955100000043,
+  "generation_diagnostics": {
+    "generated_raw": 6904,
+    "generated_raw_by_lane": {
+      "identify-then-edge-delete-restore": 2324,
+      "identify-then-three-edge-switch": 3320,
+      "near-miss-three-edge-switch": 1260
+    },
+    "overlap_hash_sample": [
+      "7:11:0070db78a630d60b727e3ffa5160ab13c782c3602590f4a89db8dc0708197509",
+      "7:11:00f66f1871c824d0b42203d143cedb8fbe2969ad5dff5770f4341b0ed796d076",
+      "7:11:010b5d1a0e319af502bf1a28736f31e4e9f53afbaf165b2d336ca5f53079f749",
+      "7:11:02ff61f985036aaaf5d7aa860c43cc02c258e49311abff75bda560f3bdc8f8ec",
+      "7:11:03e4c85240551105ea8c99dbd5b9e857acc42efede9a24fed1f92273902a7e55",
+      "7:11:0456319d738d3d47d05469b088d60e906b655191d90e03e88baa480cb9bb2e9e",
+      "7:11:049b9e2463f6ea93d74b66741f4f406c2023bd8926742090226d301b0be2ff96",
+      "7:11:04b2d7c3e4f76aee3a1e31eb08cef23f1bdec3013be9b1990f6b19ffb6b55626",
+      "7:11:051d436de0fdd9690f05ae9051c0784a0c4e22b191c124cd538ec5b56dee7468",
+      "7:11:0564c1e4b999e3d0598bfcaaba74b265d5fb1969e0e1640d9791c97e08b58354",
+      "7:11:056674fbeae8f664a2fb8a572779d3343c3ab801ad557d65cf850b2eb68cd02e",
+      "7:11:056bdb99828fdeaec21399c34a6cce46fcc150d9c6f6ff180eb3eaa61af363e9",
+      "7:11:05f4435e29f34ed165fddb9a16831cfd2a486a1ce884473391f725f220d2e59f",
+      "7:11:0600519193057118261fd5801584e6dfcad945bb0a0620d6d63a4faa48c3a9cb",
+      "7:11:064109e97bf5d0a45f6973db8509db53ec73a82f11bf3bf4eadc844a1c807e3e",
+      "7:11:067e483f94ec720d314c3e3f48c08580a4a0f404c73fcfe546811abbe4f58739",
+      "7:11:084a625903ae2fec0311db9d70a7ce90639895ebe77bdde7c84aa6350be5e8f8",
+      "7:11:0ad03496ee751e631bebabb1818f4de9a8ab91fe8fc4de07fbefc7fa42907461",
+      "7:11:0bee24f554259811c8a899408059f17bf78b5715973457829d95a3c0fdacb1a0",
+      "7:11:0c028d973564cee9d7a600d48bf2a38cd6d9c5fc9d8223765fd4e564d12ae66c"
+    ],
+    "overlap_with_completed_first_queue": 497,
+    "passed_graph_filters": 6904,
+    "passed_graph_filters_by_lane": {
+      "identify-then-edge-delete-restore": 2324,
+      "identify-then-three-edge-switch": 3320,
+      "near-miss-three-edge-switch": 1260
+    },
+    "prior_queue_hash_count": 12987,
+    "self_duplicates_removed": 4793,
+    "unique_before_prior_queue_filter": 2111,
+    "unique_new_after_global_filter": 1614
+  },
+  "identity_join": "stored canonical_sha256; historical rank is reporting-only",
+  "max_runtime_seconds": 3.9966610950004906,
+  "reason": "all_source_colorable_decisions_replayed",
+  "schema_version": 1,
+  "source_events": "results/order18-alternate-family-v1/classification-events.jsonl"
+}

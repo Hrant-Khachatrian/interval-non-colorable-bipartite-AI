@@ -1,0 +1,208 @@
+{
+  "completion": "complete",
+  "completion_details": {
+    "reason": "all_selected_classified",
+    "status": "complete"
+  },
+  "configuration": {
+    "filters": [
+      "exactly 18 vertices",
+      "simple bipartite",
+      "connected",
+      "minimum degree >= 2"
+    ],
+    "fixed_span_time_limit_seconds": 5.0,
+    "global_deduplication": "Nauty bipartition-colored canonical SHA-256 against reconstructed first queue",
+    "independent_negative_confirmation": "fixed-span CP-SAT across every legal span",
+    "operations": [
+      "same-side identification followed by one-edge deletion/restoration",
+      "deterministic cyclic three-edge switches"
+    ],
+    "primary_solver": "rank-potential CP-SAT",
+    "primary_time_limit_seconds": 3.0,
+    "timeout_policy": "Only UNKNOWN outcomes are timeout/unresolved; no timeout is counted as non-colorable."
+  },
+  "counts": {
+    "classified": 1000,
+    "classified_by_lane": {
+      "identify-then-edge-delete-restore": 242,
+      "identify-then-three-edge-switch": 758
+    },
+    "colorable": 1000,
+    "generated": 49118,
+    "non_colorable": 0,
+    "primary_noncolorable": 0,
+    "timeout": 0,
+    "unique": 4592
+  },
+  "elapsed_seconds": 219.32687001700015,
+  "events_path": "results/order18-alternate-family-v3/expanded-step3/classification-events.jsonl",
+  "generation": {
+    "generated_raw": 49118,
+    "generated_raw_by_lane": {
+      "identify-then-edge-delete-restore": 13280,
+      "identify-then-three-edge-switch": 29808,
+      "near-miss-three-edge-switch": 6030
+    },
+    "new_unique_after_prior_solutions": 2361,
+    "overlap_hash_sample": [
+      "7:11:005aa07ec6edb2bdd95e3f81391ca22b9c2e6446c1bab0819edce8d6266fa675",
+      "7:11:0070db78a630d60b727e3ffa5160ab13c782c3602590f4a89db8dc0708197509",
+      "7:11:0093b37f783888677ac6a65cf417bcdd1f57cf60c820e91f4f057177771aec46",
+      "7:11:00a1162114e81e8729a584196db9c54effa7960c54d2003e8aeb8acd5ed6f90e",
+      "7:11:00f66f1871c824d0b42203d143cedb8fbe2969ad5dff5770f4341b0ed796d076",
+      "7:11:010b5d1a0e319af502bf1a28736f31e4e9f53afbaf165b2d336ca5f53079f749",
+      "7:11:017f2404c2b789821123e96e7b9a2f790e03bd8d9a82be95e8b8ed8751ece690",
+      "7:11:02cd6d4889d27dde295c85b2901ddad8b6495b77f9748771a98ba90b9d418467",
+      "7:11:02ff61f985036aaaf5d7aa860c43cc02c258e49311abff75bda560f3bdc8f8ec",
+      "7:11:0365f79e29be492e69a54136295f5b29c5274e99a3ef4630bed6724ad5aa0e9d",
+      "7:11:039cf981d01605f19325037e91ae8c675b30003f23b65e54b2691cc3900cf7e5",
+      "7:11:03e4c85240551105ea8c99dbd5b9e857acc42efede9a24fed1f92273902a7e55",
+      "7:11:0456319d738d3d47d05469b088d60e906b655191d90e03e88baa480cb9bb2e9e",
+      "7:11:049b9e2463f6ea93d74b66741f4f406c2023bd8926742090226d301b0be2ff96",
+      "7:11:04b2d7c3e4f76aee3a1e31eb08cef23f1bdec3013be9b1990f6b19ffb6b55626",
+      "7:11:051d436de0fdd9690f05ae9051c0784a0c4e22b191c124cd538ec5b56dee7468",
+      "7:11:053d54679e6da29bffb79df07396a8889957795edf4fbb2c6a3c1bd47f97e5e8",
+      "7:11:0564c1e4b999e3d0598bfcaaba74b265d5fb1969e0e1640d9791c97e08b58354",
+      "7:11:056674fbeae8f664a2fb8a572779d3343c3ab801ad557d65cf850b2eb68cd02e",
+      "7:11:056bdb99828fdeaec21399c34a6cce46fcc150d9c6f6ff180eb3eaa61af363e9"
+    ],
+    "overlap_with_completed_first_queue": 1229,
+    "passed_graph_filters": 49118,
+    "passed_graph_filters_by_lane": {
+      "identify-then-edge-delete-restore": 13280,
+      "identify-then-three-edge-switch": 29808,
+      "near-miss-three-edge-switch": 6030
+    },
+    "previously_solved_excluded": 2231,
+    "prior_queue_hash_count": 12987,
+    "self_duplicates_removed": 43297,
+    "unique_before_prior_queue_filter": 5821,
+    "unique_new_after_global_filter": 4592
+  },
+  "goal": "classify a globally disjoint structured family of simple connected bipartite order-18 candidates",
+  "negative_events": [],
+  "ranked_preview": [
+    {
+      "candidate_id": "O18-AF-00001",
+      "canonical_sha256": "7:11:7da87082cb1632e14d3692e1e84cc59f036c53bb6c7253e4baf0fb2da97b2ddf",
+      "degree_variance_normalized": 0.21931735657225845,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 1,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00002",
+      "canonical_sha256": "7:11:a50d7efbdd3b67336223f5f63385943b7c2cbdc9dba8c22ea9671cc1bceff35e",
+      "degree_variance_normalized": 0.21931735657225845,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 2,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00003",
+      "canonical_sha256": "7:11:d64927b74c70ec87294ef0acd062e40cedb3125ac7aca18eaf0f9a85fd65cb59",
+      "degree_variance_normalized": 0.21931735657225845,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 3,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00004",
+      "canonical_sha256": "7:11:ad9f7b9621ef6b666544fc1951b2dccddaaec5864598881bbdfa26c079ef6713",
+      "degree_variance_normalized": 0.2156862745098039,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 4,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00005",
+      "canonical_sha256": "7:11:e26e7c5e9322f1dcc0daa45f7985b78a9f07158eb03dee29d82992e483e1f5ca",
+      "degree_variance_normalized": 0.2156862745098039,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 5,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00006",
+      "canonical_sha256": "7:11:1c468c01e5807f2d0ba421fba62381ebc6e52c0c57110570e8e540d8eea68794",
+      "degree_variance_normalized": 0.2091503267973856,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 6,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00007",
+      "canonical_sha256": "7:11:4eb3c3d01939b43bd6e326b5df366b9656722b109bdec4ec9e78172a34813386",
+      "degree_variance_normalized": 0.2091503267973856,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 7,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00008",
+      "canonical_sha256": "7:11:7aaa72ff65943b21051b83684c91d8df39a03876e883e1fd16e5889fed80733f",
+      "degree_variance_normalized": 0.2091503267973856,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 8,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00009",
+      "canonical_sha256": "7:11:a6fba018c3c88753176d349bece77597fa30d553c6cab0a7835ccd81ac2171eb",
+      "degree_variance_normalized": 0.2091503267973856,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 9,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00010",
+      "canonical_sha256": "7:11:6a649b61125dd20f2e64400b2c6beb06a6f212138138abea4d7cc2da93911e0c",
+      "degree_variance_normalized": 0.20624546114742184,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 10,
+      "size": 34,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00011",
+      "canonical_sha256": "7:11:1b6f829fbaa86e2fea3547ea0a578b0842802110ae69cb9cea0ca0ff15847b2e",
+      "degree_variance_normalized": 0.20261437908496732,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 11,
+      "size": 33,
+      "status": "colorable"
+    },
+    {
+      "candidate_id": "O18-AF-00012",
+      "canonical_sha256": "7:11:77c61d7257fa76c0013fd03fb94988f24b78dc5f25f8b4b8883ef043feb66379",
+      "degree_variance_normalized": 0.20261437908496732,
+      "delta": 11,
+      "hub_best_margin": -2,
+      "rank": 12,
+      "size": 33,
+      "status": "colorable"
+    }
+  ],
+  "schema_version": 1
+}
