@@ -450,7 +450,7 @@ The apparent alternate-family spot-audit failure has been resolved. Field-by-fie
 
 Alternate-family v3 completed those 31 residuals and then classified 1,000 additional candidates at a wider deterministic bound. Across 49,118 constructions it retained 2,392 globally new unique graphs; all 1,031 newly classified candidates were colorable with zero timeouts. The cumulative alternate-family ledger now covers 3,231 stable hashes with no duplicates, overlaps with the first queue, decision failures, or missing evidence; 1,361 newly available candidates at the wider bound remain unclassified.
 
-A full hash-keyed replay of alternate-family v1 reconstructed each graph, joined by canonical SHA256 rather than unstable rank, and replayed all 1,200 decisions with two solver workers. All 1,200 were valid colorable decisions, with zero mismatches and zero timeouts.
+A full hash-keyed replay of alternate-family v1 reconstructed each graph, joined by canonical SHA256 rather than unstable rank, and replayed all 1,200 decisions with two solver workers. All 1,200 were valid colorable decisions, with zero mismatches and zero timeouts. It also validated every recorded span: 1,036 agreed with the replay witness, and the other 164 required fixed-span CP-SAT because the replay found a different valid span.
 
 The neighborhood-graft continuation reached rank7,094. It validated all prior decisions without recomputation, then classified ranks6,095--7,094 exactly: all 1,000 were colorable with zero timeouts.
 

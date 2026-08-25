@@ -16,7 +16,7 @@
     "timeout": 0,
     "valid": 1200
   },
-  "elapsed_seconds": 254.89955100000043,
+  "elapsed_seconds": 204.6912719819993,
   "generation_diagnostics": {
     "generated_raw": 6904,
     "generated_raw_by_lane": {
@@ -60,7 +60,13 @@
   },
   "identity_join": "stored canonical_sha256; historical rank is reporting-only",
   "max_runtime_seconds": 3.9966610950004906,
-  "reason": "all_source_colorable_decisions_replayed",
+  "reason": "all_source_colorable_decisions_replayed_and_reported_spans_validated",
+  "reported_span_validation": {
+    "completed": 1200,
+    "mismatch": 0,
+    "timeout": 0,
+    "valid": 1200
+  },
   "schema_version": 1,
   "source_events": "results/order18-alternate-family-v1/classification-events.jsonl"
 }
