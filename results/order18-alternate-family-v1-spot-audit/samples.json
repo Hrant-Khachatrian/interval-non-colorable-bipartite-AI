@@ -1,0 +1,1682 @@
+[
+  {
+    "candidate_id": "O18-AF-00001",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.21766147499999988,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08075194200000624,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00025",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.4255716410000332,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 25,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.11120988199996873,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00049",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.40988271800000575,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 49,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.09620049799997332,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00073",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3864210130000174,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 73,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08378841699999384,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00097",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.4058446790000403,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 97,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.1449898799999687,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00120",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3496010850000175,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 120,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.06373960600001283,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00121",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.428806279000014,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 121,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08075862300000836,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00145",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.37591259300000957,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 145,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07401048899998841,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00169",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3897884309999995,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 169,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08501259399997707,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00193",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.32296019199998227,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 193,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08750411700003724,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00217",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.21164246799997954,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 217,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.11721882300003017,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00240",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3557652650000023,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 240,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.1127364230000012,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00241",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.6362101409999923,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 241,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08946730500002786,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00265",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.39566336200005026,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 265,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07988101000000825,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00289",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.43004010800001424,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 289,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.14796170299996447,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00313",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3797693870000103,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 313,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.1296706950000157,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00337",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.44966785100001516,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 337,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.09733588699998563,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00360",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3454421600000046,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 360,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.06785413599999401,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00361",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.4489031190000219,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 361,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.21843113300002415,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00385",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.19690878600005135,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 385,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.087705896999978,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00409",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.24238951199998837,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 409,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.18790771100003667,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00433",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3784669089999966,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 433,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.11962513599996782,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00457",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.40871240899997474,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 457,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07321474300005093,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00480",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.2718460460000074,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 480,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08400138100000731,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00481",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.17269065799996497,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 481,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.0915087870000093,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00505",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3083304529999964,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 505,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.06005555600000889,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00529",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3570269699999926,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 529,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.10153687700000091,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00553",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.19637267199999542,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 553,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08535097499998301,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00577",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.322970765999969,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 577,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07189217000001236,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00600",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.202353568000035,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 600,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.12104454599995051,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00601",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3632497560000161,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 601,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.06569357099999706,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00625",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3443349249999983,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 625,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.06358738799997354,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00649",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3082348519999982,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 649,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.13492231100002527,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00673",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.31181424999999763,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 673,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.061325994000014816,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00697",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.24385537599999907,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 697,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07949780199999168,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00720",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.36679758900004344,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 720,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08338611400000673,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00721",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.20962715200005277,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 721,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.1022388349999801,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00745",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.5192956409999852,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 745,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07788632500000858,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00769",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.21473279099996034,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 769,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.1057984750000287,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00793",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.37178023100000246,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 793,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.11689023799999632,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00817",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3878336100000297,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 817,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08874600500001861,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00840",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3733470729999908,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 840,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.10044952499998772,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00841",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.339586837000013,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 841,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.0778957269999978,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00865",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.44759122300001764,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 865,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.10067651399998567,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00889",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.6953185600000324,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 889,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.13771453800001154,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00913",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3573208770000065,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 913,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.10282429099999035,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00937",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.20798809200005053,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 937,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.08120176299996729,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00960",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.43361796099998173,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 960,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.11307635000002847,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00961",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.22425807500002293,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 961,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.1004560099999594,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-00985",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.22162877300002037,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 985,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.0653516080000145,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01009",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.385088785999983,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1009,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.20896820500001922,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01033",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.27942814499999713,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1033,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.0893218560000264,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01057",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.4170629959999701,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1057,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07580345100001296,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01080",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.21032383499999696,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1080,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.10198036499997443,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01081",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.39564919600002213,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1081,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07682685500003572,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01105",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3731811989999869,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1105,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.11601685900001257,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01129",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.4277086170000075,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1129,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.09915134100003797,
+      "solver_status": "OPTIMAL",
+      "span": 11,
+      "status": "colorable"
+    },
+    "reported_span": 11,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01153",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3235420269999736,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1153,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.11844410999998445,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01177",
+    "canonical_hash_agrees": true,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.21065902999998798,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1177,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.07633932400000276,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  },
+  {
+    "candidate_id": "O18-AF-01200",
+    "canonical_hash_agrees": false,
+    "fixed_reported_span": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.3602250220000087,
+      "solver_status": "OPTIMAL"
+    },
+    "rank": 1200,
+    "rank_potential": {
+      "certificate_reason": "valid",
+      "certificate_valid": true,
+      "elapsed_seconds": 0.1130758400000218,
+      "solver_status": "OPTIMAL",
+      "span": 10,
+      "status": "colorable"
+    },
+    "reported_span": 10,
+    "reported_status": "colorable",
+    "structural_checks": {
+      "bipartite": true,
+      "connected": true,
+      "minimum_degree_at_least_2": true,
+      "order_18": true,
+      "simple": true
+    }
+  }
+]
