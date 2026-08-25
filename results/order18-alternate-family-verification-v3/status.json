@@ -1,0 +1,59 @@
+{
+  "authoritative_verified_count": 3231,
+  "checkpoint_state": "stable",
+  "full_replay_phases": [
+    {
+      "mismatch": 0,
+      "name": "v1",
+      "reason": "all_source_colorable_decisions_replayed_and_reported_spans_validated",
+      "replay_report": "results/order18-alternate-family-v1-full-replay/report.json",
+      "replay_status": "results/order18-alternate-family-v1-full-replay/status.json",
+      "replayed": 1200,
+      "report_completion": "complete",
+      "source": 1200,
+      "span_valid": 1200,
+      "timeout": 0,
+      "valid": 1200
+    },
+    {
+      "mismatch": 0,
+      "name": "v2",
+      "reason": "all_source_colorable_decisions_replayed_and_reported_spans_validated",
+      "replay_report": "results/order18-alternate-family-v2-full-replay/report.json",
+      "replay_status": "results/order18-alternate-family-v2-full-replay/status.json",
+      "replayed": 1000,
+      "report_completion": "complete",
+      "source": 1000,
+      "span_valid": 1000,
+      "timeout": 0,
+      "valid": 1000
+    },
+    {
+      "mismatch": 0,
+      "name": "v3",
+      "reason": "all_1031_v3_colorable_decisions_replayed_and_recorded_spans_validated",
+      "replay_report": "results/order18-alternate-family-v3-full-replay/report.json",
+      "replay_status": "results/order18-alternate-family-v3-full-replay/status.json",
+      "replayed": 1031,
+      "report_completion": "complete",
+      "source": 1031,
+      "span_valid": 1031,
+      "timeout": 0,
+      "valid": 1031
+    }
+  ],
+  "globally_unique_canonical_hash_count": 3231,
+  "integrity": {
+    "decision_disagreement_count": 0,
+    "first_queue_overlap_count": 0,
+    "issue_count": 0,
+    "issues": [],
+    "missing_evidence_count": 0,
+    "replay_mismatch_count": 0,
+    "timeout_count": 0,
+    "verdict": "verified"
+  },
+  "minimal_mismatch_fixture": null,
+  "remaining_unverified_rows": 1361,
+  "schema_version": 1
+}
