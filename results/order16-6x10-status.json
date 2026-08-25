@@ -1,0 +1,58 @@
+{
+  "chunks": {
+    "completed_files_present": 0,
+    "completed_state": 0,
+    "expected_total": 512,
+    "invalid_chunks": [],
+    "running_with_files": 0,
+    "validated_invalid": 0,
+    "validated_valid": 0
+  },
+  "classification": "order16-6x10-d2to11",
+  "dataset": "/mnt/weka/hrant/interval-search/data/order16-6x10-d2to11.g6",
+  "expected_rows": 291917907,
+  "integrity": {
+    "duplicate_hash_count": 0,
+    "duplicate_hash_values": [],
+    "duplicate_row_indices": 0,
+    "incremental_hash_sidecar_bytes": 0,
+    "malformed_json": 0
+  },
+  "job_id": "228788",
+  "notes": [
+    "Only chunks whose Slurm array element is COMPLETED are counted as complete.",
+    "Running/pending chunk files may be partial and are excluded from validated totals.",
+    "A primary non-colorable candidate requires independent confirmation across every legal span before discovery status."
+  ],
+  "progress": {
+    "confirmed_contiguous_prefix_rows": 0,
+    "expected_rows_in_completed_chunks": 0,
+    "missing_rows_in_completed_chunks": 0,
+    "overall_expected_rows": 291917907,
+    "overall_fraction": 0.0,
+    "partial_running_files_are_excluded": true,
+    "validated_rows_from_completed_chunks": 0
+  },
+  "rerun_policy": {
+    "reason": "no exact timeout rows; no resubmission needed",
+    "required_for_exact_timeout_rows": false,
+    "submitted_this_pass": [],
+    "time_limit_seconds": 3600,
+    "tool": "/mnt/weka/hrant/interval-search/src/rerun_graph6_index.py"
+  },
+  "results": {
+    "confirmed_non_colorable_count": 0,
+    "primary_non_colorable_candidates": [],
+    "primary_non_colorable_count": 0,
+    "status_counts": {},
+    "timeout_row_count": 0,
+    "timeout_rows": []
+  },
+  "scheduler": {
+    "array_total": 512,
+    "cancelled_ids": [],
+    "failed_ids": [],
+    "scheduler_timeout_ids": []
+  },
+  "updated_at_utc": "2026-08-25T06:07:03.235479Z"
+}

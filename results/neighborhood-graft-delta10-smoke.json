@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "configuration": {
+    "starting_graphs": [
+      "Q1-00012",
+      "Q1-00014",
+      "M5_delta_555",
+      "Erd_Fano_2222221",
+      "hat_K34",
+      "hat_K34_prime_Delta11",
+      "hat_K222"
+    ],
+    "maximum_final_delta": 10,
+    "minimum_final_degree": 2,
+    "replacement_diameter_at_most": 6,
+    "new_vertices_at_most": 12,
+    "solver_workers": 2,
+    "primary_time_limit_seconds": 0.25,
+    "independent_time_limit_seconds": 0.25,
+    "runtime_hard_deadline_seconds": 180.0,
+    "checkpoint_record_window": 16,
+    "atomic_checkpoint_after_every_solve": true,
+    "smoke_run": true,
+    "seed_resolution": {
+      "quotient_seeds": [
+        "Q1-00012",
+        "Q1-00014"
+      ],
+      "reconstructed_benchmarks": [
+        "M5_delta_555",
+        "Erd_Fano_2222221",
+        "hat_K34",
+        "hat_K34_prime_Delta11",
+        "hat_K222"
+      ],
+      "resolved_benchmark_count": 5
+    }
+  },
+  "operation_definition": {
+    "neighborhood_rule": "remove one or two vertices adjacent to the unique degree-11 hub; the retained hub plus every surviving core endpoint of those removed connectors forms the replacement boundary",
+    "replacement_rule": "graft one deterministic connected bipartite replacement spanning the boundary; enumerate every rooted tree of height at most three, then add at most one non-tree chord to form a multitree",
+    "bounds": {
+      "replacement_diameter_at_most": 6,
+      "new_vertices_at_most": 12,
+      "final_delta_at_most": 10,
+      "minimum_final_degree": 2,
+      "replacement_endpoint_minimum_degree_after_graft": 2
+    },
+    "deduplication": "bipartition-colored Nauty certificate SHA-256 via nauty_canonical_hash",
+    "ranking_key": "-hub_best_margin, -1.5/-2.5 margin tiers, normalized degree variance, -sufficient-obstruction count, -top-three margin sum, canonical hash",
+    "classification": "rank_potential_solve CP-SAT only for unique candidates with hub_best_margin >= -2.5; at most 5 seconds and 4 workers per solve",
+    "negative_confirmation": "fixed_span_sat_solve CP-SAT over every legal span delta through n-1; only all-INFEASIBLE evidence is non-colorable",
+    "timeout_policy": "primary or independent UNKNOWN remains unresolved, counts once as timeout, and never counts as non-colorable",
+    "graph_serialization_policy": "full graph JSON appears only inside confirmed_negatives"
+  },
+  "roots": [
+    {
+      "name": "Q1-00012",
+      "order": 19,
+      "size": 34,
+      "maximum_degree": 11,
+      "degree_11_hub": "u"
+    },
+    {
+      "name": "Q1-00014",
+      "order": 19,
+      "size": 34,
+      "maximum_degree": 11,
+      "degree_11_hub": "u"
+    },
+    {
+      "name": "M5_delta_555",
+      "order": 19,
+      "size": 45,
+      "maximum_degree": 15,
+      "degree_11_hub": null
+    },
+    {
+      "name": "Erd_Fano_2222221",
+      "order": 21,
+      "size": 52,
+      "maximum_degree": 13,
+      "degree_11_hub": null
+    },
+    {
+      "name": "hat_K34",
+      "order": 20,
+      "size": 36,
+      "maximum_degree": 12,
+      "degree_11_hub": null
+    },
+    {
+      "name": "hat_K34_prime_Delta11",
+      "order": 20,
+      "size": 35,
+      "maximum_degree": 11,
+      "degree_11_hub": "u"
+    },
+    {
+      "name": "hat_K222",
+      "order": 19,
+      "size": 36,
+      "maximum_degree": 12,
+      "degree_11_hub": null
+    }
+  ],
+  "deadline_seconds": 180.0,
+  "elapsed_seconds": 398.4771089209971,
+  "counts": {
+    "generated": 0,
+    "unique": 4855,
+    "classified": 0,
+    "colorable": 0,
+    "non_colorable": 0,
+    "timeout": 0,
+    "confirmed_non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "independent_unresolved": 0,
+    "duplicate": 19641,
+    "high_margin_unique": 40,
+    "selected_for_classification": 40,
+    "unclassified_deadline": 40
+  },
+  "completion": {
+    "bounded_generation_complete": true,
+    "all_selected_unique_classified": false,
+    "classification_complete": false,
+    "independent_confirmation_complete": true,
+    "runtime_deadline_hit": true,
+    "stop_reason": "root-deadline",
+    "complete": false
+  },
+  "complete": false,
+  "negative_events": [],
+  "summaries": [
+    {
+      "constructions_attempted": 674983,
+      "generated": 0,
+      "rejected_disconnected": 0,
+      "rejected_low_degree": 0,
+      "rejected_degree_cap": 650487,
+      "rejected_invalid": 0,
+      "duplicate": 19641,
+      "unique": 4855,
+      "high_margin_unique": 40,
+      "classified": 0,
+      "colorable": 0,
+      "non_colorable": 0,
+      "timeout": 0,
+      "primary_negative_candidates": 0,
+      "confirmed_non_colorable": 0,
+      "independent_unresolved": 0,
+      "unclassified_deadline": 40,
+      "selected_for_classification": 40,
+      "root": "Q1-00012",
+      "classification_complete": false,
+      "independent_confirmation_complete": true,
+      "complete": false,
+      "elapsed_seconds": 398.44702251899434
+    }
+  ],
+  "records": [],
+  "confirmed_negatives": []
+}

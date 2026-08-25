@@ -1,0 +1,97 @@
+{
+  "artifact_state": "awaiting_root_classification",
+  "dataset": "order16-7x9",
+  "schema_version": 1,
+  "timestamp_utc": "2026-08-25T02:32:00Z",
+  "expected_total": 3604370591,
+  "generation": {
+    "job_id": 228779,
+    "state": "COMPLETED",
+    "elapsed": "02:38:48",
+    "output_file": "/mnt/weka/hrant/interval-search/data/order16-7x9-d2to11.g6",
+    "output_bytes": 79296153002,
+    "line_count_verified": true,
+    "independent_line_count_passes": 2,
+    "line_count": 3604370591,
+    "sha256": "902e940b2af30043d2a757e2825c0b274a2dd769465313eba533e66fe2dc5270"
+  },
+  "classification": {
+    "script": "cluster/search_class_chunks.sh",
+    "owner": "root",
+    "worker_may_submit_classification": false,
+    "run": "order16-7x9",
+    "n1": 7,
+    "n2": 9,
+    "input": "data/order16-7x9-d2to11.g6",
+    "total": 3604370591,
+    "chunks": 8192,
+    "chunk_size": 439987,
+    "partition": "research_cpu",
+    "qos": "researcher",
+    "gres": "cpuonly:4",
+    "cpus_per_task": 4,
+    "memory": "12G",
+    "time_limit_seconds_per_record": 10,
+    "walltime": "24:00:00",
+    "root_stated_first_batch": "0-1499%150",
+    "observed_array_job_id": 228989,
+    "observed_batch_utc": "2026-08-25T02:31:49Z",
+    "observed_batch": "0-999%150",
+    "observed_state": "PENDING",
+    "observed_queued_elements": 1000,
+    "observed_running_elements": 0,
+    "worker_submitted": false,
+    "storage_assessment_utc": "2026-08-24T23:55:00Z",
+    "filesystem_free_tib": 29,
+    "input_copy_gib": 73.85,
+    "estimated_record_output_gib_at_250_bytes": 839.21,
+    "existing_user_queue_running_tasks": 123,
+    "existing_user_queue_pending_ranges": 1
+  },
+  "worker_shard_preparation": {
+    "state": "withdrawn_from_submission_plan",
+    "note": "prepared_before_root_ownership_message; not_used_by_root_contiguous_chunks",
+    "files": 3072,
+    "total_lines": 3604370591
+  },
+  "pilots": {
+    "state": "canceled_before_start",
+    "last_queue_state_utc": "2026-08-25T01:00:37Z",
+    "cancel_reason": "root_assumed_classification_and_worker_scope_is_audits_status_only",
+    "records_per_shard": 2000,
+    "time_limit_seconds_per_record": 10,
+    "job_ids": [228948, 228949, 228950],
+    "shard_ids": [307, 1536, 2764],
+    "purpose": "measure_runtime_and_output_bytes_before_staged_submission"
+  },
+  "rerun_policy": {
+    "timeout_counts_as_noncolorable": false,
+    "rerun_limit_seconds": 3600,
+    "rerun_scope": "failed_and_timeout_records_exactly"
+  },
+  "negative_verification_policy": {
+    "primary_negative_requires_independent_confirmation": true,
+    "confirmation_scope": "all_legal_spans",
+    "confirmed_negative_certificates": []
+  },
+    "audit": {
+    "mode": "incremental_read_only",
+    "script": "cluster/order16-7x9-audit.py",
+    "state_file": "/mnt/weka/hrant/interval-search/results/order16-7x9/.worker-audit-state.json",
+    "stable_file_grace_seconds": 120,
+    "last_queue_check_utc": "2026-08-25T02:31:49Z",
+    "chunks_expected": 8192,
+    "chunks_audited": 0,
+    "classified_unique_indices": 0,
+    "remaining_records": 3604370591,
+    "coverage_complete": false
+  },
+  "results_directory_created": true,
+  "counts": {
+    "input_lines": 3604370591,
+    "classified_rows": null,
+    "colorable": null,
+    "verified_noncolorable": null,
+    "timeout_unresolved": null
+  }
+}

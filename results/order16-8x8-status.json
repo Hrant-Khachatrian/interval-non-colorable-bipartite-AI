@@ -1,0 +1,61 @@
+{
+  "run": "order16-8x8",
+  "schema_version": 2,
+  "updated_at": "2026-08-25T10:04:31+04:00",
+  "generation": {
+    "job_id": 229085,
+    "prior_job_id": 228780,
+    "state": "RUNNING",
+    "time_limit": "24:00:00",
+    "elapsed": "02:53:06",
+    "node": "gpu04",
+    "output": "/mnt/weka/hrant/interval-search/data/order16-8x8-d2to11.g6",
+    "output_bytes": 102961876992,
+    "output_mtime": 1787637868,
+    "output_size_mod_22": null,
+    "fixed_width_records": true,
+    "record_width_bytes": 22
+  },
+  "stale_estimate": {
+    "value": 159757218,
+    "status": "invalid_stale_estimate",
+    "evidence": "Partial job 228780 already contained 4707971072 records; the corrected 7+9 census also superseded its local timeout-derived estimate."
+  },
+  "verification": {
+    "line_count": null,
+    "sha256": null,
+    "state": "deferred_until_generator_closes"
+  },
+  "classification_policy": {
+    "submitted_job_id": null,
+    "state": "blocked_pending_verified_census",
+    "timeouts_count_as_negative": false,
+    "timeout_rerun_limit_seconds": 3600,
+    "primary_negative_requires_independent_confirmation": true,
+    "confirmation_scope": "all_legal_spans"
+  },
+  "history": {
+    "prior_partial_228780": {
+      "records": 4707971072,
+      "bytes": 103575363584,
+      "sha256": null,
+      "preserved_as": "/mnt/weka/hrant/interval-search/data/order16-8x8-d2to11.incomplete-228780.g6",
+      "outcome": "scheduler_timeout_preserved_not_final"
+    }
+  },
+  "obsolete_expected_total": {
+    "value": 159757218,
+    "status": "invalid_stale_estimate",
+    "evidence": "Partial job 228780 already contained 4707971072 records; prior dense-split local estimates were also invalidated."
+  },
+
+  "classification_submission": {
+    "submitted_job_id": null,
+    "state": "blocked_pending_verified_census"
+  },
+  "notes": [
+    "Line count and SHA256 are deferred until generation completes.",
+    "Timeouts remain unresolved and require exact one-hour-limit reruns.",
+    "Primary negatives must be independently confirmed across all legal spans."
+  ]
+}

@@ -375,3 +375,9 @@ The apparent row deficit of 14,129 is fully explained by the runner's resume pol
 After these exact resolutions, the effective histogram is 243,290,613 colorable, 0 non-colorable, and 0 timeout. Together with the previously audited small, 5+10, and 6+9 classes, all 288,643,968 connected minimum-degree-2 bipartite graphs on 15 vertices are now classified. There is no interval-non-colorable example on 15 or fewer vertices and no unresolved timeout anywhere in that exhaustive range.
 
 Artifacts: `results/order15-7x8-final-audit.json`, plus `results/order15-7x8-timeout-243290182.json`, `results/order15-7x8-timeout-243304543.json`, and `results/order15-7x8-timeout-243304592.json`.
+
+## 2026-08-25 — Five active research lanes
+
+To keep progress visible while the large census jobs run, the root thread is coordinating five substantive workers. The `6+10` worker audits completed result chunks without treating a partial file as a completed chunk. The `7+9` worker validates the 8,192-chunk partition of the verified 3,604,370,591-record census and prepares conservative submission plans for later batches. The `8+8` worker tracks generator 229085 and prepares finalization/classification steps while explicitly rejecting the stale record estimate. The neighborhood-grafting worker continues exact classification and failure analysis for its construction family. A new degree-transfer worker is auditing the completed resumed extension before opening a fresh non-duplicative replacement family.
+
+Scheduler checks found no failed or timed-out element in the active families: array 228788 had 120 running and 181 pending `6+10` elements, array 228989 had its first 1,000-task `7+9` batch queued with a 150-task throttle, and generator 229085 was running. The completed degree-transfer resume remains the latest negative construction result: 198,954 generated constructions, 2,756 newly classified unique graphs after recovery, all colorable, zero timeouts.
