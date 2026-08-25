@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "scope": "All connected simple bipartite graphs of order 17 with minimum degree at least 2. No maximum-degree-at-most-11 restriction is applied.",
+  "graph6_record_width_bytes": 25,
+  "primary_time_limit_seconds": 10,
+  "timeout_policy": "A timeout is unresolved. Resume only timeout rows with a 3600-second primary limit.",
+  "negative_policy": "A primary rank-potential non-colorable result must be independently checked at every legal span delta through n-1; only all-INFEASIBLE fixed-span outcomes are confirmed negatives.",
+  "classes": [
+    {"split": "2+15", "degree_ranges": [[2, 15], [2, 2]], "edge_range": [30, 30], "records": {"kind": "exact_structural", "value": 1}, "graph6_bytes": 25, "classification": {"shard_size": 10000, "shards": 1, "readiness": "submit"}},
+    {"split": "3+14", "degree_ranges": [[2, 14], [2, 3]], "edge_range": [28, 42], "records": {"kind": "exact_structural", "value": 144}, "graph6_bytes": 3600, "classification": {"shard_size": 10000, "shards": 1, "readiness": "queued_after_2x15_audit"}},
+    {"split": "4+13", "degree_ranges": [[2, 13], [2, 4]], "edge_range": [26, 52], "records": {"kind": "exact_structural", "value": 51616}, "graph6_bytes": 1290400, "classification": {"shard_size": 2000, "shards": 26, "readiness": "queued_after_3x14_audit"}},
+    {"split": "5+12", "degree_ranges": [[2, 12], [2, 5]], "edge_range": [24, 60], "records": {"kind": "heuristic_range_from_order15_16", "value": [15000000, 30000000]}, "graph6_bytes": [375000000, 750000000], "classification": {"estimated_jsonl_gib_at_245_bytes_per_record": [3.42, 6.85], "readiness": "generate_only_after_small_classes_audited"}},
+    {"split": "6+11", "degree_ranges": [[2, 11], [2, 6]], "edge_range": [22, 66], "records": {"kind": "heuristic_range_from_order15_16", "value": [1500000000, 3000000000]}, "graph6_bytes": [37500000000, 75000000000], "classification": {"estimated_jsonl_gib_at_245_bytes_per_record": [342.73, 685.45], "readiness": "defer_pending_generation_pilot_and_storage_review"}},
+    {"split": "7+10", "degree_ranges": [[2, 10], [2, 7]], "edge_range": [20, 70], "records": {"kind": "heuristic_range_from_order16", "value": [30000000000, 60000000000]}, "graph6_bytes": [750000000000, 1500000000000], "classification": {"estimated_jsonl_tib_at_245_bytes_per_record": [6.68, 13.37], "readiness": "infeasible_without_separate_capacity_allocation"}},
+    {"split": "8+9", "degree_ranges": [[2, 9], [2, 8]], "edge_range": [18, 72], "records": {"kind": "heuristic_range_from_order16", "value": [60000000000, 150000000000]}, "graph6_bytes": [1500000000000, 3750000000000], "classification": {"estimated_jsonl_tib_at_245_bytes_per_record": [13.37, 33.41], "readiness": "infeasible_without_separate_capacity_allocation"}}
+  ],
+  "notes": [
+    "The 3+14 and 4+13 values are exact orbit counts, but graph6 files remain authoritative only after completed generation, independent wc -l, width validation, and SHA256.",
+    "The large-class ranges are storage and queue-planning estimates, not counts. No timed pipe count is used as evidence.",
+    "Physical shards are mandatory before large-class classification so workers do not repeatedly scan preceding graph6 records."
+  ]
+}

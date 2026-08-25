@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "state": "queued",
+  "campaign_scope": "Only the three order-17 side classes with exact small counts are submitted. No large-class generation or classification has been submitted.",
+  "resource_policy": "Every job uses partition=research_cpu, qos=researcher, and matching gres=cpuonly:N and cpus-per-task=N.",
+  "classes": {
+    "2+15": {
+      "records": 1,
+      "shard_size": 10000,
+      "shards": 1,
+      "jobs": {"generate": 229267, "shard": 229268, "classify": 229269, "audit": 229272}
+    },
+    "3+14": {
+      "records": 144,
+      "shard_size": 10000,
+      "shards": 1,
+      "dependency": "afterok:229272",
+      "jobs": {"generate": 229273, "shard": 229274, "classify": 229275, "audit": 229276}
+    },
+    "4+13": {
+      "records": 51616,
+      "shard_size": 2000,
+      "shards": 26,
+      "dependency": "afterok:229276",
+      "jobs": {"generate": 229277, "shard": 229278, "classify": 229279, "audit": 229280}
+    }
+  },
+  "audit_gate": "Each next class is released only after the preceding audit exits successfully. Audits require exact index coverage, no malformed rows, no duplicate index/hash rows, no timeouts, and fixed-span confirmation for every primary negative.",
+  "large_classes_not_submitted": ["5+12", "6+11", "7+10", "8+9"]
+}

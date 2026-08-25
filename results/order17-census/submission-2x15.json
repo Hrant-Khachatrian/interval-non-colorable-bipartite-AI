@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "dataset": "order17-2x15-d2",
+  "submission_state": "queued",
+  "filters": {
+    "generator": "nauty-genbg -q -c -g -l -d2:2 -D15:2 2 15 30:30",
+    "degree_ranges": [[2, 15], [2, 2]],
+    "edge_range": [30, 30]
+  },
+  "expected_records": {
+    "value": 1,
+    "basis": "The second-side degree floor and ceiling force every second-side vertex to be adjacent to both first-side vertices, hence K(2,15)."
+  },
+  "jobs": {
+    "generation": {
+      "id": 229267,
+      "resources": "research_cpu; qos=researcher; gres=cpuonly:1; cpus-per-task=1; mem=2G; time=01:00:00"
+    },
+    "sharding": {
+      "id": 229268,
+      "dependency": "afterok:229267",
+      "resources": "research_cpu; qos=researcher; gres=cpuonly:1; cpus-per-task=1; mem=2G; time=01:00:00"
+    },
+    "classification": {
+      "id": 229269,
+      "dependency": "afterok:229268",
+      "array": "0-0",
+      "resources": "research_cpu; qos=researcher; gres=cpuonly:4; cpus-per-task=4; mem=12G; time=04:00:00",
+      "primary_time_limit_seconds": 10,
+      "timeout_rerun_time_limit_seconds": 3600,
+      "primary_negative_confirmation": "fixed-span CP-SAT for every legal span delta through n-1, 3600 seconds per span"
+    }
+  },
+  "publication_gate": "No count is accepted until completed generation is independently checked by wc -l, fixed 25-byte graph6 record width, sampled record validation, and SHA256."
+}
