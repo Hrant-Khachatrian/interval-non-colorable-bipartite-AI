@@ -119,25 +119,51 @@
       ],
       "passed": true,
       "slice": "v7"
+    },
+    {
+      "checks": [
+        {
+          "expected_canonical_sha256": "7:11:6611bb18765a795735f89e7e450c631f08ed200d18b21bacecf7989d770bea4b",
+          "matches": true,
+          "rank": 8501,
+          "recorded_canonical_sha256": "7:11:6611bb18765a795735f89e7e450c631f08ed200d18b21bacecf7989d770bea4b"
+        },
+        {
+          "expected_canonical_sha256": "7:11:185eca7a13f3aa74e612483435f793cc15f63480f840605ee704e741291951ce",
+          "matches": true,
+          "rank": 9500,
+          "recorded_canonical_sha256": "7:11:185eca7a13f3aa74e612483435f793cc15f63480f840605ee704e741291951ce"
+        },
+        {
+          "expected_canonical_sha256": "7:11:e7d8e991eeb6526762558b31738288ce35f2d76ced2669349039696f6444073e",
+          "matches": true,
+          "rank": 10500,
+          "recorded_canonical_sha256": "7:11:e7d8e991eeb6526762558b31738288ce35f2d76ced2669349039696f6444073e"
+        }
+      ],
+      "passed": true,
+      "slice": "v8"
     }
   ],
   "coverage": {
-    "authoritative_covered_count": 8500,
-    "authoritative_uncovered_count": 4487,
+    "authoritative_covered_count": 10500,
+    "authoritative_status_counts": {
+      "colorable": 10500
+    },
+    "authoritative_timeout_count": 0,
+    "authoritative_uncovered_count": 2487,
     "authoritative_uncovered_rank_ranges": [
       {
         "end": 12987,
-        "start": 8501
+        "start": 10501
       }
     ],
-    "observed_covered_count_including_provisional": 9728,
-    "observed_uncovered_count_including_provisional": 3259,
-    "provisional_durable_covered_count": 1228,
     "queue_size": 12987
   },
   "cross_slice_reconciliation": {
     "canonical_hash_overlap_count": 0,
     "canonical_hash_overlaps": [],
+    "completed_slice_gap_ranges": [],
     "rank_overlap_count": 0,
     "rank_overlaps": []
   },
@@ -150,22 +176,12 @@
     {
       "rank_ranges": [
         {
-          "end": 10500,
-          "start": 9729
-        }
-      ],
-      "slice": "v8",
-      "state": "active_provisional"
-    },
-    {
-      "rank_ranges": [
-        {
           "end": 12987,
           "start": 10501
         }
       ],
       "slice": "final-tail",
-      "state": "prepared_unstarted"
+      "state": "unobserved"
     }
   ],
   "purpose": "Cumulative coverage ledger only; classification is never rerun by this builder.",
@@ -273,11 +289,10 @@
         2500
       ],
       "source": {
-        "bytes": 2766256,
         "completion_events": 2000,
         "exists": true,
-        "lines_scanned": 2003,
-        "path": "results/order18-targeted-v4/classification-events.jsonl"
+        "lines_scanned": null,
+        "path": "results/order18-targeted-v4/report.json"
       },
       "state": "complete",
       "status_counts": {
@@ -307,11 +322,10 @@
         4500
       ],
       "source": {
-        "bytes": 2773079,
         "completion_events": 2000,
         "exists": true,
-        "lines_scanned": 2002,
-        "path": "results/order18-targeted-v5/classification-events.jsonl"
+        "lines_scanned": null,
+        "path": "results/order18-targeted-v5/report.json"
       },
       "state": "complete",
       "status_counts": {
@@ -341,11 +355,10 @@
         6500
       ],
       "source": {
-        "bytes": 2758039,
         "completion_events": 2000,
         "exists": true,
-        "lines_scanned": 2001,
-        "path": "results/order18-targeted-v6/classification-events.jsonl"
+        "lines_scanned": null,
+        "path": "results/order18-targeted-v6/report.json"
       },
       "state": "complete",
       "status_counts": {
@@ -375,11 +388,10 @@
         8500
       ],
       "source": {
-        "bytes": 2822331,
         "completion_events": 2000,
         "exists": true,
-        "lines_scanned": 2001,
-        "path": "results/order18-targeted-v7/classification-events.jsonl"
+        "lines_scanned": null,
+        "path": "results/order18-targeted-v7/report.json"
       },
       "state": "complete",
       "status_counts": {
@@ -396,11 +408,11 @@
         "rank_hash_mismatch_ranges": [],
         "unique_within_slice": true
       },
-      "configured_state": "provisional_active",
+      "configured_state": "authoritative",
       "duplicate_canonical_hash_count": 0,
       "duplicate_rank_ranges": [],
-      "durable_canonical_hash_count": 1228,
-      "durable_classified_count": 1228,
+      "durable_canonical_hash_count": 2000,
+      "durable_classified_count": 2000,
       "expected_count": 2000,
       "integrity_issues": [],
       "name": "v8",
@@ -409,25 +421,19 @@
         10500
       ],
       "source": {
-        "bytes": 1710991,
-        "completion_events": 1228,
+        "completion_events": 2000,
         "exists": true,
-        "lines_scanned": 1230,
-        "path": "results/order18-targeted-v8/classification-events.jsonl"
+        "lines_scanned": null,
+        "path": "results/order18-targeted-v8/report.json"
       },
-      "state": "provisional_active",
+      "state": "complete",
       "status_counts": {
-        "colorable": 1228
+        "colorable": 2000
       },
       "unexpected_rank_ranges": [],
-      "unresolved_rank_count": 772,
-      "unresolved_rank_ranges": [
-        {
-          "end": 10500,
-          "start": 9729
-        }
-      ],
-      "window_reconciled": false
+      "unresolved_rank_count": 0,
+      "unresolved_rank_ranges": [],
+      "window_reconciled": true
     },
     {
       "canonical_hash_coverage": {
@@ -435,7 +441,7 @@
         "rank_hash_mismatch_ranges": [],
         "unique_within_slice": true
       },
-      "configured_state": "prepared_unstarted",
+      "configured_state": "unobserved",
       "duplicate_canonical_hash_count": 0,
       "duplicate_rank_ranges": [],
       "durable_canonical_hash_count": 0,
@@ -448,13 +454,14 @@
         12987
       ],
       "source": {
-        "bytes": 0,
         "completion_events": 0,
-        "exists": false,
-        "lines_scanned": 0,
-        "path": "results/order18-targeted-final-tail/classification-events.jsonl"
+        "exists": null,
+        "inspection": "intentionally_skipped",
+        "lines_scanned": null,
+        "path": "results/order18-targeted-final-tail",
+        "reason": "final-tail is unobserved until its worker reports"
       },
-      "state": "prepared_unstarted",
+      "state": "unobserved",
       "status_counts": {},
       "unexpected_rank_ranges": [],
       "unresolved_rank_count": 2487,

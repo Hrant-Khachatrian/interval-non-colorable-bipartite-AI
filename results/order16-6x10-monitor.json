@@ -1,10 +1,12 @@
 {
   "schema_version": 1,
-  "observed_at_utc": "2026-08-25T08:15:38Z",
+  "observed_at_utc": "2026-08-25T08:54:14Z",
   "job": {
     "array": 228788,
-    "scheduler_terminal_completed": 363,
-    "scheduler_running": 149,
+    "scheduler_running": 150,
+    "scheduler_pending_range": "407-511",
+    "scheduler_pending_reason": "JobArrayTaskLimit",
+    "scheduler_terminal_reconciliation": "deferred to the incremental audit; array accounting has previously been incomplete",
     "scheduler_failures": [],
     "scheduler_timeouts": []
   },
@@ -21,7 +23,11 @@
     "sha256_unique_entries": 68418360,
     "sha256_duplicate_entries": 0,
     "hash_index_complete": false,
-    "terminal_audit_backlog_chunks": 243
+    "terminal_audit_backlog_chunks": 24,
+    "physically_verified_unaccepted_chunks": "120-143",
+    "physically_verified_unaccepted_rows": 13683672,
+    "physical_row_count_per_chunk": 570153,
+    "physical_rows_exact": true
   },
   "pending_audit": {
     "job": 229252,

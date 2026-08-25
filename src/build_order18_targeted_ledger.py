@@ -31,12 +31,14 @@ class Slice:
 
 SLICES = (
     Slice("v3", (1, 500), Path("results/order18-targeted-v3.json"), "report", "authoritative"),
-    Slice("v4", (501, 2500), Path("results/order18-targeted-v4/classification-events.jsonl"), "events", "authoritative"),
-    Slice("v5", (2501, 4500), Path("results/order18-targeted-v5/classification-events.jsonl"), "events", "authoritative"),
-    Slice("v6", (4501, 6500), Path("results/order18-targeted-v6/classification-events.jsonl"), "events", "authoritative"),
-    Slice("v7", (6501, 8500), Path("results/order18-targeted-v7/classification-events.jsonl"), "events", "authoritative"),
-    Slice("v8", (8501, 10500), Path("results/order18-targeted-v8/classification-events.jsonl"), "events", "provisional_active"),
-    Slice("final-tail", (10501, 12987), Path("results/order18-targeted-final-tail/classification-events.jsonl"), "events", "prepared_unstarted"),
+    # Completed reports are the compact, durable reconciliation inputs.  The
+    # append-only event logs are intentionally never read by this ledger.
+    Slice("v4", (501, 2500), Path("results/order18-targeted-v4/report.json"), "report", "authoritative"),
+    Slice("v5", (2501, 4500), Path("results/order18-targeted-v5/report.json"), "report", "authoritative"),
+    Slice("v6", (4501, 6500), Path("results/order18-targeted-v6/report.json"), "report", "authoritative"),
+    Slice("v7", (6501, 8500), Path("results/order18-targeted-v7/report.json"), "report", "authoritative"),
+    Slice("v8", (8501, 10500), Path("results/order18-targeted-v8/report.json"), "report", "authoritative"),
+    Slice("final-tail", (10501, 12987), Path("results/order18-targeted-final-tail"), "unobserved", "unobserved"),
 )
 
 
@@ -135,6 +137,15 @@ def compact_event_rows(path: Path) -> tuple[Iterator[tuple[int, dict]], dict, li
 def source_rows(slice_: Slice) -> tuple[Iterator[tuple[int, dict]], dict, list[str]]:
     if slice_.source_type == "events":
         return compact_event_rows(slice_.source)
+    if slice_.source_type == "unobserved":
+        return iter(()), {
+            "path": str(slice_.source),
+            "exists": None,
+            "inspection": "intentionally_skipped",
+            "reason": "final-tail is unobserved until its worker reports",
+            "completion_events": 0,
+            "lines_scanned": None,
+        }, []
     metadata = {"path": str(slice_.source), "exists": slice_.source.exists()}
     issues: list[str] = []
     rows: list[dict] = []
@@ -258,10 +269,13 @@ def sample_checks(name: str, window: tuple[int, int], rows: dict[int, str], queu
 
 def markdown(ledger: dict) -> str:
     coverage = ledger["coverage"]
+    outcome_summary = ", ".join(
+        f"{status}: {count}" for status, count in coverage["authoritative_status_counts"].items()
+    ) or "none"
     lines = [
         "# Order-18 Targeted Coverage Ledger",
         "",
-        f"Queue: {coverage['queue_size']} unique ranked graphs. Authoritative coverage: {coverage['authoritative_covered_count']}; authoritative uncovered: {coverage['authoritative_uncovered_count']}. Durable provisional coverage: {coverage['provisional_durable_covered_count']}.",
+        f"Queue: {coverage['queue_size']} unique ranked graphs. Authoritative coverage: {coverage['authoritative_covered_count']}; authoritative uncovered: {coverage['authoritative_uncovered_count']}. Covered outcomes: {outcome_summary}; timeouts: {coverage['authoritative_timeout_count']}.",
         "",
         "| Slice | Window | State | Durable rows | Unresolved | Hash check |",
         "| --- | --- | --- | ---: | ---: | --- |",
@@ -277,7 +291,7 @@ def markdown(ledger: dict) -> str:
         lines.extend(f"- {issue}" for issue in ledger["integrity"]["issues"])
     else:
         lines.append("No rank, canonical-hash, overlap, duplicate, or completed-slice sample-check integrity issues.")
-    lines.extend(["", "## Next Disjoint Windows", ""])
+    lines.extend(["", "## Next Action", ""])
     for item in ledger["next_disjoint_windows"]:
         windows = ", ".join(f"{part['start']}-{part['end']}" for part in item["rank_ranges"])
         lines.append(f"- {item['slice']} ({item['state']}): {windows or 'none'}")
@@ -331,9 +345,11 @@ def main() -> None:
             integrity.append(f"sample_check_failed:{sample['slice']}")
 
     authoritative_ranks = set().union(*(set(row_maps[item.name]) for item in SLICES if item.state == "authoritative"))
-    provisional_ranks = set(row_maps["v8"])
+    authoritative_status_counts: collections.Counter[str] = collections.Counter()
+    for slice_ in slices:
+        if slice_["configured_state"] == "authoritative":
+            authoritative_status_counts.update(slice_["status_counts"])
     final_tail = next(item for item in slices if item["name"] == "final-tail")
-    v8 = next(item for item in slices if item["name"] == "v8")
     ledger = {
         "schema_version": 1,
         "purpose": "Cumulative coverage ledger only; classification is never rerun by this builder.",
@@ -352,9 +368,10 @@ def main() -> None:
             "queue_size": QUEUE_SIZE,
             "authoritative_covered_count": len(authoritative_ranks),
             "authoritative_uncovered_count": QUEUE_SIZE - len(authoritative_ranks),
-            "provisional_durable_covered_count": len(provisional_ranks),
-            "observed_covered_count_including_provisional": len(authoritative_ranks | provisional_ranks),
-            "observed_uncovered_count_including_provisional": QUEUE_SIZE - len(authoritative_ranks | provisional_ranks),
+            "authoritative_status_counts": dict(sorted(authoritative_status_counts.items())),
+            "authoritative_timeout_count": sum(
+                count for status, count in authoritative_status_counts.items() if "timeout" in status
+            ),
             "authoritative_uncovered_rank_ranges": ranges(set(queue) - authoritative_ranks),
         },
         "slices": slices,
@@ -363,11 +380,13 @@ def main() -> None:
             "rank_overlaps": rank_overlaps,
             "canonical_hash_overlap_count": len(canonical_hash_overlaps),
             "canonical_hash_overlaps": canonical_hash_overlaps,
+            "completed_slice_gap_ranges": ranges(
+                set(range(1, 10501)) - authoritative_ranks
+            ),
         },
         "completed_slice_rank_hash_sample_checks": samples,
         "next_disjoint_windows": [
-            {"slice": "v8", "state": "active_provisional", "rank_ranges": v8["unresolved_rank_ranges"]},
-            {"slice": "final-tail", "state": "prepared_unstarted", "rank_ranges": final_tail["unresolved_rank_ranges"]},
+            {"slice": "final-tail", "state": "unobserved", "rank_ranges": final_tail["unresolved_rank_ranges"]},
         ],
         "integrity": {"ok": not integrity, "issue_count": len(integrity), "issues": integrity},
     }

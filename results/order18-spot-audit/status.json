@@ -1,0 +1,15 @@
+{
+  "completion": "complete",
+  "fixed_time_limit_seconds": 20.0,
+  "invalid_certificates": 0,
+  "max_fixed_runtime_seconds": 0.4538586890002989,
+  "max_primary_runtime_seconds": 0.14728769500015915,
+  "max_sample_runtime_seconds": 0.5194553649998852,
+  "mismatches": 0,
+  "planned": 108,
+  "queue_size": 12987,
+  "rank_time_limit_seconds": 20.0,
+  "sampled": 108,
+  "solver_disagreements": 0,
+  "workers": 2
+}

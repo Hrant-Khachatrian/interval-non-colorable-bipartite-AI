@@ -424,10 +424,22 @@ A cumulative order-18 coverage ledger reconstructed the 12,987-rank queue and va
 
 Order-18 slice v8 subsequently completed all ranks 8,501--10,500. Reconciliation confirmed exact rank/hash coverage, no duplicate or missing rows, and no overlap with v3--v7. All 2,000 graphs were colorable with zero timeouts. The structured queue now has 10,500 authoritative covered ranks; only ranks 10,501--12,987 remain.
 
+The neighborhood-graft lane was extended beyond its initial 94 selected survivors. A first continuation validated and skipped those solved rows, then classified the next 1,000 unique candidates: all colorable, bringing the lane total to 1,094 exact decisions with no negatives or timeouts.
+
+The cumulative order-18 ledger was refreshed after v8 reconciliation: exactly ranks 1--10,500 are authoritatively covered, every covered graph is colorable, and only ranks 10,501--12,987 remain unobserved. Six deterministic rank/hash sample checks across v3--v8 passed, with no overlaps, gaps, duplicates, or hash mismatches.
+
 The neighborhood-graft predecessor was identified as an interrupted checkpoint rather than an intentional one-root rerun and was preserved byte-for-byte. A corrected extension across all seven declared roots generated 61,375 constructions and retained 10,950 unique Δ≤10 graphs. Only three roots were eligible under the final-degree cap; their 94 selected high-margin survivors were classified exactly and all were colorable, with zero timeouts.
 
 The cluster queue remained healthy but saturated by the per-user job limit. The `6+10` array continued advancing, while the bounded incremental audit and order-17 small-class chains stayed pending with their dependencies intact. Compact scheduler snapshots now record the audited 120-chunk prefix (68,418,360 clean rows) and the exact order-17 job/resource plan.
 
 Order-16 `8+8` generation completed successfully in 5h14m. The stable output is 185,259,598,216 bytes, divisible by the independently sampled 22-byte record width, implying only a provisional count of 8,420,890,828 records. Exact line count and SHA256 remain gated behind successful finalizer job 229204; physical sharding and classification stay blocked until that manifest is validated.
 
+Two audit gates were hardened while scheduler slots remain saturated: a synthetic-tested independent validator for the `8+8` finalization manifest/marker/hash/count/shard conditions, and stricter order-17 small-class acceptance checks for manifest cardinality, row schema/domain, canonical hashes, and exact shard counts. Neither downstream stage was released.
+
+The order-17 auditor was further hardened against non-finite solver times and invalid spans, and its six fixture cases still pass. Compact snapshots continue to distinguish physically present `6+10` chunks from accepted audit scope: chunks 0--119 are accepted, while chunks 120--143 contain exactly 13,683,672 rows but await clean audit job 229252.
+
 The `6+10` terminal-audit workflow was repaired to avoid rescanning unchanged chunks when the global hash sidecar is still incomplete. Chunks 0--119 are validated from cache with 68,418,360 sorted hash entries; incremental checkpoints and cache replacements are atomic, and per-pass versus cumulative scope is reported separately. Bounded Slurm job 229252 was submitted for the next 24 oldest terminal chunks using four CPU slots and 32 GB memory.
+
+An independent order-18 spot audit rebuilt the deterministic queue and rechecked 18 rows from each completed slice v3--v8, totaling 108 claims. For every colorable claim it validated structure, canonical hash, rank-potential certificate, and fixed-span satisfiability at the reported span using a different worker count. It found zero invalid certificates, solver disagreements, or mismatches.
+
+A second neighborhood-graft continuation preserved ranks1--1,094 and classified ranks1,095--2,094. All 1,000 new graphs were colorable with zero timeouts; the neighborhood-graft negative ledger now contains 2,094 exact decisions.

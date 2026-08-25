@@ -1,0 +1,3119 @@
+{
+  "completion": "complete",
+  "elapsed_seconds": 86.18571186065674,
+  "finished_at_unix_seconds": 1787648383.1236506,
+  "planned_sample_count": 108,
+  "queue_generation": {
+    "extension_limit": 18,
+    "max_additions": 1,
+    "max_deleted_degree": 3,
+    "max_rewires": 750,
+    "ranking": [
+      "hub margin tier",
+      "hub margin",
+      "degree variance",
+      "delta",
+      "canonical hash"
+    ]
+  },
+  "queue_size": 12987,
+  "sampling": {
+    "method": "first, middle, last, then pseudo-random deterministic ranks",
+    "per_slice": 18,
+    "seed_prefix": "order18-spot-audit-20260825-"
+  },
+  "schema_version": 1,
+  "slices": {
+    "v3": {
+      "range": [
+        1,
+        500
+      ],
+      "sampled_ranks": [
+        1,
+        23,
+        65,
+        70,
+        94,
+        116,
+        135,
+        165,
+        171,
+        199,
+        243,
+        250,
+        277,
+        329,
+        345,
+        364,
+        445,
+        500
+      ],
+      "samples": [
+        {
+          "candidate_id": "O18-00000",
+          "canonical_sha256": "7:11:19aa68473fa46305ed57945fb1ddca88ee7f60f752c6b7b86c76dce1fc7bda0a",
+          "elapsed_seconds": 0.3530566790004741,
+          "outcome": "pass",
+          "rank": 1,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.27068363500075066,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08156675600002927,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00022",
+          "canonical_sha256": "7:11:d6c90068b52e5d1dd735af209aac312e6ee48267888db26ceaba19091833e0af",
+          "elapsed_seconds": 0.2218519069992908,
+          "outcome": "pass",
+          "rank": 23,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.14812440300011076,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07309823500054335,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00064",
+          "canonical_sha256": "7:11:5c9081f10239c9e4ae859a2de039840ddd40e15fbd648f415e2a5818f0be02e8",
+          "elapsed_seconds": 0.2185599659997024,
+          "outcome": "pass",
+          "rank": 65,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.13618232400040142,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08171528899947589,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00069",
+          "canonical_sha256": "7:11:82230f2dc90e766e5f4ce80fc333639da40051e04fed06ada5e8846dd85e9eff",
+          "elapsed_seconds": 0.2824441669999942,
+          "outcome": "pass",
+          "rank": 70,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.22122216899970226,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.060530898999786587,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00093",
+          "canonical_sha256": "7:11:2e1b450fe69882ad2f4582c49df6111f82bbdeb7730c68c0907510231e245703",
+          "elapsed_seconds": 0.3415367959996729,
+          "outcome": "pass",
+          "rank": 94,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.29066109100040194,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0502193639995312,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00115",
+          "canonical_sha256": "7:11:b6804bd0c3217bb6c1f975fc57e062fccc9e2401214d8e65ff2696238b4c127c",
+          "elapsed_seconds": 0.3101278579997597,
+          "outcome": "pass",
+          "rank": 116,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.25505995499952405,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.054624708000119426,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00134",
+          "canonical_sha256": "7:11:4fa8f35278a4375ed9bd9c4a46a64aac2d0b491ce6b9552de581fa9f0e7b0f5f",
+          "elapsed_seconds": 0.32105732600030024,
+          "outcome": "pass",
+          "rank": 135,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.25626579700019647,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06413146900013089,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00164",
+          "canonical_sha256": "7:11:26e86027f7cbac15acd456ef77f6e60c947888e0eaa2832d67653a536b487808",
+          "elapsed_seconds": 0.35143781599981594,
+          "outcome": "pass",
+          "rank": 165,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2955269929998394,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05543011499958084,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00170",
+          "canonical_sha256": "7:11:488c68bc8dfa40be6053534d8d791b4a164b88f71a411bd3d0c350463de35947",
+          "elapsed_seconds": 0.3348436469996159,
+          "outcome": "pass",
+          "rank": 171,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2586441809999087,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07559726699946623,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00198",
+          "canonical_sha256": "7:11:14b1262d0e69da6fb2ed3fd08c115de9523f20ac937f8a811c5360e43d9ecb84",
+          "elapsed_seconds": 0.2680514599996968,
+          "outcome": "pass",
+          "rank": 199,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21215355700041982,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05504559800010611,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00242",
+          "canonical_sha256": "7:11:f48ebc8d1fb168a348c815908e352197b1cacf8c7d52844d195828ab84602bf1",
+          "elapsed_seconds": 0.2850860910002666,
+          "outcome": "pass",
+          "rank": 243,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2146929390000878,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.068850859000122,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00249",
+          "canonical_sha256": "7:11:babebe74a6edf90b4f91ed55eca7c7db82d908d9a1a1e7c2bb7f13ac2f116e22",
+          "elapsed_seconds": 0.3168657659998644,
+          "outcome": "pass",
+          "rank": 250,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2427913899991836,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07278651999968133,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00276",
+          "canonical_sha256": "7:11:2b5f65c46743797dd626b92a81546a863f3a6f9ae555e0e9cef48c7f7ad536a6",
+          "elapsed_seconds": 0.5194553649998852,
+          "outcome": "pass",
+          "rank": 277,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.4538586890002989,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0634648509994804,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00328",
+          "canonical_sha256": "7:11:18976f1f96069b742b1244fb1d94b14cb76228d28e31bbe14cced01517ef8f83",
+          "elapsed_seconds": 0.16310560000056284,
+          "outcome": "pass",
+          "rank": 329,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1027572049997616,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05962595700020756,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00344",
+          "canonical_sha256": "7:11:e1d1571bed0379fc588697e0ef36863eb3a1a745ab67c89e8c11e6ee4b192bde",
+          "elapsed_seconds": 0.20104189900030178,
+          "outcome": "pass",
+          "rank": 345,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.13138758500008407,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06901409199963382,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00363",
+          "canonical_sha256": "7:11:95afbeece9a29c6f03283f698c5527cf38c2d0f288471839cae3e182161184ef",
+          "elapsed_seconds": 0.2629222409996146,
+          "outcome": "pass",
+          "rank": 364,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2122292820004077,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05002813199917,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00444",
+          "canonical_sha256": "7:11:f49307b3a48fce7ae44e035fdd748c6ca4732f31d742529038b85b5aa366912c",
+          "elapsed_seconds": 0.33057453200035525,
+          "outcome": "pass",
+          "rank": 445,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.266648411999995,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06321890100025485,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-00499",
+          "canonical_sha256": "7:11:14f5fda1aa582f7055a858be8c813be1c91c696538017c4094cf65a8bca99ad2",
+          "elapsed_seconds": 0.22199669499968877,
+          "outcome": "pass",
+          "rank": 500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.16174726400004147,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.059451058999911766,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        }
+      ]
+    },
+    "v4": {
+      "range": [
+        501,
+        2500
+      ],
+      "sampled_ranks": [
+        501,
+        822,
+        966,
+        1085,
+        1392,
+        1447,
+        1448,
+        1500,
+        1502,
+        1582,
+        1603,
+        1652,
+        1661,
+        1685,
+        1937,
+        2213,
+        2463,
+        2500
+      ],
+      "samples": [
+        {
+          "candidate_id": "O18-R00501",
+          "canonical_sha256": "7:11:1b4497556b2cbfd861caafc157c99b8a1edef391f812cbb1b23f28e7e32c2048",
+          "elapsed_seconds": 0.24355528500018409,
+          "outcome": "pass",
+          "rank": 501,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19930840199958766,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.043700790999537276,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R00822",
+          "canonical_sha256": "7:11:f89ec1e7bb0cdba377b60807821a93d2185361f299950e0db3bebb74f68b7880",
+          "elapsed_seconds": 0.2346469549993344,
+          "outcome": "pass",
+          "rank": 822,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19130756499998824,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.042856017999838514,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R00966",
+          "canonical_sha256": "7:11:107788b70612a69decc15cd123c02e7df9383f1a49b44992f3eaad163f2e4854",
+          "elapsed_seconds": 0.25222378999933426,
+          "outcome": "pass",
+          "rank": 966,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2097169259996008,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04169566700056748,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01085",
+          "canonical_sha256": "7:11:022c60416dfb175770b220e7826737a98692b572290119d3c9bd51b4e034c4d6",
+          "elapsed_seconds": 0.2406781370000317,
+          "outcome": "pass",
+          "rank": 1085,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.17397517600056744,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06609635399945546,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01392",
+          "canonical_sha256": "7:11:d87368a64608c59c57d64df272bfeb984a0c93a6c158c507e8edcb85deb288f3",
+          "elapsed_seconds": 0.2765222250000079,
+          "outcome": "pass",
+          "rank": 1392,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.22493214400037687,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.050923700000566896,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01447",
+          "canonical_sha256": "7:11:4d2d829c5d56d898945acbd70dee41f6024fc1247a0cfa0072b301f6b2333b22",
+          "elapsed_seconds": 0.2780252639995524,
+          "outcome": "pass",
+          "rank": 1447,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.23413608099963312,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04325349999999162,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01448",
+          "canonical_sha256": "7:11:4e3815d8f4d16a0f6445e56a60a9b876b89f74c9c855132fe360fb42a08c32b0",
+          "elapsed_seconds": 0.25368693599921244,
+          "outcome": "pass",
+          "rank": 1448,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1879478079999899,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06500887600032002,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01500",
+          "canonical_sha256": "7:11:ad83037b9a26f1637cdf0b70e4a955deab4f13bd85707daecffb86dddc9ecffa",
+          "elapsed_seconds": 0.19462375800048903,
+          "outcome": "pass",
+          "rank": 1500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1305201790000865,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06348855500073114,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01502",
+          "canonical_sha256": "7:11:b533c151d13501c358a070ffa799c0534f22b4ff2e6cc8492467f84902945712",
+          "elapsed_seconds": 0.21938279200003308,
+          "outcome": "pass",
+          "rank": 1502,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.17841949000012391,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04032805000042572,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01582",
+          "canonical_sha256": "7:11:0da82f288a2940e946161201438be827cc25b8da60305cb5d9b908613037306a",
+          "elapsed_seconds": 0.3689573190004012,
+          "outcome": "pass",
+          "rank": 1582,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.3137088789999325,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05478905299969483,
+            "solver_status": "OPTIMAL",
+            "span": 12,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01603",
+          "canonical_sha256": "7:11:437e9fd734a0549079edfef18a1e0fba41eb2c6d4e6ccbbfce2ff1ff8164cc75",
+          "elapsed_seconds": 0.30067341099947953,
+          "outcome": "pass",
+          "rank": 1603,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.20226307299981272,
+            "solver_status": "OPTIMAL",
+            "span": 12
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0977260629997545,
+            "solver_status": "OPTIMAL",
+            "span": 12,
+            "status": "colorable"
+          },
+          "reported_primary_span": 12,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01652",
+          "canonical_sha256": "7:11:ac88119ccebe8e76319781f227ef4effd688f2c04504a386fee47573ba81056f",
+          "elapsed_seconds": 0.31283931500001927,
+          "outcome": "pass",
+          "rank": 1652,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.23445514800005185,
+            "solver_status": "OPTIMAL",
+            "span": 12
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0779028790002485,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 12,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01661",
+          "canonical_sha256": "7:11:b7b74d3b80b4d68dd354ebfabdea5ce1ca37fc505e9266630b3c38918a6c28a0",
+          "elapsed_seconds": 0.2439925200005746,
+          "outcome": "pass",
+          "rank": 1661,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18069038900011947,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06274251299964817,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01685",
+          "canonical_sha256": "7:11:e3ec8959430ad70b83cbedd8e960e545ed7d5d98e6c68ce55de7eaa24d382e36",
+          "elapsed_seconds": 0.21833523199984484,
+          "outcome": "pass",
+          "rank": 1685,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.17909497700020438,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0388212960006058,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R01937",
+          "canonical_sha256": "7:11:f8e6fa7ea3bd0abab433f9d27ee38c686ec5d49fc46d08a105354d09ceadf370",
+          "elapsed_seconds": 0.2712128999992274,
+          "outcome": "pass",
+          "rank": 1937,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.206720574999963,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0640547709999737,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R02213",
+          "canonical_sha256": "7:11:f475ff2c892ec8763bc6421d430c0d7bcd08db72b3ee58b85b5fea25d3f9660b",
+          "elapsed_seconds": 0.2477636869998605,
+          "outcome": "pass",
+          "rank": 2213,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2108835019998878,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.03628334699988045,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R02463",
+          "canonical_sha256": "7:11:7971e78513c2a4900fd47893c1c748d7282805abbdeb83b57851717958c95938",
+          "elapsed_seconds": 0.3000438600001871,
+          "outcome": "pass",
+          "rank": 2463,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.25709213799927966,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.042263690999789105,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R02500",
+          "canonical_sha256": "7:11:ab00fbd64aa18cb742252d13ddb5cf693501b0399bad0aa98ee142660caa9d6b",
+          "elapsed_seconds": 0.29348020999987057,
+          "outcome": "pass",
+          "rank": 2500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.22834659900036058,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06462870799987286,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        }
+      ]
+    },
+    "v5": {
+      "range": [
+        2501,
+        4500
+      ],
+      "sampled_ranks": [
+        2501,
+        2886,
+        3026,
+        3219,
+        3282,
+        3500,
+        3601,
+        3625,
+        3793,
+        3911,
+        3933,
+        3957,
+        3999,
+        4095,
+        4180,
+        4398,
+        4473,
+        4500
+      ],
+      "samples": [
+        {
+          "candidate_id": "O18-R02501",
+          "canonical_sha256": "7:11:ae7d82787cd91a1fb4870392a2a6223a9f6c7282d62c8e874d6b983be3c9aa77",
+          "elapsed_seconds": 0.2843379999994795,
+          "outcome": "pass",
+          "rank": 2501,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.23545640100019227,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04840684200007672,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R02886",
+          "canonical_sha256": "7:11:f251b91534c8ed7c961c88126dc0f0d29d1697f28e04fdc56f7a75d7c112855c",
+          "elapsed_seconds": 0.3269255360000898,
+          "outcome": "pass",
+          "rank": 2886,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21525210399977368,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.11104976299975533,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03026",
+          "canonical_sha256": "7:11:863a10df252c481e8986e77fc2fea7b00f9b74f51d62bf6916157e940bd90aca",
+          "elapsed_seconds": 0.23261523099972692,
+          "outcome": "pass",
+          "rank": 3026,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.17683058199963853,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.055190165000567504,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03219",
+          "canonical_sha256": "7:11:6d97918e4d64b059627ea1d7b0f3bf28302e01c5766a404ede80564b4681737b",
+          "elapsed_seconds": 0.24123003499971674,
+          "outcome": "pass",
+          "rank": 3219,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18358268000065436,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.057136921000164875,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03282",
+          "canonical_sha256": "7:11:a8bf982a651c823fdac6b443585dcb19242ae3e22eedd201d8bc011868e5a6df",
+          "elapsed_seconds": 0.27530757000022277,
+          "outcome": "pass",
+          "rank": 3282,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.22513748900018982,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04970487399987178,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03500",
+          "canonical_sha256": "7:11:55363fe338e9be70f44106b8955d93a4dad383b25285cb43652751f2eebeae18",
+          "elapsed_seconds": 0.31468630800009123,
+          "outcome": "pass",
+          "rank": 3500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.26000362600007065,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05409719599992968,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03601",
+          "canonical_sha256": "7:11:97ac607d6b6490cdff6496e3627d943458307cd5ef9bf679decb7446c005f926",
+          "elapsed_seconds": 0.26157294399945386,
+          "outcome": "pass",
+          "rank": 3601,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21537996400002157,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04570471799979714,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03625",
+          "canonical_sha256": "7:11:a98c68f7644bbfb73140bb903e8d18dd45098c97b77702b54cd68bf8f0a8fae5",
+          "elapsed_seconds": 0.2349401179999404,
+          "outcome": "pass",
+          "rank": 3625,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19096509099927061,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04332810200048698,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03793",
+          "canonical_sha256": "7:11:3204698a546f2821f541fc3c44707973627fec772e05f03aa90eef5083e66d7a",
+          "elapsed_seconds": 0.3160037100005866,
+          "outcome": "pass",
+          "rank": 3793,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.24372635400050058,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07039478599926952,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03911",
+          "canonical_sha256": "7:11:ae4686fefd38f1bcc8c71d724f6faf68cb049f4f2163a54cb6bb2d1390c6e82a",
+          "elapsed_seconds": 0.31930266299968935,
+          "outcome": "pass",
+          "rank": 3911,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21264892299950588,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.10552845299935143,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03933",
+          "canonical_sha256": "7:11:cc6898a509eec89a4720a524673af98f7008851c7121d6a60bfe4b3c82ef0569",
+          "elapsed_seconds": 0.26031377100025566,
+          "outcome": "pass",
+          "rank": 3933,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18215348899957462,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07727322099981393,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03957",
+          "canonical_sha256": "7:11:ecfd25476fbe3a7de3947eff387af9986542bc2c1371251fa66f0b9b5edfef2c",
+          "elapsed_seconds": 0.17321396799979993,
+          "outcome": "pass",
+          "rank": 3957,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.12515839599927858,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04740836600012699,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R03999",
+          "canonical_sha256": "7:11:2e5662430747c7fbb32b47578464a68c87a4866cb1ce5a949cff71fc698f1ada",
+          "elapsed_seconds": 0.2693754659994738,
+          "outcome": "pass",
+          "rank": 3999,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.20141821900051582,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06748472499930358,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04095",
+          "canonical_sha256": "7:11:f500bbb1f7642c21be3613621dd583fd5e920b8e9bc1ea9e204ea8ece302dd1a",
+          "elapsed_seconds": 0.25128145500002574,
+          "outcome": "pass",
+          "rank": 4095,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.20338608300062333,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04733941999984381,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04180",
+          "canonical_sha256": "7:11:1a4800abccad752ea52bff83d3e5e0e237d65915546a36084b39a8fd62a12951",
+          "elapsed_seconds": 0.328241777000585,
+          "outcome": "pass",
+          "rank": 4180,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2005181429994991,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.12702232699939486,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04398",
+          "canonical_sha256": "7:11:6b8a3f58d8f6a92309084827f32bda8e03e24b159865caee40f840e82b87ff4f",
+          "elapsed_seconds": 0.3166939149996324,
+          "outcome": "pass",
+          "rank": 4398,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.23878351700022904,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0770350189995952,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04473",
+          "canonical_sha256": "7:11:8ad0efae57fd9773f41131eb6c3373d59f28ba73c05a9dfcbaf7ad89800d8709",
+          "elapsed_seconds": 0.24438497600021947,
+          "outcome": "pass",
+          "rank": 4473,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1945235639996099,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04916257500008214,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04500",
+          "canonical_sha256": "7:11:925157386fa5fc0c96ed6110e92ba666f86ee327f4081e79198536ebe50b10a1",
+          "elapsed_seconds": 0.3164763419999872,
+          "outcome": "pass",
+          "rank": 4500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.23238254700027028,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08357824100039579,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        }
+      ]
+    },
+    "v6": {
+      "range": [
+        4501,
+        6500
+      ],
+      "sampled_ranks": [
+        4501,
+        4590,
+        4602,
+        4830,
+        4836,
+        4889,
+        5035,
+        5052,
+        5205,
+        5500,
+        5630,
+        5766,
+        6028,
+        6194,
+        6265,
+        6341,
+        6415,
+        6500
+      ],
+      "samples": [
+        {
+          "candidate_id": "O18-R04501",
+          "canonical_sha256": "7:11:9263063fd2e3be3e609643ba38b3e5036e18a50a4cd654157f77864cace8a8aa",
+          "elapsed_seconds": 0.500350950000211,
+          "outcome": "pass",
+          "rank": 4501,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.415087565000249,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08473588000015297,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04590",
+          "canonical_sha256": "7:11:b2326da245f810410940b1f6c284fcd3938a46d222af9a3d4ede5cd738f07f40",
+          "elapsed_seconds": 0.23836427700007334,
+          "outcome": "pass",
+          "rank": 4590,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18322912500025268,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05447408100008033,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04602",
+          "canonical_sha256": "7:11:b68b87f90712101bede37d3eb65029943c36f01051d3f9f47ec808c27cb84e17",
+          "elapsed_seconds": 0.22222043100009614,
+          "outcome": "pass",
+          "rank": 4602,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1814141059994654,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04025440100031119,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04830",
+          "canonical_sha256": "7:11:0d11ce89c5d7fe9a85180dca23a31e0bfcde715d7dc918f995be85dedd0b1b65",
+          "elapsed_seconds": 0.22042039600000862,
+          "outcome": "pass",
+          "rank": 4830,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.16944063699975231,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05004644600012398,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04836",
+          "canonical_sha256": "7:11:11461c8806675bda44357517250c9a91dc0c8a8712b1e10a9ad81d5b1c1cd283",
+          "elapsed_seconds": 0.43646574200010946,
+          "outcome": "pass",
+          "rank": 4836,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.29861421399982646,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1372841550000885,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R04889",
+          "canonical_sha256": "7:11:42126133562f78d4475cb93a582178df633166c3938d84a07becbb7bc9dacb1a",
+          "elapsed_seconds": 0.2566562550000526,
+          "outcome": "pass",
+          "rank": 4889,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19955097199999727,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.056489483000405016,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R05035",
+          "canonical_sha256": "7:11:b15173cfe0d31b8d290aad13ae115c2be5cb5a07aff2d550cc7a3f00cfc58dda",
+          "elapsed_seconds": 0.2387770429995726,
+          "outcome": "pass",
+          "rank": 5035,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18157241500011878,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.056707239000388654,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R05052",
+          "canonical_sha256": "7:11:be81468455784cf363336197c93755d8daa99d8c52f3eb7a00b112a9d1775b6f",
+          "elapsed_seconds": 0.4507637269998668,
+          "outcome": "pass",
+          "rank": 5052,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.3643968249998579,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08562717099994188,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R05205",
+          "canonical_sha256": "7:11:103c8944f221312ed4ec568330ff8126cda1d7dfb4b1c1390807afb1331f1cd5",
+          "elapsed_seconds": 0.2226743000001079,
+          "outcome": "pass",
+          "rank": 5205,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1777507990000231,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04428997299964976,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R05500",
+          "canonical_sha256": "7:11:8eb8b449ce9bc50ec6f8ab8a0f19504655196d51e83c4c44a6d99c44a3684c4d",
+          "elapsed_seconds": 0.30803483100044105,
+          "outcome": "pass",
+          "rank": 5500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2183476010004597,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08910929800003942,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R05630",
+          "canonical_sha256": "7:11:c228146898abd9f1ceaa7ca24c88ba4ee98ecff8ba6aa7d8bebf18ecf1ca7851",
+          "elapsed_seconds": 0.23111210300066887,
+          "outcome": "pass",
+          "rank": 5630,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1806434870004523,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04997043599996687,
+            "solver_status": "OPTIMAL",
+            "span": 12,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R05766",
+          "canonical_sha256": "7:11:45973c883305853b5cd24db42fb85dca2ada1f73bfda5521d1bc429ea1223746",
+          "elapsed_seconds": 0.3329310319995784,
+          "outcome": "pass",
+          "rank": 5766,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18485011400025542,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.14728769500015915,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06028",
+          "canonical_sha256": "7:11:44b2d9f4f97a3abd89714f469dfba51594535a7a774b029d20fa4651a4ef8b3a",
+          "elapsed_seconds": 0.3281275760000426,
+          "outcome": "pass",
+          "rank": 6028,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.27335154800039163,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05418093299977045,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06194",
+          "canonical_sha256": "7:11:49424177355ea57bd1a5bd4179ec25152a92ad0cfa240cf28a0fe91633c98e23",
+          "elapsed_seconds": 0.397654741000224,
+          "outcome": "pass",
+          "rank": 6194,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2931831500000044,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.10378002099969308,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06265",
+          "canonical_sha256": "7:11:7aebca679c6f918889f6554c2378d6d96df60f29e5a7e8f471e445b15b67af53",
+          "elapsed_seconds": 0.335768719999578,
+          "outcome": "pass",
+          "rank": 6265,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2276507020005738,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.10762091000015062,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06341",
+          "canonical_sha256": "7:11:b787077557586316ad608e8ac786a2825efd6b8f0abb485c986ac9d8aab47d9f",
+          "elapsed_seconds": 0.33153057799972885,
+          "outcome": "pass",
+          "rank": 6341,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.23597191399949224,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.09485064299951773,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06415",
+          "canonical_sha256": "7:11:edd3181adbc2822549f5c75c745660a5f9d942ba40da32e73ccf81e2ac931ef2",
+          "elapsed_seconds": 0.3567966279997563,
+          "outcome": "pass",
+          "rank": 6415,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21072175100016466,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.14553850399988733,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06500",
+          "canonical_sha256": "7:11:b5d8af94356c42fb569ac5c021ca5fd94dd979083d1ad2a22af3435c3aa88785",
+          "elapsed_seconds": 0.3442416210000374,
+          "outcome": "pass",
+          "rank": 6500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.22995945399998163,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.11358580900014204,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        }
+      ]
+    },
+    "v7": {
+      "range": [
+        6501,
+        8500
+      ],
+      "sampled_ranks": [
+        6501,
+        6510,
+        6604,
+        6683,
+        7166,
+        7203,
+        7500,
+        7572,
+        7645,
+        7646,
+        7662,
+        7892,
+        8016,
+        8046,
+        8292,
+        8387,
+        8399,
+        8500
+      ],
+      "samples": [
+        {
+          "candidate_id": "O18-R06501",
+          "canonical_sha256": "7:11:ced217036709f976717b443fb9212e86ece8c4ae8cf85bd15b521c6e88c653d4",
+          "elapsed_seconds": 0.33041140099976474,
+          "outcome": "pass",
+          "rank": 6501,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2895035259998622,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04046017099972232,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06510",
+          "canonical_sha256": "7:11:1845763a7351f9571c909007d33d909781499d57060b15404f6081091af2b797",
+          "elapsed_seconds": 0.309329584999432,
+          "outcome": "pass",
+          "rank": 6510,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.20513219900021795,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1036165039995467,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06604",
+          "canonical_sha256": "8:10:b88ed10fa7e9e957618e62795417c9a6770785d7b97121a36df621a038bcba3d",
+          "elapsed_seconds": 0.2809568130005573,
+          "outcome": "pass",
+          "rank": 6604,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21493689099952462,
+            "solver_status": "OPTIMAL",
+            "span": 10
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06496309700014535,
+            "solver_status": "OPTIMAL",
+            "span": 10,
+            "status": "colorable"
+          },
+          "reported_primary_span": 10,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R06683",
+          "canonical_sha256": "8:10:2e49aa8fcc64d9f3e2ed6312de9d769e894ca2e5beb994f8a679d1ef373622de",
+          "elapsed_seconds": 0.30284027899961075,
+          "outcome": "pass",
+          "rank": 6683,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.25089410099917586,
+            "solver_status": "OPTIMAL",
+            "span": 10
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.051357436000216694,
+            "solver_status": "OPTIMAL",
+            "span": 10,
+            "status": "colorable"
+          },
+          "reported_primary_span": 10,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07166",
+          "canonical_sha256": "7:11:649b100efff020121d0ebfc8526e24423018cd0b37c13191cd50c81d2568b8f3",
+          "elapsed_seconds": 0.1559108980000019,
+          "outcome": "pass",
+          "rank": 7166,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.09956323300048098,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05574360299942782,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07203",
+          "canonical_sha256": "7:11:d10395f97a56f0210d40d0d43998f7d4eaf854aa87768980c285c4b5bf2f0c18",
+          "elapsed_seconds": 0.24501328200040007,
+          "outcome": "pass",
+          "rank": 7203,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19983623000007356,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.044539256999996724,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07500",
+          "canonical_sha256": "7:11:780c65f5afe03b6ff67b649b3a484076332e94651d70fa4126dfbb30db9252fb",
+          "elapsed_seconds": 0.24426406800012046,
+          "outcome": "pass",
+          "rank": 7500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19380646700028592,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04988515799959714,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07572",
+          "canonical_sha256": "7:11:1e8753126ff87d0743b0c8eb65c6f9e7c16d052a92b437b5da4386ccb8ef218a",
+          "elapsed_seconds": 0.3076309919997584,
+          "outcome": "pass",
+          "rank": 7572,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2128861199998937,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.09346363799977553,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07645",
+          "canonical_sha256": "7:11:46b2877b2afad24d219c696c2aaf1bdaf44e99198af4531fd3aa6369d47adc3e",
+          "elapsed_seconds": 0.20828070500010654,
+          "outcome": "pass",
+          "rank": 7645,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.14933816099983233,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05819472799976211,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07646",
+          "canonical_sha256": "7:11:55b4d73c546bd9b4708f99472daa8e3ff84c9f10c0deeb2ebd1f2cb87574e7ec",
+          "elapsed_seconds": 0.33182975799991254,
+          "outcome": "pass",
+          "rank": 7646,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.28912694700011343,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.042077248000168765,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07662",
+          "canonical_sha256": "7:11:975764bbbbee95b07e668ad4100b20dc2e72d18082ec1c6e76a576b7764a21b3",
+          "elapsed_seconds": 0.20181617500020366,
+          "outcome": "pass",
+          "rank": 7662,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.13656119000006584,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06470599799922638,
+            "solver_status": "OPTIMAL",
+            "span": 12,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R07892",
+          "canonical_sha256": "7:11:efe92cf5037d49e7fa7c7c4854792dfec67eec96897e42b1224e155cc9e8aca5",
+          "elapsed_seconds": 0.18744768400028988,
+          "outcome": "pass",
+          "rank": 7892,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.12096193100023811,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0658858289998534,
+            "solver_status": "OPTIMAL",
+            "span": 12,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08016",
+          "canonical_sha256": "7:11:1aa0f6efbdea6c6f57f83b43d5574dfc2d2eeb3a9f361ccc4d94cee0870d561e",
+          "elapsed_seconds": 0.27576528400004463,
+          "outcome": "pass",
+          "rank": 8016,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.20491754099930404,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07017084200015233,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08046",
+          "canonical_sha256": "7:11:532d1c12c21d65de972c339707ad0e69be8b362b8c1c88428f2ec922e2e11b5a",
+          "elapsed_seconds": 0.3628888380007993,
+          "outcome": "pass",
+          "rank": 8046,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.31905376899976545,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0432897779992345,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08292",
+          "canonical_sha256": "7:11:da422122e85f9b81797a9e3e27e3f7ad3731b427a85924dfcdbfff748a01f607",
+          "elapsed_seconds": 0.28450723600053607,
+          "outcome": "pass",
+          "rank": 8292,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18994962200031296,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.09404651799923158,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08387",
+          "canonical_sha256": "7:11:5df83598b28fd0d3f62ac5958bb241d08d07df9f471c83c7d27e20c62e676927",
+          "elapsed_seconds": 0.44825056199988467,
+          "outcome": "pass",
+          "rank": 8387,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.35495332299979054,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.09276237899939588,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08399",
+          "canonical_sha256": "7:11:76c65775d1315a6c99fd08262a85bea35784d56a661c295ae3fd8c5102583dff",
+          "elapsed_seconds": 0.25357816599989746,
+          "outcome": "pass",
+          "rank": 8399,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19403570999929798,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0590359690004334,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08500",
+          "canonical_sha256": "7:11:5ca58c60a98955b16afdecf3275c7f7132cc2737feafaa0c9c419f111a5b4101",
+          "elapsed_seconds": 0.24500241699934122,
+          "outcome": "pass",
+          "rank": 8500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1798678569994081,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06461182200018811,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        }
+      ]
+    },
+    "v8": {
+      "range": [
+        8501,
+        10500
+      ],
+      "sampled_ranks": [
+        8501,
+        8572,
+        8696,
+        8745,
+        8755,
+        9273,
+        9500,
+        9716,
+        9890,
+        9985,
+        10027,
+        10227,
+        10289,
+        10296,
+        10311,
+        10382,
+        10452,
+        10500
+      ],
+      "samples": [
+        {
+          "candidate_id": "O18-R08501",
+          "canonical_sha256": "7:11:6611bb18765a795735f89e7e450c631f08ed200d18b21bacecf7989d770bea4b",
+          "elapsed_seconds": 0.24378333100048621,
+          "outcome": "pass",
+          "rank": 8501,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1988869409997278,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04449912099971698,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08572",
+          "canonical_sha256": "7:11:643fec18418720530cd243b27727d5d024c7b8545958388008bf3fcc08f6c1b3",
+          "elapsed_seconds": 0.26106653599981655,
+          "outcome": "pass",
+          "rank": 8572,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2137969580007848,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04674480700032291,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08696",
+          "canonical_sha256": "7:11:25f3a19730cf8ebd3546d4036ef4f50190879abe83ef16590c2bccff9c30aa8b",
+          "elapsed_seconds": 0.2716774849996,
+          "outcome": "pass",
+          "rank": 8696,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21114689099977113,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.0599685409997619,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08745",
+          "canonical_sha256": "7:11:51dbe044e06f1a499d9d83ba62f2d783ff83ecc5e1de014e7f1dbc84028d6706",
+          "elapsed_seconds": 0.23161199600053806,
+          "outcome": "pass",
+          "rank": 8745,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.17559239299953333,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05551374900005612,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R08755",
+          "canonical_sha256": "7:11:5c22b5900abf25b79c56636c8e4ce03d37cdd83ede698a7afb653e1c35ba053e",
+          "elapsed_seconds": 0.2769678090007801,
+          "outcome": "pass",
+          "rank": 8755,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19418911100001424,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08216302400069253,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R09273",
+          "canonical_sha256": "7:11:2cf9d01b34ac26f6de208b6351e5d32de7cc9358f20b3dfa28e755d6e819a23d",
+          "elapsed_seconds": 0.22917938999944454,
+          "outcome": "pass",
+          "rank": 9273,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.178048882999974,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.050577562999933434,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R09500",
+          "canonical_sha256": "7:11:185eca7a13f3aa74e612483435f793cc15f63480f840605ee704e741291951ce",
+          "elapsed_seconds": 0.26162598300015816,
+          "outcome": "pass",
+          "rank": 9500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21173385200017947,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04942081200078974,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R09716",
+          "canonical_sha256": "7:11:977d41481bef177f653d4df966fcc23842cf79054f6b218e21da0c37e7afbf84",
+          "elapsed_seconds": 0.24160554799982492,
+          "outcome": "pass",
+          "rank": 9716,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.18049610100024438,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06018034600037936,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R09890",
+          "canonical_sha256": "7:11:f389f59c7ed28433c6cbfb13078778b45ed8b9104f2b0f473f3e0b95b94ade65",
+          "elapsed_seconds": 0.245783522000238,
+          "outcome": "pass",
+          "rank": 9890,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1989793959992312,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04611182500048017,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R09985",
+          "canonical_sha256": "7:11:5ff282a82018bdeb50d2379a457db32568f718450225d18a2aec062423da0e78",
+          "elapsed_seconds": 0.20945320499959053,
+          "outcome": "pass",
+          "rank": 9985,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.15681171000051108,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.05209078400002909,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10027",
+          "canonical_sha256": "7:11:a294d4517ed6669e1466cf5fab4f40582eb2f3f94e2252c42985dd3c13936a79",
+          "elapsed_seconds": 0.2961878610003623,
+          "outcome": "pass",
+          "rank": 10027,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19292183099969407,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.10274176100028853,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10227",
+          "canonical_sha256": "7:11:3b5833e2aa084b3e1156c436d65172998db45f7aee5cc34d42166b80ececdecc",
+          "elapsed_seconds": 0.2866241319998153,
+          "outcome": "pass",
+          "rank": 10227,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.20189901200046734,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.08403662599994277,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10289",
+          "canonical_sha256": "7:11:61e502c64665a3c0e6d1013fa8f3dc52ac2fed06ed989cbd9997ca5406c7ae11",
+          "elapsed_seconds": 0.2994721799996114,
+          "outcome": "pass",
+          "rank": 10289,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.22269832499932818,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07611097200060613,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10296",
+          "canonical_sha256": "7:11:656ce65ccc2d7121bd8a8fa83fd17b3a35000f60059055ad7029c218d5905017",
+          "elapsed_seconds": 0.26602950200049236,
+          "outcome": "pass",
+          "rank": 10296,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.1926736269997491,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07271532399954594,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10311",
+          "canonical_sha256": "7:11:712c297ebd61d4f7511acecc1a827187fbba856a0f6f836875d1329c909ebc9f",
+          "elapsed_seconds": 0.2790952619998279,
+          "outcome": "pass",
+          "rank": 10311,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.21758838200003083,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.06093745399994077,
+            "solver_status": "OPTIMAL",
+            "span": 12,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10382",
+          "canonical_sha256": "7:11:9b369a8c41668e5262b02b93ce74d855f2d6c9d2978991739d082c4272ae9d42",
+          "elapsed_seconds": 0.27335769000001164,
+          "outcome": "pass",
+          "rank": 10382,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.19603056500000093,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.07663361200047802,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10452",
+          "canonical_sha256": "7:11:c899bc522a295c4db7c4812d62aedd67c9d59a58b4bb5759f22d4f4e2ec99437",
+          "elapsed_seconds": 0.25606435099962255,
+          "outcome": "pass",
+          "rank": 10452,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.20606249400043453,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.04843613400043978,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        },
+        {
+          "candidate_id": "O18-R10500",
+          "canonical_sha256": "7:11:e7d8e991eeb6526762558b31738288ce35f2d76ced2669349039696f6444073e",
+          "elapsed_seconds": 0.25606359299945325,
+          "outcome": "pass",
+          "rank": 10500,
+          "recheck_fixed_reported_span": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.2006912580000062,
+            "solver_status": "OPTIMAL",
+            "span": 11
+          },
+          "recheck_primary": {
+            "agrees_with_reported_colorable_claim": true,
+            "certificate_reason": "valid",
+            "certificate_valid": true,
+            "elapsed_seconds": 0.054845138999553456,
+            "solver_status": "OPTIMAL",
+            "span": 11,
+            "status": "colorable"
+          },
+          "reported_primary_span": 11,
+          "reported_primary_status": "colorable",
+          "structural_failures": []
+        }
+      ]
+    }
+  },
+  "solver_configuration": {
+    "fixed_span_time_limit_seconds": 20.0,
+    "fixed_span_workers": 2,
+    "rank_potential_time_limit_seconds": 20.0,
+    "rank_potential_workers": 2
+  },
+  "started_at_unix_seconds": 1787648296.9379387
+}
