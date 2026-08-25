@@ -1,0 +1,20 @@
+{
+  "best_hub_margin": -4,
+  "best_primary_span": 22,
+  "counts": {
+    "classified": 500,
+    "colorable": 500,
+    "duplicate": 20590,
+    "generated": 21090,
+    "independent_unresolved": 0,
+    "non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "rejected_invariant": 0,
+    "timeout": 0,
+    "unique": 500
+  },
+  "elapsed_seconds_this_invocation": 10.505829813999298,
+  "schema": "bridge-coupled-delta10-v2",
+  "state_rows_total": 500,
+  "stop": "unique_cap"
+}

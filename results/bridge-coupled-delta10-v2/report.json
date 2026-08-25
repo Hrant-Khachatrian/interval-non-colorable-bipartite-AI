@@ -1,0 +1,408 @@
+{
+  "comparison_to_isolated_terminals": {
+    "expanded_bridge_coupling": {
+      "best_hub_margin": -4,
+      "best_primary_span": 22
+    },
+    "hub_margin_delta_vs_prior": 0,
+    "prior_isolated_terminals": {
+      "best_hub_margin": -4,
+      "best_primary_span": 22,
+      "eligible_colorable_records": 1000,
+      "hub_margin_source": "results/nearmiss-mining-agent/near-miss-analysis.json: degree-transfer-fresh-motifs",
+      "source": "results/degree-transfer-delta10-agent/fresh-motifs-m5-pilot.json"
+    },
+    "span_delta_vs_prior": 0
+  },
+  "complete": false,
+  "configuration": {
+    "bridge": "one direct edge joining opposite bipartition sides of two distinct terminals",
+    "bridge_ports": "all internal vertices on both motif sides; no first-two truncation",
+    "diversity_requirement": "every construction contains C12, theta, and three-rooted-C4 terminals",
+    "enumeration": "port round, then terminal assignment, then all terminal pairs",
+    "global_canonical_seed_count": 120984,
+    "negative_confirmation": "independent fixed-span CP-SAT across every legal span",
+    "parent": "M5_delta_555",
+    "primary_oracle": "rank-potential CP-SAT",
+    "selected_parent_edges": [
+      27,
+      33,
+      36,
+      39,
+      42
+    ],
+    "terminal_motifs": [
+      "rooted_C12",
+      "rooted_theta_3x4",
+      "rooted_theta_4x4",
+      "three_rooted_C4_blocks"
+    ],
+    "terminal_pairs": "all 10 unordered pairs among five terminals",
+    "timeout_policy": "unresolved only",
+    "unique_cap": 500
+  },
+  "counts": {
+    "classified": 500,
+    "colorable": 500,
+    "duplicate": 20590,
+    "generated": 21090,
+    "independent_unresolved": 0,
+    "non_colorable": 0,
+    "primary_negative_candidates": 0,
+    "rejected_invariant": 0,
+    "timeout": 0,
+    "unique": 500
+  },
+  "coverage": {
+    "note": "Missing survivor pair ranks were nevertheless enumerated; their generated graphs canonically matched prior certificates or another survivor.",
+    "survivor_endpoint_port_label_pairs": 15,
+    "survivor_port_rounds": [
+      0,
+      2,
+      3
+    ],
+    "survivor_terminal_pair_ranks": [
+      0,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "terminal_pairs_enumerated": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  },
+  "elapsed_seconds_this_invocation": 10.505829813999298,
+  "recommendation": "bridge coupling does not merit further scaling: no confirmed negative and no improvement over the isolated-terminal near-miss span or hub margin",
+  "sample_records": [
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "port_inventory": {
+          "first_terminal_total": 11,
+          "pair_legal_opposite_side_combinations": 54,
+          "second_terminal_total": 10
+        },
+        "port_round": 0,
+        "positions": [
+          "c1",
+          "a0"
+        ],
+        "terminal_indices": [
+          1,
+          3
+        ],
+        "terminal_motif_pair": [
+          "rooted_C12",
+          "rooted_theta_3x4"
+        ],
+        "terminal_pair_rank": 5,
+        "vertices": [
+          "BC001806_T1_c1",
+          "BC001806_T3_a0"
+        ]
+      },
+      "candidate_id": "BC10V2-0001806",
+      "canonical_sha256": "36:37:0c71132763e75c617b0d43298014d8ba2c217a6d89933a76eab545b26ac5f2b4",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05439315276995882,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 73,
+      "primary_span": 13,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_theta_4x4",
+        "rooted_C12",
+        "rooted_C12",
+        "rooted_theta_3x4",
+        "three_rooted_C4_blocks"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "port_inventory": {
+          "first_terminal_total": 11,
+          "pair_legal_opposite_side_combinations": 48,
+          "second_terminal_total": 9
+        },
+        "port_round": 0,
+        "positions": [
+          "c1",
+          "b0_0"
+        ],
+        "terminal_indices": [
+          1,
+          4
+        ],
+        "terminal_motif_pair": [
+          "rooted_C12",
+          "three_rooted_C4_blocks"
+        ],
+        "terminal_pair_rank": 6,
+        "vertices": [
+          "BC001807_T1_c1",
+          "BC001807_T4_b0_0"
+        ]
+      },
+      "candidate_id": "BC10V2-0001807",
+      "canonical_sha256": "36:37:5c2cb057c7a4d9c87e194be5be80f634f311825fa003cb7878b7d45e90f1492d",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05439315276995882,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 73,
+      "primary_span": 13,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_theta_4x4",
+        "rooted_C12",
+        "rooted_C12",
+        "rooted_theta_3x4",
+        "three_rooted_C4_blocks"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          4,
+          3
+        ],
+        "endpoint_degrees_before": [
+          3,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "port_inventory": {
+          "first_terminal_total": 10,
+          "pair_legal_opposite_side_combinations": 42,
+          "second_terminal_total": 9
+        },
+        "port_round": 0,
+        "positions": [
+          "T",
+          "b0_0"
+        ],
+        "terminal_indices": [
+          3,
+          4
+        ],
+        "terminal_motif_pair": [
+          "rooted_theta_3x4",
+          "three_rooted_C4_blocks"
+        ],
+        "terminal_pair_rank": 9,
+        "vertices": [
+          "BC001810_T3_T",
+          "BC001810_T4_b0_0"
+        ]
+      },
+      "candidate_id": "BC10V2-0001810",
+      "canonical_sha256": "36:37:ab6ec355251349e1f98d4ac30bcdcbdfb63852f73450d97fe0cb339ca1c59424",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.054773670273764,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 73,
+      "primary_span": 13,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_theta_4x4",
+        "rooted_C12",
+        "rooted_C12",
+        "rooted_theta_3x4",
+        "three_rooted_C4_blocks"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          3,
+          3
+        ],
+        "endpoint_degrees_before": [
+          2,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "port_inventory": {
+          "first_terminal_total": 9,
+          "pair_legal_opposite_side_combinations": 42,
+          "second_terminal_total": 10
+        },
+        "port_round": 0,
+        "positions": [
+          "b0_1",
+          "a0"
+        ],
+        "terminal_indices": [
+          3,
+          4
+        ],
+        "terminal_motif_pair": [
+          "three_rooted_C4_blocks",
+          "rooted_theta_3x4"
+        ],
+        "terminal_pair_rank": 9,
+        "vertices": [
+          "BC001820_T3_b0_1",
+          "BC001820_T4_a0"
+        ]
+      },
+      "candidate_id": "BC10V2-0001820",
+      "canonical_sha256": "36:37:08195527b03297e8f5a80a5453d01cb7cf24320e96b48a415d3d5076ed4f18ad",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.05439315276995882,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 73,
+      "primary_span": 15,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_theta_4x4",
+        "rooted_C12",
+        "rooted_C12",
+        "three_rooted_C4_blocks",
+        "rooted_theta_3x4"
+      ]
+    },
+    {
+      "bridge": {
+        "endpoint_degrees_after": [
+          4,
+          3
+        ],
+        "endpoint_degrees_before": [
+          3,
+          2
+        ],
+        "local_sides": [
+          0,
+          1
+        ],
+        "port_inventory": {
+          "first_terminal_total": 10,
+          "pair_legal_opposite_side_combinations": 54,
+          "second_terminal_total": 11
+        },
+        "port_round": 0,
+        "positions": [
+          "T",
+          "c0"
+        ],
+        "terminal_indices": [
+          2,
+          3
+        ],
+        "terminal_motif_pair": [
+          "rooted_theta_3x4",
+          "rooted_C12"
+        ],
+        "terminal_pair_rank": 7,
+        "vertices": [
+          "BC001828_T2_T",
+          "BC001828_T3_c0"
+        ]
+      },
+      "candidate_id": "BC10V2-0001828",
+      "canonical_sha256": "36:37:8a191e5245e8c963117bba1c30c3ca9667f1b60d4c1d4efaf36772c787be7134",
+      "decision": "colorable",
+      "degree_variance_normalized": 0.054773670273764,
+      "delta": 10,
+      "hub_best_margin": -4,
+      "minimum_degree": 2,
+      "order": 73,
+      "primary_span": 16,
+      "primary_status": "colorable",
+      "size": 105,
+      "terminal_motifs": [
+        "rooted_theta_4x4",
+        "rooted_C12",
+        "rooted_theta_3x4",
+        "rooted_C12",
+        "three_rooted_C4_blocks"
+      ]
+    }
+  ],
+  "schema": "bridge-coupled-delta10-v2",
+  "state_rows_total": 500,
+  "stop": "unique_cap"
+}
