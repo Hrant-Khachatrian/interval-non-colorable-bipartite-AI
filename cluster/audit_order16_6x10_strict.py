@@ -44,7 +44,7 @@ EXACT_KEYS = {
     "span",
     "status",
 }
-HASH = re.compile(r"10:6:[0-9a-f]{64}\\Z")
+HASH = re.compile(r"10:6:[0-9a-f]{64}\Z")
 STATUSES = {"colorable", "non-colorable", "timeout", "regular-skipped"}
 
 
@@ -77,7 +77,7 @@ def signature(path: Path) -> dict[str, int]:
 
 def active_scheduler_states() -> dict[int, str]:
     """Read active array tasks from squeue, which is reliable for live state."""
-    command = ["squeue", "-h", "-j", JOB_ID, "-o", "%K %T"]
+    command = ["/opt/slurm/bin/squeue", "-h", "-j", JOB_ID, "-o", "%K %T"]
     completed = subprocess.run(command, text=True, capture_output=True, check=False)
     if completed.returncode:
         raise RuntimeError(completed.stderr.strip() or "squeue array-state query failed")

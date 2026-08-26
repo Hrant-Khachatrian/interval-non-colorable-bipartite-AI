@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Slurm clients are not on the default PATH of every compute node.
+export PATH="/opt/slurm/bin:${PATH}"
+
 readonly ROOT=/mnt/weka/hrant/interval-search
 readonly SOURCE="$ROOT/data/order16-8x8-d2to11.g6"
 readonly DESTINATION="$ROOT/data/order16-8x8-d2to11.incomplete-229085.g6"
